@@ -232,8 +232,10 @@ async function viewDashboard() {
   app.textContent = '';
 
   const head = el('div', 'page-head');
-  head.append(el('h1', null, 'English Lab'));
-  head.append(el('p', null, 'Ruta A1 → B2 con formato EXCI. Todo corre local, nada sale de tu máquina.'));
+  head.append(el('h1', null, 'Loro'));
+  head.append(el('p', null, sync.getUser()
+    ? 'Ruta A1 → B2 con formato EXCI. Tu progreso se sincroniza con tu cuenta.'
+    : 'Ruta A1 → B2 con formato EXCI. Sin cuenta, sin instalar nada, sin anuncios.'));
   app.append(head);
 
   // --- Diagnóstico: lo primero, siempre ---
