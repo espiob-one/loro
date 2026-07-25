@@ -1,0 +1,692 @@
+{
+  "id": "a2",
+  "cefr": "A2",
+  "title": "Base sólida",
+  "intro": "Aquí empieza el examen de verdad. La mayoría de los reactivos del EXCI que separan un 40 de un 55 salen de estas siete unidades: pasado, futuro, cantidades y los primeros modales. Si vienes del diagnóstico con A2, este es tu nivel — no te saltes ninguna.",
+  "units": [
+    {
+      "id": "a2u1",
+      "title": "Talking about the past",
+      "titleEs": "Pasado simple: regulares e irregulares",
+      "goal": "contar qué hiciste ayer, la semana pasada o en 2019, en afirmativo, negativo y pregunta.",
+      "grammar": {
+        "title": "Past simple",
+        "explanation": "El pasado simple describe algo terminado en un momento terminado. Si la frase lleva yesterday, last week, in 2019, two days ago o when I was a child, es pasado simple casi seguro.\n\nLos regulares añaden -ed. Los irregulares hay que memorizarlos y no hay atajo: son unos 100 los que de verdad se usan.\n\nLo que más se falla: en negativo y en pregunta el verbo REGRESA a su forma base, porque el pasado ya lo carga «did». Se dice «I didn't go», nunca «I didn't went».",
+        "table": [
+          ["Forma", "Ejemplo", "Español"],
+          ["Afirmativo", "I worked / I went", "trabajé / fui"],
+          ["Negativo", "I didn't work / I didn't go", "no trabajé / no fui"],
+          ["Pregunta", "Did you work? / Did you go?", "¿trabajaste? / ¿fuiste?"],
+          ["Respuesta corta", "Yes, I did. / No, I didn't.", "sí / no"]
+        ],
+        "examples": [
+          { "en": "I studied electronics at university.", "es": "Estudié electrónica en la universidad." },
+          { "en": "She didn't finish the project on time.", "es": "Ella no terminó el proyecto a tiempo." },
+          { "en": "Did they call you yesterday?", "es": "¿Te llamaron ayer?" },
+          { "en": "We bought a new oscilloscope last month.", "es": "Compramos un osciloscopio nuevo el mes pasado." }
+        ],
+        "warning": "«I didn't went» es probablemente el error número uno de los hispanohablantes en este nivel. Después de did/didn't, el verbo va SIEMPRE en base: go, buy, see, do."
+      },
+      "vocab": [
+        { "en": "yesterday", "es": "ayer", "ipa": "/ˈjestədeɪ/", "example": "I finished it yesterday." },
+        { "en": "last week", "es": "la semana pasada", "ipa": "/lɑːst wiːk/", "example": "We met last week." },
+        { "en": "ago", "es": "hace (tiempo)", "ipa": "/əˈɡəʊ/", "example": "Three years ago I lived in Saltillo." },
+        { "en": "bought", "es": "compré / compró (buy)", "ipa": "/bɔːt/", "example": "He bought a second-hand car." },
+        { "en": "went", "es": "fui / fue (go)", "ipa": "/went/", "example": "They went to the conference." },
+        { "en": "saw", "es": "vi / vio (see)", "ipa": "/sɔː/", "example": "I saw her at the library." },
+        { "en": "took", "es": "tomé / tomó (take)", "ipa": "/tʊk/", "example": "She took the bus home." },
+        { "en": "wrote", "es": "escribí / escribió (write)", "ipa": "/rəʊt/", "example": "I wrote the report on Friday." },
+        { "en": "began", "es": "empecé / empezó (begin)", "ipa": "/bɪˈɡæn/", "example": "The class began at eight." },
+        { "en": "brought", "es": "traje / trajo (bring)", "ipa": "/brɔːt/", "example": "He brought his own tools." },
+        { "en": "spent", "es": "gasté / pasé (spend)", "ipa": "/spent/", "example": "We spent two hours debugging." },
+        { "en": "found", "es": "encontré / encontró (find)", "ipa": "/faʊnd/", "example": "I found the error in line ten." }
+      ],
+      "reading": {
+        "title": "A bad Monday",
+        "text": "Last Monday started badly. My alarm didn't ring, so I woke up at eight instead of six. I ran to the bus stop, but the bus left two minutes before I arrived.\n\nI took a taxi and got to the lab at nine. My supervisor didn't say anything, but he looked at his watch. Then I opened my bag and realised I forgot my laptop at home.\n\nIn the end, a colleague lent me an old one and I finished the measurements. I didn't have a good morning, but the afternoon was fine.",
+        "questions": [
+          {
+            "id": "a2u1r1",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "Why did the writer wake up late?",
+            "options": ["The alarm didn't ring", "The bus was late", "He went to bed late", "He forgot his laptop"],
+            "answer": 0,
+            "explain": "«My alarm didn't ring, so I woke up at eight». El «so» marca la consecuencia."
+          },
+          {
+            "id": "a2u1r2",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What did the supervisor do?",
+            "options": ["He looked at his watch", "He shouted", "He said nothing and left", "He lent him a laptop"],
+            "answer": 0,
+            "explain": "«didn't say anything, but he looked at his watch». Quien prestó la laptop fue un colega, no el supervisor."
+          },
+          {
+            "id": "a2u1r3",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "How did the day end?",
+            "options": ["The afternoon was OK", "He went home early", "He lost the measurements", "He got in trouble"],
+            "answer": 0,
+            "explain": "«the afternoon was fine». Última frase — vale la pena leerla siempre."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a2u1e1", "type": "choice", "level": "A2", "q": "I ___ my keys this morning.", "options": ["lost", "losed", "lose", "did lost"], "answer": 0, "explain": "lose / lost / lost. Irregular: no lleva -ed." },
+        { "id": "a2u1e2", "type": "choice", "level": "A2", "q": "She ___ to the meeting yesterday.", "options": ["didn't come", "didn't came", "not came", "no came"], "answer": 0, "explain": "Con «didn't», el verbo vuelve a la base: come." },
+        { "id": "a2u1e3", "type": "gap", "level": "A2", "q": "___ you finish the report?", "answer": ["did"], "explain": "Pregunta en pasado simple → auxiliar «did» al principio." },
+        { "id": "a2u1e4", "type": "gap", "level": "A2", "q": "We ___ (study) three hours for that exam.", "answer": ["studied"], "explain": "Regular terminado en consonante + y → la y se vuelve i: study / studied." },
+        { "id": "a2u1e5", "type": "order", "level": "A2", "q": "Ordena la pregunta.", "words": ["did", "Where", "go", "you", "?"], "answer": "Where did you go ?", "explain": "Interrogativa + did + sujeto + verbo base. El orden nunca cambia." },
+        { "id": "a2u1e6", "type": "translate", "level": "A2", "q": "Traduce: «No vi la película.»", "answer": ["I didn't see the film", "I didn't see the movie", "I did not see the film", "I did not see the movie"], "explain": "didn't + see (base). Film es más británico, movie más americano; los dos valen." },
+        { "id": "a2u1e7", "type": "listen", "level": "A2", "audio": "I sent you the email two hours ago, but you didn't reply.", "q": "¿Qué pasó?", "options": ["Mandó el correo y no le contestaron", "No mandó el correo", "Le contestaron rápido", "Va a mandar el correo"], "answer": 0, "explain": "«sent… but you didn't reply». Dos pasados: uno sí ocurrió, el otro no." },
+        { "id": "a2u1e8", "type": "choice", "level": "A2", "q": "How long ___ you live in Monterrey?", "options": ["did", "do", "have", "were"], "answer": 0, "explain": "«How long did you live…» habla de un periodo ya terminado. Si siguieras viviendo ahí sería «have you lived»." },
+        { "id": "a2u1e9", "type": "translate", "level": "A2", "q": "Traduce: «Hace dos años compré esa laptop.»", "answer": ["Two years ago I bought that laptop", "I bought that laptop two years ago"], "explain": "«ago» va DESPUÉS del periodo: two years ago. Nunca «ago two years»." }
+      ],
+      "writing": {
+        "q": "Escribe sobre un día que te salió mal. Di qué pasó, en qué orden y cómo terminó. Todo en pasado simple.",
+        "minWords": 60,
+        "mustUse": ["yesterday", "didn't", "then"],
+        "rubric": [
+          "Todos mis verbos en pasado están en pasado (ninguno se me quedó en presente)",
+          "Después de «didn't» usé el verbo en base, no en pasado",
+          "Usé al menos tres verbos irregulares",
+          "Ordené los hechos con then / after that / in the end",
+          "Llegué a 60 palabras"
+        ],
+        "model": "Yesterday was a difficult day. I woke up late because my phone died during the night and the alarm didn't ring. I didn't have breakfast and I ran to the bus stop.\n\nThen I discovered that I left my notebook at home. My professor asked for the homework and I didn't have it. He wasn't angry, but I felt embarrassed.\n\nAfter that, things improved. In the afternoon I finished the lab report and a friend helped me with the calculations. In the end it wasn't a disaster."
+      }
+    },
+
+    {
+      "id": "a2u2",
+      "title": "Setting the scene",
+      "titleEs": "Pasado continuo vs. pasado simple",
+      "goal": "contar una historia distinguiendo el fondo (lo que estaba pasando) de lo que ocurrió de golpe.",
+      "grammar": {
+        "title": "Past continuous vs. past simple",
+        "explanation": "El pasado continuo (was/were + -ing) pinta el fondo: algo que ya estaba en curso. El pasado simple es lo que interrumpe ese fondo.\n\n«I was cooking when the lights went out.» Cocinar ya estaba pasando; apagarse la luz ocurrió de golpe.\n\nLa palabra clave es «when» para la interrupción y «while» para lo que está en curso. Regla práctica: while + continuo, when + simple.",
+        "table": [
+          ["Uso", "Tiempo", "Ejemplo"],
+          ["Fondo / en curso", "was/were + -ing", "I was studying at ten."],
+          ["Interrupción", "past simple", "The phone rang."],
+          ["Las dos juntas", "while + continuo, when + simple", "While I was studying, the phone rang."],
+          ["Dos acciones en paralelo", "continuo + continuo", "He was reading while she was cooking."]
+        ],
+        "examples": [
+          { "en": "I was walking home when it started to rain.", "es": "Iba caminando a casa cuando empezó a llover." },
+          { "en": "While we were testing the circuit, the power failed.", "es": "Mientras probábamos el circuito, se fue la luz." },
+          { "en": "She wasn't listening, so she missed the question.", "es": "No estaba escuchando, así que perdió la pregunta." }
+        ],
+        "warning": "Los verbos de estado (know, want, like, need, believe, understand) casi nunca van en continuo. Se dice «I knew the answer», no «I was knowing the answer»."
+      },
+      "vocab": [
+        { "en": "while", "es": "mientras", "ipa": "/waɪl/", "example": "While I was driving, she called." },
+        { "en": "suddenly", "es": "de repente", "ipa": "/ˈsʌdənli/", "example": "Suddenly the screen went black." },
+        { "en": "at that moment", "es": "en ese momento", "ipa": "/ət ðæt ˈməʊmənt/", "example": "At that moment I understood the problem." },
+        { "en": "happen", "es": "pasar, ocurrir", "ipa": "/ˈhæpən/", "example": "What happened to the prototype?" },
+        { "en": "notice", "es": "darse cuenta, notar", "ipa": "/ˈnəʊtɪs/", "example": "I didn't notice the mistake." },
+        { "en": "wait for", "es": "esperar a", "ipa": "/weɪt fɔː/", "example": "We were waiting for the results." },
+        { "en": "look for", "es": "buscar", "ipa": "/lʊk fɔː/", "example": "I was looking for my charger." },
+        { "en": "break down", "es": "descomponerse", "ipa": "/breɪk daʊn/", "example": "The car broke down on the highway." },
+        { "en": "get lost", "es": "perderse", "ipa": "/ɡet lɒst/", "example": "We got lost on the way there." },
+        { "en": "on my way", "es": "de camino", "ipa": "/ɒn maɪ weɪ/", "example": "I was on my way to class." },
+        { "en": "miss", "es": "perder (un bus), extrañar", "ipa": "/mɪs/", "example": "I missed the last bus." },
+        { "en": "realise", "es": "darse cuenta", "ipa": "/ˈrɪəlaɪz/", "example": "I realised I forgot my ID." }
+      ],
+      "reading": {
+        "title": "The blackout",
+        "text": "It was almost midnight and we were still working in the lab. Two of us were soldering a board while Ana was writing the test script on her laptop.\n\nSuddenly all the lights went out. The building was completely dark and the only light came from Ana's screen. Nobody was talking; we were all waiting for the emergency lights.\n\nAfter about a minute, the power came back. We looked at the board and noticed that the microcontroller was hot. While we were checking it, Ana found the problem in her code: the loop never stopped.\n\nWe didn't finish that night, but at least we knew what was wrong.",
+        "questions": [
+          {
+            "id": "a2u2r1",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What was Ana doing before the blackout?",
+            "options": ["Writing a test script", "Soldering a board", "Waiting outside", "Fixing the lights"],
+            "answer": 0,
+            "explain": "«Ana was writing the test script on her laptop». Los otros dos estaban soldando."
+          },
+          {
+            "id": "a2u2r2",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What did they notice after the power came back?",
+            "options": ["The microcontroller was hot", "The board was broken", "The laptop died", "The lights failed again"],
+            "answer": 0,
+            "explain": "«noticed that the microcontroller was hot»."
+          },
+          {
+            "id": "a2u2r3",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What was the real problem?",
+            "options": ["A loop in the code", "The blackout", "A bad solder joint", "The laptop battery"],
+            "answer": 0,
+            "explain": "«Ana found the problem in her code: the loop never stopped». El apagón fue coincidencia."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a2u2e1", "type": "choice", "level": "A2", "q": "I ___ dinner when you called.", "options": ["was making", "made", "make", "was made"], "answer": 0, "explain": "La cena ya estaba en curso; la llamada interrumpió." },
+        { "id": "a2u2e2", "type": "choice", "level": "A2", "q": "While she ___, the alarm went off.", "options": ["was sleeping", "has slept", "sleeps", "is sleeping"], "answer": 0, "explain": "Con «while» lo normal es el continuo, para marcar el fondo sobre el que ocurre lo demás. (Con verbos durativos como sleep, un nativo también diría «While she slept» — pero aquí las otras tres opciones no funcionan en pasado.)" },
+        { "id": "a2u2e3", "type": "gap", "level": "A2", "q": "They ___ (not / listen) when the teacher explained it.", "answer": ["weren't listening", "were not listening"], "explain": "Negativo del pasado continuo: were not / weren't + -ing." },
+        { "id": "a2u2e4", "type": "choice", "level": "A2", "q": "I ___ the answer, so I said nothing.", "options": ["didn't know", "wasn't knowing", "not knew", "didn't knew"], "answer": 0, "explain": "«know» es verbo de estado: no admite continuo. Y después de didn't va la base." },
+        { "id": "a2u2e5", "type": "order", "level": "A2", "q": "Ordena la oración.", "words": ["raining", "was", "left", "It", "when", "I"], "answer": "It was raining when I left", "explain": "Fondo (was raining) + interrupción (I left)." },
+        { "id": "a2u2e6", "type": "translate", "level": "A2", "q": "Traduce: «Estaba estudiando cuando se fue la luz.»", "answer": ["I was studying when the power went out", "I was studying when the lights went out", "I was studying when the power went off"], "explain": "«Se fue la luz» = the power went out / the lights went out." },
+        { "id": "a2u2e7", "type": "listen", "level": "A2", "audio": "I was waiting outside while they were finishing the presentation.", "q": "¿Qué describe la frase?", "options": ["Dos acciones al mismo tiempo", "Una acción que interrumpió otra", "Algo que pasó una sola vez", "Un plan para el futuro"], "answer": 0, "explain": "Los dos verbos en continuo = paralelas, ninguna interrumpe a la otra." },
+        { "id": "a2u2e8", "type": "choice", "level": "A2", "q": "What ___ when the accident happened?", "options": ["were you doing", "did you do", "you were doing", "was you doing"], "answer": 0, "explain": "Pregunta en pasado continuo: was/were + sujeto + -ing. Con «you» siempre «were»." }
+      ],
+      "writing": {
+        "q": "Cuenta algo que te interrumpió mientras hacías otra cosa (un apagón, una llamada, un accidente pequeño). Usa pasado continuo para el fondo y pasado simple para lo que ocurrió.",
+        "minWords": 70,
+        "mustUse": ["while", "suddenly", "was"],
+        "rubric": [
+          "Usé pasado continuo para lo que ya estaba pasando",
+          "Usé pasado simple para lo que interrumpió",
+          "No puse ningún verbo de estado (know, want, like) en continuo",
+          "Usé «while» con el continuo y «when» con el simple",
+          "Se entiende el orden de los hechos",
+          "Llegué a 70 palabras"
+        ],
+        "model": "Last Friday I was working on my final project at home. It was about ten at night and I was writing the conclusions while my brother was watching a film in the next room.\n\nSuddenly, the internet stopped. At first I thought it was my laptop, but the router lights were off. While I was looking for the modem, my brother shouted that the whole street was dark.\n\nWe waited about twenty minutes. When the power came back, I turned on my laptop and discovered that I didn't save the last page. I rewrote it, but I was not happy."
+      }
+    },
+
+    {
+      "id": "a2u3",
+      "title": "Making plans",
+      "titleEs": "Futuro: going to, will y presente continuo",
+      "goal": "distinguir cuándo se usa will, going to y el presente continuo — que en español son todos «voy a».",
+      "grammar": {
+        "title": "Las tres formas de futuro",
+        "explanation": "En español casi todo es «voy a». En inglés se reparte en tres y el EXCI pregunta exactamente por esa diferencia.\n\nGOING TO: intención ya decidida antes de hablar, o predicción con evidencia visible. «I'm going to study tonight» (ya lo tenía planeado). «Look at those clouds — it's going to rain» (lo estoy viendo).\n\nWILL: decisión que tomas en ese instante, promesa, ofrecimiento o predicción sin evidencia. «The phone's ringing — I'll get it.»\n\nPRESENTE CONTINUO: arreglo ya agendado, con hora y lugar. «I'm meeting the professor at four.»",
+        "table": [
+          ["Forma", "Cuándo", "Ejemplo"],
+          ["be going to", "plan ya decidido / evidencia", "I'm going to buy a new PCB."],
+          ["will", "decisión del momento, promesa", "I'll help you with that."],
+          ["presente continuo", "cita agendada", "We're meeting at six."],
+          ["Negativo", "won't / am not going to", "I won't be late."]
+        ],
+        "examples": [
+          { "en": "I'm going to apply for that scholarship.", "es": "Voy a solicitar esa beca. (ya lo decidí)" },
+          { "en": "That box looks heavy — I'll help you.", "es": "Esa caja se ve pesada, te ayudo. (lo decido ahora)" },
+          { "en": "I'm taking the EXCI in August.", "es": "Presento el EXCI en agosto. (ya está agendado)" },
+          { "en": "It won't take long.", "es": "No va a tardar mucho." }
+        ],
+        "warning": "Después de «when», «if», «before» y «after» NO se usa will: «I'll call you when I arrive», nunca «when I will arrive». Es un reactivo casi seguro en el examen."
+      },
+      "vocab": [
+        { "en": "plan to", "es": "planear", "ipa": "/plæn tuː/", "example": "I plan to graduate in December." },
+        { "en": "be about to", "es": "estar a punto de", "ipa": "/bi əˈbaʊt tuː/", "example": "I'm about to leave." },
+        { "en": "probably", "es": "probablemente", "ipa": "/ˈprɒbəbli/", "example": "I'll probably stay home." },
+        { "en": "in a few days", "es": "en unos días", "ipa": "/ɪn ə fjuː deɪz/", "example": "The results arrive in a few days." },
+        { "en": "deadline", "es": "fecha límite", "ipa": "/ˈdedlaɪn/", "example": "The deadline is next Friday." },
+        { "en": "appointment", "es": "cita (formal)", "ipa": "/əˈpɔɪntmənt/", "example": "I have an appointment at three." },
+        { "en": "postpone", "es": "posponer", "ipa": "/pəˈspəʊn/", "example": "They postponed the exam." },
+        { "en": "attend", "es": "asistir a", "ipa": "/əˈtend/", "example": "I'm attending the workshop." },
+        { "en": "sign up for", "es": "inscribirse a", "ipa": "/saɪn ʌp fɔː/", "example": "I signed up for the course." },
+        { "en": "look forward to", "es": "tener ganas de", "ipa": "/lʊk ˈfɔːwəd tuː/", "example": "I'm looking forward to finishing." },
+        { "en": "manage to", "es": "lograr", "ipa": "/ˈmænɪdʒ tuː/", "example": "I managed to fix it." },
+        { "en": "on time", "es": "puntual, a tiempo", "ipa": "/ɒn taɪm/", "example": "Please be on time." }
+      ],
+      "reading": {
+        "title": "Two messages",
+        "text": "MESSAGE 1\nHi Dani, I'm registering for the English exam this week. The deadline is Friday, so I'm going to do it tomorrow morning before class. Are you going to take it too? If you sign up now, we'll be in the same group. Let me know.\n\nMESSAGE 2\nHey! Yes, I want to take it, but I'm working on Friday and I probably won't have time. I'll try to do it tonight. By the way, I'm seeing my tutor at four tomorrow — she'll tell me if I need it for graduation. I'll send you a message after that.",
+        "questions": [
+          {
+            "id": "a2u3r1",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "When is the first person going to register?",
+            "options": ["Tomorrow morning", "Tonight", "On Friday", "After class"],
+            "answer": 0,
+            "explain": "«I'm going to do it tomorrow morning before class». Plan ya decidido → going to."
+          },
+          {
+            "id": "a2u3r2",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "Why does Dani think he won't have time on Friday?",
+            "options": ["He's working", "He's travelling", "He has an exam", "He's seeing his tutor"],
+            "answer": 0,
+            "explain": "«I'm working on Friday» — presente continuo con valor de agenda."
+          },
+          {
+            "id": "a2u3r3",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What is already arranged for tomorrow at four?",
+            "options": ["A meeting with his tutor", "The English exam", "A work shift", "A class"],
+            "answer": 0,
+            "explain": "«I'm seeing my tutor at four tomorrow». Hora + persona = cita agendada = presente continuo."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a2u3e1", "type": "choice", "level": "A2", "q": "Look at the sky — it ___ rain.", "options": ["is going to", "will", "shall", "is raining"], "answer": 0, "explain": "Hay evidencia visible (las nubes) → going to." },
+        { "id": "a2u3e2", "type": "choice", "level": "A2", "q": "The phone is ringing. — Don't worry, I ___ answer it.", "options": ["'ll", "'m going to", "am", "answer"], "answer": 0, "explain": "Decisión tomada en el momento → will." },
+        { "id": "a2u3e3", "type": "choice", "level": "A2", "q": "I'll call you when I ___ home.", "options": ["get", "will get", "am getting", "got"], "answer": 0, "explain": "Después de «when» no va will, aunque el sentido sea futuro. Reactivo clásico." },
+        { "id": "a2u3e4", "type": "gap", "level": "A2", "q": "We ___ (meet) the supplier at nine tomorrow. Ya está agendado.", "answer": ["are meeting", "'re meeting"], "explain": "Cita con hora fija → presente continuo." },
+        { "id": "a2u3e5", "type": "order", "level": "A2", "q": "Ordena la oración.", "words": ["going", "am", "I", "not", "to", "give", "up"], "answer": "I am not going to give up", "explain": "Negativo de going to: am not going to + verbo base." },
+        { "id": "a2u3e6", "type": "translate", "level": "A2", "q": "Traduce: «Voy a presentar el examen en agosto.»", "answer": ["I'm going to take the exam in August", "I am going to take the exam in August", "I'm taking the exam in August"], "explain": "«Presentar un examen» es TAKE an exam, no «present». Y aquí valen going to (plan) o el continuo (agendado)." },
+        { "id": "a2u3e7", "type": "listen", "level": "A2", "audio": "I'll probably finish around six, but I'm not sure yet.", "q": "¿Qué tan seguro está?", "options": ["No está seguro", "Está completamente seguro", "Ya terminó", "No va a terminar"], "answer": 0, "explain": "«probably» + «I'm not sure yet» = predicción sin certeza. Por eso will y no going to." },
+        { "id": "a2u3e8", "type": "choice", "level": "A2", "q": "Don't worry, I ___ tell anyone.", "options": ["won't", "am not going", "don't", "will not to"], "answer": 0, "explain": "Promesa → will. Negativo: won't." },
+        { "id": "a2u3e9", "type": "gap", "level": "A2", "q": "If it rains, we ___ (cancel) the trip.", "answer": ["will cancel", "'ll cancel"], "explain": "Primer condicional: después de «if» va presente, en la otra mitad sí va will." }
+      ],
+      "writing": {
+        "q": "Escribe tus planes para los próximos dos meses: qué ya decidiste hacer, qué ya está agendado con fecha, y qué crees que probablemente pase. Usa las tres formas de futuro.",
+        "minWords": 70,
+        "mustUse": ["going to", "will", "probably"],
+        "rubric": [
+          "Usé «going to» para algo que ya había decidido",
+          "Usé el presente continuo para algo con fecha y hora fijas",
+          "Usé «will» para una predicción o una promesa",
+          "No puse «will» después de when, if, before o after",
+          "Llegué a 70 palabras"
+        ],
+        "model": "The next two months are going to be busy. I'm going to finish my final project, because it is the last requirement before I graduate.\n\nSome things are already arranged. I'm taking the English exam in August and I'm meeting my tutor on the first of September to review the paperwork.\n\nI'm not sure about the rest. I'll probably look for a job in automation, but I will not decide until I have the results. When I finish everything, I'll take a short holiday — I think I will need it."
+      }
+    },
+
+    {
+      "id": "a2u4",
+      "title": "Comparing things",
+      "titleEs": "Comparativos y superlativos",
+      "goal": "comparar dos cosas y señalar el extremo de un grupo sin caer en «more cheaper».",
+      "grammar": {
+        "title": "Comparatives & superlatives",
+        "explanation": "La regla depende del TAMAÑO del adjetivo, no de su significado.\n\nCortos (1 sílaba, o 2 acabados en -y): -er / -est. cheap → cheaper → the cheapest. easy → easier → the easiest.\n\nLargos (2 o más sílabas): more / the most. expensive → more expensive → the most expensive.\n\nIrregulares que hay que saber sí o sí: good/better/best, bad/worse/worst, far/further/furthest.\n\nEl comparativo va con THAN. El superlativo va con THE y suele llevar «in» (un lugar) o «of» (un grupo).",
+        "table": [
+          ["Adjetivo", "Comparativo", "Superlativo"],
+          ["cheap", "cheaper than", "the cheapest"],
+          ["easy", "easier than", "the easiest"],
+          ["expensive", "more expensive than", "the most expensive"],
+          ["good", "better than", "the best"],
+          ["bad", "worse than", "the worst"]
+        ],
+        "examples": [
+          { "en": "This sensor is more accurate than the old one.", "es": "Este sensor es más preciso que el anterior." },
+          { "en": "It's the cheapest option in the catalogue.", "es": "Es la opción más barata del catálogo." },
+          { "en": "My results were worse than I expected.", "es": "Mis resultados fueron peores de lo que esperaba." },
+          { "en": "This method isn't as fast as the other one.", "es": "Este método no es tan rápido como el otro." }
+        ],
+        "warning": "Nunca se juntan las dos marcas: «more cheaper» y «the most easiest» están mal. O -er/-est, o more/most, jamás los dos."
+      },
+      "vocab": [
+        { "en": "accurate", "es": "preciso, exacto", "ipa": "/ˈækjərət/", "example": "This meter is more accurate." },
+        { "en": "reliable", "es": "confiable", "ipa": "/rɪˈlaɪəbl/", "example": "The old model was more reliable." },
+        { "en": "expensive", "es": "caro", "ipa": "/ɪkˈspensɪv/", "example": "It's the most expensive one." },
+        { "en": "lightweight", "es": "ligero", "ipa": "/ˈlaɪtweɪt/", "example": "A lightweight frame is better here." },
+        { "en": "efficient", "es": "eficiente", "ipa": "/ɪˈfɪʃnt/", "example": "This motor is more efficient." },
+        { "en": "similar to", "es": "parecido a", "ipa": "/ˈsɪmələ tuː/", "example": "It's similar to the previous version." },
+        { "en": "different from", "es": "diferente de", "ipa": "/ˈdɪfrənt frɒm/", "example": "It's different from what I expected." },
+        { "en": "as ... as", "es": "tan ... como", "ipa": "/əz ... əz/", "example": "It isn't as loud as the old fan." },
+        { "en": "by far", "es": "por mucho", "ipa": "/baɪ fɑː/", "example": "It's by far the best option." },
+        { "en": "slightly", "es": "ligeramente", "ipa": "/ˈslaɪtli/", "example": "Slightly bigger than the other." },
+        { "en": "twice as", "es": "el doble de", "ipa": "/twaɪs əz/", "example": "Twice as fast as before." },
+        { "en": "worth it", "es": "que vale la pena", "ipa": "/wɜːθ ɪt/", "example": "It's expensive, but it's worth it." }
+      ],
+      "reading": {
+        "title": "Choosing a board",
+        "text": "We had to choose a microcontroller board for the project. There were three options.\n\nThe first was the cheapest, but it was also the slowest and it had less memory than the others. The second was slightly more expensive, and it was by far the most popular in the community, which meant more documentation and more examples.\n\nThe third was twice as fast as the second, but it cost three times more and it wasn't as well documented.\n\nIn the end we chose the second one. It wasn't the best board technically, but it was the most practical for a team of students with a deadline.",
+        "questions": [
+          {
+            "id": "a2u4r1",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "Which board did they choose?",
+            "options": ["The second", "The first", "The third", "None of them"],
+            "answer": 0,
+            "explain": "«In the end we chose the second one»."
+          },
+          {
+            "id": "a2u4r2",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "Why was the second board attractive?",
+            "options": ["It had the most documentation", "It was the cheapest", "It was the fastest", "It had the most memory"],
+            "answer": 0,
+            "explain": "«the most popular in the community, which meant more documentation». Lo más rápido era la tercera."
+          },
+          {
+            "id": "a2u4r3",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What was the problem with the third board?",
+            "options": ["It was expensive and poorly documented", "It was too slow", "It had no memory", "It was hard to buy"],
+            "answer": 0,
+            "explain": "«it cost three times more and it wasn't as well documented»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a2u4e1", "type": "choice", "level": "A2", "q": "This laptop is ___ than mine.", "options": ["faster", "more fast", "fastest", "more faster"], "answer": 0, "explain": "«fast» es corto → -er. Y nunca more + -er." },
+        { "id": "a2u4e2", "type": "choice", "level": "A2", "q": "It's ___ film I've ever seen.", "options": ["the worst", "the baddest", "the most bad", "worse"], "answer": 0, "explain": "bad / worse / the worst. Irregular." },
+        { "id": "a2u4e3", "type": "gap", "level": "A2", "q": "This method is ___ (efficient) than the old one.", "answer": ["more efficient"], "explain": "Adjetivo largo → more." },
+        { "id": "a2u4e4", "type": "gap", "level": "A2", "q": "She's the ___ (good) student in the class.", "answer": ["best", "the best"], "explain": "good / better / the best." },
+        { "id": "a2u4e5", "type": "choice", "level": "A2", "q": "My phone isn't ___ as yours.", "options": ["as new", "newer", "so newer", "as newer"], "answer": 0, "explain": "Estructura «as + adjetivo base + as». Nunca con comparativo." },
+        { "id": "a2u4e6", "type": "order", "level": "A2", "q": "Ordena la oración.", "words": ["expensive", "the", "It's", "most", "option"], "answer": "It's the most expensive option", "explain": "Superlativo largo: the + most + adjetivo + sustantivo." },
+        { "id": "a2u4e7", "type": "translate", "level": "A2", "q": "Traduce: «Este sensor es el doble de caro que el otro.»", "answer": ["This sensor is twice as expensive as the other one", "This sensor is twice as expensive as the other"], "explain": "«El doble de X que» = twice as X as. No lleva «than»." },
+        { "id": "a2u4e8", "type": "listen", "level": "A2", "audio": "The second option is slightly cheaper, but it's not as reliable.", "q": "¿Qué dice de la segunda opción?", "options": ["Un poco más barata, pero menos confiable", "Mucho más barata y más confiable", "Más cara y más confiable", "Igual de cara y de confiable"], "answer": 0, "explain": "«slightly» = ligeramente, no «mucho». Y «not as reliable» = menos confiable." },
+        { "id": "a2u4e9", "type": "choice", "level": "A2", "q": "Monterrey is ___ Saltillo.", "options": ["bigger than", "bigger that", "more big than", "the biggest"], "answer": 0, "explain": "big → bigger (se dobla la consonante). Y el comparativo va con «than», no «that»." }
+      ],
+      "writing": {
+        "q": "Compara dos herramientas, dos teléfonos o dos programas que hayas usado. Di cuál es mejor y por qué, y menciona al menos una desventaja del que prefieres.",
+        "minWords": 70,
+        "mustUse": ["than", "the most", "as"],
+        "rubric": [
+          "Usé -er/-est con adjetivos cortos y more/most con los largos",
+          "No mezclé las dos marcas (nada de «more cheaper»)",
+          "Usé «than» después del comparativo",
+          "Mencioné una desventaja real, no sólo elogios",
+          "Llegué a 70 palabras"
+        ],
+        "model": "I have used two multimeters: a cheap one from the market and a Fluke that belongs to the lab.\n\nThe Fluke is much more accurate and by far the most reliable of the two. Its display is clearer and the probes are better, so measurements are faster and safer. The cheap one is slightly lighter, but it is not as precise and the readings change if you move the cable.\n\nThe main disadvantage of the Fluke is the price: it is about ten times more expensive. For a student that is a lot of money, so I still think the cheap one is the most practical option to start."
+      }
+    },
+
+    {
+      "id": "a2u5",
+      "title": "How much, how many",
+      "titleEs": "Contables, incontables y cuantificadores",
+      "goal": "usar some, any, much, many, a few y a little sin equivocarte, que es media sección de gramática del examen.",
+      "grammar": {
+        "title": "Countable & uncountable + quantifiers",
+        "explanation": "Contables se pueden numerar: one book, two books. Incontables no: water, money, information, advice, work, time.\n\nOjo con las que en español son contables pero en inglés NO: information, advice, furniture, news, homework, equipment, luggage. Se dice «some information», nunca «an information» ni «informations».\n\nSOME va en afirmativo; ANY en negativo y pregunta. Excepción: some en preguntas cuando ofreces o pides algo («Would you like some coffee?»).\n\nMANY + contables. MUCH + incontables. A LOT OF vale para los dos y es lo más seguro en afirmativo.",
+        "table": [
+          ["", "Contables", "Incontables"],
+          ["Cuántos", "How many books?", "How much water?"],
+          ["Mucho", "many / a lot of", "much / a lot of"],
+          ["Poco", "a few (algunos)", "a little (un poco)"],
+          ["Casi nada", "few", "little"]
+        ],
+        "examples": [
+          { "en": "I need some information about the course.", "es": "Necesito información sobre el curso." },
+          { "en": "There isn't much time left.", "es": "No queda mucho tiempo." },
+          { "en": "How many components did you order?", "es": "¿Cuántos componentes pediste?" },
+          { "en": "He gave me a few good ideas.", "es": "Me dio algunas buenas ideas." }
+        ],
+        "warning": "«Advice» e «information» son incontables. «I need an advice» está mal: se dice «I need some advice» o «a piece of advice»."
+      },
+      "vocab": [
+        { "en": "advice", "es": "consejo(s)", "ipa": "/ədˈvaɪs/", "example": "She gave me some good advice." },
+        { "en": "information", "es": "información", "ipa": "/ˌɪnfəˈmeɪʃn/", "example": "I need more information." },
+        { "en": "equipment", "es": "equipo (aparatos)", "ipa": "/ɪˈkwɪpmənt/", "example": "The lab has new equipment." },
+        { "en": "furniture", "es": "muebles", "ipa": "/ˈfɜːnɪtʃə/", "example": "We bought some furniture." },
+        { "en": "luggage", "es": "equipaje", "ipa": "/ˈlʌɡɪdʒ/", "example": "How much luggage do you have?" },
+        { "en": "research", "es": "investigación", "ipa": "/rɪˈsɜːtʃ/", "example": "He did a lot of research." },
+        { "en": "a piece of", "es": "una pieza / un poco de", "ipa": "/ə piːs ɒv/", "example": "A piece of advice." },
+        { "en": "enough", "es": "suficiente", "ipa": "/ɪˈnʌf/", "example": "We don't have enough time." },
+        { "en": "plenty of", "es": "de sobra", "ipa": "/ˈplenti ɒv/", "example": "There's plenty of space." },
+        { "en": "hardly any", "es": "casi nada de", "ipa": "/ˈhɑːdli ˈeni/", "example": "There's hardly any milk left." },
+        { "en": "several", "es": "varios", "ipa": "/ˈsevrəl/", "example": "Several people complained." },
+        { "en": "a couple of", "es": "un par de", "ipa": "/ə ˈkʌpl ɒv/", "example": "A couple of questions." }
+      ],
+      "reading": {
+        "title": "Before the lab session",
+        "text": "Please read this before Thursday.\n\nThere isn't much time in the session, so come prepared. You need to bring a few things: a notebook, a calculator and your safety glasses. We have plenty of resistors and capacitors, but there are hardly any jumper wires left, so bring some if you have them.\n\nThere is no equipment for individual work — you will share a bench with a partner. If you need any information about the circuit, the datasheet is on the platform.\n\nA piece of advice: read the procedure before you arrive. Students who do this usually finish an hour earlier.",
+        "questions": [
+          {
+            "id": "a2u5r1",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What is there almost none of?",
+            "options": ["Jumper wires", "Resistors", "Capacitors", "Notebooks"],
+            "answer": 0,
+            "explain": "«there are hardly any jumper wires left». «Hardly any» = casi nada."
+          },
+          {
+            "id": "a2u5r2",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "How will students work?",
+            "options": ["In pairs", "Alone", "In groups of four", "At home"],
+            "answer": 0,
+            "explain": "«you will share a bench with a partner»."
+          },
+          {
+            "id": "a2u5r3",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What advice does the text give?",
+            "options": ["Read the procedure before arriving", "Arrive an hour early", "Bring your own equipment", "Print the datasheet"],
+            "answer": 0,
+            "explain": "«read the procedure before you arrive»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a2u5e1", "type": "choice", "level": "A2", "q": "How ___ money do you need?", "options": ["much", "many", "lot", "few"], "answer": 0, "explain": "«money» es incontable → much." },
+        { "id": "a2u5e2", "type": "choice", "level": "A2", "q": "There aren't ___ students in the classroom.", "options": ["many", "much", "a little", "some"], "answer": 0, "explain": "students = contable, y la frase es negativa → many." },
+        { "id": "a2u5e3", "type": "choice", "level": "A2", "q": "Can you give me ___ advice?", "options": ["some", "an", "a", "many"], "answer": 0, "explain": "«advice» es incontable: no lleva a/an ni plural." },
+        { "id": "a2u5e4", "type": "gap", "level": "A2", "q": "I don't have ___ questions, only two.", "answer": ["many"], "explain": "Contable + negativo → many." },
+        { "id": "a2u5e5", "type": "choice", "level": "A2", "q": "We have ___ time, so let's not rush.", "options": ["plenty of", "hardly any", "few", "a couple"], "answer": 0, "explain": "«so let's not rush» indica que sobra tiempo → plenty of." },
+        { "id": "a2u5e6", "type": "gap", "level": "A2", "q": "Is there ___ milk in the fridge?", "answer": ["any"], "explain": "Pregunta con incontable → any." },
+        { "id": "a2u5e7", "type": "translate", "level": "A2", "q": "Traduce: «Necesito un poco de información sobre el examen.»", "answer": ["I need some information about the exam", "I need a little information about the exam"], "explain": "Information es incontable: «some information» o «a little information», jamás «an information»." },
+        { "id": "a2u5e8", "type": "listen", "level": "A2", "audio": "There were only a few people at the meeting, and hardly any questions.", "q": "¿Cómo estuvo la reunión?", "options": ["Poca gente y casi sin preguntas", "Mucha gente y muchas preguntas", "Poca gente pero muchas preguntas", "Nadie fue"], "answer": 0, "explain": "«a few» = pocos pero algunos; «hardly any» = casi ninguna." },
+        { "id": "a2u5e9", "type": "order", "level": "A2", "q": "Ordena la pregunta.", "words": ["components", "How", "many", "need", "do", "we", "?"], "answer": "How many components do we need ?", "explain": "How many + sustantivo contable + auxiliar + sujeto + verbo." }
+      ],
+      "writing": {
+        "q": "Escribe una lista de lo que necesitas para un proyecto o un viaje, explicando de qué tienes suficiente, de qué te falta y de qué te sobra.",
+        "minWords": 60,
+        "mustUse": ["enough", "a few", "much"],
+        "rubric": [
+          "Usé «many» con contables y «much» con incontables",
+          "No puse a/an ni plural en incontables (information, advice, equipment)",
+          "Usé «some» en afirmativo y «any» en negativo o pregunta",
+          "Distinguí «a few» (contable) de «a little» (incontable)",
+          "Llegué a 60 palabras"
+        ],
+        "model": "For my final project I still need a few things. I have enough resistors and capacitors, because the lab gave us plenty of them, but I don't have many jumper wires and I have hardly any heat-shrink tubing left.\n\nI also need some information about the sensor, because the datasheet on the platform is incomplete. My tutor gave me a piece of advice: contact the manufacturer directly.\n\nThe main problem is not equipment, it is time. There isn't much time before the deadline and I still have several tests to run."
+      }
+    },
+
+    {
+      "id": "a2u6",
+      "title": "Life experiences",
+      "titleEs": "Presente perfecto: ever, never, just, already, yet",
+      "goal": "hablar de experiencias sin decir cuándo — y notar la diferencia con el pasado simple.",
+      "grammar": {
+        "title": "Present perfect (introducción)",
+        "explanation": "have/has + participio. Sirve para experiencias de vida SIN decir cuándo, y para cosas recientes que siguen importando ahora.\n\nEn cuanto dices cuándo (yesterday, in 2019, last week), cambias a pasado simple. Esa es toda la frontera: «I have been to Spain» (alguna vez) vs. «I went to Spain in 2019» (fecha).\n\nEVER en preguntas, NEVER en negativo, JUST para «acabo de», ALREADY para «ya» en afirmativo, YET para «todavía» en negativos y preguntas (y va al final).",
+        "table": [
+          ["Palabra", "Posición", "Ejemplo"],
+          ["ever", "antes del participio, en preguntas", "Have you ever tried it?"],
+          ["never", "antes del participio", "I have never been there."],
+          ["just", "antes del participio", "I've just finished."],
+          ["already", "antes del participio", "She has already left."],
+          ["yet", "al final, en negativo/pregunta", "I haven't done it yet."]
+        ],
+        "examples": [
+          { "en": "Have you ever worked with an FPGA?", "es": "¿Alguna vez has trabajado con una FPGA?" },
+          { "en": "I've just sent the email.", "es": "Acabo de mandar el correo." },
+          { "en": "They haven't published the results yet.", "es": "Todavía no publican los resultados." },
+          { "en": "She has already finished her thesis.", "es": "Ya terminó su tesis." }
+        ],
+        "warning": "«I have finished it yesterday» está mal. Si aparece la fecha, va pasado simple: «I finished it yesterday». Esta mezcla es de los errores que más caro salen en el examen."
+      },
+      "vocab": [
+        { "en": "ever", "es": "alguna vez", "ipa": "/ˈevə/", "example": "Have you ever been abroad?" },
+        { "en": "never", "es": "nunca", "ipa": "/ˈnevə/", "example": "I've never seen that error." },
+        { "en": "already", "es": "ya", "ipa": "/ɔːlˈredi/", "example": "I've already sent it." },
+        { "en": "yet", "es": "todavía (neg./preg.)", "ipa": "/jet/", "example": "Have you finished yet?" },
+        { "en": "just", "es": "acabar de", "ipa": "/dʒʌst/", "example": "I've just arrived." },
+        { "en": "abroad", "es": "en el extranjero", "ipa": "/əˈbrɔːd/", "example": "She has worked abroad." },
+        { "en": "so far", "es": "hasta ahora", "ipa": "/səʊ fɑː/", "example": "So far, everything works." },
+        { "en": "recently", "es": "recientemente", "ipa": "/ˈriːsntli/", "example": "I've recently changed jobs." },
+        { "en": "achieve", "es": "lograr", "ipa": "/əˈtʃiːv/", "example": "We've achieved the target." },
+        { "en": "improve", "es": "mejorar", "ipa": "/ɪmˈpruːv/", "example": "My English has improved." },
+        { "en": "apply for", "es": "solicitar", "ipa": "/əˈplaɪ fɔː/", "example": "I've applied for three jobs." },
+        { "en": "give up", "es": "rendirse, dejar de", "ipa": "/ɡɪv ʌp/", "example": "I've never given up." }
+      ],
+      "reading": {
+        "title": "A short interview",
+        "text": "— Have you ever worked in a team like this before?\n— Yes, I have. I worked in a small startup for two years, from 2022 to 2024. I've also done two internships.\n\n— And have you used our platform?\n— Not yet. I've read the documentation, but I haven't built anything with it. I've just started the tutorial, actually.\n\n— That's fine. Most people learn it in a week. Have you already sent us your certificates?\n— I've sent the university ones. I haven't received the English certificate yet — it takes about six months.",
+        "questions": [
+          {
+            "id": "a2u6r1",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "Why does the candidate use past simple for the startup?",
+            "options": [
+              "Because he gives the dates",
+              "Because it was a bad experience",
+              "Because it was abroad",
+              "Because it was recent"
+            ],
+            "answer": 0,
+            "explain": "«from 2022 to 2024» — en cuanto aparece la fecha, se va a pasado simple. Ese es exactamente el criterio."
+          },
+          {
+            "id": "a2u6r2",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What is the candidate's situation with the platform?",
+            "options": [
+              "He has read about it but not used it",
+              "He has used it a lot",
+              "He has never heard of it",
+              "He finished the tutorial"
+            ],
+            "answer": 0,
+            "explain": "«I've read the documentation, but I haven't built anything with it»."
+          },
+          {
+            "id": "a2u6r3",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What is missing from his documents?",
+            "options": ["The English certificate", "The university certificates", "His CV", "The tutorial"],
+            "answer": 0,
+            "explain": "«I haven't received the English certificate yet». Nota el «yet» al final, típico del negativo."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a2u6e1", "type": "choice", "level": "A2", "q": "___ you ever been to Canada?", "options": ["Have", "Did", "Do", "Are"], "answer": 0, "explain": "Experiencia sin fecha → presente perfecto: Have you ever…?" },
+        { "id": "a2u6e2", "type": "choice", "level": "A2", "q": "I ___ that film last night.", "options": ["saw", "have seen", "have saw", "was seeing"], "answer": 0, "explain": "«last night» es fecha → pasado simple." },
+        { "id": "a2u6e3", "type": "gap", "level": "A2", "q": "She hasn't answered ___.", "answer": ["yet"], "explain": "«yet» va al final en negativos." },
+        { "id": "a2u6e4", "type": "gap", "level": "A2", "q": "I've ___ finished — literalmente hace un segundo.", "answer": ["just"], "explain": "«just» = acabar de, y va antes del participio." },
+        { "id": "a2u6e5", "type": "choice", "level": "A2", "q": "He has ___ sent the report.", "options": ["already", "yet", "ever", "still not"], "answer": 0, "explain": "Afirmativo con «ya» → already." },
+        { "id": "a2u6e6", "type": "translate", "level": "A2", "q": "Traduce: «Nunca he usado esa herramienta.»", "answer": ["I have never used that tool", "I've never used that tool"], "explain": "never + participio. Y no lleva otro negativo: «I haven't never» está mal." },
+        { "id": "a2u6e7", "type": "order", "level": "A2", "q": "Ordena la pregunta.", "words": ["you", "Have", "yet", "eaten", "?"], "answer": "Have you eaten yet ?", "explain": "Have + sujeto + participio + yet al final." },
+        { "id": "a2u6e8", "type": "listen", "level": "A2", "audio": "I've already applied, but they haven't replied yet.", "q": "¿Cuál es la situación?", "options": ["Ya aplicó y sigue esperando respuesta", "No ha aplicado", "Ya le respondieron", "Le respondieron que no"], "answer": 0, "explain": "«already applied» + «haven't replied yet» = hecho de su lado, pendiente del otro." },
+        { "id": "a2u6e9", "type": "choice", "level": "A2", "q": "We ___ in this house since 2020.", "options": ["have lived", "lived", "live", "are living"], "answer": 0, "explain": "«since» = empezó antes y sigue → presente perfecto." }
+      ],
+      "writing": {
+        "q": "Escribe sobre tres cosas que has hecho en tu vida y una que nunca has hecho pero te gustaría. Añade una que acabas de terminar y otra que todavía no logras.",
+        "minWords": 70,
+        "mustUse": ["have", "never", "yet"],
+        "rubric": [
+          "Usé have/has + participio (no el infinitivo ni el pasado simple)",
+          "Cambié a pasado simple cuando mencioné una fecha concreta",
+          "Puse «yet» al final de la frase negativa",
+          "Usé «never» sin añadir otro negativo",
+          "Llegué a 70 palabras"
+        ],
+        "model": "I have done several things I am proud of. I have built a small quadruped robot from scratch, I have written firmware for three different microcontrollers, and I have taught myself Fusion 360.\n\nI have never worked abroad, but I would like to. I applied for an exchange programme in 2024, although I did not get a place that time.\n\nI have just finished the mechanical design of my final project, so the hard part is over. However, I haven't finished the control software yet, and the deadline is close."
+      }
+    },
+
+    {
+      "id": "a2u7",
+      "title": "Advice and obligation",
+      "titleEs": "Modales: can, should, have to, must",
+      "goal": "aconsejar, obligar y prohibir sin confundir «no tienes que» con «no debes», que en español suenan igual.",
+      "grammar": {
+        "title": "Modal verbs",
+        "explanation": "Los modales no llevan -s en tercera persona y van seguidos del verbo en base: «She can swim», nunca «She cans» ni «She can to swim».\n\nCAN = habilidad o permiso. SHOULD = consejo. HAVE TO = obligación que viene de fuera (una regla, un jefe). MUST = obligación fuerte, muchas veces interna, y en negativo = prohibición.\n\nLa trampa: MUSTN'T ≠ DON'T HAVE TO. «You mustn't smoke» = está prohibido. «You don't have to come» = no es necesario, pero puedes. En español los dos se dicen «no tienes que».",
+        "table": [
+          ["Modal", "Significado", "Ejemplo"],
+          ["can / can't", "habilidad, permiso", "I can drive. You can't park here."],
+          ["should / shouldn't", "consejo", "You should rest."],
+          ["have to / has to", "obligación externa", "I have to wear a badge."],
+          ["must", "obligación fuerte", "You must read the manual."],
+          ["mustn't", "PROHIBIDO", "You mustn't touch that."],
+          ["don't have to", "NO es necesario", "You don't have to pay."]
+        ],
+        "examples": [
+          { "en": "You should check the voltage first.", "es": "Deberías revisar el voltaje primero." },
+          { "en": "I have to submit it before Friday.", "es": "Tengo que entregarlo antes del viernes." },
+          { "en": "You mustn't open the case while it's powered.", "es": "No debes abrir la carcasa con corriente." },
+          { "en": "You don't have to bring your own laptop.", "es": "No hace falta que traigas tu laptop." }
+        ],
+        "warning": "Nunca se ponen dos modales juntos: «I will can» está mal. Se dice «I will be able to»."
+      },
+      "vocab": [
+        { "en": "be able to", "es": "poder, ser capaz de", "ipa": "/bi ˈeɪbl tuː/", "example": "I'll be able to help tomorrow." },
+        { "en": "allowed to", "es": "tener permitido", "ipa": "/əˈlaʊd tuː/", "example": "You're not allowed to eat here." },
+        { "en": "forbidden", "es": "prohibido", "ipa": "/fəˈbɪdn/", "example": "Smoking is forbidden." },
+        { "en": "required", "es": "requerido, obligatorio", "ipa": "/rɪˈkwaɪəd/", "example": "Safety glasses are required." },
+        { "en": "in charge of", "es": "encargado de", "ipa": "/ɪn tʃɑːdʒ ɒv/", "example": "She's in charge of testing." },
+        { "en": "deadline", "es": "fecha límite", "ipa": "/ˈdedlaɪn/", "example": "We must meet the deadline." },
+        { "en": "rule", "es": "regla", "ipa": "/ruːl/", "example": "It's a safety rule." },
+        { "en": "warn", "es": "advertir", "ipa": "/wɔːn/", "example": "They warned us about the voltage." },
+        { "en": "avoid", "es": "evitar", "ipa": "/əˈvɔɪd/", "example": "You should avoid that mistake." },
+        { "en": "make sure", "es": "asegurarse de", "ipa": "/meɪk ʃʊə/", "example": "Make sure the power is off." },
+        { "en": "on purpose", "es": "a propósito", "ipa": "/ɒn ˈpɜːpəs/", "example": "He didn't do it on purpose." },
+        { "en": "otherwise", "es": "si no, de lo contrario", "ipa": "/ˈʌðəwaɪz/", "example": "Save it, otherwise you'll lose it." }
+      ],
+      "reading": {
+        "title": "Lab safety rules",
+        "text": "Before you enter the laboratory, read these rules carefully.\n\nYou must wear safety glasses at all times. You mustn't work alone: there has to be a second person in the room whenever equipment is powered.\n\nYou don't have to bring your own tools — the lab provides everything — but you should bring your own notebook, because we don't lend paper.\n\nIf you can't finish your measurements in the session, you can book extra time on the platform. However, you are not allowed to stay after nine at night.\n\nIf anything smells hot or looks damaged, you must report it immediately. Don't try to repair it yourself.",
+        "questions": [
+          {
+            "id": "a2u7r1",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What is NOT necessary?",
+            "options": ["Bringing your own tools", "Wearing safety glasses", "Having a second person", "Reporting damage"],
+            "answer": 0,
+            "explain": "«You don't have to bring your own tools». «Don't have to» = no es necesario, no es prohibición."
+          },
+          {
+            "id": "a2u7r2",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What is forbidden?",
+            "options": ["Staying after nine", "Booking extra time", "Bringing a notebook", "Working in pairs"],
+            "answer": 0,
+            "explain": "«you are not allowed to stay after nine»."
+          },
+          {
+            "id": "a2u7r3",
+            "type": "readingQ",
+            "level": "A2",
+            "q": "What should you do if equipment looks damaged?",
+            "options": ["Report it immediately", "Repair it yourself", "Ignore it", "Book extra time"],
+            "answer": 0,
+            "explain": "«you must report it immediately. Don't try to repair it yourself»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a2u7e1", "type": "choice", "level": "A2", "q": "You ___ touch that cable. It's dangerous.", "options": ["mustn't", "don't have to", "shouldn't have", "can't to"], "answer": 0, "explain": "Prohibición por peligro → mustn't." },
+        { "id": "a2u7e2", "type": "choice", "level": "A2", "q": "You ___ come if you're busy. It's optional.", "options": ["don't have to", "mustn't", "can't", "shouldn't"], "answer": 0, "explain": "No es necesario → don't have to. Aquí «mustn't» significaría que está prohibido ir." },
+        { "id": "a2u7e3", "type": "choice", "level": "A2", "q": "She ___ speak three languages.", "options": ["can", "cans", "can to", "is can"], "answer": 0, "explain": "Los modales no llevan -s ni «to»." },
+        { "id": "a2u7e4", "type": "gap", "level": "A2", "q": "You look tired. You ___ get some rest.", "answer": ["should"], "explain": "Consejo → should." },
+        { "id": "a2u7e5", "type": "choice", "level": "A2", "q": "I ___ wear a uniform at work. It's company policy.", "options": ["have to", "should", "can", "might"], "answer": 0, "explain": "Obligación externa (la empresa) → have to." },
+        { "id": "a2u7e6", "type": "translate", "level": "A2", "q": "Traduce: «No tienes que pagar, es gratis.»", "answer": ["You don't have to pay, it's free", "You do not have to pay, it is free"], "explain": "«No es necesario» → don't have to. Si pusieras «mustn't» dirías que está prohibido pagar." },
+        { "id": "a2u7e7", "type": "order", "level": "A2", "q": "Ordena la oración.", "words": ["to", "will", "able", "help", "I", "be", "you"], "answer": "I will be able to help you", "explain": "No se pueden juntar dos modales: will + be able to, nunca «will can»." },
+        { "id": "a2u7e8", "type": "listen", "level": "A2", "audio": "You don't have to finish it today, but you should start.", "q": "¿Qué le dicen?", "options": ["No es obligatorio terminarlo hoy, pero conviene empezar", "Está prohibido terminarlo hoy", "Tiene que terminarlo hoy", "No debe empezarlo"], "answer": 0, "explain": "«don't have to» = no obligatorio; «should» = consejo." },
+        { "id": "a2u7e9", "type": "choice", "level": "A2", "q": "___ I use your charger?", "options": ["Can", "Do", "Have", "Should to"], "answer": 0, "explain": "Pedir permiso → Can I…? (o el más formal May I…?)" }
+      ],
+      "writing": {
+        "q": "Escribe cinco reglas para alguien que entra por primera vez a tu laboratorio, taller o lugar de trabajo. Incluye algo obligatorio, algo prohibido, algo que NO es necesario y un consejo.",
+        "minWords": 70,
+        "mustUse": ["must", "mustn't", "don't have to", "should"],
+        "rubric": [
+          "Usé «mustn't» para lo prohibido y «don't have to» para lo innecesario, sin confundirlos",
+          "Después de cada modal puse el verbo en base, sin «to» y sin -s",
+          "Incluí al menos un consejo con «should»",
+          "No junté dos modales seguidos",
+          "Llegué a 70 palabras"
+        ],
+        "model": "Welcome to the electronics lab. Please read these rules before you start.\n\nFirst, you must wear safety glasses whenever a bench is powered. Second, you mustn't work alone at night; there always has to be another person in the room.\n\nYou don't have to bring your own multimeter, because the lab has fifteen of them, but you should bring your own notebook. We don't lend paper and you will need to write down your measurements.\n\nFinally, if something smells hot, you must switch off the bench and tell the technician. You shouldn't try to fix it yourself, even if you think you can."
+      }
+    }
+  ]
+}

@@ -1,0 +1,6482 @@
+{
+  "7cdc5d4e382d28e0": {
+    "file": "7cdc5d4e382d28e0.mp3",
+    "text": "My phone number is four one two, seven six nine.",
+    "chars": 48,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "diagnostico/d06",
+    "priority": 1
+  },
+  "5034611c32edaff6": {
+    "file": "5034611c32edaff6.mp3",
+    "text": "The meeting has been moved to half past three on Friday.",
+    "chars": 56,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "diagnostico/d15",
+    "priority": 1
+  },
+  "02a1f34ae762c587": {
+    "file": "02a1f34ae762c587.mp3",
+    "text": "I would have called you, but my battery died halfway through the trip.",
+    "chars": 70,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "diagnostico/d24",
+    "priority": 1
+  },
+  "236279449a4a6c32": {
+    "file": "236279449a4a6c32.mp3",
+    "text": "The train to Saltillo leaves from platform nine at a quarter to eleven.",
+    "chars": 71,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-01/s1l1",
+    "priority": 1
+  },
+  "dfe99923b147b840": {
+    "file": "dfe99923b147b840.mp3",
+    "text": "I'd love to come, but I'm working on Saturday. Could we do Sunday instead?",
+    "chars": 74,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-01/s1l2",
+    "priority": 1
+  },
+  "e789f694739ab783": {
+    "file": "e789f694739ab783.mp3",
+    "text": "The results were better than we expected, although the sample was quite small.",
+    "chars": 78,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-01/s1l3",
+    "priority": 1
+  },
+  "6c7a9ddf5634ff62": {
+    "file": "6c7a9ddf5634ff62.mp3",
+    "text": "If I were you, I'd talk to your supervisor before submitting it.",
+    "chars": 64,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-01/s1l4",
+    "priority": 1
+  },
+  "9766c2a1d0ccac32": {
+    "file": "9766c2a1d0ccac32.mp3",
+    "text": "She's been living in Guadalajara for about three years now.",
+    "chars": 59,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-01/s1l5",
+    "priority": 1
+  },
+  "776d66fb5564673e": {
+    "file": "776d66fb5564673e.mp3",
+    "text": "The manager said the report would be ready by Friday at the latest.",
+    "chars": 67,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-01/s1l6",
+    "priority": 1
+  },
+  "52b3dceade15b9cf": {
+    "file": "52b3dceade15b9cf.mp3",
+    "text": "Turn left at the traffic lights, then take the second street on your right.",
+    "chars": 75,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-01/s1l7",
+    "priority": 1
+  },
+  "b268ceeaa4004235": {
+    "file": "b268ceeaa4004235.mp3",
+    "text": "We should have booked the tickets earlier. Now everything is sold out.",
+    "chars": 70,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-01/s1l8",
+    "priority": 1
+  },
+  "fbfb39401c3d8902": {
+    "file": "fbfb39401c3d8902.mp3",
+    "text": "Had we known about the delay, we would have taken an earlier flight.",
+    "chars": 68,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-02/s2l1",
+    "priority": 1
+  },
+  "909292c1e4ca9ddc": {
+    "file": "909292c1e4ca9ddc.mp3",
+    "text": "The proposal is interesting, to say the least, though I'm not entirely convinced by the budget.",
+    "chars": 95,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-02/s2l2",
+    "priority": 1
+  },
+  "9dde288319e530f2": {
+    "file": "9dde288319e530f2.mp3",
+    "text": "By the time we got to the venue, the doors had already closed.",
+    "chars": 62,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-02/s2l3",
+    "priority": 1
+  },
+  "ad588e1035dcc47f": {
+    "file": "ad588e1035dcc47f.mp3",
+    "text": "I wouldn't say it's a failure exactly — it just didn't scale the way we hoped.",
+    "chars": 78,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-02/s2l4",
+    "priority": 1
+  },
+  "f6332d9e8c718b18": {
+    "file": "f6332d9e8c718b18.mp3",
+    "text": "You needn't have brought your laptop; there are computers in every room.",
+    "chars": 72,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-02/s2l5",
+    "priority": 1
+  },
+  "4ff05c17c5802a87": {
+    "file": "4ff05c17c5802a87.mp3",
+    "text": "Not only did the prototype overheat, but it also drew twice the expected current.",
+    "chars": 81,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-02/s2l6",
+    "priority": 1
+  },
+  "8f8982caf40e63b6": {
+    "file": "8f8982caf40e63b6.mp3",
+    "text": "She's supposed to arrive at nine, but she's rarely on time.",
+    "chars": 59,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-02/s2l7",
+    "priority": 1
+  },
+  "380fe5e331abc598": {
+    "file": "380fe5e331abc598.mp3",
+    "text": "The committee has yet to reach a decision on the funding.",
+    "chars": 57,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "simulacro-02/s2l8",
+    "priority": 1
+  },
+  "7e1320f1a1be5adc": {
+    "file": "7e1320f1a1be5adc.mp3",
+    "text": "Hi, I'm Ana. I'm an engineer and I'm from Chile.",
+    "chars": 48,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/a1u1e8",
+    "priority": 2
+  },
+  "4e92fd93cad00a13": {
+    "file": "4e92fd93cad00a13.mp3",
+    "text": "She usually starts at eight, but on Fridays she finishes early.",
+    "chars": 63,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/a1u2e9",
+    "priority": 2
+  },
+  "63b4d807061aa571": {
+    "file": "63b4d807061aa571.mp3",
+    "text": "There's a printer behind the door and two boxes under the desk.",
+    "chars": 63,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/a1u3e9",
+    "priority": 2
+  },
+  "413129b2cac048ed": {
+    "file": "413129b2cac048ed.mp3",
+    "text": "Press the button and wait. Don't open the case.",
+    "chars": 47,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/a1u4e9",
+    "priority": 2
+  },
+  "95e47f2e4bac84cd": {
+    "file": "95e47f2e4bac84cd.mp3",
+    "text": "I sent you the email two hours ago, but you didn't reply.",
+    "chars": 57,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/a2u1e7",
+    "priority": 2
+  },
+  "970d140a0ab09a34": {
+    "file": "970d140a0ab09a34.mp3",
+    "text": "I was waiting outside while they were finishing the presentation.",
+    "chars": 65,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/a2u2e7",
+    "priority": 2
+  },
+  "026cc42619cd7ec7": {
+    "file": "026cc42619cd7ec7.mp3",
+    "text": "I'll probably finish around six, but I'm not sure yet.",
+    "chars": 54,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/a2u3e7",
+    "priority": 2
+  },
+  "6feada86eebfb340": {
+    "file": "6feada86eebfb340.mp3",
+    "text": "The second option is slightly cheaper, but it's not as reliable.",
+    "chars": 64,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/a2u4e8",
+    "priority": 2
+  },
+  "be0551db415ad263": {
+    "file": "be0551db415ad263.mp3",
+    "text": "There were only a few people at the meeting, and hardly any questions.",
+    "chars": 70,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/a2u5e8",
+    "priority": 2
+  },
+  "b1e01ed6a2a3831d": {
+    "file": "b1e01ed6a2a3831d.mp3",
+    "text": "I've already applied, but they haven't replied yet.",
+    "chars": 51,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/a2u6e8",
+    "priority": 2
+  },
+  "c784d847c34de6bd": {
+    "file": "c784d847c34de6bd.mp3",
+    "text": "You don't have to finish it today, but you should start.",
+    "chars": 56,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/a2u7e8",
+    "priority": 2
+  },
+  "7d065d98ba449f18": {
+    "file": "7d065d98ba449f18.mp3",
+    "text": "I've applied twice, but I only got an interview last year.",
+    "chars": 58,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/b1u1e8",
+    "priority": 2
+  },
+  "7d06af1172fcffa3": {
+    "file": "7d06af1172fcffa3.mp3",
+    "text": "If we had ordered the parts last month, we would be testing right now.",
+    "chars": 70,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/b1u2e8",
+    "priority": 2
+  },
+  "30c67528ac167635": {
+    "file": "30c67528ac167635.mp3",
+    "text": "The samples are being analysed at the moment, so results will be sent tomorrow.",
+    "chars": 79,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/b1u3e8",
+    "priority": 2
+  },
+  "a55859ee5505c7c1": {
+    "file": "a55859ee5505c7c1.mp3",
+    "text": "The supplier who delivered late is the one we're replacing.",
+    "chars": 59,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/b1u4e9",
+    "priority": 2
+  },
+  "901751211b5e1774": {
+    "file": "901751211b5e1774.mp3",
+    "text": "She told me she would call back, but she never did.",
+    "chars": 51,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/b1u5e8",
+    "priority": 2
+  },
+  "9d1cdb8d0e860685": {
+    "file": "9d1cdb8d0e860685.mp3",
+    "text": "We managed to finish, but we avoided testing it under load.",
+    "chars": 59,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/b1u6e9",
+    "priority": 2
+  },
+  "4863011c9c651768": {
+    "file": "4863011c9c651768.mp3",
+    "text": "I couldn't figure out why it kept restarting, so I backed up the data first.",
+    "chars": 76,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/b1u7e9",
+    "priority": 2
+  },
+  "57875c1b4074831e": {
+    "file": "57875c1b4074831e.mp3",
+    "text": "The design is elegant. Nevertheless, it would be very expensive to manufacture.",
+    "chars": 79,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/b1u8e9",
+    "priority": 2
+  },
+  "d6b26d2ec5131468": {
+    "file": "d6b26d2ec5131468.mp3",
+    "text": "If the budget had been approved, we would be testing the second prototype by now.",
+    "chars": 81,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/b2u1e8",
+    "priority": 2
+  },
+  "67a3a5d0ccee750b": {
+    "file": "67a3a5d0ccee750b.mp3",
+    "text": "She might have missed the email, or she may simply have decided not to reply.",
+    "chars": 77,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/b2u2e8",
+    "priority": 2
+  },
+  "67a174a693688536": {
+    "file": "67a174a693688536.mp3",
+    "text": "The results are believed to have been affected by the ambient temperature.",
+    "chars": 74,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/b2u3e8",
+    "priority": 2
+  },
+  "45d00ffa928d9b95": {
+    "file": "45d00ffa928d9b95.mp3",
+    "text": "Not only did the supplier miss the deadline, but they also sent the wrong parts.",
+    "chars": 80,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/b2u4e9",
+    "priority": 2
+  },
+  "1bb8ab1a713ad51f": {
+    "file": "1bb8ab1a713ad51f.mp3",
+    "text": "The findings raise serious concerns, although they are by no means conclusive.",
+    "chars": 78,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/b2u5e9",
+    "priority": 2
+  },
+  "0be225ec82d26a32": {
+    "file": "0be225ec82d26a32.mp3",
+    "text": "name",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "1f01d0a72a580ce2": {
+    "file": "1f01d0a72a580ce2.mp3",
+    "text": "My name is Erick.",
+    "chars": 17,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "6324be4eef2cab53": {
+    "file": "6324be4eef2cab53.mp3",
+    "text": "surname",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "f04f91255bb20164": {
+    "file": "f04f91255bb20164.mp3",
+    "text": "What's your surname?",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "4cf9d5d2b99a706d": {
+    "file": "4cf9d5d2b99a706d.mp3",
+    "text": "student",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "d3be5dac5b994c2c": {
+    "file": "d3be5dac5b994c2c.mp3",
+    "text": "I'm a student.",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "249d3aea699f9689": {
+    "file": "249d3aea699f9689.mp3",
+    "text": "engineer",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "be9c0d6c7b29651c": {
+    "file": "be9c0d6c7b29651c.mp3",
+    "text": "She's an engineer.",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "556b547570e547a7": {
+    "file": "556b547570e547a7.mp3",
+    "text": "teacher",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "d0864e6624066129": {
+    "file": "d0864e6624066129.mp3",
+    "text": "He's a teacher.",
+    "chars": 15,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "dcf4fbbac261ce1b": {
+    "file": "dcf4fbbac261ce1b.mp3",
+    "text": "married",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "b3b3fa0482e3897c": {
+    "file": "b3b3fa0482e3897c.mp3",
+    "text": "They aren't married.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "dd42b231ac58d77a": {
+    "file": "dd42b231ac58d77a.mp3",
+    "text": "tired",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "ec645c457b8a1439": {
+    "file": "ec645c457b8a1439.mp3",
+    "text": "I'm very tired.",
+    "chars": 15,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "46d8020b0afe0116": {
+    "file": "46d8020b0afe0116.mp3",
+    "text": "busy",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "8d8c6276a1fa7dc9": {
+    "file": "8d8c6276a1fa7dc9.mp3",
+    "text": "Are you busy now?",
+    "chars": 17,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "ffdfaf98df877129": {
+    "file": "ffdfaf98df877129.mp3",
+    "text": "ready",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "08f1a57d0093b42f": {
+    "file": "08f1a57d0093b42f.mp3",
+    "text": "We're ready.",
+    "chars": 12,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "ce8ee7a4164b25ac": {
+    "file": "ce8ee7a4164b25ac.mp3",
+    "text": "from",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "bac16de8b38a36ac": {
+    "file": "bac16de8b38a36ac.mp3",
+    "text": "I'm from Mexico.",
+    "chars": 16,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "b3541b7bd828086a": {
+    "file": "b3541b7bd828086a.mp3",
+    "text": "nice to meet you",
+    "chars": 16,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "f8afa7b29902b594": {
+    "file": "f8afa7b29902b594.mp3",
+    "text": "Nice to meet you, Ana.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "3c21084ee743bd32": {
+    "file": "3c21084ee743bd32.mp3",
+    "text": "How old are you?",
+    "chars": 16,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab",
+    "priority": 3
+  },
+  "fdfce47ea3e054c3": {
+    "file": "fdfce47ea3e054c3.mp3",
+    "text": "How old are you? I'm 24.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/vocab-ex",
+    "priority": 3
+  },
+  "50764bad10d2e873": {
+    "file": "50764bad10d2e873.mp3",
+    "text": "I'm an engineering student.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/grammar",
+    "priority": 3
+  },
+  "a4aff8037682cde3": {
+    "file": "a4aff8037682cde3.mp3",
+    "text": "She isn't from Monterrey.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/grammar",
+    "priority": 3
+  },
+  "91f4f309e5af0323": {
+    "file": "91f4f309e5af0323.mp3",
+    "text": "Are you ready?",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/grammar",
+    "priority": 3
+  },
+  "d9a9093f28fae520": {
+    "file": "d9a9093f28fae520.mp3",
+    "text": "It's an old building.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/grammar",
+    "priority": 3
+  },
+  "3d3550e9aa9b9ef4": {
+    "file": "3d3550e9aa9b9ef4.mp3",
+    "text": "get up",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "3a6d38a3b29c5bfd": {
+    "file": "3a6d38a3b29c5bfd.mp3",
+    "text": "I get up at six.",
+    "chars": 16,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "eee409bf1b7a531b": {
+    "file": "eee409bf1b7a531b.mp3",
+    "text": "have breakfast",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "4f081f4487f8560f": {
+    "file": "4f081f4487f8560f.mp3",
+    "text": "I have breakfast at seven.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "d103a15ed5fe236a": {
+    "file": "d103a15ed5fe236a.mp3",
+    "text": "go to work",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "5ab3c76855251969": {
+    "file": "5ab3c76855251969.mp3",
+    "text": "She goes to work by bus.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "338d6873d3c17d38": {
+    "file": "338d6873d3c17d38.mp3",
+    "text": "finish",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "0a4f701de47d2560": {
+    "file": "0a4f701de47d2560.mp3",
+    "text": "I finish at five.",
+    "chars": 17,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "d082f8d3e64a5ade": {
+    "file": "d082f8d3e64a5ade.mp3",
+    "text": "always",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "e09d50d89156b9a0": {
+    "file": "e09d50d89156b9a0.mp3",
+    "text": "I always check it.",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "bbfa0732e72dac6f": {
+    "file": "bbfa0732e72dac6f.mp3",
+    "text": "usually",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "66ca907e305fdc93": {
+    "file": "66ca907e305fdc93.mp3",
+    "text": "We usually start at eight.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "94cea85ebb7cbf31": {
+    "file": "94cea85ebb7cbf31.mp3",
+    "text": "sometimes",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "cc39bca4ee9a4c21": {
+    "file": "cc39bca4ee9a4c21.mp3",
+    "text": "Sometimes I study late.",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "a50c4384f61c2978": {
+    "file": "a50c4384f61c2978.mp3",
+    "text": "never",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "77b09f6eea585a0f": {
+    "file": "77b09f6eea585a0f.mp3",
+    "text": "He never complains.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "d3f39b5c639395ca": {
+    "file": "d3f39b5c639395ca.mp3",
+    "text": "twice a week",
+    "chars": 12,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "8f5ef944f165749f": {
+    "file": "8f5ef944f165749f.mp3",
+    "text": "I train twice a week.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "5c29a4b786233d55": {
+    "file": "5c29a4b786233d55.mp3",
+    "text": "weekend",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "1082da2ce30a42bd": {
+    "file": "1082da2ce30a42bd.mp3",
+    "text": "I rest at the weekend.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "2b33e2683c3c3d1a": {
+    "file": "2b33e2683c3c3d1a.mp3",
+    "text": "early",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "3b28289d58d598ff": {
+    "file": "3b28289d58d598ff.mp3",
+    "text": "She arrives early.",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "f8b8d1064d551983": {
+    "file": "f8b8d1064d551983.mp3",
+    "text": "late",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab",
+    "priority": 3
+  },
+  "afc41d79d288695c": {
+    "file": "afc41d79d288695c.mp3",
+    "text": "I go to bed late.",
+    "chars": 17,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/vocab-ex",
+    "priority": 3
+  },
+  "704750a67aa340bc": {
+    "file": "704750a67aa340bc.mp3",
+    "text": "I usually get up at six.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/grammar",
+    "priority": 3
+  },
+  "f75bf71c3b03eb17": {
+    "file": "f75bf71c3b03eb17.mp3",
+    "text": "She doesn't drink coffee.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/grammar",
+    "priority": 3
+  },
+  "6daf3359299c1436": {
+    "file": "6daf3359299c1436.mp3",
+    "text": "Do they work on Saturdays?",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/grammar",
+    "priority": 3
+  },
+  "e74a2772386daca6": {
+    "file": "e74a2772386daca6.mp3",
+    "text": "He never arrives late.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/grammar",
+    "priority": 3
+  },
+  "0db4a40346312cef": {
+    "file": "0db4a40346312cef.mp3",
+    "text": "there is / there are",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "3e6d9c3d5226cb2c": {
+    "file": "3e6d9c3d5226cb2c.mp3",
+    "text": "There are two rooms.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "b0d95c901e846b2e": {
+    "file": "b0d95c901e846b2e.mp3",
+    "text": "room",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "12a73f33ed5252c6": {
+    "file": "12a73f33ed5252c6.mp3",
+    "text": "The room is small.",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "bf50a88685b9a4ca": {
+    "file": "bf50a88685b9a4ca.mp3",
+    "text": "desk",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "5f4cacbbab0d4a24": {
+    "file": "5f4cacbbab0d4a24.mp3",
+    "text": "My desk is by the window.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "65cecc19c0813789": {
+    "file": "65cecc19c0813789.mp3",
+    "text": "shelf",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "58a5471e52867094": {
+    "file": "58a5471e52867094.mp3",
+    "text": "There are books on the shelf.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "7bb90f3415a50e99": {
+    "file": "7bb90f3415a50e99.mp3",
+    "text": "drawer",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "d33453c1a6eeef64": {
+    "file": "d33453c1a6eeef64.mp3",
+    "text": "It's in the drawer.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "cbc9266ab5485279": {
+    "file": "cbc9266ab5485279.mp3",
+    "text": "next to",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "7533cb163965d9c3": {
+    "file": "7533cb163965d9c3.mp3",
+    "text": "Next to the door.",
+    "chars": 17,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "ee9295ce1aa1cbe9": {
+    "file": "ee9295ce1aa1cbe9.mp3",
+    "text": "between",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "abc5adc8eac7e540": {
+    "file": "abc5adc8eac7e540.mp3",
+    "text": "Between the two windows.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "57189a1b4f50fcdd": {
+    "file": "57189a1b4f50fcdd.mp3",
+    "text": "behind",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "49bd652fc36012dd": {
+    "file": "49bd652fc36012dd.mp3",
+    "text": "Behind the cabinet.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "46e6eb99e2cf3304": {
+    "file": "46e6eb99e2cf3304.mp3",
+    "text": "in front of",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "610d46a2506ba9ad": {
+    "file": "610d46a2506ba9ad.mp3",
+    "text": "In front of the building.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "fae9fc38bb5fae90": {
+    "file": "fae9fc38bb5fae90.mp3",
+    "text": "upstairs",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "832fa98dcd9c0d56": {
+    "file": "832fa98dcd9c0d56.mp3",
+    "text": "The lab is upstairs.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "b63c7166ba259bb7": {
+    "file": "b63c7166ba259bb7.mp3",
+    "text": "people",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "aff2532cc4b4fb37": {
+    "file": "aff2532cc4b4fb37.mp3",
+    "text": "There are ten people here.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "e79ddbcb79c36a94": {
+    "file": "e79ddbcb79c36a94.mp3",
+    "text": "children",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab",
+    "priority": 3
+  },
+  "6a72980867ab24b2": {
+    "file": "6a72980867ab24b2.mp3",
+    "text": "The children are outside.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/vocab-ex",
+    "priority": 3
+  },
+  "50fa4aa833856e63": {
+    "file": "50fa4aa833856e63.mp3",
+    "text": "There's a multimeter on the bench.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/grammar",
+    "priority": 3
+  },
+  "7d48c774056cc44e": {
+    "file": "7d48c774056cc44e.mp3",
+    "text": "There aren't any chairs in this room.",
+    "chars": 37,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/grammar",
+    "priority": 3
+  },
+  "06aa4484a74998d9": {
+    "file": "06aa4484a74998d9.mp3",
+    "text": "The box is under the table.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/grammar",
+    "priority": 3
+  },
+  "124e2fd5ca59be98": {
+    "file": "124e2fd5ca59be98.mp3",
+    "text": "My laptop is next to the printer.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/grammar",
+    "priority": 3
+  },
+  "613779383f09d580": {
+    "file": "613779383f09d580.mp3",
+    "text": "can",
+    "chars": 3,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "9ce86777dca65fa8": {
+    "file": "9ce86777dca65fa8.mp3",
+    "text": "I can drive.",
+    "chars": 12,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "12b68dbda784ce48": {
+    "file": "12b68dbda784ce48.mp3",
+    "text": "can't",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "78bf9c9ff640a090": {
+    "file": "78bf9c9ff640a090.mp3",
+    "text": "I can't come today.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "4a62c1cbaf798214": {
+    "file": "4a62c1cbaf798214.mp3",
+    "text": "press",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "d7f2072537af98f6": {
+    "file": "d7f2072537af98f6.mp3",
+    "text": "Press the red button.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "3d146338982a52fc": {
+    "file": "3d146338982a52fc.mp3",
+    "text": "switch on / off",
+    "chars": 15,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "0b818c717bb01a16": {
+    "file": "0b818c717bb01a16.mp3",
+    "text": "Switch off the power.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "2cd0d29233016084": {
+    "file": "2cd0d29233016084.mp3",
+    "text": "open",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "468287657a75cc7d": {
+    "file": "468287657a75cc7d.mp3",
+    "text": "Open the case carefully.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "78dd10abbe4dbdc7": {
+    "file": "78dd10abbe4dbdc7.mp3",
+    "text": "close",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "d26dc154309572b6": {
+    "file": "d26dc154309572b6.mp3",
+    "text": "Close the window.",
+    "chars": 17,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "255f08a9f049e4c8": {
+    "file": "255f08a9f049e4c8.mp3",
+    "text": "wait",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "b3ba5d2a972d5006": {
+    "file": "b3ba5d2a972d5006.mp3",
+    "text": "Wait a moment, please.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "3d13324fb22e1c04": {
+    "file": "3d13324fb22e1c04.mp3",
+    "text": "help",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "74a01fc326d47fae": {
+    "file": "74a01fc326d47fae.mp3",
+    "text": "Can you help me?",
+    "chars": 16,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "79e03037f4f12118": {
+    "file": "79e03037f4f12118.mp3",
+    "text": "how much",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "be20f230c2b9da1f": {
+    "file": "be20f230c2b9da1f.mp3",
+    "text": "How much is it?",
+    "chars": 15,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "734eff80a4c84d63": {
+    "file": "734eff80a4c84d63.mp3",
+    "text": "how many",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "f843e15ee15e2c07": {
+    "file": "f843e15ee15e2c07.mp3",
+    "text": "How many do you need?",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "cd5533f3d9fd2183": {
+    "file": "cd5533f3d9fd2183.mp3",
+    "text": "how long",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "29752c583b926703": {
+    "file": "29752c583b926703.mp3",
+    "text": "How long does it take?",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "14598494641d1471": {
+    "file": "14598494641d1471.mp3",
+    "text": "why",
+    "chars": 3,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab",
+    "priority": 3
+  },
+  "c742ccae4bc40b4d": {
+    "file": "c742ccae4bc40b4d.mp3",
+    "text": "Why is it hot?",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/vocab-ex",
+    "priority": 3
+  },
+  "40e0d5c0e8793cc5": {
+    "file": "40e0d5c0e8793cc5.mp3",
+    "text": "I can read datasheets, but I can't write fast in English.",
+    "chars": 57,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/grammar",
+    "priority": 3
+  },
+  "c096737b99f68507": {
+    "file": "c096737b99f68507.mp3",
+    "text": "Can you help me with this?",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/grammar",
+    "priority": 3
+  },
+  "14c337d6e7895ea7": {
+    "file": "14c337d6e7895ea7.mp3",
+    "text": "Don't switch it on yet.",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/grammar",
+    "priority": 3
+  },
+  "a73e92fa449ebdaf": {
+    "file": "a73e92fa449ebdaf.mp3",
+    "text": "yesterday",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "6f1ce6787b80ef9a": {
+    "file": "6f1ce6787b80ef9a.mp3",
+    "text": "I finished it yesterday.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "18114b0cf649fc20": {
+    "file": "18114b0cf649fc20.mp3",
+    "text": "last week",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "85cbf76ff5a34270": {
+    "file": "85cbf76ff5a34270.mp3",
+    "text": "We met last week.",
+    "chars": 17,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "78dfed094f6c1574": {
+    "file": "78dfed094f6c1574.mp3",
+    "text": "ago",
+    "chars": 3,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "b889834ea6234231": {
+    "file": "b889834ea6234231.mp3",
+    "text": "Three years ago I lived in Saltillo.",
+    "chars": 36,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "3574f118a63620bd": {
+    "file": "3574f118a63620bd.mp3",
+    "text": "bought",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "d1b0d0ec7040912a": {
+    "file": "d1b0d0ec7040912a.mp3",
+    "text": "He bought a second-hand car.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "df552137f3fbc73e": {
+    "file": "df552137f3fbc73e.mp3",
+    "text": "went",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "70dfaaef60f12146": {
+    "file": "70dfaaef60f12146.mp3",
+    "text": "They went to the conference.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "ceb937c3e6de49f1": {
+    "file": "ceb937c3e6de49f1.mp3",
+    "text": "saw",
+    "chars": 3,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "8ff1ca8fcf2549dd": {
+    "file": "8ff1ca8fcf2549dd.mp3",
+    "text": "I saw her at the library.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "51a8c9b804396aed": {
+    "file": "51a8c9b804396aed.mp3",
+    "text": "took",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "3c4172f717097381": {
+    "file": "3c4172f717097381.mp3",
+    "text": "She took the bus home.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "62f9136f62b55b35": {
+    "file": "62f9136f62b55b35.mp3",
+    "text": "wrote",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "fc99f988418c721e": {
+    "file": "fc99f988418c721e.mp3",
+    "text": "I wrote the report on Friday.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "0e74ff0e45827885": {
+    "file": "0e74ff0e45827885.mp3",
+    "text": "began",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "b7e695d73f2c6611": {
+    "file": "b7e695d73f2c6611.mp3",
+    "text": "The class began at eight.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "c76bb6a84dd8ac0e": {
+    "file": "c76bb6a84dd8ac0e.mp3",
+    "text": "brought",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "e93f8e0169dcd110": {
+    "file": "e93f8e0169dcd110.mp3",
+    "text": "He brought his own tools.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "afffd40ed061f332": {
+    "file": "afffd40ed061f332.mp3",
+    "text": "spent",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "04ea13518e3c3e53": {
+    "file": "04ea13518e3c3e53.mp3",
+    "text": "We spent two hours debugging.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "27b2e64b861729e6": {
+    "file": "27b2e64b861729e6.mp3",
+    "text": "found",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab",
+    "priority": 3
+  },
+  "9503cc95cf502e9e": {
+    "file": "9503cc95cf502e9e.mp3",
+    "text": "I found the error in line ten.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/vocab-ex",
+    "priority": 3
+  },
+  "ca4c53ac91924ae0": {
+    "file": "ca4c53ac91924ae0.mp3",
+    "text": "I studied electronics at university.",
+    "chars": 36,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/grammar",
+    "priority": 3
+  },
+  "cc9fa2136859741d": {
+    "file": "cc9fa2136859741d.mp3",
+    "text": "She didn't finish the project on time.",
+    "chars": 38,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/grammar",
+    "priority": 3
+  },
+  "35aa7b58d1e65343": {
+    "file": "35aa7b58d1e65343.mp3",
+    "text": "Did they call you yesterday?",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/grammar",
+    "priority": 3
+  },
+  "3cd49375e3be2421": {
+    "file": "3cd49375e3be2421.mp3",
+    "text": "We bought a new oscilloscope last month.",
+    "chars": 40,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/grammar",
+    "priority": 3
+  },
+  "ec50724f263e5373": {
+    "file": "ec50724f263e5373.mp3",
+    "text": "while",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "3d611e09e40f902f": {
+    "file": "3d611e09e40f902f.mp3",
+    "text": "While I was driving, she called.",
+    "chars": 32,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "421f31df4b9e7a49": {
+    "file": "421f31df4b9e7a49.mp3",
+    "text": "suddenly",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "de3a4a49813aecc3": {
+    "file": "de3a4a49813aecc3.mp3",
+    "text": "Suddenly the screen went black.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "803eedc4089bb88d": {
+    "file": "803eedc4089bb88d.mp3",
+    "text": "at that moment",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "03c2811929d2d8ec": {
+    "file": "03c2811929d2d8ec.mp3",
+    "text": "At that moment I understood the problem.",
+    "chars": 40,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "217f91df6ae5bce3": {
+    "file": "217f91df6ae5bce3.mp3",
+    "text": "happen",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "735089e494e4fad4": {
+    "file": "735089e494e4fad4.mp3",
+    "text": "What happened to the prototype?",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "04325a5c54970042": {
+    "file": "04325a5c54970042.mp3",
+    "text": "notice",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "1813c128286cf21e": {
+    "file": "1813c128286cf21e.mp3",
+    "text": "I didn't notice the mistake.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "d962081c47398e4e": {
+    "file": "d962081c47398e4e.mp3",
+    "text": "wait for",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "3a4be5fa37a4c2b6": {
+    "file": "3a4be5fa37a4c2b6.mp3",
+    "text": "We were waiting for the results.",
+    "chars": 32,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "0d394d1480efbf34": {
+    "file": "0d394d1480efbf34.mp3",
+    "text": "look for",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "657ff6c544c22e82": {
+    "file": "657ff6c544c22e82.mp3",
+    "text": "I was looking for my charger.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "3b29ed9b38094480": {
+    "file": "3b29ed9b38094480.mp3",
+    "text": "break down",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "a817d0b8d99c748e": {
+    "file": "a817d0b8d99c748e.mp3",
+    "text": "The car broke down on the highway.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "f8c28f1594798bff": {
+    "file": "f8c28f1594798bff.mp3",
+    "text": "get lost",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "d609e18baf234113": {
+    "file": "d609e18baf234113.mp3",
+    "text": "We got lost on the way there.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "14fbe23c1ead7e0b": {
+    "file": "14fbe23c1ead7e0b.mp3",
+    "text": "on my way",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "1f10099283097523": {
+    "file": "1f10099283097523.mp3",
+    "text": "I was on my way to class.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "bc838d99ae260577": {
+    "file": "bc838d99ae260577.mp3",
+    "text": "miss",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "8bce1e461220e82c": {
+    "file": "8bce1e461220e82c.mp3",
+    "text": "I missed the last bus.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "375996f594a56dd8": {
+    "file": "375996f594a56dd8.mp3",
+    "text": "realise",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab",
+    "priority": 3
+  },
+  "b1aac156628dcd49": {
+    "file": "b1aac156628dcd49.mp3",
+    "text": "I realised I forgot my ID.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/vocab-ex",
+    "priority": 3
+  },
+  "8da034cb0cbf1b0e": {
+    "file": "8da034cb0cbf1b0e.mp3",
+    "text": "I was walking home when it started to rain.",
+    "chars": 43,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/grammar",
+    "priority": 3
+  },
+  "abd8f9236a7d196c": {
+    "file": "abd8f9236a7d196c.mp3",
+    "text": "While we were testing the circuit, the power failed.",
+    "chars": 52,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/grammar",
+    "priority": 3
+  },
+  "a823d156fff7fa29": {
+    "file": "a823d156fff7fa29.mp3",
+    "text": "She wasn't listening, so she missed the question.",
+    "chars": 49,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/grammar",
+    "priority": 3
+  },
+  "3ccc7180b88f45e9": {
+    "file": "3ccc7180b88f45e9.mp3",
+    "text": "plan to",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "a0b7f7158c7ced30": {
+    "file": "a0b7f7158c7ced30.mp3",
+    "text": "I plan to graduate in December.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "fced3e226a891573": {
+    "file": "fced3e226a891573.mp3",
+    "text": "be about to",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "a5623f71138a0472": {
+    "file": "a5623f71138a0472.mp3",
+    "text": "I'm about to leave.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "dffea84a2622b801": {
+    "file": "dffea84a2622b801.mp3",
+    "text": "probably",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "77a1c44eaf65255f": {
+    "file": "77a1c44eaf65255f.mp3",
+    "text": "I'll probably stay home.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "24d90fc88a929ef1": {
+    "file": "24d90fc88a929ef1.mp3",
+    "text": "in a few days",
+    "chars": 13,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "7f5f593d5640c01e": {
+    "file": "7f5f593d5640c01e.mp3",
+    "text": "The results arrive in a few days.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "0f65746d8a20c02a": {
+    "file": "0f65746d8a20c02a.mp3",
+    "text": "deadline",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "d24843512d7a5886": {
+    "file": "d24843512d7a5886.mp3",
+    "text": "The deadline is next Friday.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "d50ced302d3f239d": {
+    "file": "d50ced302d3f239d.mp3",
+    "text": "appointment",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "a3adfa89fe3b0b7c": {
+    "file": "a3adfa89fe3b0b7c.mp3",
+    "text": "I have an appointment at three.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "61ab0888d099e352": {
+    "file": "61ab0888d099e352.mp3",
+    "text": "postpone",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "32f7b570c697c54e": {
+    "file": "32f7b570c697c54e.mp3",
+    "text": "They postponed the exam.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "6544d645328aec9d": {
+    "file": "6544d645328aec9d.mp3",
+    "text": "attend",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "53687c00bcfc6b6a": {
+    "file": "53687c00bcfc6b6a.mp3",
+    "text": "I'm attending the workshop.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "7789e39e843534bf": {
+    "file": "7789e39e843534bf.mp3",
+    "text": "sign up for",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "e65d5de37960ffac": {
+    "file": "e65d5de37960ffac.mp3",
+    "text": "I signed up for the course.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "5c4dac0b4cd4ac0c": {
+    "file": "5c4dac0b4cd4ac0c.mp3",
+    "text": "look forward to",
+    "chars": 15,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "b35400210e55763d": {
+    "file": "b35400210e55763d.mp3",
+    "text": "I'm looking forward to finishing.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "84e25363b2b794de": {
+    "file": "84e25363b2b794de.mp3",
+    "text": "manage to",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "5a5538794a261878": {
+    "file": "5a5538794a261878.mp3",
+    "text": "I managed to fix it.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "cccaa4d1cf87e1d8": {
+    "file": "cccaa4d1cf87e1d8.mp3",
+    "text": "on time",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab",
+    "priority": 3
+  },
+  "c27aafc12c2a79c7": {
+    "file": "c27aafc12c2a79c7.mp3",
+    "text": "Please be on time.",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/vocab-ex",
+    "priority": 3
+  },
+  "6bc549e98c90cb2f": {
+    "file": "6bc549e98c90cb2f.mp3",
+    "text": "I'm going to apply for that scholarship.",
+    "chars": 40,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/grammar",
+    "priority": 3
+  },
+  "dc7914ca179ab1e1": {
+    "file": "dc7914ca179ab1e1.mp3",
+    "text": "That box looks heavy — I'll help you.",
+    "chars": 37,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/grammar",
+    "priority": 3
+  },
+  "7d59debe12ad40a1": {
+    "file": "7d59debe12ad40a1.mp3",
+    "text": "I'm taking the EXCI in August.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/grammar",
+    "priority": 3
+  },
+  "46b65329646baac9": {
+    "file": "46b65329646baac9.mp3",
+    "text": "It won't take long.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/grammar",
+    "priority": 3
+  },
+  "d2d011d342c9db66": {
+    "file": "d2d011d342c9db66.mp3",
+    "text": "accurate",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "3451d1e0d01c1ed1": {
+    "file": "3451d1e0d01c1ed1.mp3",
+    "text": "This meter is more accurate.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "54105f92d76ac52a": {
+    "file": "54105f92d76ac52a.mp3",
+    "text": "reliable",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "5d4e09e0f3178546": {
+    "file": "5d4e09e0f3178546.mp3",
+    "text": "The old model was more reliable.",
+    "chars": 32,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "df56ab3fcab35906": {
+    "file": "df56ab3fcab35906.mp3",
+    "text": "expensive",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "9ab7480abd07a022": {
+    "file": "9ab7480abd07a022.mp3",
+    "text": "It's the most expensive one.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "b066289f81cf4251": {
+    "file": "b066289f81cf4251.mp3",
+    "text": "lightweight",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "5a6739651f32d71a": {
+    "file": "5a6739651f32d71a.mp3",
+    "text": "A lightweight frame is better here.",
+    "chars": 35,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "77cd47a47264e103": {
+    "file": "77cd47a47264e103.mp3",
+    "text": "efficient",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "b1422e7355f31eb9": {
+    "file": "b1422e7355f31eb9.mp3",
+    "text": "This motor is more efficient.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "3fdce44f082e9ef8": {
+    "file": "3fdce44f082e9ef8.mp3",
+    "text": "similar to",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "e04f92a3d428f638": {
+    "file": "e04f92a3d428f638.mp3",
+    "text": "It's similar to the previous version.",
+    "chars": 37,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "60bb338108134337": {
+    "file": "60bb338108134337.mp3",
+    "text": "different from",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "733188b362483063": {
+    "file": "733188b362483063.mp3",
+    "text": "It's different from what I expected.",
+    "chars": 36,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "c3c663399582c345": {
+    "file": "c3c663399582c345.mp3",
+    "text": "as ... as",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "637bf5a2a5f64aef": {
+    "file": "637bf5a2a5f64aef.mp3",
+    "text": "It isn't as loud as the old fan.",
+    "chars": 32,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "77814b09349414b2": {
+    "file": "77814b09349414b2.mp3",
+    "text": "by far",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "d106ba662520b5c6": {
+    "file": "d106ba662520b5c6.mp3",
+    "text": "It's by far the best option.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "e1fc1088c10d24f5": {
+    "file": "e1fc1088c10d24f5.mp3",
+    "text": "slightly",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "e59c1f4c3ec93550": {
+    "file": "e59c1f4c3ec93550.mp3",
+    "text": "Slightly bigger than the other.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "2222abc98c44323d": {
+    "file": "2222abc98c44323d.mp3",
+    "text": "twice as",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "c49e5dfac7b097f1": {
+    "file": "c49e5dfac7b097f1.mp3",
+    "text": "Twice as fast as before.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "034c41d4914897f8": {
+    "file": "034c41d4914897f8.mp3",
+    "text": "worth it",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab",
+    "priority": 3
+  },
+  "2a511b79c89dacd3": {
+    "file": "2a511b79c89dacd3.mp3",
+    "text": "It's expensive, but it's worth it.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/vocab-ex",
+    "priority": 3
+  },
+  "91c1e84eaeb5357c": {
+    "file": "91c1e84eaeb5357c.mp3",
+    "text": "This sensor is more accurate than the old one.",
+    "chars": 46,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/grammar",
+    "priority": 3
+  },
+  "3d69cd5470db6a5a": {
+    "file": "3d69cd5470db6a5a.mp3",
+    "text": "It's the cheapest option in the catalogue.",
+    "chars": 42,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/grammar",
+    "priority": 3
+  },
+  "670c332286f17e6c": {
+    "file": "670c332286f17e6c.mp3",
+    "text": "My results were worse than I expected.",
+    "chars": 38,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/grammar",
+    "priority": 3
+  },
+  "bff1cc966c1d7c3a": {
+    "file": "bff1cc966c1d7c3a.mp3",
+    "text": "This method isn't as fast as the other one.",
+    "chars": 43,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/grammar",
+    "priority": 3
+  },
+  "2ec29cdc525bf829": {
+    "file": "2ec29cdc525bf829.mp3",
+    "text": "advice",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "2e877e7e121b72bd": {
+    "file": "2e877e7e121b72bd.mp3",
+    "text": "She gave me some good advice.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "ede36073da4b8494": {
+    "file": "ede36073da4b8494.mp3",
+    "text": "information",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "72136c3e60231d4d": {
+    "file": "72136c3e60231d4d.mp3",
+    "text": "I need more information.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "7afd4318c2b9950d": {
+    "file": "7afd4318c2b9950d.mp3",
+    "text": "equipment",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "7f25eeb1163d747d": {
+    "file": "7f25eeb1163d747d.mp3",
+    "text": "The lab has new equipment.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "8f63f80ead4d8da3": {
+    "file": "8f63f80ead4d8da3.mp3",
+    "text": "furniture",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "3dbc119b3def0480": {
+    "file": "3dbc119b3def0480.mp3",
+    "text": "We bought some furniture.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "0d85e563cbae5823": {
+    "file": "0d85e563cbae5823.mp3",
+    "text": "luggage",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "1ad83b18118ec44d": {
+    "file": "1ad83b18118ec44d.mp3",
+    "text": "How much luggage do you have?",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "51a5a689d76a8b2a": {
+    "file": "51a5a689d76a8b2a.mp3",
+    "text": "research",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "bb91e07a0a6cb060": {
+    "file": "bb91e07a0a6cb060.mp3",
+    "text": "He did a lot of research.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "5b0c85cfb8bf1cc1": {
+    "file": "5b0c85cfb8bf1cc1.mp3",
+    "text": "a piece of",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "a66470f29e4c8959": {
+    "file": "a66470f29e4c8959.mp3",
+    "text": "A piece of advice.",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "3bdfa56c9c032a10": {
+    "file": "3bdfa56c9c032a10.mp3",
+    "text": "enough",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "b588427e028e5cc1": {
+    "file": "b588427e028e5cc1.mp3",
+    "text": "We don't have enough time.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "f97db18d8d2f0f7d": {
+    "file": "f97db18d8d2f0f7d.mp3",
+    "text": "plenty of",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "85e15556307ad0bc": {
+    "file": "85e15556307ad0bc.mp3",
+    "text": "There's plenty of space.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "2014e390e36aeeb2": {
+    "file": "2014e390e36aeeb2.mp3",
+    "text": "hardly any",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "b01570f9320f4f5c": {
+    "file": "b01570f9320f4f5c.mp3",
+    "text": "There's hardly any milk left.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "0dad0f0067cebc3c": {
+    "file": "0dad0f0067cebc3c.mp3",
+    "text": "several",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "934de015e91d340a": {
+    "file": "934de015e91d340a.mp3",
+    "text": "Several people complained.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "f314624d327cc0e7": {
+    "file": "f314624d327cc0e7.mp3",
+    "text": "a couple of",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab",
+    "priority": 3
+  },
+  "c5c8e4769d0dd489": {
+    "file": "c5c8e4769d0dd489.mp3",
+    "text": "A couple of questions.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/vocab-ex",
+    "priority": 3
+  },
+  "10925370e155a439": {
+    "file": "10925370e155a439.mp3",
+    "text": "I need some information about the course.",
+    "chars": 41,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/grammar",
+    "priority": 3
+  },
+  "7fea949487828962": {
+    "file": "7fea949487828962.mp3",
+    "text": "There isn't much time left.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/grammar",
+    "priority": 3
+  },
+  "a33179f533195423": {
+    "file": "a33179f533195423.mp3",
+    "text": "How many components did you order?",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/grammar",
+    "priority": 3
+  },
+  "1405e5a591361a9b": {
+    "file": "1405e5a591361a9b.mp3",
+    "text": "He gave me a few good ideas.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/grammar",
+    "priority": 3
+  },
+  "1f0c0f1576f3a2e2": {
+    "file": "1f0c0f1576f3a2e2.mp3",
+    "text": "ever",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "f2e0ec2a6805b535": {
+    "file": "f2e0ec2a6805b535.mp3",
+    "text": "Have you ever been abroad?",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "88eb601dcab2b3e7": {
+    "file": "88eb601dcab2b3e7.mp3",
+    "text": "I've never seen that error.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "faa183c592a022a3": {
+    "file": "faa183c592a022a3.mp3",
+    "text": "already",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "904c379888acbbdf": {
+    "file": "904c379888acbbdf.mp3",
+    "text": "I've already sent it.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "7ff91cea19dd6b5d": {
+    "file": "7ff91cea19dd6b5d.mp3",
+    "text": "yet",
+    "chars": 3,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "4877f7399fffcddd": {
+    "file": "4877f7399fffcddd.mp3",
+    "text": "Have you finished yet?",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "ce7a04f62235c525": {
+    "file": "ce7a04f62235c525.mp3",
+    "text": "just",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "d84bb86a71100b58": {
+    "file": "d84bb86a71100b58.mp3",
+    "text": "I've just arrived.",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "97b30cb4829c55b4": {
+    "file": "97b30cb4829c55b4.mp3",
+    "text": "abroad",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "76c0eaa5814f9bf0": {
+    "file": "76c0eaa5814f9bf0.mp3",
+    "text": "She has worked abroad.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "46cac73b21b86624": {
+    "file": "46cac73b21b86624.mp3",
+    "text": "so far",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "e4754d353acc1267": {
+    "file": "e4754d353acc1267.mp3",
+    "text": "So far, everything works.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "35fefa5da44df835": {
+    "file": "35fefa5da44df835.mp3",
+    "text": "recently",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "3ac163934cf7cb18": {
+    "file": "3ac163934cf7cb18.mp3",
+    "text": "I've recently changed jobs.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "76ba33d734488cad": {
+    "file": "76ba33d734488cad.mp3",
+    "text": "achieve",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "5deee67428087e11": {
+    "file": "5deee67428087e11.mp3",
+    "text": "We've achieved the target.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "fdf1da13fa5694d9": {
+    "file": "fdf1da13fa5694d9.mp3",
+    "text": "improve",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "eabb3018657e4af0": {
+    "file": "eabb3018657e4af0.mp3",
+    "text": "My English has improved.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "4709eaa69778a3bc": {
+    "file": "4709eaa69778a3bc.mp3",
+    "text": "apply for",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "454efb26d6dd24ad": {
+    "file": "454efb26d6dd24ad.mp3",
+    "text": "I've applied for three jobs.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "d95812dac7d98b41": {
+    "file": "d95812dac7d98b41.mp3",
+    "text": "give up",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab",
+    "priority": 3
+  },
+  "5adbefc62452fecd": {
+    "file": "5adbefc62452fecd.mp3",
+    "text": "I've never given up.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/vocab-ex",
+    "priority": 3
+  },
+  "610dd316bae67016": {
+    "file": "610dd316bae67016.mp3",
+    "text": "Have you ever worked with an FPGA?",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/grammar",
+    "priority": 3
+  },
+  "5f1b7ad4ea7c3a08": {
+    "file": "5f1b7ad4ea7c3a08.mp3",
+    "text": "I've just sent the email.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/grammar",
+    "priority": 3
+  },
+  "773e7523e2967163": {
+    "file": "773e7523e2967163.mp3",
+    "text": "They haven't published the results yet.",
+    "chars": 39,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/grammar",
+    "priority": 3
+  },
+  "ec47c34df42e2f25": {
+    "file": "ec47c34df42e2f25.mp3",
+    "text": "She has already finished her thesis.",
+    "chars": 36,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/grammar",
+    "priority": 3
+  },
+  "b457a4ec1729fbe7": {
+    "file": "b457a4ec1729fbe7.mp3",
+    "text": "be able to",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "2e8e2351d7c3f78a": {
+    "file": "2e8e2351d7c3f78a.mp3",
+    "text": "I'll be able to help tomorrow.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "f1236d07984e340c": {
+    "file": "f1236d07984e340c.mp3",
+    "text": "allowed to",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "2a355419c5119c9e": {
+    "file": "2a355419c5119c9e.mp3",
+    "text": "You're not allowed to eat here.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "45d4488776a6b4cf": {
+    "file": "45d4488776a6b4cf.mp3",
+    "text": "forbidden",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "b16117944efb5ebf": {
+    "file": "b16117944efb5ebf.mp3",
+    "text": "Smoking is forbidden.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "16a8eb0ace9522b9": {
+    "file": "16a8eb0ace9522b9.mp3",
+    "text": "required",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "410efa6b613a2c40": {
+    "file": "410efa6b613a2c40.mp3",
+    "text": "Safety glasses are required.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "e06aec6e29176ee6": {
+    "file": "e06aec6e29176ee6.mp3",
+    "text": "in charge of",
+    "chars": 12,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "cfa97f206288ca45": {
+    "file": "cfa97f206288ca45.mp3",
+    "text": "She's in charge of testing.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "00e84a705e94d7ff": {
+    "file": "00e84a705e94d7ff.mp3",
+    "text": "We must meet the deadline.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "419d967573d1ed07": {
+    "file": "419d967573d1ed07.mp3",
+    "text": "rule",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "b3e11b382740e752": {
+    "file": "b3e11b382740e752.mp3",
+    "text": "It's a safety rule.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "e39b7dd3271af62b": {
+    "file": "e39b7dd3271af62b.mp3",
+    "text": "warn",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "e8dcc27f419f57df": {
+    "file": "e8dcc27f419f57df.mp3",
+    "text": "They warned us about the voltage.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "06d9564e43661b05": {
+    "file": "06d9564e43661b05.mp3",
+    "text": "avoid",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "dee829739b4ae9f4": {
+    "file": "dee829739b4ae9f4.mp3",
+    "text": "You should avoid that mistake.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "4bcd2e897ae8f774": {
+    "file": "4bcd2e897ae8f774.mp3",
+    "text": "make sure",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "228c3cf6422ae078": {
+    "file": "228c3cf6422ae078.mp3",
+    "text": "Make sure the power is off.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "9f92e5b17c7b0b06": {
+    "file": "9f92e5b17c7b0b06.mp3",
+    "text": "on purpose",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "91e245cec49471ea": {
+    "file": "91e245cec49471ea.mp3",
+    "text": "He didn't do it on purpose.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "5e7d764550edf9de": {
+    "file": "5e7d764550edf9de.mp3",
+    "text": "otherwise",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab",
+    "priority": 3
+  },
+  "aecf9009a54ed834": {
+    "file": "aecf9009a54ed834.mp3",
+    "text": "Save it, otherwise you'll lose it.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/vocab-ex",
+    "priority": 3
+  },
+  "a96d7fc3758690bf": {
+    "file": "a96d7fc3758690bf.mp3",
+    "text": "You should check the voltage first.",
+    "chars": 35,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/grammar",
+    "priority": 3
+  },
+  "d89b67767b67d83e": {
+    "file": "d89b67767b67d83e.mp3",
+    "text": "I have to submit it before Friday.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/grammar",
+    "priority": 3
+  },
+  "32289b671f289166": {
+    "file": "32289b671f289166.mp3",
+    "text": "You mustn't open the case while it's powered.",
+    "chars": 45,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/grammar",
+    "priority": 3
+  },
+  "436aea8e246b26cf": {
+    "file": "436aea8e246b26cf.mp3",
+    "text": "You don't have to bring your own laptop.",
+    "chars": 40,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/grammar",
+    "priority": 3
+  },
+  "93c2951823919242": {
+    "file": "93c2951823919242.mp3",
+    "text": "So far we've tested three units.",
+    "chars": 32,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "197e790feb616579": {
+    "file": "197e790feb616579.mp3",
+    "text": "lately",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "617f2a7bc6941dae": {
+    "file": "617f2a7bc6941dae.mp3",
+    "text": "I haven't slept well lately.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "32124d75f01d1f07": {
+    "file": "32124d75f01d1f07.mp3",
+    "text": "for ages",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "fe432a8c8cd76e79": {
+    "file": "fe432a8c8cd76e79.mp3",
+    "text": "I haven't seen him for ages.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "8e6b6d038a01cd08": {
+    "file": "8e6b6d038a01cd08.mp3",
+    "text": "ever since",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "d67afc15b02b0275": {
+    "file": "d67afc15b02b0275.mp3",
+    "text": "Ever since then, it's worked fine.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "2a088987c67ca83d": {
+    "file": "2a088987c67ca83d.mp3",
+    "text": "graduate",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "5125659b4339db08": {
+    "file": "5125659b4339db08.mp3",
+    "text": "I graduate in December.",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "c71382f8a887050c": {
+    "file": "c71382f8a887050c.mp3",
+    "text": "achievement",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "d84b958f942e22d5": {
+    "file": "d84b958f942e22d5.mp3",
+    "text": "It was a real achievement.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "ac001d55b39e79d1": {
+    "file": "ac001d55b39e79d1.mp3",
+    "text": "experience",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "5bb5e4d6379fe4e5": {
+    "file": "5bb5e4d6379fe4e5.mp3",
+    "text": "She has a lot of experience.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "2d4ffbf0148a7e7e": {
+    "file": "2d4ffbf0148a7e7e.mp3",
+    "text": "progress",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "0b3cbc74f09a4f86": {
+    "file": "0b3cbc74f09a4f86.mp3",
+    "text": "We've made good progress.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "a6d1381295ad66ce": {
+    "file": "a6d1381295ad66ce.mp3",
+    "text": "so far so good",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "146f1e21959f0caa": {
+    "file": "146f1e21959f0caa.mp3",
+    "text": "So far so good with the tests.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "a3ca83cc72a04960": {
+    "file": "a3ca83cc72a04960.mp3",
+    "text": "take part in",
+    "chars": 12,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "d28066b2336e2fb1": {
+    "file": "d28066b2336e2fb1.mp3",
+    "text": "I've taken part in two contests.",
+    "chars": 32,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "9795166121b8bab8": {
+    "file": "9795166121b8bab8.mp3",
+    "text": "come across",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "dc7bd4124af3b285": {
+    "file": "dc7bd4124af3b285.mp3",
+    "text": "I've come across this bug before.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "f2c402d56c4c5b1e": {
+    "file": "f2c402d56c4c5b1e.mp3",
+    "text": "get used to",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab",
+    "priority": 3
+  },
+  "15fa656841767228": {
+    "file": "15fa656841767228.mp3",
+    "text": "I've got used to the schedule.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/vocab-ex",
+    "priority": 3
+  },
+  "9c9ce3626485d1b2": {
+    "file": "9c9ce3626485d1b2.mp3",
+    "text": "I've worked on this project since January.",
+    "chars": 42,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/grammar",
+    "priority": 3
+  },
+  "9918dbc35bb78de0": {
+    "file": "9918dbc35bb78de0.mp3",
+    "text": "I worked on that project last year.",
+    "chars": 35,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/grammar",
+    "priority": 3
+  },
+  "18b3d4d73673db56": {
+    "file": "18b3d4d73673db56.mp3",
+    "text": "She's been my tutor for two semesters.",
+    "chars": 38,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/grammar",
+    "priority": 3
+  },
+  "59e4d5475df46c23": {
+    "file": "59e4d5475df46c23.mp3",
+    "text": "Have you ever failed a subject?",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/grammar",
+    "priority": 3
+  },
+  "e9e70041af703984": {
+    "file": "e9e70041af703984.mp3",
+    "text": "unless",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab",
+    "priority": 3
+  },
+  "05f1de5d40408a86": {
+    "file": "05f1de5d40408a86.mp3",
+    "text": "Unless it rains, we'll go.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "c5054d78ae6531a5": {
+    "file": "c5054d78ae6531a5.mp3",
+    "text": "as long as",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab",
+    "priority": 3
+  },
+  "df3914446449353e": {
+    "file": "df3914446449353e.mp3",
+    "text": "As long as you're careful.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "60612072e6e9e354": {
+    "file": "60612072e6e9e354.mp3",
+    "text": "in case",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab",
+    "priority": 3
+  },
+  "b607c1551e2fdc4e": {
+    "file": "b607c1551e2fdc4e.mp3",
+    "text": "Take a coat in case it's cold.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "52121401468312e2": {
+    "file": "52121401468312e2.mp3",
+    "text": "Hurry, otherwise we'll be late.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "0cdb5f19cc28f529": {
+    "file": "0cdb5f19cc28f529.mp3",
+    "text": "provided that",
+    "chars": 13,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab",
+    "priority": 3
+  },
+  "233c7fc8ff6287f3": {
+    "file": "233c7fc8ff6287f3.mp3",
+    "text": "Provided that it's tested.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "fa0340d34e394a22": {
+    "file": "fa0340d34e394a22.mp3",
+    "text": "would rather",
+    "chars": 12,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab",
+    "priority": 3
+  },
+  "51a787180cd8ec15": {
+    "file": "51a787180cd8ec15.mp3",
+    "text": "I'd rather stay home.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "a410de55d1b3bd95": {
+    "file": "a410de55d1b3bd95.mp3",
+    "text": "consequence",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab",
+    "priority": 3
+  },
+  "5cddd45ba93ec097": {
+    "file": "5cddd45ba93ec097.mp3",
+    "text": "The consequence was serious.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "f14d1ef28e2423c1": {
+    "file": "f14d1ef28e2423c1.mp3",
+    "text": "risk",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab",
+    "priority": 3
+  },
+  "3b68d2f09f877a6e": {
+    "file": "3b68d2f09f877a6e.mp3",
+    "text": "There's a risk of overheating.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "908f64344792e33b": {
+    "file": "908f64344792e33b.mp3",
+    "text": "This avoids the problem.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "cf712a815d13be48": {
+    "file": "cf712a815d13be48.mp3",
+    "text": "assume",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab",
+    "priority": 3
+  },
+  "8ab035c3029849d7": {
+    "file": "8ab035c3029849d7.mp3",
+    "text": "Don't assume it works.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "e83b56f83db626d5": {
+    "file": "e83b56f83db626d5.mp3",
+    "text": "turn out",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab",
+    "priority": 3
+  },
+  "7e4f2da6bb50d0a9": {
+    "file": "7e4f2da6bb50d0a9.mp3",
+    "text": "It turned out to be simple.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "e4b1d000eeb6c5de": {
+    "file": "e4b1d000eeb6c5de.mp3",
+    "text": "worth",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab",
+    "priority": 3
+  },
+  "d5c974b4d6235828": {
+    "file": "d5c974b4d6235828.mp3",
+    "text": "It's worth trying.",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/vocab-ex",
+    "priority": 3
+  },
+  "2393eb72bcfda39b": {
+    "file": "2393eb72bcfda39b.mp3",
+    "text": "If you press this button, the motor stops.",
+    "chars": 42,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/grammar",
+    "priority": 3
+  },
+  "491ac08a6e92bef0": {
+    "file": "491ac08a6e92bef0.mp3",
+    "text": "If we finish early, we'll go home.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/grammar",
+    "priority": 3
+  },
+  "3fd0d25107ac9659": {
+    "file": "3fd0d25107ac9659.mp3",
+    "text": "If I were the manager, I would change the process.",
+    "chars": 50,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/grammar",
+    "priority": 3
+  },
+  "197ad77e82e47708": {
+    "file": "197ad77e82e47708.mp3",
+    "text": "I wouldn't do that if I were you.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/grammar",
+    "priority": 3
+  },
+  "f0313876074cf2b5": {
+    "file": "f0313876074cf2b5.mp3",
+    "text": "be carried out",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "f6496e4dcfce8bf9": {
+    "file": "f6496e4dcfce8bf9.mp3",
+    "text": "Tests were carried out weekly.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "c47bde9c7ecbd912": {
+    "file": "c47bde9c7ecbd912.mp3",
+    "text": "be replaced",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "59b3f9bcf12e7175": {
+    "file": "59b3f9bcf12e7175.mp3",
+    "text": "The filter must be replaced.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "3b7d87c7df94564c": {
+    "file": "3b7d87c7df94564c.mp3",
+    "text": "be designed",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "6363b5f36704a56b": {
+    "file": "6363b5f36704a56b.mp3",
+    "text": "It was designed in-house.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "e38857c9ed868ff3": {
+    "file": "e38857c9ed868ff3.mp3",
+    "text": "be supplied",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "70786c04b2373c66": {
+    "file": "70786c04b2373c66.mp3",
+    "text": "Parts are supplied by a vendor.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "25bfb37450349361": {
+    "file": "25bfb37450349361.mp3",
+    "text": "manufacture",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "9d594a1ed49887c5": {
+    "file": "9d594a1ed49887c5.mp3",
+    "text": "It's manufactured in Asia.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "4f7b0efb467e2f0f": {
+    "file": "4f7b0efb467e2f0f.mp3",
+    "text": "assemble",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "fea57bd4fbaacc4b": {
+    "file": "fea57bd4fbaacc4b.mp3",
+    "text": "The unit is assembled locally.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "b1c0c136f59ad63b": {
+    "file": "b1c0c136f59ad63b.mp3",
+    "text": "install",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "54944cb6b67ba11b": {
+    "file": "54944cb6b67ba11b.mp3",
+    "text": "The software was installed.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "b122fafa379c01a0": {
+    "file": "b122fafa379c01a0.mp3",
+    "text": "maintain",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "773fcc41ab5d0720": {
+    "file": "773fcc41ab5d0720.mp3",
+    "text": "Equipment is maintained monthly.",
+    "chars": 32,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "a223432851b0ef3a": {
+    "file": "a223432851b0ef3a.mp3",
+    "text": "damage",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "4465c47f44bda743": {
+    "file": "4465c47f44bda743.mp3",
+    "text": "The board was damaged.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "41d33ac783ec9108": {
+    "file": "41d33ac783ec9108.mp3",
+    "text": "measurement",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "2ed7fdced6b549cb": {
+    "file": "2ed7fdced6b549cb.mp3",
+    "text": "Measurements were taken twice.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "087d9a64c13d830c": {
+    "file": "087d9a64c13d830c.mp3",
+    "text": "approve",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "5187ba63adc03fee": {
+    "file": "5187ba63adc03fee.mp3",
+    "text": "The budget was approved.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "6622204dfd63f343": {
+    "file": "6622204dfd63f343.mp3",
+    "text": "reject",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab",
+    "priority": 3
+  },
+  "2a030b0bbbb9187d": {
+    "file": "2a030b0bbbb9187d.mp3",
+    "text": "Two units were rejected.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/vocab-ex",
+    "priority": 3
+  },
+  "cb2fc42033ca44df": {
+    "file": "cb2fc42033ca44df.mp3",
+    "text": "The results are published every quarter.",
+    "chars": 40,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/grammar",
+    "priority": 3
+  },
+  "e605f70ca5a51ae9": {
+    "file": "e605f70ca5a51ae9.mp3",
+    "text": "The prototype was damaged during transport.",
+    "chars": 43,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/grammar",
+    "priority": 3
+  },
+  "ed1a7aaa38d4494c": {
+    "file": "ed1a7aaa38d4494c.mp3",
+    "text": "The report has been sent to the client.",
+    "chars": 39,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/grammar",
+    "priority": 3
+  },
+  "cb401e25b3de069f": {
+    "file": "cb401e25b3de069f.mp3",
+    "text": "This valve must be replaced every two years.",
+    "chars": 44,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/grammar",
+    "priority": 3
+  },
+  "65129dfdefacf6e7": {
+    "file": "65129dfdefacf6e7.mp3",
+    "text": "whose",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "91017b591c934d16": {
+    "file": "91017b591c934d16.mp3",
+    "text": "The student whose laptop broke.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "38ffb8863793f14e": {
+    "file": "38ffb8863793f14e.mp3",
+    "text": "colleague",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "ae52685580a93051": {
+    "file": "ae52685580a93051.mp3",
+    "text": "A colleague who helped me.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "35920f79151db37c": {
+    "file": "35920f79151db37c.mp3",
+    "text": "supplier",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "b800dd727359ce1f": {
+    "file": "b800dd727359ce1f.mp3",
+    "text": "The supplier that delivered late.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "07d4ee9188ebcb06": {
+    "file": "07d4ee9188ebcb06.mp3",
+    "text": "device",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "40fb9d5208765a43": {
+    "file": "40fb9d5208765a43.mp3",
+    "text": "A device which measures current.",
+    "chars": 32,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "644d962a82c86cb0": {
+    "file": "644d962a82c86cb0.mp3",
+    "text": "feature",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "de79cf8b590f3009": {
+    "file": "de79cf8b590f3009.mp3",
+    "text": "The feature that nobody uses.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "80105f34cd5620f1": {
+    "file": "80105f34cd5620f1.mp3",
+    "text": "issue",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "8c620c7264af0c69": {
+    "file": "8c620c7264af0c69.mp3",
+    "text": "The issue which delayed us.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "96559b3226944518": {
+    "file": "96559b3226944518.mp3",
+    "text": "purpose",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "87d7ddad51f53c21": {
+    "file": "87d7ddad51f53c21.mp3",
+    "text": "The purpose for which it was built.",
+    "chars": 35,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "74fa8f0e747dca86": {
+    "file": "74fa8f0e747dca86.mp3",
+    "text": "in charge",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "f20ecb55264f977d": {
+    "file": "f20ecb55264f977d.mp3",
+    "text": "The person in charge.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "b589dc018b181ae1": {
+    "file": "b589dc018b181ae1.mp3",
+    "text": "A supplier who is reliable.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "1c02ea96be61ff72": {
+    "file": "1c02ea96be61ff72.mp3",
+    "text": "replace",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "b27cdddc2e7fb225": {
+    "file": "b27cdddc2e7fb225.mp3",
+    "text": "The part which we replaced.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "a47eced1b4f12df7": {
+    "file": "a47eced1b4f12df7.mp3",
+    "text": "belong to",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "69664e03c51d0d05": {
+    "file": "69664e03c51d0d05.mp3",
+    "text": "The tools that belong to the lab.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "84ad5afa7da4c3ff": {
+    "file": "84ad5afa7da4c3ff.mp3",
+    "text": "in which",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab",
+    "priority": 3
+  },
+  "663c21102519acbc": {
+    "file": "663c21102519acbc.mp3",
+    "text": "The way in which it works.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/vocab-ex",
+    "priority": 3
+  },
+  "23ca0638525fe6dc": {
+    "file": "23ca0638525fe6dc.mp3",
+    "text": "The technician who fixed it is on holiday.",
+    "chars": 42,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/grammar",
+    "priority": 3
+  },
+  "1973cc0694b93321": {
+    "file": "1973cc0694b93321.mp3",
+    "text": "This is the sensor which failed last week.",
+    "chars": 42,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/grammar",
+    "priority": 3
+  },
+  "4ac83625fa210ffc": {
+    "file": "4ac83625fa210ffc.mp3",
+    "text": "She's the colleague whose thesis won the prize.",
+    "chars": 47,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/grammar",
+    "priority": 3
+  },
+  "bcf016a0d9712ecf": {
+    "file": "bcf016a0d9712ecf.mp3",
+    "text": "That's the building where I did my internship.",
+    "chars": 46,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/grammar",
+    "priority": 3
+  },
+  "1d140e91c9b8bee3": {
+    "file": "1d140e91c9b8bee3.mp3",
+    "text": "mention",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "9588574b7d29999a": {
+    "file": "9588574b7d29999a.mp3",
+    "text": "He mentioned the delay.",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "724355427abab85e": {
+    "file": "724355427abab85e.mp3",
+    "text": "admit",
+    "chars": 5,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "9b5e043d90767ac1": {
+    "file": "9b5e043d90767ac1.mp3",
+    "text": "She admitted making a mistake.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "3cf9d7457a61664e": {
+    "file": "3cf9d7457a61664e.mp3",
+    "text": "deny",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "e9bfb1305e6ed16c": {
+    "file": "e9bfb1305e6ed16c.mp3",
+    "text": "He denied sending it.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "26a655319d1a45f8": {
+    "file": "26a655319d1a45f8.mp3",
+    "text": "explain",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "fc13c72baba7b92e": {
+    "file": "fc13c72baba7b92e.mp3",
+    "text": "She explained the procedure.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "3133847def18c02a": {
+    "file": "3133847def18c02a.mp3",
+    "text": "They warned us about it.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "0eb43f82b97d848b": {
+    "file": "0eb43f82b97d848b.mp3",
+    "text": "suggest",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "bbb9dcfffbadfaf8": {
+    "file": "bbb9dcfffbadfaf8.mp3",
+    "text": "He suggested waiting.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "df8bbe74e4c4b312": {
+    "file": "df8bbe74e4c4b312.mp3",
+    "text": "promise",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "c00ad206c0f9e6d5": {
+    "file": "c00ad206c0f9e6d5.mp3",
+    "text": "She promised to call.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "94271c6b66421f79": {
+    "file": "94271c6b66421f79.mp3",
+    "text": "refuse",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "555cb27a80f506bd": {
+    "file": "555cb27a80f506bd.mp3",
+    "text": "He refused to sign.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "7dbdaa71b822f364": {
+    "file": "7dbdaa71b822f364.mp3",
+    "text": "complain",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "1f202178a36b6c52": {
+    "file": "1f202178a36b6c52.mp3",
+    "text": "They complained about noise.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "8e2044a522508ee1": {
+    "file": "8e2044a522508ee1.mp3",
+    "text": "point out",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "a2e5f07a13bff887": {
+    "file": "a2e5f07a13bff887.mp3",
+    "text": "She pointed out the error.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "040413ffad0cd2b7": {
+    "file": "040413ffad0cd2b7.mp3",
+    "text": "whether",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "8448ebd637f5d08d": {
+    "file": "8448ebd637f5d08d.mp3",
+    "text": "I asked whether it worked.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "b6f94f43533a55d1": {
+    "file": "b6f94f43533a55d1.mp3",
+    "text": "according to",
+    "chars": 12,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab",
+    "priority": 3
+  },
+  "a90c4a0373f19edf": {
+    "file": "a90c4a0373f19edf.mp3",
+    "text": "According to the manual...",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/vocab-ex",
+    "priority": 3
+  },
+  "e33d279388fd1dfc": {
+    "file": "e33d279388fd1dfc.mp3",
+    "text": "She said she was working on the report.",
+    "chars": 39,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/grammar",
+    "priority": 3
+  },
+  "5e751796d07626e2": {
+    "file": "5e751796d07626e2.mp3",
+    "text": "He told me he had already sent it.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/grammar",
+    "priority": 3
+  },
+  "153c12a14bdafbe6": {
+    "file": "153c12a14bdafbe6.mp3",
+    "text": "They asked whether the test had failed.",
+    "chars": 39,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/grammar",
+    "priority": 3
+  },
+  "8b7401f94d5ce8d4": {
+    "file": "8b7401f94d5ce8d4.mp3",
+    "text": "The manager asked me to check the readings.",
+    "chars": 43,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/grammar",
+    "priority": 3
+  },
+  "baa832047e380968": {
+    "file": "baa832047e380968.mp3",
+    "text": "Avoid using cheap cables.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab-ex",
+    "priority": 3
+  },
+  "7980dc32f1d4cc9c": {
+    "file": "7980dc32f1d4cc9c.mp3",
+    "text": "I suggest checking it first.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab-ex",
+    "priority": 3
+  },
+  "53bc675fabc1682b": {
+    "file": "53bc675fabc1682b.mp3",
+    "text": "We managed to fix it.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab-ex",
+    "priority": 3
+  },
+  "1b9f9a3ec7d06080": {
+    "file": "1b9f9a3ec7d06080.mp3",
+    "text": "consider",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab",
+    "priority": 3
+  },
+  "400d76972b555b64": {
+    "file": "400d76972b555b64.mp3",
+    "text": "We considered changing supplier.",
+    "chars": 32,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab-ex",
+    "priority": 3
+  },
+  "4f3ce518e2725eaa": {
+    "file": "4f3ce518e2725eaa.mp3",
+    "text": "be worth",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab",
+    "priority": 3
+  },
+  "cc4c2851ab4f004a": {
+    "file": "cc4c2851ab4f004a.mp3",
+    "text": "keep",
+    "chars": 4,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab",
+    "priority": 3
+  },
+  "d82942ab4571f285": {
+    "file": "d82942ab4571f285.mp3",
+    "text": "It keeps failing.",
+    "chars": 17,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab-ex",
+    "priority": 3
+  },
+  "e4bcda7476c9be5c": {
+    "file": "e4bcda7476c9be5c.mp3",
+    "text": "refuse to",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab",
+    "priority": 3
+  },
+  "30831e54448b1e64": {
+    "file": "30831e54448b1e64.mp3",
+    "text": "be good at",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab",
+    "priority": 3
+  },
+  "707cc3cdd4461d89": {
+    "file": "707cc3cdd4461d89.mp3",
+    "text": "She's good at debugging.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab-ex",
+    "priority": 3
+  },
+  "a98fae9ce02e7ae9": {
+    "file": "a98fae9ce02e7ae9.mp3",
+    "text": "instead of",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab",
+    "priority": 3
+  },
+  "6a38d39d1fb58eb3": {
+    "file": "6a38d39d1fb58eb3.mp3",
+    "text": "Instead of guessing, measure.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab-ex",
+    "priority": 3
+  },
+  "7dbc09f7f55e86e4": {
+    "file": "7dbc09f7f55e86e4.mp3",
+    "text": "Don't give up trying.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab-ex",
+    "priority": 3
+  },
+  "89b674b3be6da7bc": {
+    "file": "89b674b3be6da7bc.mp3",
+    "text": "afford to",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab",
+    "priority": 3
+  },
+  "5a0644f0a6549c73": {
+    "file": "5a0644f0a6549c73.mp3",
+    "text": "We can't afford to fail.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab-ex",
+    "priority": 3
+  },
+  "a4efe814fcf49f1e": {
+    "file": "a4efe814fcf49f1e.mp3",
+    "text": "I look forward to hearing from you.",
+    "chars": 35,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/vocab-ex",
+    "priority": 3
+  },
+  "26671317428f076c": {
+    "file": "26671317428f076c.mp3",
+    "text": "I'm interested in learning more about control systems.",
+    "chars": 54,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/grammar",
+    "priority": 3
+  },
+  "b39bb864a136f5ad": {
+    "file": "b39bb864a136f5ad.mp3",
+    "text": "She decided to change the approach.",
+    "chars": 35,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/grammar",
+    "priority": 3
+  },
+  "19d3b324a6582b41": {
+    "file": "19d3b324a6582b41.mp3",
+    "text": "Remember to save your work.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/grammar",
+    "priority": 3
+  },
+  "b7bbb1ed602ffecc": {
+    "file": "b7bbb1ed602ffecc.mp3",
+    "text": "I remember saving it, but the file is gone.",
+    "chars": 43,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/grammar",
+    "priority": 3
+  },
+  "d3b5fb95fc30bc06": {
+    "file": "d3b5fb95fc30bc06.mp3",
+    "text": "put off",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "635336722b2505f5": {
+    "file": "635336722b2505f5.mp3",
+    "text": "Don't put it off again.",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "156532ed2fd8a01e": {
+    "file": "156532ed2fd8a01e.mp3",
+    "text": "call off",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "f6f95095448cc1f2": {
+    "file": "f6f95095448cc1f2.mp3",
+    "text": "They called off the trip.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "bd379503035b975d": {
+    "file": "bd379503035b975d.mp3",
+    "text": "carry out",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "b8191b73e2acbe37": {
+    "file": "b8191b73e2acbe37.mp3",
+    "text": "We carried out the survey.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "9022bcd54b74d2f5": {
+    "file": "9022bcd54b74d2f5.mp3",
+    "text": "come up with",
+    "chars": 12,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "36ba9f8836feb4c3": {
+    "file": "36ba9f8836feb4c3.mp3",
+    "text": "He came up with a fix.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "d4a31eda1ede4a61": {
+    "file": "d4a31eda1ede4a61.mp3",
+    "text": "look into",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "2ddee54867e3d8d7": {
+    "file": "2ddee54867e3d8d7.mp3",
+    "text": "I'll look into the issue.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "e8bb5b3f73bb065c": {
+    "file": "e8bb5b3f73bb065c.mp3",
+    "text": "run out of",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "2e8932e890e274c7": {
+    "file": "2e8932e890e274c7.mp3",
+    "text": "We ran out of paper.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "afcd0c9eddbe9baa": {
+    "file": "afcd0c9eddbe9baa.mp3",
+    "text": "turn down",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "6f70d04e7d6d2c47": {
+    "file": "6f70d04e7d6d2c47.mp3",
+    "text": "She turned down the job.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "2008a66dbf191559": {
+    "file": "2008a66dbf191559.mp3",
+    "text": "set up",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "5d76e8f353b75de3": {
+    "file": "5d76e8f353b75de3.mp3",
+    "text": "I set up the server.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "dab7ca2653d9a3c5": {
+    "file": "dab7ca2653d9a3c5.mp3",
+    "text": "figure out",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "a3bf31aa3b8fe071": {
+    "file": "a3bf31aa3b8fe071.mp3",
+    "text": "I can't figure it out.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "49455483c5ac188f": {
+    "file": "49455483c5ac188f.mp3",
+    "text": "deal with",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "628f4efe851bc521": {
+    "file": "628f4efe851bc521.mp3",
+    "text": "Who deals with returns?",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "34fd96c35fb45003": {
+    "file": "34fd96c35fb45003.mp3",
+    "text": "She pointed out the risk.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "1650c7b999cad790": {
+    "file": "1650c7b999cad790.mp3",
+    "text": "back up",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab",
+    "priority": 3
+  },
+  "090d57187aa67459": {
+    "file": "090d57187aa67459.mp3",
+    "text": "Back up your files.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/vocab-ex",
+    "priority": 3
+  },
+  "8d89c05a7f2dd259": {
+    "file": "8d89c05a7f2dd259.mp3",
+    "text": "The launch was put off until March.",
+    "chars": 35,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/grammar",
+    "priority": 3
+  },
+  "43325c8664c8db6e": {
+    "file": "43325c8664c8db6e.mp3",
+    "text": "Can you turn it down? It's too loud.",
+    "chars": 36,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/grammar",
+    "priority": 3
+  },
+  "143f23834cf04d0a": {
+    "file": "143f23834cf04d0a.mp3",
+    "text": "We're running out of storage.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/grammar",
+    "priority": 3
+  },
+  "c2ad1001a4655e50": {
+    "file": "c2ad1001a4655e50.mp3",
+    "text": "I need to look into this error.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/grammar",
+    "priority": 3
+  },
+  "3da8674ccc188384": {
+    "file": "3da8674ccc188384.mp3",
+    "text": "although",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "cea90bb8369307cb": {
+    "file": "cea90bb8369307cb.mp3",
+    "text": "Although it failed, we learned.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "ee6f83c8378a31d5": {
+    "file": "ee6f83c8378a31d5.mp3",
+    "text": "despite",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "6816008533c45199": {
+    "file": "6816008533c45199.mp3",
+    "text": "Despite the cost, it's worth it.",
+    "chars": 32,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "1ae4904bdde57f30": {
+    "file": "1ae4904bdde57f30.mp3",
+    "text": "however",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "d207ce81bcfafd92": {
+    "file": "d207ce81bcfafd92.mp3",
+    "text": "However, the results differ.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "1dda77aec1dd6807": {
+    "file": "1dda77aec1dd6807.mp3",
+    "text": "therefore",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "5b27fa56212fd41c": {
+    "file": "5b27fa56212fd41c.mp3",
+    "text": "Therefore, we changed it.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "db13f8d0804fbe8b": {
+    "file": "db13f8d0804fbe8b.mp3",
+    "text": "whereas",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "1f8e17091d0d3702": {
+    "file": "1f8e17091d0d3702.mp3",
+    "text": "He's fast, whereas she's careful.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "52ef44e5233159ff": {
+    "file": "52ef44e5233159ff.mp3",
+    "text": "moreover",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "4054bcf9e3060abb": {
+    "file": "4054bcf9e3060abb.mp3",
+    "text": "Moreover, it's cheaper.",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "a48d0b72d1c40a15": {
+    "file": "a48d0b72d1c40a15.mp3",
+    "text": "nevertheless",
+    "chars": 12,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "9168bdb14e255b63": {
+    "file": "9168bdb14e255b63.mp3",
+    "text": "Nevertheless, we agreed.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "ad7cebb745cdd56a": {
+    "file": "ad7cebb745cdd56a.mp3",
+    "text": "due to",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "d0a8bcbf7d6fa5e1": {
+    "file": "d0a8bcbf7d6fa5e1.mp3",
+    "text": "Due to the delay, we waited.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "4f3e95efda297cb1": {
+    "file": "4f3e95efda297cb1.mp3",
+    "text": "in addition",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "cc0f4eacd469cad3": {
+    "file": "cc0f4eacd469cad3.mp3",
+    "text": "In addition, tests are needed.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "9ddc919b1ec67005": {
+    "file": "9ddc919b1ec67005.mp3",
+    "text": "on the other hand",
+    "chars": 17,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "2198ee6a60a66baf": {
+    "file": "2198ee6a60a66baf.mp3",
+    "text": "On the other hand, it's slower.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "54e3a6d3bf090023": {
+    "file": "54e3a6d3bf090023.mp3",
+    "text": "as a result",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "45d65ac7ee4edfa3": {
+    "file": "45d65ac7ee4edfa3.mp3",
+    "text": "As a result, sales fell.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "71ef4919cb43c37c": {
+    "file": "71ef4919cb43c37c.mp3",
+    "text": "in fact",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab",
+    "priority": 3
+  },
+  "ed4f7e1b921af86b": {
+    "file": "ed4f7e1b921af86b.mp3",
+    "text": "In fact, it improved.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/vocab-ex",
+    "priority": 3
+  },
+  "519f5780e8c196fd": {
+    "file": "519f5780e8c196fd.mp3",
+    "text": "Although the design was correct, the prototype failed.",
+    "chars": 54,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/grammar",
+    "priority": 3
+  },
+  "c18e1e1fc075c31d": {
+    "file": "c18e1e1fc075c31d.mp3",
+    "text": "Despite the delay, we met the deadline.",
+    "chars": 39,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/grammar",
+    "priority": 3
+  },
+  "482136c202205858": {
+    "file": "482136c202205858.mp3",
+    "text": "The budget was cut. Therefore, we postponed phase two.",
+    "chars": 54,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/grammar",
+    "priority": 3
+  },
+  "234140b9f694c657": {
+    "file": "234140b9f694c657.mp3",
+    "text": "He works in hardware, whereas she works in software.",
+    "chars": 52,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/grammar",
+    "priority": 3
+  },
+  "76ef3ac584b2aba1": {
+    "file": "76ef3ac584b2aba1.mp3",
+    "text": "Otherwise it would have failed.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "ecc52d3697dd5b01": {
+    "file": "ecc52d3697dd5b01.mp3",
+    "text": "regret",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab",
+    "priority": 3
+  },
+  "7767fa254dc7d6ff": {
+    "file": "7767fa254dc7d6ff.mp3",
+    "text": "I regret not asking.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "1f9f2a0c39189f69": {
+    "file": "1f9f2a0c39189f69.mp3",
+    "text": "hindsight",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab",
+    "priority": 3
+  },
+  "a45a324c447b235f": {
+    "file": "a45a324c447b235f.mp3",
+    "text": "In hindsight, it was obvious.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "6f91daa99a751cf2": {
+    "file": "6f91daa99a751cf2.mp3",
+    "text": "It turned out badly.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "5e21486651f61c95": {
+    "file": "5e21486651f61c95.mp3",
+    "text": "overlook",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab",
+    "priority": 3
+  },
+  "9b9d08aae72827c8": {
+    "file": "9b9d08aae72827c8.mp3",
+    "text": "We overlooked the tolerance.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "b2c956dda1d5963b": {
+    "file": "b2c956dda1d5963b.mp3",
+    "text": "assumption",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab",
+    "priority": 3
+  },
+  "5a3e13b2d321fd03": {
+    "file": "5a3e13b2d321fd03.mp3",
+    "text": "That assumption was wrong.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "47c0892dd0dc7dc4": {
+    "file": "47c0892dd0dc7dc4.mp3",
+    "text": "trade-off",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab",
+    "priority": 3
+  },
+  "66022d020e0bdcc5": {
+    "file": "66022d020e0bdcc5.mp3",
+    "text": "It's a classic trade-off.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "a3d44e8b5f600f3d": {
+    "file": "a3d44e8b5f600f3d.mp3",
+    "text": "outcome",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab",
+    "priority": 3
+  },
+  "8029542d61dbff5b": {
+    "file": "8029542d61dbff5b.mp3",
+    "text": "The outcome was positive.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "2f08cbed4d295ffb": {
+    "file": "2f08cbed4d295ffb.mp3",
+    "text": "avoidable",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab",
+    "priority": 3
+  },
+  "31f25722d4796815": {
+    "file": "31f25722d4796815.mp3",
+    "text": "It was entirely avoidable.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "a8e929e66b0d88f1": {
+    "file": "a8e929e66b0d88f1.mp3",
+    "text": "in retrospect",
+    "chars": 13,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab",
+    "priority": 3
+  },
+  "98a6f8faf14c515d": {
+    "file": "98a6f8faf14c515d.mp3",
+    "text": "In retrospect, we rushed.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "67acc0b1cae19a25": {
+    "file": "67acc0b1cae19a25.mp3",
+    "text": "narrowly",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab",
+    "priority": 3
+  },
+  "efa3a15ae3c9da2c": {
+    "file": "efa3a15ae3c9da2c.mp3",
+    "text": "We narrowly avoided it.",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "520ecba2387b7f8c": {
+    "file": "520ecba2387b7f8c.mp3",
+    "text": "worth doing",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab",
+    "priority": 3
+  },
+  "a6debc9d9dba7cf2": {
+    "file": "a6debc9d9dba7cf2.mp3",
+    "text": "It was worth doing anyway.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/vocab-ex",
+    "priority": 3
+  },
+  "94045d5445bef860": {
+    "file": "94045d5445bef860.mp3",
+    "text": "If they had ordered earlier, the parts would have arrived.",
+    "chars": 58,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/grammar",
+    "priority": 3
+  },
+  "76d01f2201ff2455": {
+    "file": "76d01f2201ff2455.mp3",
+    "text": "Had I known, I wouldn't have signed.",
+    "chars": 36,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/grammar",
+    "priority": 3
+  },
+  "21fa5bdc5b60a716": {
+    "file": "21fa5bdc5b60a716.mp3",
+    "text": "If she had accepted that job, she would be in Berlin now.",
+    "chars": 57,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/grammar",
+    "priority": 3
+  },
+  "e13db2d6784b1f7a": {
+    "file": "e13db2d6784b1f7a.mp3",
+    "text": "You could have damaged the board.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/grammar",
+    "priority": 3
+  },
+  "e8a47c58b0e9f933": {
+    "file": "e8a47c58b0e9f933.mp3",
+    "text": "presumably",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "861b19123d7a3ac9": {
+    "file": "861b19123d7a3ac9.mp3",
+    "text": "Presumably it overheated.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "cc7622189598543c": {
+    "file": "cc7622189598543c.mp3",
+    "text": "apparently",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "5467d4de64bf7ff3": {
+    "file": "5467d4de64bf7ff3.mp3",
+    "text": "Apparently nobody checked.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "429975f195d42212": {
+    "file": "429975f195d42212.mp3",
+    "text": "unlikely",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "fea35d9ab6bde3a8": {
+    "file": "fea35d9ab6bde3a8.mp3",
+    "text": "That's unlikely.",
+    "chars": 16,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "2eac5d8a38de955a": {
+    "file": "2eac5d8a38de955a.mp3",
+    "text": "bound to",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "9a7375ae68d05c42": {
+    "file": "9a7375ae68d05c42.mp3",
+    "text": "It's bound to fail.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "ecc4aefc1340f45b": {
+    "file": "ecc4aefc1340f45b.mp3",
+    "text": "evidence",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "c3046cdb9ea484fc": {
+    "file": "c3046cdb9ea484fc.mp3",
+    "text": "There's no evidence of that.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "8bc26e07217db4b8": {
+    "file": "8bc26e07217db4b8.mp3",
+    "text": "suspect",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "6d3a4709a35e2a64": {
+    "file": "6d3a4709a35e2a64.mp3",
+    "text": "I suspect a bad joint.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "7ebabac2d7cd0765": {
+    "file": "7ebabac2d7cd0765.mp3",
+    "text": "rule out",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "479d0e8893b3c432": {
+    "file": "479d0e8893b3c432.mp3",
+    "text": "We can rule that out.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "bf99af4e2b8c9c82": {
+    "file": "bf99af4e2b8c9c82.mp3",
+    "text": "account for",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "32f7369f3dfc46f5": {
+    "file": "32f7369f3dfc46f5.mp3",
+    "text": "That accounts for the noise.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "537f3b5e17e291d2": {
+    "file": "537f3b5e17e291d2.mp3",
+    "text": "plausible",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "10c1e75ee8c543e9": {
+    "file": "10c1e75ee8c543e9.mp3",
+    "text": "It's a plausible theory.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "cf926606efeaae9b": {
+    "file": "cf926606efeaae9b.mp3",
+    "text": "far-fetched",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "36990f5537e68f40": {
+    "file": "36990f5537e68f40.mp3",
+    "text": "That sounds far-fetched.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "2d5f6e362278a6e8": {
+    "file": "2d5f6e362278a6e8.mp3",
+    "text": "odds are",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "2767bd600407bdae": {
+    "file": "2767bd600407bdae.mp3",
+    "text": "Odds are it's the cable.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "1a422d9bbef0c4b9": {
+    "file": "1a422d9bbef0c4b9.mp3",
+    "text": "come to think of it",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab",
+    "priority": 3
+  },
+  "cc65bd34e9725569": {
+    "file": "cc65bd34e9725569.mp3",
+    "text": "Come to think of it, yes.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/vocab-ex",
+    "priority": 3
+  },
+  "4caaf6fd9a5b9abd": {
+    "file": "4caaf6fd9a5b9abd.mp3",
+    "text": "The light is on — someone must be in the lab.",
+    "chars": 45,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/grammar",
+    "priority": 3
+  },
+  "ae357b50312ff267": {
+    "file": "ae357b50312ff267.mp3",
+    "text": "He can't have finished already; he started ten minutes ago.",
+    "chars": 59,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/grammar",
+    "priority": 3
+  },
+  "8f546429bd0b47d7": {
+    "file": "8f546429bd0b47d7.mp3",
+    "text": "It might have been a firmware issue.",
+    "chars": 36,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/grammar",
+    "priority": 3
+  },
+  "3552ad3f5de06905": {
+    "file": "3552ad3f5de06905.mp3",
+    "text": "You needn't have brought your laptop.",
+    "chars": 37,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/grammar",
+    "priority": 3
+  },
+  "28e0f8d314006d83": {
+    "file": "28e0f8d314006d83.mp3",
+    "text": "have something done",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "d96358a63a715bd9": {
+    "file": "d96358a63a715bd9.mp3",
+    "text": "I had it serviced.",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "46013ce1906e1a95": {
+    "file": "46013ce1906e1a95.mp3",
+    "text": "outsource",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "37818561bcd78710": {
+    "file": "37818561bcd78710.mp3",
+    "text": "We outsource the machining.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "14a52021e59b29c1": {
+    "file": "14a52021e59b29c1.mp3",
+    "text": "commission",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "ac6e50daec2f6914": {
+    "file": "ac6e50daec2f6914.mp3",
+    "text": "They commissioned a study.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "10741b50717e8b2a": {
+    "file": "10741b50717e8b2a.mp3",
+    "text": "be alleged to",
+    "chars": 13,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "9d002b5033e010cb": {
+    "file": "9d002b5033e010cb.mp3",
+    "text": "It is alleged to be faulty.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "c0f9f92667b26bb1": {
+    "file": "c0f9f92667b26bb1.mp3",
+    "text": "be reported to",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "4cc512b4ad33dc9d": {
+    "file": "4cc512b4ad33dc9d.mp3",
+    "text": "Sales are reported to have fallen.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "6dc40b5c8a521b21": {
+    "file": "6dc40b5c8a521b21.mp3",
+    "text": "be regarded as",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "b94da48df7099575": {
+    "file": "b94da48df7099575.mp3",
+    "text": "It's regarded as the standard.",
+    "chars": 30,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "12a383f4488d22e4": {
+    "file": "12a383f4488d22e4.mp3",
+    "text": "undergo",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "0a52d816458f3db0": {
+    "file": "0a52d816458f3db0.mp3",
+    "text": "It underwent testing.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "4d95baa9ed249bd8": {
+    "file": "4d95baa9ed249bd8.mp3",
+    "text": "certify",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "a81de47a79aa7872": {
+    "file": "a81de47a79aa7872.mp3",
+    "text": "The unit was certified.",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "85776adeeaa323ad": {
+    "file": "85776adeeaa323ad.mp3",
+    "text": "inspection",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "bb257ee8ec2a6f07": {
+    "file": "bb257ee8ec2a6f07.mp3",
+    "text": "An inspection was ordered.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "cba9f00ebcc9c829": {
+    "file": "cba9f00ebcc9c829.mp3",
+    "text": "on behalf of",
+    "chars": 12,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "abc38290823d89fa": {
+    "file": "abc38290823d89fa.mp3",
+    "text": "Signed on behalf of the team.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "bc1d5341abc971a9": {
+    "file": "bc1d5341abc971a9.mp3",
+    "text": "subject to",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "058747991c3f3b58": {
+    "file": "058747991c3f3b58.mp3",
+    "text": "Subject to approval.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "e176dc4ea6939473": {
+    "file": "e176dc4ea6939473.mp3",
+    "text": "pending",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab",
+    "priority": 3
+  },
+  "b40e847d272b23f7": {
+    "file": "b40e847d272b23f7.mp3",
+    "text": "Pending final review.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/vocab-ex",
+    "priority": 3
+  },
+  "dd26cae09d1f0fa5": {
+    "file": "dd26cae09d1f0fa5.mp3",
+    "text": "We're having the prototype manufactured in Guadalajara.",
+    "chars": 55,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/grammar",
+    "priority": 3
+  },
+  "8a00c99f46821556": {
+    "file": "8a00c99f46821556.mp3",
+    "text": "She had her thesis reviewed by two professors.",
+    "chars": 46,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/grammar",
+    "priority": 3
+  },
+  "01cb8e53a964edc9": {
+    "file": "01cb8e53a964edc9.mp3",
+    "text": "It is widely believed that the standard will change.",
+    "chars": 52,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/grammar",
+    "priority": 3
+  },
+  "b3ca5fa42c4c5ecb": {
+    "file": "b3ca5fa42c4c5ecb.mp3",
+    "text": "I was told to wait outside.",
+    "chars": 27,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/grammar",
+    "priority": 3
+  },
+  "db07b0475e1a1c3e": {
+    "file": "db07b0475e1a1c3e.mp3",
+    "text": "no sooner",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "18f4faa76581fe70": {
+    "file": "18f4faa76581fe70.mp3",
+    "text": "No sooner had we started than it failed.",
+    "chars": 40,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "4ea6aa2ef447fab5": {
+    "file": "4ea6aa2ef447fab5.mp3",
+    "text": "seldom",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "a779e905bc37859e": {
+    "file": "a779e905bc37859e.mp3",
+    "text": "Seldom does this happen.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "bc0e8095862fd023": {
+    "file": "bc0e8095862fd023.mp3",
+    "text": "under no circumstances",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "528029bb48789c82": {
+    "file": "528029bb48789c82.mp3",
+    "text": "Under no circumstances open it.",
+    "chars": 31,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "a49bffa1b203702f": {
+    "file": "a49bffa1b203702f.mp3",
+    "text": "let alone",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "c4062b138c077272": {
+    "file": "c4062b138c077272.mp3",
+    "text": "I can't lift it, let alone carry it.",
+    "chars": 36,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "52768e1741215b73": {
+    "file": "52768e1741215b73.mp3",
+    "text": "by no means",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "c569eb917dfe5454": {
+    "file": "c569eb917dfe5454.mp3",
+    "text": "It's by no means certain.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "af0ef1403bc6fc11": {
+    "file": "af0ef1403bc6fc11.mp3",
+    "text": "indeed",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "4583bbdd251339e3": {
+    "file": "4583bbdd251339e3.mp3",
+    "text": "It was indeed the cable.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "bb5092d1c08bd5ad": {
+    "file": "bb5092d1c08bd5ad.mp3",
+    "text": "namely",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "487c9fb3193f88bb": {
+    "file": "487c9fb3193f88bb.mp3",
+    "text": "One issue, namely cost.",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "6abe230f6dc6224b": {
+    "file": "6abe230f6dc6224b.mp3",
+    "text": "whereby",
+    "chars": 7,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "6be5e8ffa07fad0b": {
+    "file": "6be5e8ffa07fad0b.mp3",
+    "text": "A process whereby data is logged.",
+    "chars": 33,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "c66a0c467f26be8d": {
+    "file": "c66a0c467f26be8d.mp3",
+    "text": "albeit",
+    "chars": 6,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "25665d94ac5fd61b": {
+    "file": "25665d94ac5fd61b.mp3",
+    "text": "Effective, albeit expensive.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "4033a3e98805b152": {
+    "file": "4033a3e98805b152.mp3",
+    "text": "notwithstanding",
+    "chars": 15,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "5b4757a7f370e404": {
+    "file": "5b4757a7f370e404.mp3",
+    "text": "Notwithstanding the delay...",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "7a0768ec8a89b054": {
+    "file": "7a0768ec8a89b054.mp3",
+    "text": "arguably",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "c3039698e7b08c6a": {
+    "file": "c3039698e7b08c6a.mp3",
+    "text": "Arguably the best design.",
+    "chars": 25,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "350045f43d5a7d05": {
+    "file": "350045f43d5a7d05.mp3",
+    "text": "to some extent",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab",
+    "priority": 3
+  },
+  "2485fb2b3a49b4d6": {
+    "file": "2485fb2b3a49b4d6.mp3",
+    "text": "True, to some extent.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/vocab-ex",
+    "priority": 3
+  },
+  "1fede13fae69c4f5": {
+    "file": "1fede13fae69c4f5.mp3",
+    "text": "Not only was the design wrong, but the documentation was missing.",
+    "chars": 65,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/grammar",
+    "priority": 3
+  },
+  "2207a52098086951": {
+    "file": "2207a52098086951.mp3",
+    "text": "Never have I had to repeat a measurement so many times.",
+    "chars": 55,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/grammar",
+    "priority": 3
+  },
+  "f1fe478699c1f80c": {
+    "file": "f1fe478699c1f80c.mp3",
+    "text": "It was the connector that caused the fault.",
+    "chars": 43,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/grammar",
+    "priority": 3
+  },
+  "69bf5505825d9ab7": {
+    "file": "69bf5505825d9ab7.mp3",
+    "text": "What we need is a proper test rig.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/grammar",
+    "priority": 3
+  },
+  "3c9610ca005ba076": {
+    "file": "3c9610ca005ba076.mp3",
+    "text": "take into account",
+    "chars": 17,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "be1b25c53af8c271": {
+    "file": "be1b25c53af8c271.mp3",
+    "text": "Take the drift into account.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "58bb1e5f71367d9e": {
+    "file": "58bb1e5f71367d9e.mp3",
+    "text": "carry out research",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "1ff6af2e50496c52": {
+    "file": "1ff6af2e50496c52.mp3",
+    "text": "They carried out research.",
+    "chars": 26,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "3c167ff8faa2404b": {
+    "file": "3c167ff8faa2404b.mp3",
+    "text": "make a decision",
+    "chars": 15,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "c754962fae2f6c7f": {
+    "file": "c754962fae2f6c7f.mp3",
+    "text": "We made a decision.",
+    "chars": 19,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "6a437bc18aea9b70": {
+    "file": "6a437bc18aea9b70.mp3",
+    "text": "raise concerns",
+    "chars": 14,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "3ad80ccf5368718a": {
+    "file": "3ad80ccf5368718a.mp3",
+    "text": "This raises concerns.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "0a81de81b25c4b61": {
+    "file": "0a81de81b25c4b61.mp3",
+    "text": "meet a deadline",
+    "chars": 15,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "699ed610863a8080": {
+    "file": "699ed610863a8080.mp3",
+    "text": "We met the deadline.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "74c455ebb8c9eea8": {
+    "file": "74c455ebb8c9eea8.mp3",
+    "text": "currently",
+    "chars": 9,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "81c85a2b90e4bd6a": {
+    "file": "81c85a2b90e4bd6a.mp3",
+    "text": "Currently under review.",
+    "chars": 23,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "bce6c5e2077c653b": {
+    "file": "bce6c5e2077c653b.mp3",
+    "text": "actually",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "3a786da905d05928": {
+    "file": "3a786da905d05928.mp3",
+    "text": "Actually, it's the opposite.",
+    "chars": 28,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "99d13c94d79866dc": {
+    "file": "99d13c94d79866dc.mp3",
+    "text": "eventually",
+    "chars": 10,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "336a80b6156de9f9": {
+    "file": "336a80b6156de9f9.mp3",
+    "text": "Eventually it worked.",
+    "chars": 21,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "a261a28e8baf9476": {
+    "file": "a261a28e8baf9476.mp3",
+    "text": "reliability",
+    "chars": 11,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "46a6f5f663b00498": {
+    "file": "46a6f5f663b00498.mp3",
+    "text": "Reliability is critical.",
+    "chars": 24,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "7ec1d4c046fe7d53": {
+    "file": "7ec1d4c046fe7d53.mp3",
+    "text": "feasible",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "44147496062ab3f0": {
+    "file": "44147496062ab3f0.mp3",
+    "text": "That isn't feasible.",
+    "chars": 20,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "be1b52b2ecb43a30": {
+    "file": "be1b52b2ecb43a30.mp3",
+    "text": "thorough",
+    "chars": 8,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "b70640976ff9fd7e": {
+    "file": "b70640976ff9fd7e.mp3",
+    "text": "A thorough inspection.",
+    "chars": 22,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "58e860868d49a040": {
+    "file": "58e860868d49a040.mp3",
+    "text": "I would appreciate",
+    "chars": 18,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab",
+    "priority": 3
+  },
+  "dc29b96ba3a0aea3": {
+    "file": "dc29b96ba3a0aea3.mp3",
+    "text": "I would appreciate your help.",
+    "chars": 29,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/vocab-ex",
+    "priority": 3
+  },
+  "99c50c803f7de76e": {
+    "file": "99c50c803f7de76e.mp3",
+    "text": "We need to take the tolerance into account.",
+    "chars": 43,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/grammar",
+    "priority": 3
+  },
+  "52ba1c77605366a5": {
+    "file": "52ba1c77605366a5.mp3",
+    "text": "The results were highly significant.",
+    "chars": 36,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/grammar",
+    "priority": 3
+  },
+  "36a68b4def6f52df": {
+    "file": "36a68b4def6f52df.mp3",
+    "text": "I would appreciate a prompt reply.",
+    "chars": 34,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/grammar",
+    "priority": 3
+  },
+  "badad5410013f1f2": {
+    "file": "badad5410013f1f2.mp3",
+    "text": "This raises serious concerns about reliability.",
+    "chars": 47,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/grammar",
+    "priority": 3
+  },
+  "461064793ad19fdf": {
+    "file": "461064793ad19fdf.mp3",
+    "text": "Hello. My name is Erick Reyna. I'm twenty-four years old and I'm from Monterrey, in the north of Mexico.\n\nI'm a mechatronics student at FIME. It's a big faculty and the classes are hard, but I'm happy there. My favourite subjects are electronics and control.\n\nI'm not married. I live with my family. In my free time I play the guitar — I'm not very good yet, but I practise every week.\n\nMy English isn't perfect, but I'm working on it.",
+    "chars": 435,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u1/reading",
+    "priority": 4
+  },
+  "9296c73f05160ebc": {
+    "file": "9296c73f05160ebc.mp3",
+    "text": "I get up at six thirty, but I never get up immediately. I usually stay in bed for ten minutes and check my phone.\n\nI have breakfast at seven and I leave the house at seven thirty. I don't drive — I take the bus, because parking at the university is impossible.\n\nMy first class starts at eight. On Tuesdays I have four classes and a lab session, so I finish at six in the evening. I sometimes stay longer if the lab isn't finished.\n\nIn the evening I study for about two hours. I don't watch much television. On Fridays I play the guitar with a friend, and at the weekend I usually sleep a lot.",
+    "chars": 592,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u2/reading",
+    "priority": 4
+  },
+  "010f1ccc64cc0e8e": {
+    "file": "010f1ccc64cc0e8e.mp3",
+    "text": "Our electronics lab is on the second floor, next to the library. It isn't very big, but there is everything we need.\n\nThere are ten benches. On each bench there is an oscilloscope, a power supply and a soldering station. There are also two computers at the back, between the window and the door.\n\nThe components are in the drawers under the benches. There aren't any resistors in the small cabinet — those are in the storeroom behind the lab.\n\nThere are usually about twenty people in the lab in the afternoon. There's only one technician, so sometimes you wait.",
+    "chars": 562,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u3/reading",
+    "priority": 4
+  },
+  "616173aaa2026fbb": {
+    "file": "616173aaa2026fbb.mp3",
+    "text": "QUICK START — READ FIRST\n\nBefore you begin, check the box. There are four items: the unit, a power cable, a USB cable and this guide. If something is missing, don't use the unit — contact support.\n\nFirst, connect the power cable. Don't switch it on yet.\n\nThen connect the USB cable to your computer. Wait ten seconds and press the button on the front. The light is orange at first. When it is green, the unit is ready.\n\nYou can use the unit without software, but you can't change the settings. To change them, install the application from our website.\n\nDon't open the case. There are no user-serviceable parts inside.",
+    "chars": 617,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a1u4/reading",
+    "priority": 4
+  },
+  "fc013e83bdd46093": {
+    "file": "fc013e83bdd46093.mp3",
+    "text": "Last Monday started badly. My alarm didn't ring, so I woke up at eight instead of six. I ran to the bus stop, but the bus left two minutes before I arrived.\n\nI took a taxi and got to the lab at nine. My supervisor didn't say anything, but he looked at his watch. Then I opened my bag and realised I forgot my laptop at home.\n\nIn the end, a colleague lent me an old one and I finished the measurements. I didn't have a good morning, but the afternoon was fine.",
+    "chars": 459,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u1/reading",
+    "priority": 4
+  },
+  "9cd71f9ab407adf1": {
+    "file": "9cd71f9ab407adf1.mp3",
+    "text": "It was almost midnight and we were still working in the lab. Two of us were soldering a board while Ana was writing the test script on her laptop.\n\nSuddenly all the lights went out. The building was completely dark and the only light came from Ana's screen. Nobody was talking; we were all waiting for the emergency lights.\n\nAfter about a minute, the power came back. We looked at the board and noticed that the microcontroller was hot. While we were checking it, Ana found the problem in her code: the loop never stopped.\n\nWe didn't finish that night, but at least we knew what was wrong.",
+    "chars": 589,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u2/reading",
+    "priority": 4
+  },
+  "99aa2f16e681c5ff": {
+    "file": "99aa2f16e681c5ff.mp3",
+    "text": "MESSAGE 1\nHi Dani, I'm registering for the English exam this week. The deadline is Friday, so I'm going to do it tomorrow morning before class. Are you going to take it too? If you sign up now, we'll be in the same group. Let me know.\n\nMESSAGE 2\nHey! Yes, I want to take it, but I'm working on Friday and I probably won't have time. I'll try to do it tonight. By the way, I'm seeing my tutor at four tomorrow — she'll tell me if I need it for graduation. I'll send you a message after that.",
+    "chars": 490,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u3/reading",
+    "priority": 4
+  },
+  "a7662086fd308c86": {
+    "file": "a7662086fd308c86.mp3",
+    "text": "We had to choose a microcontroller board for the project. There were three options.\n\nThe first was the cheapest, but it was also the slowest and it had less memory than the others. The second was slightly more expensive, and it was by far the most popular in the community, which meant more documentation and more examples.\n\nThe third was twice as fast as the second, but it cost three times more and it wasn't as well documented.\n\nIn the end we chose the second one. It wasn't the best board technically, but it was the most practical for a team of students with a deadline.",
+    "chars": 575,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u4/reading",
+    "priority": 4
+  },
+  "5db2a2c0fa839287": {
+    "file": "5db2a2c0fa839287.mp3",
+    "text": "Please read this before Thursday.\n\nThere isn't much time in the session, so come prepared. You need to bring a few things: a notebook, a calculator and your safety glasses. We have plenty of resistors and capacitors, but there are hardly any jumper wires left, so bring some if you have them.\n\nThere is no equipment for individual work — you will share a bench with a partner. If you need any information about the circuit, the datasheet is on the platform.\n\nA piece of advice: read the procedure before you arrive. Students who do this usually finish an hour earlier.",
+    "chars": 568,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u5/reading",
+    "priority": 4
+  },
+  "555bc78c1332ddc7": {
+    "file": "555bc78c1332ddc7.mp3",
+    "text": "— Have you ever worked in a team like this before?\n— Yes, I have. I worked in a small startup for two years, from 2022 to 2024. I've also done two internships.\n\n— And have you used our platform?\n— Not yet. I've read the documentation, but I haven't built anything with it. I've just started the tutorial, actually.\n\n— That's fine. Most people learn it in a week. Have you already sent us your certificates?\n— I've sent the university ones. I haven't received the English certificate yet — it takes about six months.",
+    "chars": 515,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u6/reading",
+    "priority": 4
+  },
+  "934d9ff437934bce": {
+    "file": "934d9ff437934bce.mp3",
+    "text": "Before you enter the laboratory, read these rules carefully.\n\nYou must wear safety glasses at all times. You mustn't work alone: there has to be a second person in the room whenever equipment is powered.\n\nYou don't have to bring your own tools — the lab provides everything — but you should bring your own notebook, because we don't lend paper.\n\nIf you can't finish your measurements in the session, you can book extra time on the platform. However, you are not allowed to stay after nine at night.\n\nIf anything smells hot or looks damaged, you must report it immediately. Don't try to repair it yourself.",
+    "chars": 605,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "a2u7/reading",
+    "priority": 4
+  },
+  "2e519c6bce8eac50": {
+    "file": "2e519c6bce8eac50.mp3",
+    "text": "I joined the automation team in February, so I've been here for about six months now. It's been a strange period.\n\nWhen I started, I didn't know anything about industrial protocols. I spent the first month reading manuals and I made a lot of mistakes. Since March, though, things have improved a lot. I've commissioned two lines on my own and I haven't caused a single stoppage since May.\n\nThe hardest part hasn't been the technology. It's been the language. Most of our documentation is in English, and last week I had to explain a fault to a supplier in Germany by phone. I understood maybe half of what he said.\n\nI've decided to take a certification exam in September. I haven't booked it yet, but I registered for the preparation course on Monday.",
+    "chars": 751,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u1/reading",
+    "priority": 4
+  },
+  "fd1523537afbc811": {
+    "file": "fd1523537afbc811.mp3",
+    "text": "IMPORTANT — READ BEFORE OPERATING\n\nIf the temperature rises above 60 °C, the controller shuts down automatically. This is normal behaviour and not a fault.\n\nIf you need to run the unit continuously for more than four hours, you will have to install the optional fan kit. Unless the kit is fitted, the warranty does not cover thermal damage.\n\nSome users ask whether they can bypass the thermal cut-out. If we allowed that, the unit would fail within weeks and the repair would cost more than the fan kit. We strongly advise against it.\n\nAs long as you keep the vents clear and check the filter monthly, the unit should last around ten years.",
+    "chars": 640,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u2/reading",
+    "priority": 4
+  },
+  "795cd89b2e603a31": {
+    "file": "795cd89b2e603a31.mp3",
+    "text": "INCIDENT REPORT — LINE 3\n\nAt 14:20 the conveyor was stopped automatically by the safety system. The line had been running normally since the morning shift.\n\nAn inspection was carried out immediately. It was found that a proximity sensor had been damaged, probably when a pallet was loaded incorrectly earlier in the day. The sensor was replaced within forty minutes and production was resumed at 15:05.\n\nNo injuries were reported. The damaged sensor will be sent to the supplier for analysis.\n\nIt has been recommended that operators are given a short refresher on pallet alignment. This recommendation must be approved by the plant manager before it is implemented.",
+    "chars": 665,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u3/reading",
+    "priority": 4
+  },
+  "02df2891cb1e33b5": {
+    "file": "02df2891cb1e33b5.mp3",
+    "text": "The person who runs our department is an engineer whose career started on the factory floor. She spent eight years as a technician before she studied, which is unusual here and probably explains why she listens to the operators.\n\nThe project that gave us the most trouble last year was a retrofit of a line which was installed in 1994. The documentation, which had been written by a company that no longer exists, described a control system nobody recognised.\n\nWe eventually found an operator whose father had worked on the original installation. He remembered where the junction boxes were hidden — information that saved us at least three weeks.",
+    "chars": 647,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u4/reading",
+    "priority": 4
+  },
+  "40c6de872eab5c90": {
+    "file": "40c6de872eab5c90.mp3",
+    "text": "I couldn't go to the meeting, so Laura told me what happened.\n\nShe said the client had rejected the first proposal because it was too expensive. The account manager explained that the price included two years of support, but the client replied that he didn't need it.\n\nLaura told me that our director had asked whether we could deliver a reduced version by November. Nobody answered immediately. Then the lead engineer pointed out that the testing alone would take six weeks, so November was unrealistic.\n\nIn the end they agreed that they would send a revised quotation on Friday. Laura warned me that I might have to redo the timeline.",
+    "chars": 636,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u5/reading",
+    "priority": 4
+  },
+  "cd4a92c58eb3c297": {
+    "file": "cd4a92c58eb3c297.mp3",
+    "text": "When I started, I used to spend hours staring at code without understanding anything. I kept changing lines at random and hoping something would work. I remember feeling stupid every single afternoon.\n\nA senior engineer suggested doing something different: instead of guessing, measure. He told me to stop reading the code and start printing values. It sounds obvious now, but at the time I was afraid of looking slow.\n\nI learned to accept that debugging is not about being clever. It's about avoiding assumptions. Now, when something fails, I try to find the smallest case that reproduces it before I try to fix anything.\n\nI still enjoy solving hard problems, but I no longer expect to solve them by staring.",
+    "chars": 709,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u6/reading",
+    "priority": 4
+  },
+  "7906a5e049256e70": {
+    "file": "7906a5e049256e70.mp3",
+    "text": "On Monday we found out that the supplier had called off the delivery. Nobody had pointed out that the purchase order was still unsigned, so we ran out of connectors by Wednesday.\n\nI looked into it and figured out that the approval email had gone to a colleague who left in June. We had to set up a new workflow, which took most of Thursday.\n\nMeanwhile, the client turned down our proposal to put off the demo. They said they had already invited two directors and couldn't cancel.\n\nIn the end, my manager came up with a compromise: we would carry out the demo with a partial system and deal with the missing module afterwards. It worked, but I backed up everything three times before I slept.",
+    "chars": 691,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u7/reading",
+    "priority": 4
+  },
+  "cb9cbc892d51cb96": {
+    "file": "cb9cbc892d51cb96.mp3",
+    "text": "Battery choice sounds like a small decision, although it usually determines the whole architecture of a small robot.\n\nLithium polymer packs are light and deliver high current, which is why almost every competition robot uses them. However, they are unforgiving: a damaged cell can catch fire, and they require a balance charger. Despite these risks, most teams accept them because the weight saving is decisive.\n\nNickel-metal hydride packs, on the other hand, are heavier and slower to charge. Nevertheless, they tolerate abuse much better and can be stored charged for months without damage. Therefore, they remain a reasonable choice for a first prototype, where the robot spends more time on a bench than in a competition.\n\nIn fact, many experienced builders recommend starting with NiMH precisely because the first prototype is the one most likely to be wired backwards.",
+    "chars": 874,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b1u8/reading",
+    "priority": 4
+  },
+  "302a942310ac1182": {
+    "file": "302a942310ac1182.mp3",
+    "text": "Looking back, the failure was entirely avoidable.\n\nIf we had run the thermal test before the demonstration, we would have seen the drift within twenty minutes. We didn't, because the schedule had already slipped twice and nobody wanted to be the person who delayed it again.\n\nHad the supplier told us that the replacement capacitors came from a different batch, we would probably have retested anyway. They didn't mention it, and to be fair, we never asked.\n\nThe most uncomfortable part is this: if I had insisted on the extra week in February, I would not be writing this report now. I did raise it, but I raised it in a meeting where three people were already arguing about something else, and I let it drop.\n\nIn hindsight, that was the real failure. Not the capacitors.",
+    "chars": 772,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u1/reading",
+    "priority": 4
+  },
+  "7c77c06c84d8b5c9": {
+    "file": "7c77c06c84d8b5c9.mp3",
+    "text": "The board resets roughly every four minutes, which is odd. It can't be a watchdog timeout, because we disabled the watchdog on Tuesday and the behaviour didn't change.\n\nIt might be thermal. The regulator does get warm, and four minutes is about how long it takes to reach steady state. On the other hand, if it were thermal, the interval should shorten in a warm room, and it doesn't.\n\nMy colleague thinks it must be the power supply. That would account for the regularity, but I'm not convinced: we swapped the supply on Wednesday and nothing improved. He argues that we should have swapped the cable too, which is fair — we needn't have assumed the fault was in the box rather than the wire.\n\nOne thing is certain. Whatever it is, it can't have been introduced by the last firmware change, because the resets predate it by a week.",
+    "chars": 832,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u2/reading",
+    "priority": 4
+  },
+  "98565e3fb14fd5d7": {
+    "file": "98565e3fb14fd5d7.mp3",
+    "text": "Before a new supplier is approved, three things have to happen.\n\nFirst, a sample batch is manufactured and sent to us. We then have the parts measured by an independent laboratory, because measurements taken by the supplier themselves are not accepted, however reliable the supplier is believed to be.\n\nSecond, the facility undergoes an audit. This is normally carried out on behalf of several customers at once, which keeps costs down. Suppliers are sometimes said to prefer this arrangement, although in my experience they simply tolerate it.\n\nThird, we have a pilot run produced under normal conditions. Anything made during commissioning is excluded, since it is generally accepted that early units are not representative.\n\nApproval remains subject to annual review. Two suppliers had their approval withdrawn last year, in both cases because documentation had not been kept up to date.",
+    "chars": 890,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u3/reading",
+    "priority": 4
+  },
+  "0c7b32f619ebe6e8": {
+    "file": "0c7b32f619ebe6e8.mp3",
+    "text": "Rarely does a first submission require so few changes, and I want to say that clearly before the criticism.\n\nNot only is the methodology sound, but the authors have also released their data, which is still unusual in this field. What impressed me most was the treatment of measurement uncertainty: seldom do papers at this level quantify it honestly.\n\nThat said, two issues remain. It is the comparison in section four that concerns me. The baseline was run on different hardware, and no sooner does the text acknowledge this than it moves on. Under no circumstances should such a comparison be presented without a note on the difference.\n\nThe second point is minor, namely that three figures lack axis labels.\n\nNotwithstanding these issues, I recommend acceptance with minor revisions. This is, arguably, the most careful paper I have reviewed this year.",
+    "chars": 855,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u4/reading",
+    "priority": 4
+  },
+  "f91758a14e45f7e6": {
+    "file": "f91758a14e45f7e6.mp3",
+    "text": "VERSION A (sent by a student)\nHi, so I'm gonna need the lab on Thursday cause my project is due and I didn't finish. Let me know if that's cool. Thanks a lot!!\n\nVERSION B (same request, rewritten)\nDear Dr. Salinas,\n\nI am writing to ask whether it would be possible to use the laboratory on Thursday afternoon. I am currently finishing the measurements for my final project, and I have not been able to complete them within the scheduled sessions.\n\nI would only need the oscilloscope and one bench, and I would of course take responsibility for leaving everything in order.\n\nI would appreciate it if you could let me know whether this is feasible.\n\nKind regards,\nErick Reyna\n\nBoth versions ask for the same thing. The second is not longer because it is padded; it is longer because it explains the reason, limits the request and offers something in return.",
+    "chars": 855,
+    "voice": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "source": "b2u5/reading",
+    "priority": 4
+  }
+}

@@ -1,0 +1,12 @@
+services:
+  english-lab:
+    build: .
+    image: english-lab:1.0
+    container_name: english-lab
+    ports:
+      - "8080:80"
+    volumes:
+      # Edicion en caliente: cambia el contenido en ./web y solo refresca el navegador.
+      # Si quieres una imagen totalmente autocontenida, comenta estas dos lineas.
+      - ./web:/usr/share/nginx/html:ro
+    restart: unless-stopped

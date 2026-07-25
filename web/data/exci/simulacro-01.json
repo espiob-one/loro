@@ -1,0 +1,452 @@
+{
+  "id": "simulacro-01",
+  "title": "Simulacro EXCI 1",
+  "minutes": 45,
+  "disclaimer": "Reactivos de dificultad A2–B1, que es donde se decide el umbral de 50 puntos de FIME. El puntaje que sale aquí es simplemente tu porcentaje de aciertos, no una conversión oficial.",
+  "passages": {
+    "r1": {
+      "title": "Email from a landlord",
+      "text": "Dear Mr. Reyna,\n\nThank you for your message. The apartment on Calle Hidalgo is still available from the first of September. The rent is 6,500 pesos a month and includes water, but not electricity or internet.\n\nWe normally ask for one month as a deposit. However, if you sign a twelve-month contract instead of six, we can reduce the deposit to half a month.\n\nI can show you the apartment on Saturday morning, but not in the afternoon, as I have another viewing at two. Please let me know before Thursday.\n\nBest regards,\nCarmen Ríos"
+    },
+    "r2": {
+      "title": "Why we stopped repairing things",
+      "text": "Fifty years ago, a broken radio went to a repair shop. Today it goes to the bin. Part of the reason is price: electronics have become so cheap that an hour of a technician's time can cost more than a new device.\n\nBut price is not the whole story. Modern products are often designed in ways that make repair difficult — glued cases, non-standard screws, and parts that are sold only to authorised workshops. Manufacturers argue this protects safety and quality.\n\nCampaigners disagree. They point out that the same design choices also protect sales, and several countries have now passed 'right to repair' laws that force companies to publish manuals and sell spare parts. Whether these laws will change how much we throw away is still an open question."
+    }
+  },
+  "sections": [
+    {
+      "id": "listening",
+      "title": "Listening",
+      "instructions": "Escucha cada audio y contesta. Puedes repetirlo, pero acostúmbrate a decidir rápido: en el examen real el tiempo corre.",
+      "items": [
+        {
+          "id": "s1l1",
+          "type": "listen",
+          "level": "A2",
+          "audio": "The train to Saltillo leaves from platform nine at a quarter to eleven.",
+          "q": "¿De qué andén sale el tren y a qué hora?",
+          "options": ["Andén 9, 10:45", "Andén 9, 11:15", "Andén 5, 10:45", "Andén 9, 11:45"],
+          "answer": 0,
+          "explain": "platform nine = andén 9; a quarter to eleven = 15 para las 11 = 10:45. «Quarter to» resta, «quarter past» suma."
+        },
+        {
+          "id": "s1l2",
+          "type": "listen",
+          "level": "A2",
+          "audio": "I'd love to come, but I'm working on Saturday. Could we do Sunday instead?",
+          "q": "¿Qué está haciendo la persona?",
+          "options": ["Proponiendo otro día", "Aceptando la invitación", "Rechazando del todo", "Preguntando la hora"],
+          "answer": 0,
+          "explain": "«Could we do Sunday instead?» propone una alternativa. El «I'd love to, but…» es la fórmula estándar para rechazar amablemente."
+        },
+        {
+          "id": "s1l3",
+          "type": "listen",
+          "level": "B1",
+          "audio": "The results were better than we expected, although the sample was quite small.",
+          "q": "¿Qué matiz añade la persona?",
+          "options": [
+            "Los resultados son buenos, pero hay una limitación",
+            "Los resultados fueron malos",
+            "La muestra fue muy grande",
+            "No hubo resultados todavía"
+          ],
+          "answer": 0,
+          "explain": "«although» introduce una concesión: reconoce algo que debilita lo anterior. Es de las palabras que más cambian el sentido de una frase."
+        },
+        {
+          "id": "s1l4",
+          "type": "listen",
+          "level": "B1",
+          "audio": "If I were you, I'd talk to your supervisor before submitting it.",
+          "q": "¿Qué hace la persona?",
+          "options": ["Dar un consejo", "Dar una orden", "Contar algo que ya pasó", "Pedir permiso"],
+          "answer": 0,
+          "explain": "«If I were you, I'd…» es LA fórmula para aconsejar en inglés. Nota el «were» con «I»: es subjuntivo, no un error."
+        },
+        {
+          "id": "s1l5",
+          "type": "listen",
+          "level": "A2",
+          "audio": "She's been living in Guadalajara for about three years now.",
+          "q": "¿Sigue viviendo ahí?",
+          "options": ["Sí, sigue viviendo ahí", "No, ya se mudó", "Nunca vivió ahí", "Se muda en tres años"],
+          "answer": 0,
+          "explain": "«has been living… for three years» = empezó hace tres años y continúa. Si ya se hubiera mudado sería «she lived there for three years»."
+        },
+        {
+          "id": "s1l6",
+          "type": "listen",
+          "level": "B1",
+          "audio": "The manager said the report would be ready by Friday at the latest.",
+          "q": "¿Cuándo estará listo el reporte?",
+          "options": ["El viernes o antes", "Después del viernes", "Exactamente el viernes", "No se sabe"],
+          "answer": 0,
+          "explain": "«by Friday at the latest» = a más tardar el viernes. «by» significa «para/antes de», no «el»."
+        },
+        {
+          "id": "s1l7",
+          "type": "listen",
+          "level": "A2",
+          "audio": "Turn left at the traffic lights, then take the second street on your right.",
+          "q": "¿Qué instrucción es?",
+          "options": [
+            "Izquierda en el semáforo, luego la segunda calle a la derecha",
+            "Derecha en el semáforo, luego la segunda a la izquierda",
+            "Izquierda en el semáforo, luego la primera a la derecha",
+            "Seguir derecho dos calles"
+          ],
+          "answer": 0,
+          "explain": "traffic lights = semáforo. Las indicaciones de camino son un clásico de listening: se pierden puntos por no distinguir first/second y left/right bajo presión."
+        },
+        {
+          "id": "s1l8",
+          "type": "listen",
+          "level": "B1",
+          "audio": "We should have booked the tickets earlier. Now everything is sold out.",
+          "q": "¿Qué pasó?",
+          "options": [
+            "No compraron los boletos a tiempo y ya no hay",
+            "Compraron los boletos temprano",
+            "Van a comprar los boletos mañana",
+            "Los boletos son muy caros"
+          ],
+          "answer": 0,
+          "explain": "«should have + participio» = reproche sobre algo que NO se hizo. Y «sold out» confirma la consecuencia."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "instructions": "Lee cada texto y contesta. Consejo de examen: lee primero la pregunta, luego busca en el texto — no al revés.",
+      "items": [
+        {
+          "id": "s1r1",
+          "type": "readingQ",
+          "level": "A2",
+          "passageRef": "r1",
+          "q": "What is included in the rent?",
+          "options": ["Water", "Electricity", "Internet", "Nothing"],
+          "answer": 0,
+          "explain": "«includes water, but not electricity or internet». Los tres aparecen en la misma frase: hay que leerla completa."
+        },
+        {
+          "id": "s1r2",
+          "type": "readingQ",
+          "level": "B1",
+          "passageRef": "r1",
+          "q": "How can Mr. Reyna reduce the deposit?",
+          "options": [
+            "By signing a longer contract",
+            "By paying the first month in advance",
+            "By moving in before September",
+            "By viewing the apartment on Saturday"
+          ],
+          "answer": 0,
+          "explain": "«if you sign a twelve-month contract instead of six, we can reduce the deposit». Es una condicional dentro del texto — el tipo de reactivo donde más se falla por leer en diagonal."
+        },
+        {
+          "id": "s1r3",
+          "type": "readingQ",
+          "level": "A2",
+          "passageRef": "r1",
+          "q": "When can Carmen show the apartment?",
+          "options": ["Saturday morning", "Saturday afternoon", "Thursday", "At two o'clock"],
+          "answer": 0,
+          "explain": "«on Saturday morning, but not in the afternoon». El «two o'clock» es de la otra cita — distractor puesto a propósito."
+        },
+        {
+          "id": "s1r4",
+          "type": "readingQ",
+          "level": "B1",
+          "passageRef": "r1",
+          "q": "What does Carmen ask Mr. Reyna to do?",
+          "options": [
+            "Reply before Thursday",
+            "Pay the deposit on Thursday",
+            "Sign the contract on Saturday",
+            "Call another landlord"
+          ],
+          "answer": 0,
+          "explain": "«Please let me know before Thursday». «Let me know» = avísame."
+        },
+        {
+          "id": "s1r5",
+          "type": "readingQ",
+          "level": "B1",
+          "passageRef": "r2",
+          "q": "According to the text, why do people throw electronics away?",
+          "options": [
+            "Repairing can cost more than replacing",
+            "Repair shops no longer exist",
+            "New devices last longer",
+            "Governments encourage it"
+          ],
+          "answer": 0,
+          "explain": "«an hour of a technician's time can cost more than a new device». La respuesta reformula el texto en vez de copiarlo — así son los reactivos B1."
+        },
+        {
+          "id": "s1r6",
+          "type": "readingQ",
+          "level": "B1",
+          "passageRef": "r2",
+          "q": "Which design feature is mentioned as making repair harder?",
+          "options": ["Glued cases", "Heavy batteries", "Small screens", "Wireless charging"],
+          "answer": 0,
+          "explain": "«glued cases, non-standard screws, and parts that are sold only to authorised workshops»."
+        },
+        {
+          "id": "s1r7",
+          "type": "readingQ",
+          "level": "B1",
+          "passageRef": "r2",
+          "q": "What do 'right to repair' laws require companies to do?",
+          "options": [
+            "Publish manuals and sell spare parts",
+            "Repair all products for free",
+            "Stop using glue in their products",
+            "Reduce the price of new devices"
+          ],
+          "answer": 0,
+          "explain": "«force companies to publish manuals and sell spare parts»."
+        },
+        {
+          "id": "s1r8",
+          "type": "readingQ",
+          "level": "B1",
+          "passageRef": "r2",
+          "q": "What is the writer's attitude at the end?",
+          "options": [
+            "Uncertain about the effect of the laws",
+            "Certain the laws will work",
+            "Certain the laws will fail",
+            "Angry with the campaigners"
+          ],
+          "answer": 0,
+          "explain": "«is still an open question» = sigue sin resolverse. Detectar la actitud del autor es de lo que más pesa en reading de nivel medio."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "instructions": "Elige o escribe la forma correcta.",
+      "items": [
+        {
+          "id": "s1g1",
+          "type": "choice",
+          "level": "A2",
+          "q": "She ___ to the gym every morning.",
+          "options": ["goes", "go", "going", "is go"],
+          "answer": 0,
+          "explain": "Presente simple, tercera persona → -es. Rutinas = presente simple."
+        },
+        {
+          "id": "s1g2",
+          "type": "choice",
+          "level": "A2",
+          "q": "They ___ TV when I arrived.",
+          "options": ["were watching", "watched", "watch", "have watched"],
+          "answer": 0,
+          "explain": "Acción en curso interrumpida por otra → pasado continuo + pasado simple."
+        },
+        {
+          "id": "s1g3",
+          "type": "choice",
+          "level": "B1",
+          "q": "I've lived here ___ ten years.",
+          "options": ["for", "since", "during", "ago"],
+          "answer": 0,
+          "explain": "«for» + duración (ten years). «since» + punto de inicio (2015, Monday)."
+        },
+        {
+          "id": "s1g4",
+          "type": "gap",
+          "level": "A2",
+          "q": "This is the ___ (good) restaurant in the city.",
+          "answer": ["best", "the best"],
+          "explain": "Superlativo irregular: good / better / best."
+        },
+        {
+          "id": "s1g5",
+          "type": "choice",
+          "level": "B1",
+          "q": "The email ___ yesterday.",
+          "options": ["was sent", "sent", "is sending", "has sent"],
+          "answer": 0,
+          "explain": "Pasiva en pasado: el correo no envía, lo enviaron."
+        },
+        {
+          "id": "s1g6",
+          "type": "order",
+          "level": "A2",
+          "q": "Ordena la oración.",
+          "words": ["been", "to", "have", "never", "I", "Europe"],
+          "answer": "I have never been to Europe",
+          "explain": "El adverbio de frecuencia (never) va entre el auxiliar y el participio: have never been."
+        },
+        {
+          "id": "s1g7",
+          "type": "choice",
+          "level": "B1",
+          "q": "If I ___ more time, I would learn another language.",
+          "options": ["had", "have", "will have", "would have"],
+          "answer": 0,
+          "explain": "Segundo condicional (situación hipotética): If + pasado simple, would + verbo."
+        },
+        {
+          "id": "s1g8",
+          "type": "gap",
+          "level": "A2",
+          "q": "There ___ a lot of people at the concert last night.",
+          "answer": ["were"],
+          "explain": "«a lot of people» es plural y la frase está en pasado → were."
+        },
+        {
+          "id": "s1g9",
+          "type": "choice",
+          "level": "B1",
+          "q": "He asked me where I ___ from.",
+          "options": ["was", "am", "is", "be"],
+          "answer": 0,
+          "explain": "Estilo indirecto: el presente «am» retrocede a «was». Y el orden ya no es de pregunta: «where I was», no «where was I»."
+        },
+        {
+          "id": "s1g10",
+          "type": "choice",
+          "level": "B1",
+          "q": "You ___ smoke in the hospital. It's forbidden.",
+          "options": ["mustn't", "don't have to", "shouldn't have", "needn't"],
+          "answer": 0,
+          "explain": "«mustn't» = prohibido. «don't have to» = no es necesario — es el error más común del examen porque en español los dos suenan a «no tienes que»."
+        },
+        {
+          "id": "s1g11",
+          "type": "translate",
+          "level": "B1",
+          "q": "Traduce: «Todavía no he terminado el reporte.»",
+          "answer": [
+            "I haven't finished the report yet",
+            "I have not finished the report yet",
+            "I still haven't finished the report",
+            "I still have not finished the report"
+          ],
+          "explain": "«yet» va al final en negativos; «still» va antes del auxiliar. Las dos son correctas, pero no se mezclan."
+        },
+        {
+          "id": "s1g12",
+          "type": "choice",
+          "level": "A2",
+          "q": "I'm looking forward ___ you next week.",
+          "options": ["to seeing", "to see", "seeing", "for seeing"],
+          "answer": 0,
+          "explain": "«look forward to» lleva -ing porque ese «to» es preposición, no infinitivo. Es una trampa clásica."
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "instructions": "Elige la palabra que mejor complete la frase.",
+      "items": [
+        {
+          "id": "s1v1",
+          "type": "choice",
+          "level": "A2",
+          "q": "I need to ___ an appointment with the dentist.",
+          "options": ["make", "do", "take", "have"],
+          "answer": 0,
+          "explain": "make an appointment. En inglés se «hacen» unas cosas con make y otras con do; no hay lógica, se memorizan por colocación."
+        },
+        {
+          "id": "s1v2",
+          "type": "choice",
+          "level": "A2",
+          "q": "The opposite of «expensive» is ___.",
+          "options": ["cheap", "rich", "poor", "free"],
+          "answer": 0,
+          "explain": "cheap = barato. «free» es gratis, que no es lo mismo."
+        },
+        {
+          "id": "s1v3",
+          "type": "choice",
+          "level": "B1",
+          "q": "She's very ___ — she always tells the truth.",
+          "options": ["honest", "honestly", "honesty", "dishonest"],
+          "answer": 0,
+          "explain": "Después de «very» va un adjetivo: honest. Los otros son adverbio, sustantivo y antónimo."
+        },
+        {
+          "id": "s1v4",
+          "type": "choice",
+          "level": "B1",
+          "q": "The flight was ___ by two hours because of the storm.",
+          "options": ["delayed", "lately", "slow", "waited"],
+          "answer": 0,
+          "explain": "delayed = retrasado por una causa; es el verbo que usan las aerolíneas en tableros y anuncios, y el único que admite «by two hours». «Lately» es un adverbio («últimamente») y no cabe aquí."
+        },
+        {
+          "id": "s1v5",
+          "type": "choice",
+          "level": "B1",
+          "q": "Could you ___ the volume? I can't hear anything.",
+          "options": ["turn up", "turn off", "turn down", "turn into"],
+          "answer": 0,
+          "explain": "turn up = subir el volumen. turn down = bajarlo. Se confunden constantemente."
+        },
+        {
+          "id": "s1v6",
+          "type": "choice",
+          "level": "A2",
+          "q": "I usually ___ the bus to work.",
+          "options": ["take", "get on", "drive", "make"],
+          "answer": 0,
+          "explain": "take the bus/train/taxi. «get on» es subirse en ese momento, no la costumbre."
+        },
+        {
+          "id": "s1v7",
+          "type": "choice",
+          "level": "B1",
+          "q": "The engineer was ___ for checking the safety systems.",
+          "options": ["responsible", "responsibility", "response", "responsive"],
+          "answer": 0,
+          "explain": "be responsible for + -ing. De nuevo formación de palabras: la posición pide adjetivo."
+        },
+        {
+          "id": "s1v8",
+          "type": "choice",
+          "level": "B1",
+          "q": "We need to ___ a solution before Friday.",
+          "options": ["come up with", "come across", "come along", "come over"],
+          "answer": 0,
+          "explain": "come up with = idear, se te ocurre. come across = encontrarte algo por casualidad."
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "title": "Writing",
+      "instructions": "Un solo texto. Escríbelo de corrido, sin diccionario, como en el examen real.",
+      "items": [
+        {
+          "id": "s1w1",
+          "type": "writing",
+          "level": "B1",
+          "q": "Escribe un correo a un profesor pidiéndole una prórroga para entregar un proyecto. Explica el motivo, propón una fecha nueva y pide disculpas.",
+          "minWords": 70,
+          "mustUse": ["because", "would", "apologise"],
+          "rubric": [
+            "Empecé y cerré como un correo formal (Dear… / Best regards…)",
+            "Expliqué el motivo con «because» y una razón concreta",
+            "Propuse una fecha nueva y específica, no un «pronto»",
+            "Pedí disculpas sin repetirlo tres veces",
+            "Usé «would» para pedir con cortesía, no en imperativo",
+            "Llegué a 70 palabras sin rellenar con repeticiones"
+          ],
+          "model": "Dear Professor Salinas,\n\nI am writing to ask whether it would be possible to hand in the final project a few days later than planned. Unfortunately, I have been ill this week and I was unable to finish the testing stage because the lab was closed on Tuesday and Wednesday.\n\nWould it be acceptable to submit the report on Monday the 15th instead of Friday the 12th? The written part is already complete, so I only need to add the results.\n\nI apologise for the inconvenience and I appreciate your understanding.\n\nBest regards,\nErick Reyna"
+        }
+      ]
+    }
+  ]
+}

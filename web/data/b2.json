@@ -1,0 +1,591 @@
+{
+  "id": "b2",
+  "cefr": "B2",
+  "title": "Margen de seguridad",
+  "intro": "Este nivel no lo necesitas para pasar los 50 puntos de FIME: lo necesitas para pasarlos con holgura y para no depender de la suerte el día del examen. También es el nivel que de verdad sirve después — leer papers, escribir correos a proveedores, entender una junta técnica en inglés.",
+  "units": [
+    {
+      "id": "b2u1",
+      "title": "What might have been",
+      "titleEs": "Tercer condicional y condicionales mixtos",
+      "goal": "hablar de pasados que no ocurrieron y de sus consecuencias, hoy o entonces.",
+      "grammar": {
+        "title": "Third and mixed conditionals",
+        "explanation": "TERCER CONDICIONAL — un pasado que NO pasó y su consecuencia en el pasado.\nIf + past perfect, would have + participio.\n«If we had tested it, we would have found the fault.» (no lo probamos, no lo encontramos)\n\nMIXTO — causa en el pasado, consecuencia en el presente.\nIf + past perfect, would + verbo base.\n«If I had studied engineering, I would be working in another field now.»\n\nInversión formal: se puede quitar el «if» y adelantar «had».\n«Had we tested it, we would have found the fault.» Suena más formal y aparece en textos escritos.\n\nTodo tercer condicional describe, por definición, algo que NO ocurrió. Esa es la clave para contestar los reactivos de comprensión.",
+        "table": [
+          ["Tipo", "Condición", "Resultado", "Sentido"],
+          ["3º", "had + participio", "would have + participio", "pasado irreal"],
+          ["Mixto", "had + participio", "would + base", "pasado → presente"],
+          ["Inversión", "Had + sujeto + participio", "would have...", "formal"],
+          ["Reproche", "should have + participio", "—", "debiste"],
+          ["Alivio", "could have + participio", "—", "pudo haber pasado"]
+        ],
+        "examples": [
+          { "en": "If they had ordered earlier, the parts would have arrived.", "es": "Si hubieran pedido antes, las piezas habrían llegado." },
+          { "en": "Had I known, I wouldn't have signed.", "es": "De haberlo sabido, no habría firmado." },
+          { "en": "If she had accepted that job, she would be in Berlin now.", "es": "Si hubiera aceptado ese trabajo, ahora estaría en Berlín." },
+          { "en": "You could have damaged the board.", "es": "Pudiste haber dañado la placa." }
+        ],
+        "warning": "«If I would have known» es incorrecto en inglés estándar, aunque se oiga. La condición lleva «had», nunca «would have»."
+      },
+      "vocab": [
+        { "en": "otherwise", "es": "de lo contrario", "ipa": "/ˈʌðəwaɪz/", "example": "Otherwise it would have failed." },
+        { "en": "regret", "es": "arrepentirse", "ipa": "/rɪˈɡret/", "example": "I regret not asking." },
+        { "en": "hindsight", "es": "visión retrospectiva", "ipa": "/ˈhaɪndsaɪt/", "example": "In hindsight, it was obvious." },
+        { "en": "turn out", "es": "resultar", "ipa": "/tɜːn aʊt/", "example": "It turned out badly." },
+        { "en": "overlook", "es": "pasar por alto", "ipa": "/ˌəʊvəˈlʊk/", "example": "We overlooked the tolerance." },
+        { "en": "assumption", "es": "suposición", "ipa": "/əˈsʌmpʃn/", "example": "That assumption was wrong." },
+        { "en": "trade-off", "es": "compromiso, sacrificio", "ipa": "/ˈtreɪd ɒf/", "example": "It's a classic trade-off." },
+        { "en": "outcome", "es": "resultado", "ipa": "/ˈaʊtkʌm/", "example": "The outcome was positive." },
+        { "en": "avoidable", "es": "evitable", "ipa": "/əˈvɔɪdəbl/", "example": "It was entirely avoidable." },
+        { "en": "in retrospect", "es": "en retrospectiva", "ipa": "/ɪn ˈretrəspekt/", "example": "In retrospect, we rushed." },
+        { "en": "narrowly", "es": "por poco", "ipa": "/ˈnærəʊli/", "example": "We narrowly avoided it." },
+        { "en": "worth doing", "es": "que valía la pena", "ipa": "/wɜːθ ˈduːɪŋ/", "example": "It was worth doing anyway." }
+      ],
+      "reading": {
+        "title": "The post-mortem",
+        "text": "Looking back, the failure was entirely avoidable.\n\nIf we had run the thermal test before the demonstration, we would have seen the drift within twenty minutes. We didn't, because the schedule had already slipped twice and nobody wanted to be the person who delayed it again.\n\nHad the supplier told us that the replacement capacitors came from a different batch, we would probably have retested anyway. They didn't mention it, and to be fair, we never asked.\n\nThe most uncomfortable part is this: if I had insisted on the extra week in February, I would not be writing this report now. I did raise it, but I raised it in a meeting where three people were already arguing about something else, and I let it drop.\n\nIn hindsight, that was the real failure. Not the capacitors.",
+        "questions": [
+          {
+            "id": "b2u1r1",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "Did they run the thermal test?",
+            "options": [
+              "No, and that's why they missed the drift",
+              "Yes, but it showed nothing",
+              "Yes, and it revealed the drift",
+              "It was run by the supplier"
+            ],
+            "answer": 0,
+            "explain": "«If we had run the thermal test… we would have seen the drift» — tercer condicional, o sea que NO lo corrieron. Y lo confirma: «We didn't»."
+          },
+          {
+            "id": "b2u1r2",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "Why does the writer use 'I would not be writing this report now'?",
+            "options": [
+              "Because the past cause affects the present situation",
+              "Because he plans to stop writing",
+              "Because someone else would write it",
+              "Because the report is about the future"
+            ],
+            "answer": 0,
+            "explain": "Condicional mixto: la causa está en febrero, la consecuencia es ahora mismo."
+          },
+          {
+            "id": "b2u1r3",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "What does the writer consider the real failure?",
+            "options": [
+              "Not pressing his point in the meeting",
+              "The faulty capacitors",
+              "The supplier's silence",
+              "The tight schedule"
+            ],
+            "answer": 0,
+            "explain": "«I let it drop. In hindsight, that was the real failure. Not the capacitors»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b2u1e1", "type": "choice", "level": "B2", "q": "If we ___ left earlier, we wouldn't have missed the flight.", "options": ["had", "would have", "have", "did"], "answer": 0, "explain": "Tercer condicional: la condición lleva «had + participio»." },
+        { "id": "b2u1e2", "type": "choice", "level": "B2", "q": "If I had taken that job, I ___ in Germany now.", "options": ["would be living", "would have lived", "will live", "lived"], "answer": 0, "explain": "Mixto: causa pasada, consecuencia presente → would + base." },
+        { "id": "b2u1e3", "type": "choice", "level": "B2", "q": "___ we known about the defect, we would have stopped production.", "options": ["Had", "If", "Would", "Should"], "answer": 0, "explain": "Inversión formal: Had + sujeto + participio, sin «if»." },
+        { "id": "b2u1e4", "type": "gap", "level": "B2", "q": "If she ___ (not / forget) the password, we would have finished on time.", "answer": ["hadn't forgotten", "had not forgotten"], "explain": "Negativo del past perfect: hadn't + participio." },
+        { "id": "b2u1e5", "type": "choice", "level": "B2", "q": "You ___ told me. I would have helped.", "options": ["should have", "should", "must", "would"], "answer": 0, "explain": "«should have + participio» = reproche sobre algo que no se hizo." },
+        { "id": "b2u1e6", "type": "translate", "level": "B2", "q": "Traduce: «Si hubiéramos revisado el sensor, no habríamos perdido el día.»", "answer": ["If we had checked the sensor, we wouldn't have lost the day", "If we had checked the sensor, we would not have lost the day"], "explain": "Tercer condicional completo: had + participio / would have + participio." },
+        { "id": "b2u1e7", "type": "order", "level": "B2", "q": "Ordena la oración.", "words": ["known", "have", "I", "wouldn't", "Had", "signed", "I"], "answer": "Had I known I wouldn't have signed", "explain": "Inversión: Had + I + participio, luego el resultado." },
+        { "id": "b2u1e8", "type": "listen", "level": "B2", "audio": "If the budget had been approved, we would be testing the second prototype by now.", "q": "¿Qué está pasando en realidad?", "options": [
+          "No aprobaron el presupuesto y no están probando",
+          "Aprobaron el presupuesto y están probando",
+          "Van a aprobar el presupuesto",
+          "Ya terminaron el segundo prototipo"
+        ], "answer": 0, "explain": "Mixto: la causa (aprobación) no ocurrió, así que la consecuencia presente tampoco." },
+        { "id": "b2u1e9", "type": "choice", "level": "B2", "q": "That was close — you ___ hurt yourself.", "options": ["could have", "should have", "must have", "would have"], "answer": 0, "explain": "«could have» = posibilidad que casi ocurre. «Should have» sería reproche; «must have» sería deducción." },
+        { "id": "b2u1e10", "type": "choice", "level": "B2", "q": "Elige la forma correcta.", "options": ["If I had known, I would have told you.", "If I would have known, I would have told you.", "If I had known, I had told you.", "If I knew, I would have told you."], "answer": 0, "explain": "«If I would have known» es incorrecto en inglés estándar, por muy común que sea oírlo." }
+      ],
+      "writing": {
+        "q": "Escribe un post-mortem breve de algo que salió mal (un proyecto, una entrega, un examen). Explica qué habría pasado si se hubieran hecho las cosas distinto, y una consecuencia que sigues cargando hoy.",
+        "minWords": 110,
+        "mustUse": ["if", "would have", "had"],
+        "rubric": [
+          "Usé «had + participio» en la condición, nunca «would have»",
+          "Usé «would have + participio» para consecuencias en el pasado",
+          "Incluí al menos un condicional mixto (consecuencia en el presente)",
+          "Distinguí should have (reproche) de could have (posibilidad)",
+          "El tono es de análisis, no de excusa",
+          "Llegué a 110 palabras"
+        ],
+        "model": "The prototype review went badly, and most of it was avoidable.\n\nIf we had ordered the servos in January instead of March, they would have arrived with time to spare. Instead they came four days before the demonstration, and two of them were damaged in transit. Had we opened the boxes on arrival, we would have noticed immediately, but nobody checked until the morning of the test.\n\nI should have insisted on a dry run. I mentioned it once, in a meeting where everyone was already tired, and I didn't push. If I had pushed, I would not be rewriting the timeline now.\n\nThe technical fault was trivial. The process failure was not, and that is the part worth fixing."
+      }
+    },
+
+    {
+      "id": "b2u2",
+      "title": "It must have been",
+      "titleEs": "Modales de deducción y modales perfectos",
+      "goal": "expresar grados de certeza sobre el presente y el pasado.",
+      "grammar": {
+        "title": "Modals of deduction",
+        "explanation": "Los modales sirven para decir qué tan seguro estás, no sólo para pedir permiso.\n\nPRESENTE:\nmust be = estoy casi seguro de que SÍ. «He must be tired.»\ncan't be = estoy casi seguro de que NO. «That can't be right.»\nmight / may / could be = es posible. «It might be a loose connection.»\n\nPASADO — se añade «have + participio»:\nmust have been = seguro que fue así\ncan't have been = imposible que fuera así\nmight / could have been = pudo haber sido\n\nOtros perfectos importantes:\nshould have done = debiste (y no lo hiciste)\nneedn't have done = lo hiciste, pero no hacía falta\ndidn't need to do = no hacía falta y (normalmente) no lo hiciste",
+        "table": [
+          ["Certeza", "Presente", "Pasado"],
+          ["Casi seguro que sí", "must be", "must have been"],
+          ["Casi seguro que no", "can't be", "can't have been"],
+          ["Posible", "might / could be", "might / could have been"],
+          ["Reproche", "—", "should have done"],
+          ["Innecesario (sí lo hizo)", "—", "needn't have done"]
+        ],
+        "examples": [
+          { "en": "The light is on — someone must be in the lab.", "es": "La luz está prendida: seguro hay alguien en el lab." },
+          { "en": "He can't have finished already; he started ten minutes ago.", "es": "No puede haber terminado ya; empezó hace diez minutos." },
+          { "en": "It might have been a firmware issue.", "es": "Pudo haber sido un problema de firmware." },
+          { "en": "You needn't have brought your laptop.", "es": "No hacía falta que trajeras tu laptop (pero la trajiste)." }
+        ],
+        "warning": "«Mustn't have» no se usa para deducción negativa en inglés estándar. Para eso va «can't have»: «He can't have known», no «He mustn't have known»."
+      },
+      "vocab": [
+        { "en": "presumably", "es": "presumiblemente", "ipa": "/prɪˈzjuːməbli/", "example": "Presumably it overheated." },
+        { "en": "apparently", "es": "por lo visto", "ipa": "/əˈpærəntli/", "example": "Apparently nobody checked." },
+        { "en": "unlikely", "es": "poco probable", "ipa": "/ʌnˈlaɪkli/", "example": "That's unlikely." },
+        { "en": "bound to", "es": "seguro que", "ipa": "/baʊnd tuː/", "example": "It's bound to fail." },
+        { "en": "evidence", "es": "evidencia", "ipa": "/ˈevɪdəns/", "example": "There's no evidence of that." },
+        { "en": "suspect", "es": "sospechar", "ipa": "/səˈspekt/", "example": "I suspect a bad joint." },
+        { "en": "rule out", "es": "descartar", "ipa": "/ruːl aʊt/", "example": "We can rule that out." },
+        { "en": "account for", "es": "explicar, justificar", "ipa": "/əˈkaʊnt fɔː/", "example": "That accounts for the noise." },
+        { "en": "plausible", "es": "verosímil", "ipa": "/ˈplɔːzəbl/", "example": "It's a plausible theory." },
+        { "en": "far-fetched", "es": "traído de los pelos", "ipa": "/fɑː fetʃt/", "example": "That sounds far-fetched." },
+        { "en": "odds are", "es": "lo más probable es", "ipa": "/ɒdz ɑː/", "example": "Odds are it's the cable." },
+        { "en": "come to think of it", "es": "ahora que lo pienso", "ipa": "/kʌm tə θɪŋk ɒv ɪt/", "example": "Come to think of it, yes." }
+      ],
+      "reading": {
+        "title": "Diagnosing by elimination",
+        "text": "The board resets roughly every four minutes, which is odd. It can't be a watchdog timeout, because we disabled the watchdog on Tuesday and the behaviour didn't change.\n\nIt might be thermal. The regulator does get warm, and four minutes is about how long it takes to reach steady state. On the other hand, if it were thermal, the interval should shorten in a warm room, and it doesn't.\n\nMy colleague thinks it must be the power supply. That would account for the regularity, but I'm not convinced: we swapped the supply on Wednesday and nothing improved. He argues that we should have swapped the cable too, which is fair — we needn't have assumed the fault was in the box rather than the wire.\n\nOne thing is certain. Whatever it is, it can't have been introduced by the last firmware change, because the resets predate it by a week.",
+        "questions": [
+          {
+            "id": "b2u2r1",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "Why is a watchdog timeout ruled out?",
+            "options": [
+              "The behaviour continued after disabling it",
+              "The watchdog was never enabled",
+              "It resets too slowly",
+              "The supplier confirmed it"
+            ],
+            "answer": 0,
+            "explain": "«we disabled the watchdog on Tuesday and the behaviour didn't change»."
+          },
+          {
+            "id": "b2u2r2",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "What argues against the thermal theory?",
+            "options": [
+              "The interval doesn't change in a warm room",
+              "The regulator stays cool",
+              "It resets too often",
+              "The firmware was changed"
+            ],
+            "answer": 0,
+            "explain": "«if it were thermal, the interval should shorten in a warm room, and it doesn't»."
+          },
+          {
+            "id": "b2u2r3",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "What does 'we needn't have assumed' mean here?",
+            "options": [
+              "They did assume it, and they shouldn't have",
+              "They didn't assume it",
+              "They were right to assume it",
+              "They will assume it later"
+            ],
+            "answer": 0,
+            "explain": "«needn't have + participio» significa que sí lo hicieron y no hacía falta. Es distinto de «didn't need to»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b2u2e1", "type": "choice", "level": "B2", "q": "The lights are on. Someone ___ in the office.", "options": ["must be", "can't be", "should be", "might not be"], "answer": 0, "explain": "Deducción positiva con evidencia → must be." },
+        { "id": "b2u2e2", "type": "choice", "level": "B2", "q": "He ___ known — nobody told him.", "options": ["can't have", "mustn't have", "shouldn't have", "wouldn't have"], "answer": 0, "explain": "Deducción negativa sobre el pasado → can't have. «Mustn't have» no se usa así." },
+        { "id": "b2u2e3", "type": "choice", "level": "B2", "q": "It ___ a loose connection, but I'm not sure.", "options": ["might be", "must be", "can't be", "has to be"], "answer": 0, "explain": "Posibilidad sin certeza → might/may/could." },
+        { "id": "b2u2e4", "type": "gap", "level": "B2", "q": "She looks exhausted. She ___ ___ working all night.", "answer": ["must have been"], "explain": "Deducción sobre el pasado en curso: must have been + -ing." },
+        { "id": "b2u2e5", "type": "choice", "level": "B2", "q": "You ___ come — we had plenty of people.", "options": ["needn't have", "mustn't have", "couldn't have", "shouldn't"], "answer": 0, "explain": "Sí vino, pero no hacía falta → needn't have come." },
+        { "id": "b2u2e6", "type": "translate", "level": "B2", "q": "Traduce: «Debe haber sido un error de medición.»", "answer": ["It must have been a measurement error", "It must have been a measuring error"], "explain": "must have + participio para deducción sobre el pasado." },
+        { "id": "b2u2e7", "type": "order", "level": "B2", "q": "Ordena la oración.", "words": ["have", "It", "been", "can't", "the", "firmware"], "answer": "It can't have been the firmware", "explain": "can't have been = imposible que fuera." },
+        { "id": "b2u2e8", "type": "listen", "level": "B2", "audio": "She might have missed the email, or she may simply have decided not to reply.", "q": "¿Qué tan seguro está?", "options": ["Ofrece dos posibilidades, sin certeza", "Está seguro de que no lo vio", "Está seguro de que no quiso responder", "Sabe exactamente qué pasó"], "answer": 0, "explain": "«might have» y «may have» son las dos de posibilidad. No afirma ninguna." },
+        { "id": "b2u2e9", "type": "choice", "level": "B2", "q": "That ___ right — the units don't match.", "options": ["can't be", "mustn't be", "shouldn't be", "won't be"], "answer": 0, "explain": "Certeza negativa en presente → can't be." },
+        { "id": "b2u2e10", "type": "choice", "level": "B2", "q": "We ___ tested it before shipping. Now the client found the bug.", "options": ["should have", "needn't have", "can't have", "might have"], "answer": 0, "explain": "Reproche por algo que no se hizo → should have." }
+      ],
+      "writing": {
+        "q": "Describe un problema técnico que no lograste explicar del todo. Plantea al menos tres hipótesis con distintos grados de certeza, di cuál descartaste y por qué.",
+        "minWords": 110,
+        "mustUse": ["must have", "can't have", "might"],
+        "rubric": [
+          "Usé «must» y «can't» para lo que consideré casi seguro",
+          "Usé «might/may/could» para lo meramente posible",
+          "En el pasado añadí «have + participio» a todos los modales",
+          "No usé «mustn't have» para deducción negativa",
+          "Cada hipótesis viene con la evidencia que la sostiene o la descarta",
+          "Llegué a 110 palabras"
+        ],
+        "model": "One of the servos on the robot stutters under load, and I still can't explain it properly.\n\nIt can't be a mechanical binding, because the same servo runs smoothly when I remove the leg and drive it on the bench. That rules out the joint itself.\n\nIt might be a supply problem. The current draw peaks at around two amps and my bench supply is rated for three, so on paper it should be fine — but the cable is thin and rather long, and voltage drop could account for the behaviour.\n\nMy suspicion is that it must have been the cable all along. I should have measured at the connector instead of at the supply. I needn't have spent a whole evening rewriting the control loop."
+      }
+    },
+
+    {
+      "id": "b2u3",
+      "title": "Getting things done",
+      "titleEs": "Pasiva avanzada y causativo",
+      "goal": "usar el causativo (have/get something done) y las pasivas impersonales del registro formal.",
+      "grammar": {
+        "title": "Advanced passive & causative",
+        "explanation": "CAUSATIVO: have/get + objeto + participio. Significa que otro lo hace por ti, no tú.\n«I had the car repaired» = lo llevé al taller. «I repaired the car» = lo arreglé yo.\nCon «get» suena más informal: «I got my laptop fixed.»\n\nPASIVA IMPERSONAL: se usa muchísimo en textos académicos y periodísticos para reportar sin comprometerse.\n«It is said that…» / «He is said to be…» / «It was reported that…»\n«The system is believed to have failed twice.»\n\nPASIVA CON DOS OBJETOS: si el verbo lleva dos, normalmente se sube la persona.\n«They gave me a certificate» → «I was given a certificate» (más natural que «A certificate was given to me»).",
+        "table": [
+          ["Estructura", "Ejemplo", "Sentido"],
+          ["have + obj + participio", "I had the board tested.", "otro lo probó"],
+          ["get + obj + participio", "I got it fixed.", "informal, igual"],
+          ["have + obj + participio (malo)", "He had his phone stolen.", "algo le pasó"],
+          ["It is said that...", "It is said that costs will rise.", "se dice que"],
+          ["He is said to...", "He is said to be leaving.", "se dice que él..."]
+        ],
+        "examples": [
+          { "en": "We're having the prototype manufactured in Guadalajara.", "es": "Estamos mandando fabricar el prototipo en Guadalajara." },
+          { "en": "She had her thesis reviewed by two professors.", "es": "Mandó revisar su tesis con dos profesores." },
+          { "en": "It is widely believed that the standard will change.", "es": "Se cree ampliamente que el estándar cambiará." },
+          { "en": "I was told to wait outside.", "es": "Me dijeron que esperara afuera." }
+        ],
+        "warning": "«Have something done» también sirve para desgracias: «He had his laptop stolen» no significa que lo mandó robar, sino que se lo robaron. El contexto lo decide."
+      },
+      "vocab": [
+        { "en": "have something done", "es": "mandar hacer algo", "ipa": "/hæv ˈsʌmθɪŋ dʌn/", "example": "I had it serviced." },
+        { "en": "outsource", "es": "subcontratar", "ipa": "/ˈaʊtsɔːs/", "example": "We outsource the machining." },
+        { "en": "commission", "es": "encargar", "ipa": "/kəˈmɪʃn/", "example": "They commissioned a study." },
+        { "en": "be alleged to", "es": "presuntamente", "ipa": "/əˈledʒd/", "example": "It is alleged to be faulty." },
+        { "en": "be reported to", "es": "según se informa", "ipa": "/rɪˈpɔːtɪd/", "example": "Sales are reported to have fallen." },
+        { "en": "be regarded as", "es": "ser considerado como", "ipa": "/rɪˈɡɑːdɪd/", "example": "It's regarded as the standard." },
+        { "en": "undergo", "es": "someterse a", "ipa": "/ˌʌndəˈɡəʊ/", "example": "It underwent testing." },
+        { "en": "certify", "es": "certificar", "ipa": "/ˈsɜːtɪfaɪ/", "example": "The unit was certified." },
+        { "en": "inspection", "es": "inspección", "ipa": "/ɪnˈspekʃn/", "example": "An inspection was ordered." },
+        { "en": "on behalf of", "es": "en nombre de", "ipa": "/ɒn bɪˈhɑːf ɒv/", "example": "Signed on behalf of the team." },
+        { "en": "subject to", "es": "sujeto a", "ipa": "/ˈsʌbdʒekt tuː/", "example": "Subject to approval." },
+        { "en": "pending", "es": "pendiente de", "ipa": "/ˈpendɪŋ/", "example": "Pending final review." }
+      ],
+      "reading": {
+        "title": "Supplier qualification",
+        "text": "Before a new supplier is approved, three things have to happen.\n\nFirst, a sample batch is manufactured and sent to us. We then have the parts measured by an independent laboratory, because measurements taken by the supplier themselves are not accepted, however reliable the supplier is believed to be.\n\nSecond, the facility undergoes an audit. This is normally carried out on behalf of several customers at once, which keeps costs down. Suppliers are sometimes said to prefer this arrangement, although in my experience they simply tolerate it.\n\nThird, we have a pilot run produced under normal conditions. Anything made during commissioning is excluded, since it is generally accepted that early units are not representative.\n\nApproval remains subject to annual review. Two suppliers had their approval withdrawn last year, in both cases because documentation had not been kept up to date.",
+        "questions": [
+          {
+            "id": "b2u3r1",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "Why are supplier measurements not accepted?",
+            "options": [
+              "They must be done by an independent lab",
+              "Suppliers measure incorrectly",
+              "The equipment is too old",
+              "It costs too much"
+            ],
+            "answer": 0,
+            "explain": "«We then have the parts measured by an independent laboratory, because measurements taken by the supplier themselves are not accepted». Causativo + razón."
+          },
+          {
+            "id": "b2u3r2",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "Why are commissioning units excluded from the pilot run?",
+            "options": [
+              "Early units are not considered representative",
+              "They are usually defective",
+              "They belong to another customer",
+              "They are not measured"
+            ],
+            "answer": 0,
+            "explain": "«it is generally accepted that early units are not representative». Pasiva impersonal para reportar una convención."
+          },
+          {
+            "id": "b2u3r3",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "Why did two suppliers lose approval?",
+            "options": [
+              "Their documentation was out of date",
+              "Their parts failed measurement",
+              "They refused the audit",
+              "They changed facilities"
+            ],
+            "answer": 0,
+            "explain": "«because documentation had not been kept up to date». Nota «had their approval withdrawn»: causativo con sentido de desgracia."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b2u3e1", "type": "choice", "level": "B2", "q": "I ___ my laptop repaired last week.", "options": ["had", "have", "did", "made"], "answer": 0, "explain": "Causativo: have + objeto + participio. No lo reparó él." },
+        { "id": "b2u3e2", "type": "choice", "level": "B2", "q": "We're ___ the boards manufactured in Asia.", "options": ["having", "doing", "making", "being"], "answer": 0, "explain": "Causativo en continuo: having + objeto + participio." },
+        { "id": "b2u3e3", "type": "choice", "level": "B2", "q": "It ___ that the standard will change next year.", "options": ["is expected", "expects", "is expecting", "has expected"], "answer": 0, "explain": "Pasiva impersonal: It is expected that…" },
+        { "id": "b2u3e4", "type": "gap", "level": "B2", "q": "He ___ his phone stolen on the bus.", "answer": ["had"], "explain": "Causativo con sentido de desgracia: le robaron el teléfono." },
+        { "id": "b2u3e5", "type": "choice", "level": "B2", "q": "The company ___ to be the market leader.", "options": ["is said", "says", "is saying", "has said"], "answer": 0, "explain": "«be said to + infinitivo» = se dice que…" },
+        { "id": "b2u3e6", "type": "translate", "level": "B2", "q": "Traduce: «Mandé revisar el circuito antes de entregarlo.»", "answer": ["I had the circuit checked before delivering it", "I had the circuit checked before I delivered it", "I got the circuit checked before delivering it"], "explain": "«Mandar hacer algo» = have/get + objeto + participio. Nunca «I sent to check»." },
+        { "id": "b2u3e7", "type": "order", "level": "B2", "q": "Ordena la oración.", "words": ["thesis", "had", "reviewed", "her", "She"], "answer": "She had her thesis reviewed", "explain": "have + objeto + participio: otro la revisó." },
+        { "id": "b2u3e8", "type": "listen", "level": "B2", "audio": "The results are believed to have been affected by the ambient temperature.", "q": "¿Qué se afirma?", "options": [
+          "Se cree que la temperatura afectó los resultados",
+          "Se confirmó que la temperatura afectó los resultados",
+          "La temperatura no afectó nada",
+          "Los resultados afectaron la temperatura"
+        ], "answer": 0, "explain": "«are believed to have been affected» = pasiva impersonal, creencia y no confirmación." },
+        { "id": "b2u3e9", "type": "choice", "level": "B2", "q": "They gave me a certificate. → I ___ a certificate.", "options": ["was given", "was gave", "gave", "was giving"], "answer": 0, "explain": "Con dos objetos, en inglés se sube la persona: I was given…" },
+        { "id": "b2u3e10", "type": "choice", "level": "B2", "q": "Elige la frase que significa que OTRO cortó el pelo.", "options": ["I had my hair cut.", "I cut my hair.", "I was cutting my hair.", "I have cut my hair."], "answer": 0, "explain": "El causativo es exactamente esa distinción: «I had my hair cut» = fui a la peluquería." }
+      ],
+      "writing": {
+        "q": "Describe un proceso de tu área en el que intervienen terceros: qué mandas hacer, qué se hace internamente y qué se dice o se cree del resultado. Usa causativo y al menos dos pasivas impersonales.",
+        "minWords": 110,
+        "mustUse": ["had", "is said", "carried out"],
+        "rubric": [
+          "Usé have/get + objeto + participio para lo que hacen terceros",
+          "No confundí «I repaired it» con «I had it repaired»",
+          "Usé al menos dos pasivas impersonales (it is said/believed/reported)",
+          "El registro es formal y consistente",
+          "Llegué a 110 palabras"
+        ],
+        "model": "When we build a prototype board, very little of the physical work is done in-house.\n\nThe design and the firmware are written here, but we have the boards manufactured and assembled by a supplier in Guadalajara. Once they arrive, we have a sample measured by the university laboratory, since measurements carried out by the manufacturer are not accepted for the final report.\n\nFunctional testing is done internally. It is generally believed that this stage can be shortened, but in my experience the opposite is true: most faults are found here rather than at the supplier.\n\nLast semester one team had their entire batch rejected because the solder paste had been stored incorrectly. The problem is said to be common, although nobody mentions it until it happens to you."
+      }
+    },
+
+    {
+      "id": "b2u4",
+      "title": "Emphasis and inversion",
+      "titleEs": "Inversión y estructuras enfáticas",
+      "goal": "reconocer las estructuras formales que el examen usa justo para separar B1 de B2.",
+      "grammar": {
+        "title": "Inversion & cleft sentences",
+        "explanation": "INVERSIÓN: cuando una expresión negativa o restrictiva va al principio, el orden se vuelve de pregunta.\n\nNever have I seen… · Rarely does it fail… · Hardly had I sat down when… · No sooner had we left than… · Not only did it overheat, but it also… · Under no circumstances should you…\n\nFíjate: «Not only did the prototype overheat» lleva «did» porque la frase empieza con expresión negativa. Sin inversión sería «The prototype not only overheated».\n\nCLEFT (frases hendidas): sirven para poner el foco en una parte.\n«It was the cable that failed, not the board.»\n«What surprised me was the noise.»\n«The reason why it failed was a bad joint.»\n\nEn el examen aparecen sobre todo en reading y en reactivos de transformación.",
+        "table": [
+          ["Expresión inicial", "Inversión", "Ejemplo"],
+          ["Never", "have I + participio", "Never have I seen that."],
+          ["Rarely / Seldom", "does it + base", "Rarely does it fail."],
+          ["Hardly ... when", "had I + participio", "Hardly had I left when it rang."],
+          ["No sooner ... than", "had we + participio", "No sooner had we left than it rained."],
+          ["Not only ... but also", "did it + base", "Not only did it fail, but it also burned."]
+        ],
+        "examples": [
+          { "en": "Not only was the design wrong, but the documentation was missing.", "es": "No sólo el diseño estaba mal, sino que faltaba la documentación." },
+          { "en": "Never have I had to repeat a measurement so many times.", "es": "Nunca había tenido que repetir tanto una medición." },
+          { "en": "It was the connector that caused the fault.", "es": "Fue el conector lo que causó la falla." },
+          { "en": "What we need is a proper test rig.", "es": "Lo que necesitamos es un banco de pruebas decente." }
+        ],
+        "warning": "«Hardly» va con «when» y «no sooner» va con «than». Cambiarlos («no sooner… when») es un error clásico de examen."
+      },
+      "vocab": [
+        { "en": "no sooner", "es": "apenas", "ipa": "/nəʊ ˈsuːnə/", "example": "No sooner had we started than it failed." },
+        { "en": "seldom", "es": "rara vez", "ipa": "/ˈseldəm/", "example": "Seldom does this happen." },
+        { "en": "under no circumstances", "es": "bajo ninguna circunstancia", "ipa": "/ˈsɜːkəmstænsɪz/", "example": "Under no circumstances open it." },
+        { "en": "let alone", "es": "mucho menos", "ipa": "/let əˈləʊn/", "example": "I can't lift it, let alone carry it." },
+        { "en": "by no means", "es": "de ninguna manera", "ipa": "/baɪ nəʊ miːnz/", "example": "It's by no means certain." },
+        { "en": "indeed", "es": "en efecto", "ipa": "/ɪnˈdiːd/", "example": "It was indeed the cable." },
+        { "en": "namely", "es": "a saber", "ipa": "/ˈneɪmli/", "example": "One issue, namely cost." },
+        { "en": "whereby", "es": "mediante lo cual", "ipa": "/weəˈbaɪ/", "example": "A process whereby data is logged." },
+        { "en": "albeit", "es": "aunque", "ipa": "/ɔːlˈbiːɪt/", "example": "Effective, albeit expensive." },
+        { "en": "notwithstanding", "es": "no obstante", "ipa": "/ˌnɒtwɪθˈstændɪŋ/", "example": "Notwithstanding the delay..." },
+        { "en": "arguably", "es": "posiblemente", "ipa": "/ˈɑːɡjuəbli/", "example": "Arguably the best design." },
+        { "en": "to some extent", "es": "hasta cierto punto", "ipa": "/tuː sʌm ɪkˈstent/", "example": "True, to some extent." }
+      ],
+      "reading": {
+        "title": "A reviewer's note",
+        "text": "Rarely does a first submission require so few changes, and I want to say that clearly before the criticism.\n\nNot only is the methodology sound, but the authors have also released their data, which is still unusual in this field. What impressed me most was the treatment of measurement uncertainty: seldom do papers at this level quantify it honestly.\n\nThat said, two issues remain. It is the comparison in section four that concerns me. The baseline was run on different hardware, and no sooner does the text acknowledge this than it moves on. Under no circumstances should such a comparison be presented without a note on the difference.\n\nThe second point is minor, namely that three figures lack axis labels.\n\nNotwithstanding these issues, I recommend acceptance with minor revisions. This is, arguably, the most careful paper I have reviewed this year.",
+        "questions": [
+          {
+            "id": "b2u4r1",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "What is the reviewer's overall opinion?",
+            "options": [
+              "Positive, with two specific criticisms",
+              "Negative overall",
+              "Neutral and undecided",
+              "Positive with no criticisms"
+            ],
+            "answer": 0,
+            "explain": "Recomienda aceptación («I recommend acceptance») pero señala dos problemas concretos."
+          },
+          {
+            "id": "b2u4r2",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "What is the main problem with section four?",
+            "options": [
+              "The baseline used different hardware and this is barely addressed",
+              "The figures lack labels",
+              "The data was not released",
+              "The uncertainty is not quantified"
+            ],
+            "answer": 0,
+            "explain": "«The baseline was run on different hardware, and no sooner does the text acknowledge this than it moves on»."
+          },
+          {
+            "id": "b2u4r3",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "Why does the writer say 'What impressed me most was...'?",
+            "options": [
+              "To put focus on one specific element",
+              "To express doubt",
+              "To introduce a criticism",
+              "To quote the authors"
+            ],
+            "answer": 0,
+            "explain": "Es una cleft sentence: sirve para enfocar la atención en una parte concreta."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b2u4e1", "type": "choice", "level": "B2", "q": "Never ___ such a clean signal.", "options": ["have I seen", "I have seen", "did I saw", "I saw"], "answer": 0, "explain": "Con «never» al inicio, el orden se invierte: have I seen." },
+        { "id": "b2u4e2", "type": "choice", "level": "B2", "q": "Hardly had I started ___ the power failed.", "options": ["when", "than", "that", "then"], "answer": 0, "explain": "Hardly va con «when». «Than» es para «no sooner»." },
+        { "id": "b2u4e3", "type": "choice", "level": "B2", "q": "No sooner had we left ___ it started raining.", "options": ["than", "when", "that", "then"], "answer": 0, "explain": "No sooner va con «than». Es el par opuesto al anterior." },
+        { "id": "b2u4e4", "type": "choice", "level": "B2", "q": "Not only ___ late, but it was also over budget.", "options": ["was it", "it was", "did it was", "it did"], "answer": 0, "explain": "«Not only» al inicio fuerza la inversión: was it." },
+        { "id": "b2u4e5", "type": "gap", "level": "B2", "q": "Under no circumstances ___ you open the case while it's powered.", "answer": ["should", "must", "may"], "explain": "Expresión negativa al inicio → modal antes del sujeto. Valen should, must y may: lo que importa aquí es la INVERSIÓN, no qué modal elijas." },
+        { "id": "b2u4e6", "type": "choice", "level": "B2", "q": "___ the cable that failed, not the board.", "options": ["It was", "There was", "That was", "This is"], "answer": 0, "explain": "Cleft con «It was… that…» para poner el foco." },
+        { "id": "b2u4e7", "type": "translate", "level": "B2", "q": "Traduce: «Lo que más me sorprendió fue el ruido.»", "answer": ["What surprised me most was the noise", "What most surprised me was the noise"], "explain": "Cleft con «What…was…». En inglés no se dice «The that more surprised me»." },
+        { "id": "b2u4e8", "type": "order", "level": "B2", "q": "Ordena la oración.", "words": ["does", "Rarely", "fail", "it"], "answer": "Rarely does it fail", "explain": "Rarely + does + sujeto + verbo base." },
+        { "id": "b2u4e9", "type": "listen", "level": "B2", "audio": "Not only did the supplier miss the deadline, but they also sent the wrong parts.", "q": "¿Cuántos problemas hubo?", "options": ["Dos", "Uno", "Tres", "Ninguno"], "answer": 0, "explain": "«Not only… but also» encadena dos: retraso y piezas equivocadas." },
+        { "id": "b2u4e10", "type": "choice", "level": "B2", "q": "I can't even lift it, ___ carry it upstairs.", "options": ["let alone", "let it", "much less than", "even less"], "answer": 0, "explain": "«let alone» = mucho menos, y va después de una negación." }
+      ],
+      "writing": {
+        "q": "Escribe una reseña crítica de una herramienta, un curso o un proyecto: empieza reconociendo lo bueno, señala dos problemas concretos y cierra con una recomendación. Usa al menos dos inversiones y una frase hendida.",
+        "minWords": 120,
+        "mustUse": ["Not only", "What", "Rarely"],
+        "rubric": [
+          "Usé la inversión correctamente (auxiliar antes del sujeto)",
+          "Emparejé «hardly» con «when» y «no sooner» con «than» si los usé",
+          "Incluí al menos una cleft sentence (It was… that… / What… was…)",
+          "El registro es formal y sostenido, sin cambios bruscos",
+          "La crítica es concreta, no genérica",
+          "Llegué a 120 palabras"
+        ],
+        "model": "Rarely does a low-cost logic analyser justify its price as clearly as this one, and I want to acknowledge that before the complaints.\n\nNot only is the sampling rate genuinely as specified, but the software also decodes I²C and SPI without the licence games that competitors play. What impressed me most was the documentation: seldom do budget instruments explain their own limitations honestly.\n\nTwo problems remain. It is the input protection that worries me most; the datasheet claims five volts, but there is no series resistor on the board. Hardly had I connected it to a twelve-volt rail by mistake when two channels died.\n\nThe second issue is minor, namely that the probe clips are fragile.\n\nNotwithstanding these faults, I would buy it again. For the price, it is arguably unbeatable."
+      }
+    },
+
+    {
+      "id": "b2u5",
+      "title": "Saying it the right way",
+      "titleEs": "Registro, colocaciones y formación de palabras",
+      "goal": "elegir la palabra que un nativo elegiría — la sección donde más puntos se pierden sin darse cuenta.",
+      "grammar": {
+        "title": "Register, collocations & word formation",
+        "explanation": "COLOCACIONES: palabras que van juntas por costumbre, no por lógica. Se dice «make a decision» y no «do a decision»; «heavy rain» y no «strong rain»; «carry out research» y no «make research». Se aprenden en bloque.\n\nFORMACIÓN DE PALABRAS: el examen te da la raíz y tú pones la forma que pide la posición.\n• Sustantivo: -tion, -ment, -ity, -ness, -ance (decision, equipment, reliability)\n• Adjetivo: -able, -ive, -ous, -al, -ful (reliable, effective, practical)\n• Adverbio: -ly (effectively)\n• Verbo: -ise/-ize, -ify, en- (optimise, simplify)\n\nREGISTRO: en un correo formal no se escribe «Hi», «gonna» ni «a lot of». Se escribe «Dear», «going to», «considerable». La regla práctica: si suena a como hablas con un amigo, súbelo un nivel.",
+        "table": [
+          ["Se dice", "No se dice", "Nota"],
+          ["make a decision", "do a decision", "make + decisión"],
+          ["carry out research", "make research", "research es incontable"],
+          ["heavy rain / traffic", "strong rain", "colocación fija"],
+          ["take into account", "have into account", "expresión fija"],
+          ["pay attention", "give attention", "colocación fija"]
+        ],
+        "examples": [
+          { "en": "We need to take the tolerance into account.", "es": "Hay que tomar en cuenta la tolerancia." },
+          { "en": "The results were highly significant.", "es": "Los resultados fueron muy significativos." },
+          { "en": "I would appreciate a prompt reply.", "es": "Agradecería una respuesta pronta." },
+          { "en": "This raises serious concerns about reliability.", "es": "Esto plantea serias dudas sobre la fiabilidad." }
+        ],
+        "warning": "«Actually» significa «en realidad», no «actualmente». «Actualmente» es «currently». Es el falso amigo que más se cuela en textos técnicos."
+      },
+      "vocab": [
+        { "en": "take into account", "es": "tomar en cuenta", "ipa": "/teɪk ˈɪntuː əˈkaʊnt/", "example": "Take the drift into account." },
+        { "en": "carry out research", "es": "hacer investigación", "ipa": "/ˈkæri aʊt rɪˈsɜːtʃ/", "example": "They carried out research." },
+        { "en": "make a decision", "es": "tomar una decisión", "ipa": "/meɪk ə dɪˈsɪʒn/", "example": "We made a decision." },
+        { "en": "raise concerns", "es": "plantear dudas", "ipa": "/reɪz kənˈsɜːnz/", "example": "This raises concerns." },
+        { "en": "meet a deadline", "es": "cumplir una fecha", "ipa": "/miːt ə ˈdedlaɪn/", "example": "We met the deadline." },
+        { "en": "currently", "es": "actualmente", "ipa": "/ˈkʌrəntli/", "example": "Currently under review." },
+        { "en": "actually", "es": "en realidad", "ipa": "/ˈæktʃuəli/", "example": "Actually, it's the opposite." },
+        { "en": "eventually", "es": "finalmente", "ipa": "/ɪˈventʃuəli/", "example": "Eventually it worked." },
+        { "en": "reliability", "es": "fiabilidad", "ipa": "/rɪˌlaɪəˈbɪləti/", "example": "Reliability is critical." },
+        { "en": "feasible", "es": "factible", "ipa": "/ˈfiːzəbl/", "example": "That isn't feasible." },
+        { "en": "thorough", "es": "exhaustivo", "ipa": "/ˈθʌrə/", "example": "A thorough inspection." },
+        { "en": "I would appreciate", "es": "agradecería", "ipa": "/aɪ wʊd əˈpriːʃieɪt/", "example": "I would appreciate your help." }
+      ],
+      "reading": {
+        "title": "The same email, twice",
+        "text": "VERSION A (sent by a student)\nHi, so I'm gonna need the lab on Thursday cause my project is due and I didn't finish. Let me know if that's cool. Thanks a lot!!\n\nVERSION B (same request, rewritten)\nDear Dr. Salinas,\n\nI am writing to ask whether it would be possible to use the laboratory on Thursday afternoon. I am currently finishing the measurements for my final project, and I have not been able to complete them within the scheduled sessions.\n\nI would only need the oscilloscope and one bench, and I would of course take responsibility for leaving everything in order.\n\nI would appreciate it if you could let me know whether this is feasible.\n\nKind regards,\nErick Reyna\n\nBoth versions ask for the same thing. The second is not longer because it is padded; it is longer because it explains the reason, limits the request and offers something in return.",
+        "questions": [
+          {
+            "id": "b2u5r1",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "According to the text, why is version B longer?",
+            "options": [
+              "It explains, limits and offers something",
+              "It uses more complicated words",
+              "It is padded with filler",
+              "It asks for more things"
+            ],
+            "answer": 0,
+            "explain": "«it explains the reason, limits the request and offers something in return». No es cuestión de palabras rebuscadas."
+          },
+          {
+            "id": "b2u5r2",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "Which feature of version A is inappropriate in formal writing?",
+            "options": ["'gonna' and 'cause'", "Asking for the lab", "Mentioning the deadline", "Signing the message"],
+            "answer": 0,
+            "explain": "Formas habladas («gonna», «cause», «cool») y signos de exclamación múltiples no van en registro formal."
+          },
+          {
+            "id": "b2u5r3",
+            "type": "readingQ",
+            "level": "B2",
+            "q": "Why does version B say 'currently finishing'?",
+            "options": [
+              "Because 'currently' means 'at this time'",
+              "Because it sounds more complicated",
+              "Because 'actually' would be wrong grammatically",
+              "Because it refers to the past"
+            ],
+            "answer": 0,
+            "explain": "«Currently» = actualmente. Es justo el falso amigo que hay que vigilar: «actually» significa «en realidad»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b2u5e1", "type": "choice", "level": "B2", "q": "We need to ___ a decision before Friday.", "options": ["make", "do", "take", "have"], "answer": 0, "explain": "make a decision. En español «tomar», en inglés «make»." },
+        { "id": "b2u5e2", "type": "choice", "level": "B2", "q": "The team ___ research on battery ageing.", "options": ["carried out", "made", "did out", "realised"], "answer": 0, "explain": "carry out research. «Make research» no existe." },
+        { "id": "b2u5e3", "type": "choice", "level": "B2", "q": "You must take the temperature ___ account.", "options": ["into", "in", "on", "to"], "answer": 0, "explain": "take something INTO account. Preposición fija." },
+        { "id": "b2u5e4", "type": "choice", "level": "B2", "q": "The design was approved in 2024 and is ___ under review again.", "options": ["currently", "actually", "eventually", "presently said"], "answer": 0, "explain": "«Actualmente» = currently. «Actually» significa «en realidad», no «actualmente» — es el falso amigo que más se cuela en textos técnicos." },
+        { "id": "b2u5e5", "type": "choice", "level": "B2", "q": "The evidence is far from ___.", "options": ["conclusive", "concluded", "conclusion", "concluding"], "answer": 0, "explain": "Después de «far from» va adjetivo → conclusive." },
+        { "id": "b2u5e6", "type": "choice", "level": "B2", "q": "The main concern is the ___ of the sensor.", "options": ["reliability", "reliable", "reliably", "rely"], "answer": 0, "explain": "Después de «the» y antes de «of» hace falta un sustantivo → reliability." },
+        { "id": "b2u5e7", "type": "gap", "level": "B2", "q": "The change was implemented ___ (effective) last month.", "answer": ["effectively"], "explain": "Modifica al verbo → adverbio en -ly." },
+        { "id": "b2u5e8", "type": "translate", "level": "B2", "q": "Traduce en registro formal: «Agradecería que me avisaras si es posible.»", "answer": ["I would appreciate it if you could let me know whether this is possible", "I would appreciate it if you could let me know if this is possible", "I would be grateful if you could let me know whether this is possible"], "explain": "«I would appreciate it if…» es la fórmula estándar de petición formal en inglés." },
+        { "id": "b2u5e9", "type": "listen", "level": "B2", "audio": "The findings raise serious concerns, although they are by no means conclusive.", "q": "¿Qué postura toma?", "options": [
+          "Preocupado pero sin afirmar que esté demostrado",
+          "Convencido de que está demostrado",
+          "Indiferente a los hallazgos",
+          "Seguro de que no hay problema"
+        ], "answer": 0, "explain": "«raise concerns» + «by no means conclusive» = preocupación con reserva explícita." },
+        { "id": "b2u5e10", "type": "choice", "level": "B2", "q": "Elige la versión formal.", "options": [
+          "I am writing to enquire about the deadline.",
+          "Just wanted to ask about the deadline!",
+          "Hey, what's up with the deadline?",
+          "Gonna need to know the deadline."
+        ], "answer": 0, "explain": "«I am writing to enquire about…» es la apertura estándar de un correo formal." }
+      ],
+      "writing": {
+        "q": "Escribe un correo formal a un proveedor o a un profesor: explica el contexto, haz una petición concreta, acota lo que pides y ofrece algo a cambio. Sin contracciones y sin lenguaje coloquial.",
+        "minWords": 110,
+        "mustUse": ["I would appreciate", "currently", "whether"],
+        "rubric": [
+          "Abrí y cerré con fórmulas formales (Dear… / Kind regards)",
+          "No usé contracciones ni lenguaje hablado (gonna, a lot of, guys)",
+          "Usé «currently» y no «actually» para decir «actualmente»",
+          "Usé colocaciones correctas (make a decision, take into account, meet a deadline)",
+          "Acoté la petición en vez de dejarla abierta",
+          "Llegué a 110 palabras"
+        ],
+        "model": "Dear Ms. Herrera,\n\nI am writing to enquire about the lead time for the servo units quoted in your message of 14 July.\n\nWe are currently assembling a prototype for a university project, and the schedule requires the units to be delivered before 20 August. I would appreciate it if you could confirm whether this is feasible, and whether a partial shipment of four units would be possible should the full order be delayed.\n\nWe would of course take the additional shipping cost into account on our side.\n\nIf a firm date cannot be given this week, please let me know, as we would then need to make a decision about an alternative supplier.\n\nThank you for your time.\n\nKind regards,\nErick Reyna"
+      }
+    }
+  ]
+}

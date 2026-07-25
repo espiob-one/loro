@@ -1,0 +1,33 @@
+rules_version = '2';
+
+// Reglas de seguridad de Firestore para English Lab.
+//
+// Esto es lo ÚNICO que protege el progreso de tus usuarios. La config de
+// Firebase que va en el repo es pública a propósito; sin estas reglas,
+// cualquiera podría leer o borrar el progreso de cualquier otro.
+//
+// Cómo aplicarlas: consola de Firebase -> Firestore Database -> Reglas ->
+// pegar esto -> Publicar. (O `firebase deploy --only firestore:rules`.)
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /progreso/{uid} {
+      // Cada quien lee y escribe SÓLO su propio documento.
+      allow read: if request.auth != null && request.auth.uid == uid;
+
+      allow write: if request.auth != null
+                   && request.auth.uid == uid
+                   // Tope de tamaño: el progreso completo ronda los 100 KB.
+                   // 1 MB corta cualquier intento de usar tu Firestore como
+                   // almacenamiento gratis.
+                   && request.resource.data.estado.size() < 1048576
+                   && request.resource.data.keys().hasOnly(['estado', 'actualizado', 'correo']);
+    }
+
+    // Todo lo demás, cerrado.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

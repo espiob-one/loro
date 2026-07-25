@@ -1,0 +1,364 @@
+{
+  "id": "diagnostico",
+  "title": "Diagnóstico de nivel",
+  "subtitle": "30 reactivos · ~15 minutos · sin cronómetro",
+  "intro": "Contesta sin buscar nada. Si no sabes una respuesta, elige la que te suene mejor y sigue — adivinar bien también es una habilidad de examen. Al final te digo en qué nivel estás parado y una estimación cruda de tu puntaje EXCI.",
+  "disclaimer": "La estimación de puntaje EXCI es una aproximación propia basada en el porcentaje de aciertos por nivel. La UANL no publica la tabla de conversión oficial, así que tómala como brújula, no como calificación.",
+  "passages": {
+    "p1": {
+      "title": "A note on the fridge",
+      "text": "Hi Sam,\n\nI'm at the gym. There is pizza in the fridge and some juice on the table. Please feed the cat at six. The vet called — the appointment is on Thursday, not Wednesday.\n\nSee you at eight,\nAlex"
+    },
+    "p2": {
+      "title": "The 4-day week",
+      "text": "When a New Zealand company tried a four-day week in 2018, managers expected output to fall. It didn't. Staff reported lower stress and the same productivity, and the trial became permanent. Since then, similar pilots have run in Iceland, Spain and the UK.\n\nCritics argue the results are hard to generalise. Most trials involve office workers who can compress meetings and email; a nurse or a bus driver cannot simply work faster. Others point out that companies volunteering for such trials are already unusually well managed, which may explain the outcome better than the shorter week itself."
+    }
+  },
+  "items": [
+    {
+      "id": "d01",
+      "type": "choice",
+      "level": "A1",
+      "skill": "grammar",
+      "q": "My sister ___ a nurse.",
+      "options": ["is", "are", "am", "be"],
+      "answer": 0,
+      "explain": "Tercera persona del singular (she) → «is». El verbo to be en presente: I am / you are / he-she-it is."
+    },
+    {
+      "id": "d02",
+      "type": "choice",
+      "level": "A1",
+      "skill": "grammar",
+      "q": "I have ___ umbrella in my bag.",
+      "options": ["an", "a", "the", "some"],
+      "answer": 0,
+      "explain": "«umbrella» empieza con sonido vocálico → «an». La regla es por sonido, no por letra: an hour, a university."
+    },
+    {
+      "id": "d03",
+      "type": "choice",
+      "level": "A1",
+      "skill": "vocab",
+      "q": "Elige la traducción de «Tuesday».",
+      "options": ["Martes", "Jueves", "Domingo", "Sábado"],
+      "answer": 0,
+      "explain": "Tuesday = martes. Ojo con Thursday (jueves), que se confunde con Tuesday todo el tiempo."
+    },
+    {
+      "id": "d04",
+      "type": "choice",
+      "level": "A1",
+      "skill": "grammar",
+      "q": "___ you like coffee?",
+      "options": ["Do", "Does", "Are", "Is"],
+      "answer": 0,
+      "explain": "Pregunta en presente simple con «you» → auxiliar «do». «Does» sólo con he/she/it."
+    },
+    {
+      "id": "d05",
+      "type": "choice",
+      "level": "A1",
+      "skill": "grammar",
+      "q": "There ___ three books on the desk.",
+      "options": ["are", "is", "have", "has"],
+      "answer": 0,
+      "explain": "«three books» es plural → there are. There is + singular, there are + plural."
+    },
+    {
+      "id": "d06",
+      "type": "listen",
+      "level": "A1",
+      "skill": "listening",
+      "audio": "My phone number is four one two, seven six nine.",
+      "q": "Escucha y elige el número que dijeron.",
+      "options": ["412 769", "421 796", "412 679", "421 769"],
+      "answer": 0,
+      "explain": "four one two → 412; seven six nine → 769. Los números sueltos son de los reactivos más fáciles de fallar por descuido."
+    },
+    {
+      "id": "d07",
+      "type": "readingQ",
+      "level": "A1",
+      "skill": "reading",
+      "passageRef": "p1",
+      "q": "Where is Alex?",
+      "options": ["At the gym", "At the vet", "At home", "At work"],
+      "answer": 0,
+      "explain": "«I'm at the gym» — primera línea del recado."
+    },
+    {
+      "id": "d08",
+      "type": "readingQ",
+      "level": "A1",
+      "skill": "reading",
+      "passageRef": "p1",
+      "q": "When is the vet appointment?",
+      "options": ["Thursday", "Wednesday", "At six", "At eight"],
+      "answer": 0,
+      "explain": "«the appointment is on Thursday, not Wednesday». Los distractores están todos en el texto — por eso hay que leer la frase completa."
+    },
+
+    {
+      "id": "d09",
+      "type": "choice",
+      "level": "A2",
+      "skill": "grammar",
+      "q": "We ___ to Monterrey last summer.",
+      "options": ["went", "go", "have gone", "are going"],
+      "answer": 0,
+      "explain": "«last summer» es tiempo terminado → pasado simple. Go es irregular: go / went / gone."
+    },
+    {
+      "id": "d10",
+      "type": "choice",
+      "level": "A2",
+      "skill": "grammar",
+      "q": "This laptop is ___ than mine.",
+      "options": ["cheaper", "more cheap", "cheapest", "the cheaper"],
+      "answer": 0,
+      "explain": "Adjetivo corto (1 sílaba) → -er. «more» se usa con adjetivos largos: more expensive."
+    },
+    {
+      "id": "d11",
+      "type": "gap",
+      "level": "A2",
+      "skill": "grammar",
+      "q": "I'm tired. I ___ going to study tonight.",
+      "answer": ["am not", "'m not"],
+      "explain": "Negativo de «be going to» con I → I am not / I'm not going to."
+    },
+    {
+      "id": "d12",
+      "type": "choice",
+      "level": "A2",
+      "skill": "vocab",
+      "q": "I'm not going out this month — I need to ___ money before the trip.",
+      "options": ["save", "spend", "waste", "lose"],
+      "answer": 0,
+      "explain": "save money = ahorrar, y «I'm not going out this month» sólo tiene sentido con ahorrar. spend = gastar, waste = desperdiciar, lose = perder."
+    },
+    {
+      "id": "d13",
+      "type": "choice",
+      "level": "A2",
+      "skill": "grammar",
+      "q": "There isn't ___ milk left.",
+      "options": ["any", "some", "many", "a"],
+      "answer": 0,
+      "explain": "En negativo con incontable → «any». «some» va en afirmativo; «many» sólo con contables."
+    },
+    {
+      "id": "d14",
+      "type": "order",
+      "level": "A2",
+      "skill": "grammar",
+      "q": "Ordena la pregunta.",
+      "words": ["did", "What", "yesterday", "do", "you", "?"],
+      "answer": "What did you do yesterday ?",
+      "explain": "Orden de pregunta en pasado: palabra interrogativa + did + sujeto + verbo en base. Nunca «What did you did»."
+    },
+    {
+      "id": "d15",
+      "type": "listen",
+      "level": "A2",
+      "skill": "listening",
+      "audio": "The meeting has been moved to half past three on Friday.",
+      "q": "¿A qué hora quedó la reunión?",
+      "options": ["3:30", "2:30", "3:00", "4:30"],
+      "answer": 0,
+      "explain": "«half past three» = 3:30. En inglés británico la hora se dice mucho así: half past, quarter to, quarter past."
+    },
+    {
+      "id": "d16",
+      "type": "translate",
+      "level": "A2",
+      "skill": "grammar",
+      "q": "Traduce: «Nunca he estado en Canadá.»",
+      "answer": [
+        "I have never been to Canada",
+        "I've never been to Canada",
+        "I have never been in Canada",
+        "I've never been in Canada"
+      ],
+      "explain": "Presente perfecto para experiencia de vida. Lo natural es «been to», no «been in», para hablar de haber visitado un lugar."
+    },
+
+    {
+      "id": "d17",
+      "type": "choice",
+      "level": "B1",
+      "skill": "grammar",
+      "q": "I ___ here since 2019.",
+      "options": ["have worked", "work", "worked", "am working"],
+      "answer": 0,
+      "explain": "«since + punto en el tiempo» pide presente perfecto: la acción empezó antes y sigue hasta hoy."
+    },
+    {
+      "id": "d18",
+      "type": "choice",
+      "level": "B1",
+      "skill": "grammar",
+      "q": "If it ___ tomorrow, we'll cancel the match.",
+      "options": ["rains", "will rain", "rained", "would rain"],
+      "answer": 0,
+      "explain": "Primer condicional: If + presente simple, will + verbo. Nunca «if it will rain»."
+    },
+    {
+      "id": "d19",
+      "type": "choice",
+      "level": "B1",
+      "skill": "grammar",
+      "q": "The bridge ___ in 1987.",
+      "options": ["was built", "built", "has built", "is building"],
+      "answer": 0,
+      "explain": "Voz pasiva en pasado: was/were + participio. El puente no construyó nada; lo construyeron."
+    },
+    {
+      "id": "d20",
+      "type": "gap",
+      "level": "B1",
+      "skill": "grammar",
+      "q": "That's the engineer ___ designed the circuit.",
+      "answer": ["who", "that"],
+      "explain": "Pronombre relativo para personas: who (o that en estilo informal). «which» es sólo para cosas."
+    },
+    {
+      "id": "d21",
+      "type": "choice",
+      "level": "B1",
+      "skill": "vocab",
+      "q": "The company had to ___ the launch because of a supply problem.",
+      "options": ["put off", "put on", "put up", "put down"],
+      "answer": 0,
+      "explain": "put off = posponer. Los phrasal verbs con «put» cambian por completo con la partícula: put on (ponerse), put up with (soportar)."
+    },
+    {
+      "id": "d22",
+      "type": "choice",
+      "level": "B1",
+      "skill": "grammar",
+      "q": "She said she ___ finish it by Monday.",
+      "options": ["would", "will", "won't have", "is going"],
+      "answer": 0,
+      "explain": "Estilo indirecto: el «will» del original retrocede a «would»."
+    },
+    {
+      "id": "d23",
+      "type": "choice",
+      "level": "B1",
+      "skill": "vocab",
+      "q": "Elige el sinónimo más cercano de «reliable».",
+      "options": ["dependable", "reasonable", "remarkable", "readable"],
+      "answer": 0,
+      "explain": "reliable = dependable = confiable. Los otros tres se parecen de forma, no de significado — distractores típicos de examen."
+    },
+    {
+      "id": "d24",
+      "type": "listen",
+      "level": "B1",
+      "skill": "listening",
+      "audio": "I would have called you, but my battery died halfway through the trip.",
+      "q": "¿Qué pasó realmente?",
+      "options": [
+        "No llamó, porque se le acabó la batería",
+        "Llamó a mitad del viaje",
+        "Llamó pero no contestaron",
+        "Va a llamar cuando cargue el teléfono"
+      ],
+      "answer": 0,
+      "explain": "«I would have called» = habría llamado, pero no lo hizo. El condicional perfecto siempre describe algo que NO pasó."
+    },
+    {
+      "id": "d25",
+      "type": "readingQ",
+      "level": "B1",
+      "skill": "reading",
+      "passageRef": "p2",
+      "q": "What did the managers expect before the 2018 trial?",
+      "options": [
+        "That production would go down",
+        "That stress would go down",
+        "That the trial would become permanent",
+        "That other countries would copy it"
+      ],
+      "answer": 0,
+      "explain": "«managers expected output to fall» — output = producción. Y enseguida: «It didn't»."
+    },
+
+    {
+      "id": "d26",
+      "type": "choice",
+      "level": "B2",
+      "skill": "grammar",
+      "q": "If we ___ left earlier, we wouldn't have missed the flight.",
+      "options": ["had", "would have", "have", "did"],
+      "answer": 0,
+      "explain": "Tercer condicional: If + past perfect (had + participio), would have + participio. Habla de un pasado que ya no se puede cambiar."
+    },
+    {
+      "id": "d27",
+      "type": "choice",
+      "level": "B2",
+      "skill": "grammar",
+      "q": "He ___ have known — nobody told him.",
+      "options": ["can't", "mustn't", "shouldn't", "didn't"],
+      "answer": 0,
+      "explain": "«can't have + participio» = deducción de que algo era imposible. «mustn't have» no se usa así en inglés estándar, y «didn't have known» es directamente agramatical."
+    },
+    {
+      "id": "d28",
+      "type": "choice",
+      "level": "B2",
+      "skill": "vocab",
+      "q": "The evidence is far from ___; more testing is needed.",
+      "options": ["conclusive", "concluded", "conclusion", "concluding"],
+      "answer": 0,
+      "explain": "Después de «far from» va un adjetivo → conclusive (concluyente). Reactivo clásico de formación de palabras."
+    },
+    {
+      "id": "d29",
+      "type": "readingQ",
+      "level": "B2",
+      "skill": "reading",
+      "passageRef": "p2",
+      "q": "What is the critics' main objection?",
+      "options": [
+        "The companies in the trials may not represent normal workplaces",
+        "The trials were too short to measure anything",
+        "Workers in the trials were not honest about their stress",
+        "The four-day week only works in New Zealand"
+      ],
+      "answer": 0,
+      "explain": "«companies volunteering for such trials are already unusually well managed, which may explain the outcome». La respuesta no está en una frase literal: hay que inferirla — así son los reactivos B2."
+    },
+    {
+      "id": "d30",
+      "type": "translate",
+      "level": "B2",
+      "skill": "grammar",
+      "q": "Traduce: «Deberías haber revisado el circuito antes de soldarlo.»",
+      "answer": [
+        "You should have checked the circuit before soldering it",
+        "You should have checked the circuit before welding it",
+        "You should've checked the circuit before soldering it",
+        "You should have checked the circuit before you soldered it"
+      ],
+      "explain": "should have + participio = reproche sobre el pasado. Y ojo: en electrónica se suelda con «solder»; «weld» es soldadura de metales pesados."
+    }
+  ],
+  "scoring": {
+    "levelOrder": ["A1", "A2", "B1", "B2"],
+    "passThreshold": 0.6,
+    "note": "Tu nivel sugerido es el más alto en el que aciertes al menos el 60%. Si fallas un nivel, no se revisan los de arriba: el piso manda.",
+    "exciEstimate": {
+      "formula": "aciertos_totales / 30 * 100, ajustado por nivel alcanzado",
+      "bands": [
+        { "max": 39, "label": "Muy por debajo de 50", "advice": "Empieza en A1-A2 y prioriza gramática básica y vocabulario de alta frecuencia. Necesitas semanas, no días." },
+        { "max": 55, "label": "Cerca del umbral, riesgoso", "advice": "Estás en A2. El salto a 50 puntos está en dominar pasado simple, presente perfecto y los conectores. Ahí es donde se gana el examen." },
+        { "max": 75, "label": "Probable aprobado", "advice": "Andas en B1. Ya deberías pasar los 50 puntos; enfócate en simulacros y en listening, que es donde más se pierde puntaje por descuido." },
+        { "max": 100, "label": "Cómodo", "advice": "B1 alto o B2. Los 50 puntos no son tu problema. Usa los simulacros para no perder puntos tontos y presenta pronto." }
+      ]
+    }
+  }
+}

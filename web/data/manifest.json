@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "generated": "2026-07-25",
+  "note": "La app lee este archivo para saber qué contenido existe. Si un archivo listado aquí no está en disco, la app lo omite en silencio y sigue funcionando. Para agregar un nivel nuevo: crea el JSON y añade su entrada aquí. No hay que tocar código.",
+  "diagnostic": "data/diagnostico.json",
+  "levels": [
+    {
+      "id": "a1",
+      "cefr": "A1",
+      "file": "data/a1.json",
+      "title": "Fundamentos",
+      "subtitle": "Repaso rápido: to be, artículos, presente simple",
+      "units": 4,
+      "color": "#4ade80"
+    },
+    {
+      "id": "a2",
+      "cefr": "A2",
+      "file": "data/a2.json",
+      "title": "Base sólida",
+      "subtitle": "Pasado, futuro, comparativos — aquí empieza el examen de verdad",
+      "units": 7,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "b1",
+      "cefr": "B1",
+      "file": "data/b1.json",
+      "title": "Zona de los 50 puntos",
+      "subtitle": "Presente perfecto, condicionales, pasiva, phrasal verbs",
+      "units": 8,
+      "color": "#a78bfa"
+    },
+    {
+      "id": "b2",
+      "cefr": "B2",
+      "file": "data/b2.json",
+      "title": "Margen de seguridad",
+      "subtitle": "Condicional perfecto, modales de deducción, matiz y registro",
+      "units": 5,
+      "color": "#fb923c"
+    }
+  ],
+  "exams": [
+    {
+      "id": "simulacro-01",
+      "file": "data/exci/simulacro-01.json",
+      "title": "Simulacro EXCI 1",
+      "subtitle": "Nivel A2–B1 · 5 secciones"
+    },
+    {
+      "id": "simulacro-02",
+      "file": "data/exci/simulacro-02.json",
+      "title": "Simulacro EXCI 2",
+      "subtitle": "Nivel B1–B2 · 5 secciones"
+    }
+  ]
+}

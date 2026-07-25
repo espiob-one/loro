@@ -1,0 +1,483 @@
+{
+  "id": "simulacro-02",
+  "title": "Simulacro EXCI 2",
+  "minutes": 50,
+  "disclaimer": "Reactivos B1–B2, más duros que el simulacro 1. Si aquí sacas 50 o más, vas con margen. Igual que el otro, el puntaje es tu porcentaje de aciertos, no una conversión oficial.",
+  "passages": {
+    "r1": {
+      "title": "The quiet problem with smart meters",
+      "text": "Utility companies have spent a decade installing smart meters, arguing that households which can see their consumption in real time will use less energy. The evidence is mixed. Early trials reported savings of up to five per cent, but later studies found that the effect faded after a few months, once the novelty of the display wore off.\n\nA more interesting finding concerns who benefits. Savings were largest among households that were already energy-conscious, and negligible among those with the highest bills. In other words, the technology rewarded people who needed it least.\n\nThis does not mean smart meters are useless. Their real value may lie elsewhere: in allowing suppliers to charge different prices at different times of day, which shifts demand away from peak hours. But that benefit accrues to the grid, not to the individual consumer — a distinction rarely made in the marketing."
+    },
+    "r2": {
+      "title": "Two views on remote work",
+      "text": "MARIA (engineering manager): I've managed distributed teams for six years, and the productivity argument is settled as far as I'm concerned. What isn't settled is how junior people learn. Seniors were already formed; they can work from anywhere. Juniors used to learn by overhearing — by watching how a senior debugged something at the next desk. We haven't replaced that, and pretending we have is dishonest.\n\nTOM (researcher): I'd push back on the framing. The 'overhearing' argument assumes the office was working well for everyone, and it wasn't. Plenty of juniors sat in open-plan offices learning nothing, because nobody had time for them. The problem was never the building; it was that mentoring was never anybody's actual job. Remote work simply made an existing failure impossible to ignore."
+    }
+  },
+  "sections": [
+    {
+      "id": "listening",
+      "title": "Listening",
+      "instructions": "Nivel B1–B2. Aquí el sentido depende de una sola palabra: fíjate en los conectores y en los modales.",
+      "items": [
+        {
+          "id": "s2l1",
+          "type": "listen",
+          "level": "B2",
+          "audio": "Had we known about the delay, we would have taken an earlier flight.",
+          "q": "¿Qué pasó en realidad?",
+          "options": [
+            "No sabían del retraso y no tomaron el vuelo temprano",
+            "Sabían del retraso y tomaron un vuelo temprano",
+            "Sabían del retraso pero no cambiaron de vuelo",
+            "Van a tomar un vuelo más temprano"
+          ],
+          "answer": 0,
+          "explain": "«Had we known…» es un tercer condicional con inversión (equivale a «If we had known»). Como todo tercer condicional, describe lo contrario de lo que pasó."
+        },
+        {
+          "id": "s2l2",
+          "type": "listen",
+          "level": "B2",
+          "audio": "The proposal is interesting, to say the least, though I'm not entirely convinced by the budget.",
+          "q": "¿Cuál es la postura de quien habla?",
+          "options": [
+            "Le interesa pero tiene reservas sobre el presupuesto",
+            "Rechaza la propuesta por completo",
+            "Está totalmente convencido",
+            "No entendió la propuesta"
+          ],
+          "answer": 0,
+          "explain": "«though I'm not entirely convinced» = reserva parcial. «Not entirely» es una negación suave: no es «no», es «no del todo»."
+        },
+        {
+          "id": "s2l3",
+          "type": "listen",
+          "level": "B1",
+          "audio": "By the time we got to the venue, the doors had already closed.",
+          "q": "¿Qué ocurrió primero?",
+          "options": [
+            "Se cerraron las puertas",
+            "Llegaron al lugar",
+            "Las dos cosas al mismo tiempo",
+            "No llegaron nunca"
+          ],
+          "answer": 0,
+          "explain": "El pasado perfecto (had closed) marca lo que pasó ANTES del otro pasado. Ese es todo su trabajo: ordenar dos pasados."
+        },
+        {
+          "id": "s2l4",
+          "type": "listen",
+          "level": "B2",
+          "audio": "I wouldn't say it's a failure exactly — it just didn't scale the way we hoped.",
+          "q": "¿Cómo describe el resultado?",
+          "options": [
+            "Lo suaviza: no fue un fracaso, pero no funcionó a gran escala",
+            "Dice que fue un éxito rotundo",
+            "Dice que fue un fracaso total",
+            "Dice que todavía no hay resultados"
+          ],
+          "answer": 0,
+          "explain": "«I wouldn't say… exactly» es atenuación (hedging). En inglés profesional casi nunca se dice «fracasó» de frente; hay que oír el matiz."
+        },
+        {
+          "id": "s2l5",
+          "type": "listen",
+          "level": "B1",
+          "audio": "You needn't have brought your laptop; there are computers in every room.",
+          "q": "¿Trajo la laptop?",
+          "options": [
+            "Sí, la trajo, pero no hacía falta",
+            "No la trajo y debió traerla",
+            "No la trajo y estuvo bien",
+            "No se sabe si la trajo"
+          ],
+          "answer": 0,
+          "explain": "«needn't have + participio» = sí lo hizo, pero era innecesario. Distinto de «didn't need to», que sugiere que no lo hizo."
+        },
+        {
+          "id": "s2l6",
+          "type": "listen",
+          "level": "B2",
+          "audio": "Not only did the prototype overheat, but it also drew twice the expected current.",
+          "q": "¿Cuántos problemas menciona?",
+          "options": ["Dos", "Uno", "Tres", "Ninguno"],
+          "answer": 0,
+          "explain": "«Not only… but also» une dos problemas: sobrecalentamiento y consumo. Fíjate en la inversión «did the prototype», típica de B2."
+        },
+        {
+          "id": "s2l7",
+          "type": "listen",
+          "level": "B1",
+          "audio": "She's supposed to arrive at nine, but she's rarely on time.",
+          "q": "¿Qué se espera realmente?",
+          "options": [
+            "Que llegue tarde, aunque su hora sea las nueve",
+            "Que llegue puntual a las nueve",
+            "Que no llegue",
+            "Que llegue antes de las nueve"
+          ],
+          "answer": 0,
+          "explain": "«be supposed to» = se supone que, con la implicación de que no siempre pasa. Y «rarely» lo confirma."
+        },
+        {
+          "id": "s2l8",
+          "type": "listen",
+          "level": "B2",
+          "audio": "The committee has yet to reach a decision on the funding.",
+          "q": "¿Ya decidieron?",
+          "options": ["No, todavía no", "Sí, ya decidieron", "Decidieron que no", "La decisión se canceló"],
+          "answer": 0,
+          "explain": "«have yet to + verbo» = todavía no. Es una construcción formal que confunde porque no lleva ninguna palabra negativa visible."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "instructions": "Textos B2. Varias respuestas exigen inferir, no localizar: la frase exacta no va a estar en el texto.",
+      "items": [
+        {
+          "id": "s2r1",
+          "type": "readingQ",
+          "level": "B1",
+          "passageRef": "r1",
+          "q": "What happened to the energy savings in later studies?",
+          "options": [
+            "They decreased over time",
+            "They increased over time",
+            "They stayed the same",
+            "They were never measured"
+          ],
+          "answer": 0,
+          "explain": "«the effect faded after a few months». «Fade» = desvanecerse."
+        },
+        {
+          "id": "s2r2",
+          "type": "readingQ",
+          "level": "B2",
+          "passageRef": "r1",
+          "q": "What does the writer mean by 'the technology rewarded people who needed it least'?",
+          "options": [
+            "Those who already saved energy benefited most",
+            "Rich households got free meters",
+            "The meters only worked in small homes",
+            "The technology failed completely"
+          ],
+          "answer": 0,
+          "explain": "«Savings were largest among households that were already energy-conscious, and negligible among those with the highest bills». La frase citada es el resumen irónico de eso."
+        },
+        {
+          "id": "s2r3",
+          "type": "readingQ",
+          "level": "B2",
+          "passageRef": "r1",
+          "q": "According to the writer, who mainly benefits from time-based pricing?",
+          "options": [
+            "The electricity grid",
+            "The individual consumer",
+            "The meter manufacturers",
+            "Nobody at all"
+          ],
+          "answer": 0,
+          "explain": "«that benefit accrues to the grid, not to the individual consumer». «Accrue to» = beneficiar a."
+        },
+        {
+          "id": "s2r4",
+          "type": "readingQ",
+          "level": "B2",
+          "passageRef": "r1",
+          "q": "What is the writer's overall tone about smart meters?",
+          "options": [
+            "Sceptical of the claims, but not dismissive",
+            "Enthusiastic and fully supportive",
+            "Completely hostile",
+            "Neutral, with no opinion"
+          ],
+          "answer": 0,
+          "explain": "Cuestiona la evidencia («The evidence is mixed») pero aclara «This does not mean smart meters are useless». Escepticismo matizado, no rechazo."
+        },
+        {
+          "id": "s2r5",
+          "type": "readingQ",
+          "level": "B2",
+          "passageRef": "r2",
+          "q": "What is Maria's main concern about remote work?",
+          "options": [
+            "How junior staff learn from seniors",
+            "That productivity has dropped",
+            "That seniors cannot work from home",
+            "That teams are too large"
+          ],
+          "answer": 0,
+          "explain": "«the productivity argument is settled… What isn't settled is how junior people learn». Ella misma descarta la productividad como problema."
+        },
+        {
+          "id": "s2r6",
+          "type": "readingQ",
+          "level": "B2",
+          "passageRef": "r2",
+          "q": "How does Tom respond to Maria's argument?",
+          "options": [
+            "He says the problem existed before remote work",
+            "He agrees completely with her",
+            "He says juniors learn better remotely",
+            "He says offices should be reopened"
+          ],
+          "answer": 0,
+          "explain": "«Remote work simply made an existing failure impossible to ignore». No niega el problema: niega la causa."
+        },
+        {
+          "id": "s2r7",
+          "type": "readingQ",
+          "level": "B2",
+          "passageRef": "r2",
+          "q": "What does Tom mean by 'The problem was never the building'?",
+          "options": [
+            "The physical office was not the real cause",
+            "The office was badly designed",
+            "Buildings are too expensive",
+            "Juniors disliked the office"
+          ],
+          "answer": 0,
+          "explain": "Contrapone el edificio (lugar) con «mentoring was never anybody's actual job» (causa real). Reactivo de inferencia puro."
+        },
+        {
+          "id": "s2r8",
+          "type": "readingQ",
+          "level": "B2",
+          "passageRef": "r2",
+          "q": "What do Maria and Tom actually agree on?",
+          "options": [
+            "That junior staff are not being mentored well",
+            "That remote work should end",
+            "That productivity has fallen",
+            "That open-plan offices work well"
+          ],
+          "answer": 0,
+          "explain": "Los dos dan por hecho que los juniors no están aprendiendo; discuten por qué. Encontrar el terreno común entre dos posturas es de los reactivos más difíciles de reading."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "instructions": "Estructuras B1–B2.",
+      "items": [
+        {
+          "id": "s2g1",
+          "type": "choice",
+          "level": "B2",
+          "q": "___ had I sat down when the phone rang.",
+          "options": ["Hardly", "Almost", "Nearly", "Rarely"],
+          "answer": 0,
+          "explain": "«Hardly had I… when…» = apenas había… cuando… Estructura fija con inversión."
+        },
+        {
+          "id": "s2g2",
+          "type": "choice",
+          "level": "B1",
+          "q": "I wish I ___ more time to study.",
+          "options": ["had", "have", "will have", "would have"],
+          "answer": 0,
+          "explain": "«I wish + pasado simple» para un deseo sobre el presente. Suena raro en español, pero es la forma correcta."
+        },
+        {
+          "id": "s2g3",
+          "type": "choice",
+          "level": "B2",
+          "q": "The report needs ___ before Friday.",
+          "options": ["revising", "to revise", "revised", "revise"],
+          "answer": 0,
+          "explain": "«need + -ing» con sentido pasivo: el reporte necesita SER revisado. Equivale a «needs to be revised»."
+        },
+        {
+          "id": "s2g4",
+          "type": "gap",
+          "level": "B1",
+          "q": "It's the first time I ___ (be) here.",
+          "answer": ["have been", "'ve been"],
+          "explain": "«It's the first time…» siempre va con presente perfecto, no con pasado."
+        },
+        {
+          "id": "s2g5",
+          "type": "choice",
+          "level": "B2",
+          "q": "He denied ___ the file.",
+          "options": ["deleting", "to delete", "delete", "deleted"],
+          "answer": 0,
+          "explain": "«deny» siempre lleva gerundio. Al lado, «refuse» lleva infinitivo: refuse to delete. Se memorizan por verbo."
+        },
+        {
+          "id": "s2g6",
+          "type": "order",
+          "level": "B2",
+          "q": "Ordena la oración.",
+          "words": ["been", "have", "should", "told", "we"],
+          "answer": "we should have been told",
+          "explain": "Pasiva + modal perfecto: should + have + been + participio. Cuatro piezas en orden fijo."
+        },
+        {
+          "id": "s2g7",
+          "type": "choice",
+          "level": "B1",
+          "q": "She's the colleague ___ project won the award.",
+          "options": ["whose", "who", "which", "that"],
+          "answer": 0,
+          "explain": "«whose» indica posesión: el proyecto es de ella."
+        },
+        {
+          "id": "s2g8",
+          "type": "choice",
+          "level": "B2",
+          "q": "___ the traffic, we still arrived on time.",
+          "options": ["Despite", "Although", "However", "Because of"],
+          "answer": 0,
+          "explain": "«Despite» va con sustantivo (the traffic). «Although» pediría una oración completa: although the traffic was bad."
+        },
+        {
+          "id": "s2g9",
+          "type": "translate",
+          "level": "B2",
+          "q": "Traduce: «Llevo tres años estudiando ingeniería.»",
+          "answer": [
+            "I have been studying engineering for three years",
+            "I've been studying engineering for three years",
+            "I have studied engineering for three years",
+            "I've studied engineering for three years"
+          ],
+          "explain": "«Llevo + tiempo + gerundio» = present perfect continuous en inglés. El error típico es traducirlo con presente simple: «I study engineering for three years» no existe."
+        },
+        {
+          "id": "s2g10",
+          "type": "choice",
+          "level": "B2",
+          "q": "If the sensor ___ calibrated properly, the readings wouldn't be drifting now.",
+          "options": ["had been", "was", "has been", "would be"],
+          "answer": 0,
+          "explain": "Condicional mixto: causa en el pasado (had been calibrated), consecuencia en el presente (wouldn't be drifting)."
+        },
+        {
+          "id": "s2g11",
+          "type": "gap",
+          "level": "B1",
+          "q": "I'm used ___ working night shifts now.",
+          "answer": ["to"],
+          "explain": "«be used to + -ing» = estar acostumbrado a. No confundir con «used to + infinitivo» = solía."
+        },
+        {
+          "id": "s2g12",
+          "type": "choice",
+          "level": "B2",
+          "q": "There's little point ___ about it now.",
+          "options": ["in worrying", "to worry", "worry", "for worrying"],
+          "answer": 0,
+          "explain": "«there's no/little point in + -ing» = no tiene caso. La preposición «in» es obligatoria."
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "instructions": "Colocaciones, matices y formación de palabras — donde más se pierde puntaje en B2.",
+      "items": [
+        {
+          "id": "s2v1",
+          "type": "choice",
+          "level": "B2",
+          "q": "The two designs are broadly ___, so we can swap them.",
+          "options": ["equivalent", "equal", "same", "similar to"],
+          "answer": 0,
+          "explain": "«equivalent» = funcionalmente intercambiable, que es lo que pide el contexto. «Equal» es igualdad de cantidad."
+        },
+        {
+          "id": "s2v2",
+          "type": "choice",
+          "level": "B1",
+          "q": "Please ___ the form and return it by Friday.",
+          "options": ["fill in", "fill up", "fill out of", "full in"],
+          "answer": 0,
+          "explain": "fill in / fill out un formulario. «fill up» es llenar un tanque."
+        },
+        {
+          "id": "s2v3",
+          "type": "choice",
+          "level": "B2",
+          "q": "The results were ___ with our initial hypothesis.",
+          "options": ["consistent", "consequent", "constant", "content"],
+          "answer": 0,
+          "explain": "«consistent with» = compatible con. Los otros tres se parecen de forma pero no significan nada de eso."
+        },
+        {
+          "id": "s2v4",
+          "type": "choice",
+          "level": "B2",
+          "q": "We had to ___ the meeting because half the team was sick.",
+          "options": ["call off", "call on", "call up", "call for"],
+          "answer": 0,
+          "explain": "call off = cancelar. call for = exigir. call on = visitar o pedirle algo a alguien."
+        },
+        {
+          "id": "s2v5",
+          "type": "choice",
+          "level": "B2",
+          "q": "His explanation was ___ vague to be useful.",
+          "options": ["too", "so", "very", "such"],
+          "answer": 0,
+          "explain": "«too + adjetivo + to + verbo» = demasiado… para… «So» exigiría «that»: so vague that it wasn't useful."
+        },
+        {
+          "id": "s2v6",
+          "type": "choice",
+          "level": "B1",
+          "q": "Elige el sinónimo de «to postpone».",
+          "options": ["to delay", "to cancel", "to attend", "to reduce"],
+          "answer": 0,
+          "explain": "postpone = delay = posponer. Cancelar es otra cosa: eso ya no se hace."
+        },
+        {
+          "id": "s2v7",
+          "type": "choice",
+          "level": "B2",
+          "q": "The circuit failed ___ a manufacturing defect.",
+          "options": ["owing to", "owing", "due", "because"],
+          "answer": 0,
+          "explain": "«owing to» / «due to» van con sustantivo. «Because» pide oración completa: because there was a defect."
+        },
+        {
+          "id": "s2v8",
+          "type": "choice",
+          "level": "B2",
+          "q": "She made a ___ contribution to the project.",
+          "options": ["significant", "signified", "signifying", "signification"],
+          "answer": 0,
+          "explain": "La posición antes del sustantivo pide adjetivo: significant. Formación de palabras es sección casi segura en este tipo de examen."
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "title": "Writing",
+      "instructions": "Texto argumentativo. Aquí no se evalúa tu opinión, sino cómo la estructuras.",
+      "items": [
+        {
+          "id": "s2w1",
+          "type": "writing",
+          "level": "B2",
+          "q": "«Las empresas deberían poder obligar a sus empleados a volver a la oficina.» Escribe un texto argumentativo dando tu postura, un argumento a favor, una objeción y tu conclusión.",
+          "minWords": 120,
+          "mustUse": ["however", "whereas", "on balance"],
+          "rubric": [
+            "Dejé clara mi postura en el primer párrafo, sin rodeos",
+            "Di al menos un argumento con un ejemplo concreto, no genérico",
+            "Presenté la objeción de forma justa, no como muñeco de paja",
+            "Usé «however» y «whereas» correctamente, cada uno en su lugar",
+            "Cerré con «on balance» y una conclusión que se sigue de lo anterior",
+            "Varié las estructuras: no todas las frases empiezan igual",
+            "Llegué a 120 palabras sin rellenar"
+          ],
+          "model": "Companies should be able to set expectations about where work happens, but a blanket mandate is rarely the right tool.\n\nThe strongest argument for returning to the office concerns people at the start of their careers. Junior engineers learn a great deal by watching how experienced colleagues approach a problem, and that kind of informal transfer is hard to reproduce over a video call.\n\nHowever, the same argument does not hold for everyone. A senior developer who has worked productively from home for three years gains little from commuting, whereas the cost in time and money is real and immediate. Forcing that person back tends to signal distrust rather than to improve output.\n\nOn balance, I would argue that the decision belongs at team level rather than company level. Where mentoring is the priority, ask people to overlap in person; where it is not, judge the work and leave the location alone."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "id": "a1",
+  "cefr": "A1",
+  "title": "Fundamentos",
+  "intro": "Cuatro unidades de repaso rápido. Si el diagnóstico te puso en A2 o más arriba, no necesitas hacerlas completas: revisa las notas de gramática, haz los ejercicios y sigue. Si te puso en A1, aquí está el piso sobre el que se construye todo lo demás — no te lo saltes.",
+  "units": [
+    {
+      "id": "a1u1",
+      "title": "Nice to meet you",
+      "titleEs": "Verbo to be, pronombres y artículos",
+      "goal": "presentarte, decir de dónde eres y a qué te dedicas.",
+      "grammar": {
+        "title": "The verb TO BE + articles",
+        "explanation": "«To be» es ser y estar a la vez. En inglés el sujeto NUNCA se omite: se dice «I am a student», nunca «Am a student».\n\nEn negativo se añade «not»; en pregunta el verbo se pone delante del sujeto.\n\nArtículos: A antes de sonido consonántico (a car), AN antes de sonido vocálico (an engineer, an hour). Va por SONIDO, no por letra: «a university» lleva «a» porque suena «yu».\n\nTHE se usa cuando ya sabemos de qué hablamos. Con profesiones se usa a/an: «She is a doctor», no «She is doctor».",
+        "table": [
+          ["Sujeto", "Afirmativo", "Negativo", "Pregunta"],
+          ["I", "I am (I'm)", "I'm not", "Am I?"],
+          ["you / we / they", "you are (you're)", "you aren't", "Are you?"],
+          ["he / she / it", "he is (he's)", "he isn't", "Is he?"]
+        ],
+        "examples": [
+          { "en": "I'm an engineering student.", "es": "Soy estudiante de ingeniería." },
+          { "en": "She isn't from Monterrey.", "es": "Ella no es de Monterrey." },
+          { "en": "Are you ready?", "es": "¿Estás listo?" },
+          { "en": "It's an old building.", "es": "Es un edificio viejo." }
+        ],
+        "warning": "Para la edad se usa BE, no HAVE: «I am 24», nunca «I have 24 years». Es el calco más común del español."
+      },
+      "vocab": [
+        { "en": "name", "es": "nombre", "ipa": "/neɪm/", "example": "My name is Erick." },
+        { "en": "surname", "es": "apellido", "ipa": "/ˈsɜːneɪm/", "example": "What's your surname?" },
+        { "en": "student", "es": "estudiante", "ipa": "/ˈstjuːdnt/", "example": "I'm a student." },
+        { "en": "engineer", "es": "ingeniero", "ipa": "/ˌendʒɪˈnɪə/", "example": "She's an engineer." },
+        { "en": "teacher", "es": "profesor", "ipa": "/ˈtiːtʃə/", "example": "He's a teacher." },
+        { "en": "married", "es": "casado", "ipa": "/ˈmærid/", "example": "They aren't married." },
+        { "en": "tired", "es": "cansado", "ipa": "/ˈtaɪəd/", "example": "I'm very tired." },
+        { "en": "busy", "es": "ocupado", "ipa": "/ˈbɪzi/", "example": "Are you busy now?" },
+        { "en": "ready", "es": "listo", "ipa": "/ˈredi/", "example": "We're ready." },
+        { "en": "from", "es": "de (origen)", "ipa": "/frɒm/", "example": "I'm from Mexico." },
+        { "en": "nice to meet you", "es": "mucho gusto", "ipa": "/naɪs tə miːt juː/", "example": "Nice to meet you, Ana." },
+        { "en": "How old are you?", "es": "¿Cuántos años tienes?", "ipa": "/haʊ əʊld ɑː juː/", "example": "How old are you? I'm 24." }
+      ],
+      "reading": {
+        "title": "A short introduction",
+        "text": "Hello. My name is Erick Reyna. I'm twenty-four years old and I'm from Monterrey, in the north of Mexico.\n\nI'm a mechatronics student at FIME. It's a big faculty and the classes are hard, but I'm happy there. My favourite subjects are electronics and control.\n\nI'm not married. I live with my family. In my free time I play the guitar — I'm not very good yet, but I practise every week.\n\nMy English isn't perfect, but I'm working on it.",
+        "questions": [
+          {
+            "id": "a1u1r1",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "Where is Erick from?",
+            "options": ["Monterrey", "Mexico City", "Saltillo", "Guadalajara"],
+            "answer": 0,
+            "explain": "«I'm from Monterrey, in the north of Mexico»."
+          },
+          {
+            "id": "a1u1r2",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "What does he study?",
+            "options": ["Mechatronics", "Medicine", "Music", "Mathematics"],
+            "answer": 0,
+            "explain": "«I'm a mechatronics student at FIME»."
+          },
+          {
+            "id": "a1u1r3",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "What does he do in his free time?",
+            "options": ["He plays the guitar", "He works", "He studies English", "He plays football"],
+            "answer": 0,
+            "explain": "«In my free time I play the guitar»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a1u1e1", "type": "choice", "level": "A1", "q": "My brother ___ a teacher.", "options": ["is", "are", "am", "be"], "answer": 0, "explain": "he/she/it → is." },
+        { "id": "a1u1e2", "type": "choice", "level": "A1", "q": "They ___ from Colombia.", "options": ["aren't", "isn't", "am not", "not are"], "answer": 0, "explain": "they → are, negativo aren't." },
+        { "id": "a1u1e3", "type": "choice", "level": "A1", "q": "I have ___ old laptop.", "options": ["an", "a", "the", "some"], "answer": 0, "explain": "«old» empieza con sonido vocálico → an." },
+        { "id": "a1u1e4", "type": "choice", "level": "A1", "q": "She's ___ university student.", "options": ["a", "an", "the", "one"], "answer": 0, "explain": "«university» suena «yu-», que es sonido consonántico → a. Va por sonido, no por letra." },
+        { "id": "a1u1e5", "type": "gap", "level": "A1", "q": "___ you tired?", "answer": ["are"], "explain": "Pregunta con «you» → Are you…?" },
+        { "id": "a1u1e6", "type": "translate", "level": "A1", "q": "Traduce: «Tengo 24 años.»", "answer": ["I am 24", "I'm 24", "I am twenty-four", "I'm twenty-four", "I am 24 years old", "I'm 24 years old", "I am twenty-four years old", "I'm twenty-four years old", "I am twenty four", "I'm twenty four", "I am twenty four years old", "I'm twenty four years old"], "explain": "La edad va con BE, no con HAVE. «I have 24 years» es el calco típico del español." },
+        { "id": "a1u1e7", "type": "order", "level": "A1", "q": "Ordena la pregunta.", "words": ["from", "Where", "you", "are", "?"], "answer": "Where are you from ?", "explain": "Interrogativa + are + sujeto + from." },
+        { "id": "a1u1e8", "type": "listen", "level": "A1", "audio": "Hi, I'm Ana. I'm an engineer and I'm from Chile.", "q": "¿A qué se dedica Ana?", "options": ["Es ingeniera", "Es profesora", "Es estudiante", "Es doctora"], "answer": 0, "explain": "«I'm an engineer». Fíjate en el «an» antes de sonido vocálico." },
+        { "id": "a1u1e9", "type": "choice", "level": "A1", "q": "___ name is Carlos.", "options": ["His", "He", "He's", "Him"], "answer": 0, "explain": "Posesivo antes del sustantivo: his name. «He's name» está mal." }
+      ],
+      "writing": {
+        "q": "Preséntate: nombre, edad, de dónde eres, a qué te dedicas y qué haces en tu tiempo libre.",
+        "minWords": 40,
+        "mustUse": ["I'm", "from", "a"],
+        "rubric": [
+          "Puse el sujeto en todas las frases (nunca empecé con el verbo)",
+          "Usé la forma correcta de to be en cada persona",
+          "Dije mi edad con «I'm», no con «I have»",
+          "Usé a/an correctamente antes de la profesión",
+          "Llegué a 40 palabras"
+        ],
+        "model": "Hello. My name is Erick and I'm twenty-four years old. I'm from Monterrey, in the north of Mexico.\n\nI'm a mechatronics student and I'm in my last semester. My favourite subjects are electronics and control systems. The classes are difficult, but they're interesting.\n\nIn my free time I play the guitar and I build small robots. I'm not very good at the guitar yet, but I practise every week."
+      }
+    },
+
+    {
+      "id": "a1u2",
+      "title": "Every day",
+      "titleEs": "Presente simple y adverbios de frecuencia",
+      "goal": "hablar de tu rutina y de lo que haces habitualmente.",
+      "grammar": {
+        "title": "Present simple",
+        "explanation": "Se usa para rutinas, hábitos y verdades generales.\n\nLo único difícil es la tercera persona (he/she/it): lleva -s. «I work» pero «He works».\n\nEn negativo y pregunta aparece el auxiliar DO / DOES, y entonces el verbo pierde la -s: «He doesn't work», nunca «He doesn't works».\n\nAdverbios de frecuencia (always, usually, often, sometimes, never) van ANTES del verbo principal, pero DESPUÉS de to be: «I always study» / «I am always tired».",
+        "table": [
+          ["", "Afirmativo", "Negativo", "Pregunta"],
+          ["I / you / we / they", "work", "don't work", "Do you work?"],
+          ["he / she / it", "works", "doesn't work", "Does he work?"]
+        ],
+        "examples": [
+          { "en": "I usually get up at six.", "es": "Normalmente me levanto a las seis." },
+          { "en": "She doesn't drink coffee.", "es": "Ella no toma café." },
+          { "en": "Do they work on Saturdays?", "es": "¿Trabajan los sábados?" },
+          { "en": "He never arrives late.", "es": "Él nunca llega tarde." }
+        ],
+        "warning": "«Never» ya es negativo: se dice «I never go», nunca «I don't never go»."
+      },
+      "vocab": [
+        { "en": "get up", "es": "levantarse", "ipa": "/ɡet ʌp/", "example": "I get up at six." },
+        { "en": "have breakfast", "es": "desayunar", "ipa": "/hæv ˈbrekfəst/", "example": "I have breakfast at seven." },
+        { "en": "go to work", "es": "ir al trabajo", "ipa": "/ɡəʊ tə wɜːk/", "example": "She goes to work by bus." },
+        { "en": "finish", "es": "terminar", "ipa": "/ˈfɪnɪʃ/", "example": "I finish at five." },
+        { "en": "always", "es": "siempre", "ipa": "/ˈɔːlweɪz/", "example": "I always check it." },
+        { "en": "usually", "es": "normalmente", "ipa": "/ˈjuːʒuəli/", "example": "We usually start at eight." },
+        { "en": "sometimes", "es": "a veces", "ipa": "/ˈsʌmtaɪmz/", "example": "Sometimes I study late." },
+        { "en": "never", "es": "nunca", "ipa": "/ˈnevə/", "example": "He never complains." },
+        { "en": "twice a week", "es": "dos veces por semana", "ipa": "/twaɪs ə wiːk/", "example": "I train twice a week." },
+        { "en": "weekend", "es": "fin de semana", "ipa": "/ˌwiːkˈend/", "example": "I rest at the weekend." },
+        { "en": "early", "es": "temprano", "ipa": "/ˈɜːli/", "example": "She arrives early." },
+        { "en": "late", "es": "tarde", "ipa": "/leɪt/", "example": "I go to bed late." }
+      ],
+      "reading": {
+        "title": "A normal Tuesday",
+        "text": "I get up at six thirty, but I never get up immediately. I usually stay in bed for ten minutes and check my phone.\n\nI have breakfast at seven and I leave the house at seven thirty. I don't drive — I take the bus, because parking at the university is impossible.\n\nMy first class starts at eight. On Tuesdays I have four classes and a lab session, so I finish at six in the evening. I sometimes stay longer if the lab isn't finished.\n\nIn the evening I study for about two hours. I don't watch much television. On Fridays I play the guitar with a friend, and at the weekend I usually sleep a lot.",
+        "questions": [
+          {
+            "id": "a1u2r1",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "How does he go to the university?",
+            "options": ["By bus", "By car", "On foot", "By bicycle"],
+            "answer": 0,
+            "explain": "«I don't drive — I take the bus»."
+          },
+          {
+            "id": "a1u2r2",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "What time does he finish on Tuesdays?",
+            "options": ["At six", "At eight", "At five", "At seven thirty"],
+            "answer": 0,
+            "explain": "«so I finish at six in the evening»."
+          },
+          {
+            "id": "a1u2r3",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "What does he do on Fridays?",
+            "options": ["Plays the guitar", "Studies two hours", "Sleeps a lot", "Watches television"],
+            "answer": 0,
+            "explain": "«On Fridays I play the guitar with a friend»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a1u2e1", "type": "choice", "level": "A1", "q": "She ___ in a hospital.", "options": ["works", "work", "working", "is work"], "answer": 0, "explain": "Tercera persona → works." },
+        { "id": "a1u2e2", "type": "choice", "level": "A1", "q": "He ___ coffee.", "options": ["doesn't drink", "doesn't drinks", "don't drink", "not drink"], "answer": 0, "explain": "Con doesn't, el verbo pierde la -s." },
+        { "id": "a1u2e3", "type": "gap", "level": "A1", "q": "___ you speak English?", "answer": ["do"], "explain": "Pregunta con «you» → Do." },
+        { "id": "a1u2e4", "type": "gap", "level": "A1", "q": "___ she live here?", "answer": ["does"], "explain": "Pregunta con «she» → Does. Y el verbo va sin -s: «live»." },
+        { "id": "a1u2e5", "type": "choice", "level": "A1", "q": "I ___ late on Sundays.", "options": ["always get up", "get up always", "always am get up", "am always get up"], "answer": 0, "explain": "El adverbio de frecuencia va antes del verbo principal." },
+        { "id": "a1u2e6", "type": "choice", "level": "A1", "q": "He ___ late.", "options": ["is never", "never is", "doesn't never be", "is not never"], "answer": 0, "explain": "Con to be, el adverbio va DESPUÉS: «is never»." },
+        { "id": "a1u2e7", "type": "translate", "level": "A1", "q": "Traduce: «Nunca llego tarde.»", "answer": ["I never arrive late", "I am never late", "I'm never late"], "explain": "«Never» ya es negativo: no lleva «don't»." },
+        { "id": "a1u2e8", "type": "order", "level": "A1", "q": "Ordena la pregunta.", "words": ["you", "What", "do", "do", "?"], "answer": "What do you do ?", "explain": "El primer «do» es el auxiliar y el segundo el verbo. Significa «¿a qué te dedicas?»." },
+        { "id": "a1u2e9", "type": "listen", "level": "A1", "audio": "She usually starts at eight, but on Fridays she finishes early.", "q": "¿Qué pasa los viernes?", "options": ["Termina temprano", "Empieza temprano", "No trabaja", "Empieza a las ocho"], "answer": 0, "explain": "«on Fridays she finishes early»." }
+      ],
+      "writing": {
+        "q": "Describe tu rutina de un día normal entre semana: a qué hora te levantas, qué haces, cómo te trasladas y qué haces en la noche. Usa al menos tres adverbios de frecuencia.",
+        "minWords": 50,
+        "mustUse": ["usually", "never", "don't"],
+        "rubric": [
+          "Puse -s en todos los verbos de tercera persona",
+          "Después de don't/doesn't dejé el verbo sin -s",
+          "Puse los adverbios de frecuencia antes del verbo principal",
+          "No usé doble negativo con «never»",
+          "Llegué a 50 palabras"
+        ],
+        "model": "I usually get up at six thirty during the week. I never get up before six, because I go to bed late.\n\nI have breakfast at home and I take the bus to the university. I don't drive, because parking is very difficult there.\n\nMy classes start at eight and they finish at six. Sometimes I stay longer in the laboratory.\n\nIn the evening I study for two hours. I don't watch television, but I always play the guitar for a while before I sleep."
+      }
+    },
+
+    {
+      "id": "a1u3",
+      "title": "Where things are",
+      "titleEs": "There is / there are, plurales y preposiciones de lugar",
+      "goal": "describir un lugar y decir qué hay y dónde está.",
+      "grammar": {
+        "title": "There is / there are + prepositions",
+        "explanation": "THERE IS + singular o incontable. THERE ARE + plural.\n«There is a problem.» «There are two problems.» «There is some water.»\n\nEn negativo: there isn't / there aren't. En pregunta: Is there…? / Are there…?\n\nPlurales: se añade -s. Terminadas en -s, -sh, -ch, -x → -es (boxes, watches). Consonante + y → -ies (city / cities).\n\nIrregulares que hay que saber: man/men, woman/women, child/children, person/people, foot/feet.\n\nPreposiciones: IN (dentro), ON (sobre, tocando), UNDER (debajo), BEHIND (detrás), NEXT TO (junto a), BETWEEN (entre dos), IN FRONT OF (enfrente).",
+        "table": [
+          ["Forma", "Singular", "Plural"],
+          ["Afirmativo", "There is a lamp.", "There are two lamps."],
+          ["Negativo", "There isn't a lamp.", "There aren't any lamps."],
+          ["Pregunta", "Is there a lamp?", "Are there any lamps?"]
+        ],
+        "examples": [
+          { "en": "There's a multimeter on the bench.", "es": "Hay un multímetro sobre la mesa." },
+          { "en": "There aren't any chairs in this room.", "es": "No hay sillas en este cuarto." },
+          { "en": "The box is under the table.", "es": "La caja está debajo de la mesa." },
+          { "en": "My laptop is next to the printer.", "es": "Mi laptop está junto a la impresora." }
+        ],
+        "warning": "«There is» = hay (existe). «It is» = está (algo ya conocido). «There is a book on the table» presenta el libro; «It is on the table» habla de un libro del que ya hablábamos."
+      },
+      "vocab": [
+        { "en": "there is / there are", "es": "hay", "ipa": "/ðeər ɪz/", "example": "There are two rooms." },
+        { "en": "room", "es": "cuarto, habitación", "ipa": "/ruːm/", "example": "The room is small." },
+        { "en": "desk", "es": "escritorio", "ipa": "/desk/", "example": "My desk is by the window." },
+        { "en": "shelf", "es": "repisa", "ipa": "/ʃelf/", "example": "There are books on the shelf." },
+        { "en": "drawer", "es": "cajón", "ipa": "/drɔː/", "example": "It's in the drawer." },
+        { "en": "next to", "es": "junto a", "ipa": "/nekst tuː/", "example": "Next to the door." },
+        { "en": "between", "es": "entre (dos)", "ipa": "/bɪˈtwiːn/", "example": "Between the two windows." },
+        { "en": "behind", "es": "detrás de", "ipa": "/bɪˈhaɪnd/", "example": "Behind the cabinet." },
+        { "en": "in front of", "es": "enfrente de", "ipa": "/ɪn frʌnt ɒv/", "example": "In front of the building." },
+        { "en": "upstairs", "es": "arriba (piso)", "ipa": "/ˌʌpˈsteəz/", "example": "The lab is upstairs." },
+        { "en": "people", "es": "gente, personas", "ipa": "/ˈpiːpl/", "example": "There are ten people here." },
+        { "en": "children", "es": "niños", "ipa": "/ˈtʃɪldrən/", "example": "The children are outside." }
+      ],
+      "reading": {
+        "title": "The electronics lab",
+        "text": "Our electronics lab is on the second floor, next to the library. It isn't very big, but there is everything we need.\n\nThere are ten benches. On each bench there is an oscilloscope, a power supply and a soldering station. There are also two computers at the back, between the window and the door.\n\nThe components are in the drawers under the benches. There aren't any resistors in the small cabinet — those are in the storeroom behind the lab.\n\nThere are usually about twenty people in the lab in the afternoon. There's only one technician, so sometimes you wait.",
+        "questions": [
+          {
+            "id": "a1u3r1",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "Where is the lab?",
+            "options": ["On the second floor", "Behind the library", "In the storeroom", "Upstairs from the library"],
+            "answer": 0,
+            "explain": "«Our electronics lab is on the second floor, next to the library»."
+          },
+          {
+            "id": "a1u3r2",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "Where are the computers?",
+            "options": ["Between the window and the door", "On the benches", "In the drawers", "Behind the lab"],
+            "answer": 0,
+            "explain": "«two computers at the back, between the window and the door»."
+          },
+          {
+            "id": "a1u3r3",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "Where are the resistors?",
+            "options": ["In the storeroom", "In the small cabinet", "Under the benches", "On the shelf"],
+            "answer": 0,
+            "explain": "«There aren't any resistors in the small cabinet — those are in the storeroom»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a1u3e1", "type": "choice", "level": "A1", "q": "___ three books on the desk.", "options": ["There are", "There is", "It is", "Have"], "answer": 0, "explain": "Plural → there are." },
+        { "id": "a1u3e2", "type": "choice", "level": "A1", "q": "___ any milk in the fridge?", "options": ["Is there", "Are there", "Have there", "There is"], "answer": 0, "explain": "«milk» es incontable → is there." },
+        { "id": "a1u3e3", "type": "gap", "level": "A1", "q": "The cat is ___ the table (debajo).", "answer": ["under"], "explain": "under = debajo de." },
+        { "id": "a1u3e4", "type": "choice", "level": "A1", "q": "The plural of «city» is ___.", "options": ["cities", "citys", "cityes", "cityies"], "answer": 0, "explain": "Consonante + y → -ies." },
+        { "id": "a1u3e5", "type": "choice", "level": "A1", "q": "There are five ___ in the room.", "options": ["people", "peoples", "persons", "person"], "answer": 0, "explain": "«people» ya es el plural de person. «Peoples» significa «pueblos»." },
+        { "id": "a1u3e6", "type": "gap", "level": "A1", "q": "My phone is ___ the two books.", "answer": ["between"], "explain": "Entre dos cosas → between." },
+        { "id": "a1u3e7", "type": "translate", "level": "A1", "q": "Traduce: «No hay sillas en el cuarto.»", "answer": ["There aren't any chairs in the room", "There are no chairs in the room", "There aren't chairs in the room"], "explain": "Plural negativo: there aren't any." },
+        { "id": "a1u3e8", "type": "order", "level": "A1", "q": "Ordena la oración.", "words": ["is", "a", "on", "There", "the", "lamp", "desk"], "answer": "There is a lamp on the desk", "explain": "There is + a + sustantivo + lugar." },
+        { "id": "a1u3e9", "type": "listen", "level": "A1", "audio": "There's a printer behind the door and two boxes under the desk.", "q": "¿Dónde están las cajas?", "options": ["Debajo del escritorio", "Detrás de la puerta", "Sobre el escritorio", "Junto a la impresora"], "answer": 0, "explain": "«two boxes under the desk». La impresora es la que está detrás de la puerta." }
+      ],
+      "writing": {
+        "q": "Describe tu cuarto, tu taller o tu escritorio: qué hay, cuántas cosas y dónde está cada una. Usa there is/there are y al menos cuatro preposiciones de lugar.",
+        "minWords": 50,
+        "mustUse": ["there is", "there are", "next to"],
+        "rubric": [
+          "Usé «there is» con singular y «there are» con plural",
+          "Formé bien los plurales (incluidos los irregulares)",
+          "Usé al menos cuatro preposiciones de lugar distintas",
+          "No confundí «there is» (hay) con «it is» (está)",
+          "Llegué a 50 palabras"
+        ],
+        "model": "My workspace is small but organised. There is a desk next to the window and there are two shelves above it.\n\nOn the desk there is a laptop, a soldering station and a small lamp. My multimeter is between the lamp and the laptop, because I use it every day.\n\nThere are three boxes under the desk. The components are in those boxes, and there are more parts in the drawers behind me.\n\nThere aren't any chairs for visitors — there is only one chair, and it's mine."
+      }
+    },
+
+    {
+      "id": "a1u4",
+      "title": "Can you do it?",
+      "titleEs": "Can / can't, imperativos y preguntas básicas",
+      "goal": "hablar de lo que sabes hacer, dar instrucciones y hacer las preguntas más comunes.",
+      "grammar": {
+        "title": "Can + imperatives + question words",
+        "explanation": "CAN expresa habilidad y permiso. No lleva -s en tercera persona y va con el verbo en base: «She can drive», nunca «She cans» ni «She can to drive».\n\nEn negativo: can't (cannot). En pregunta: Can you…?\n\nIMPERATIVO: es el verbo solo, sin sujeto. «Open the door.» «Don't touch that.» Se usa para instrucciones, avisos y manuales — por eso aparece tanto en textos técnicos.\n\nPALABRAS INTERROGATIVAS: what (qué), where (dónde), when (cuándo), who (quién), why (por qué), how (cómo), how much (cuánto, incontable), how many (cuántos, contable), how long (cuánto tiempo).",
+        "table": [
+          ["Forma", "Ejemplo", "Español"],
+          ["Afirmativo", "I can swim.", "sé nadar"],
+          ["Negativo", "I can't swim.", "no sé nadar"],
+          ["Pregunta", "Can you swim?", "¿sabes nadar?"],
+          ["Imperativo", "Press the button.", "presiona el botón"],
+          ["Imperativo neg.", "Don't press it.", "no lo presiones"]
+        ],
+        "examples": [
+          { "en": "I can read datasheets, but I can't write fast in English.", "es": "Puedo leer hojas de datos, pero no escribo rápido en inglés." },
+          { "en": "Can you help me with this?", "es": "¿Me puedes ayudar con esto?" },
+          { "en": "Don't switch it on yet.", "es": "No lo enciendas todavía." },
+          { "en": "How long does it take?", "es": "¿Cuánto tiempo tarda?" }
+        ],
+        "warning": "Después de «can» nunca va «to»: «I can to help» está mal. Y en pregunta el orden es Can + sujeto + verbo: «Can you come?», no «You can come?»."
+      },
+      "vocab": [
+        { "en": "can", "es": "poder, saber hacer", "ipa": "/kæn/", "example": "I can drive." },
+        { "en": "can't", "es": "no poder", "ipa": "/kɑːnt/", "example": "I can't come today." },
+        { "en": "press", "es": "presionar", "ipa": "/pres/", "example": "Press the red button." },
+        { "en": "switch on / off", "es": "encender / apagar", "ipa": "/swɪtʃ ɒn/", "example": "Switch off the power." },
+        { "en": "open", "es": "abrir", "ipa": "/ˈəʊpən/", "example": "Open the case carefully." },
+        { "en": "close", "es": "cerrar", "ipa": "/kləʊz/", "example": "Close the window." },
+        { "en": "wait", "es": "esperar", "ipa": "/weɪt/", "example": "Wait a moment, please." },
+        { "en": "help", "es": "ayudar", "ipa": "/help/", "example": "Can you help me?" },
+        { "en": "how much", "es": "cuánto (incontable)", "ipa": "/haʊ mʌtʃ/", "example": "How much is it?" },
+        { "en": "how many", "es": "cuántos (contable)", "ipa": "/haʊ ˈmeni/", "example": "How many do you need?" },
+        { "en": "how long", "es": "cuánto tiempo", "ipa": "/haʊ lɒŋ/", "example": "How long does it take?" },
+        { "en": "why", "es": "por qué", "ipa": "/waɪ/", "example": "Why is it hot?" }
+      ],
+      "reading": {
+        "title": "Quick start guide",
+        "text": "QUICK START — READ FIRST\n\nBefore you begin, check the box. There are four items: the unit, a power cable, a USB cable and this guide. If something is missing, don't use the unit — contact support.\n\nFirst, connect the power cable. Don't switch it on yet.\n\nThen connect the USB cable to your computer. Wait ten seconds and press the button on the front. The light is orange at first. When it is green, the unit is ready.\n\nYou can use the unit without software, but you can't change the settings. To change them, install the application from our website.\n\nDon't open the case. There are no user-serviceable parts inside.",
+        "questions": [
+          {
+            "id": "a1u4r1",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "What should you do first?",
+            "options": ["Check the box", "Press the button", "Install the software", "Switch it on"],
+            "answer": 0,
+            "explain": "«Before you begin, check the box»."
+          },
+          {
+            "id": "a1u4r2",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "When is the unit ready?",
+            "options": ["When the light is green", "When the light is orange", "After ten minutes", "After installing software"],
+            "answer": 0,
+            "explain": "«When it is green, the unit is ready»."
+          },
+          {
+            "id": "a1u4r3",
+            "type": "readingQ",
+            "level": "A1",
+            "q": "What can't you do without the software?",
+            "options": ["Change the settings", "Use the unit", "Connect the USB", "Switch it on"],
+            "answer": 0,
+            "explain": "«you can use the unit without software, but you can't change the settings»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "a1u4e1", "type": "choice", "level": "A1", "q": "She ___ speak three languages.", "options": ["can", "cans", "can to", "is can"], "answer": 0, "explain": "«can» nunca lleva -s ni «to»." },
+        { "id": "a1u4e2", "type": "choice", "level": "A1", "q": "___ you help me, please?", "options": ["Can", "Do", "Are", "Is"], "answer": 0, "explain": "Petición → Can you…?" },
+        { "id": "a1u4e3", "type": "choice", "level": "A1", "q": "___ touch the hot surface.", "options": ["Don't", "No", "Not", "Doesn't"], "answer": 0, "explain": "Imperativo negativo → Don't + verbo." },
+        { "id": "a1u4e4", "type": "gap", "level": "A1", "q": "___ ___ students are in the class? (cuántos)", "answer": ["how many"], "explain": "students es contable → how many." },
+        { "id": "a1u4e5", "type": "gap", "level": "A1", "q": "___ ___ is the ticket? (cuánto cuesta)", "answer": ["how much"], "explain": "Para precio se usa how much." },
+        { "id": "a1u4e6", "type": "choice", "level": "A1", "q": "___ does the test take?", "options": ["How long", "How many", "How much", "How often"], "answer": 0, "explain": "Duración → how long." },
+        { "id": "a1u4e7", "type": "translate", "level": "A1", "q": "Traduce: «No puedo venir mañana.»", "answer": ["I can't come tomorrow", "I cannot come tomorrow"], "explain": "can't + verbo en base. Sin «to»." },
+        { "id": "a1u4e8", "type": "order", "level": "A1", "q": "Ordena la instrucción.", "words": ["it", "yet", "on", "switch", "Don't"], "answer": "Don't switch it on yet", "explain": "Imperativo negativo: Don't + verbo + objeto. Ojo con «switch on»: es separable, y con un pronombre el objeto va OBLIGATORIAMENTE en medio — «switch it on», nunca «switch on it»." },
+        { "id": "a1u4e9", "type": "listen", "level": "A1", "audio": "Press the button and wait. Don't open the case.", "q": "¿Qué NO debes hacer?", "options": ["Abrir la carcasa", "Presionar el botón", "Esperar", "Conectar el cable"], "answer": 0, "explain": "«Don't open the case»." }
+      ],
+      "writing": {
+        "q": "Escribe instrucciones breves para usar algo que conoces bien (una herramienta, un aparato, un software). Usa imperativos afirmativos y negativos, y di qué se puede y qué no se puede hacer con él.",
+        "minWords": 50,
+        "mustUse": ["can", "can't", "don't"],
+        "rubric": [
+          "Usé el imperativo sin sujeto (Press…, no You press…)",
+          "Usé «Don't + verbo» para lo que no se debe hacer",
+          "Después de «can» puse el verbo en base, sin «to»",
+          "Las instrucciones están en orden lógico",
+          "Llegué a 50 palabras"
+        ],
+        "model": "HOW TO USE THE SOLDERING STATION\n\nFirst, check the tip. If it is black, clean it with the sponge. Don't use sandpaper.\n\nSwitch on the station and set the temperature to 350 degrees. Wait two minutes. Don't touch the tip — it is very hot.\n\nYou can solder small components at this temperature, but you can't solder large ground planes. For those you can increase the temperature to 400.\n\nWhen you finish, clean the tip again and switch off the station. Don't leave it on."
+      }
+    }
+  ]
+}

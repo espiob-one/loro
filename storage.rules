@@ -1,0 +1,25 @@
+rules_version = '2';
+
+// Reglas de Firebase Storage para el audio de Loro.
+//
+// El audio es material de estudio que cualquiera debe poder escuchar sin
+// iniciar sesión, así que la lectura es pública. La escritura está cerrada por
+// completo: los archivos se suben desde la consola de Firebase o con la CLI,
+// nunca desde la app.
+//
+// Cómo aplicarlas: consola de Firebase -> Storage -> Reglas -> pegar -> Publicar.
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    match /audio/{archivo} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Todo lo demás, cerrado.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

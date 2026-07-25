@@ -1,0 +1,7 @@
+# El generador de audio corre en tu máquina, no dentro del contenedor.
+tools/
+*.bak
+*.md
+.git
+.gitignore
+docker-compose.yml

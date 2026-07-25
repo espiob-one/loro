@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.bak
+
+# Los 720 mp3 (32 MB) NO van en el repo: se sirven desde Firebase Storage.
+# Meterlos aquí los dejaría en el historial de git para siempre, y quitarlos
+# después exigiría reescribirlo. El índice sí va versionado: es pequeño y sin
+# él la app no sabría qué audio existe.
+web/audio/*.mp3
+!web/audio/index.json
+
+# Aquí nunca debe entrar una API key de verdad (ElevenLabs, por ejemplo).
+# La de Firebase para web SÍ va versionada: es pública por diseño y lo que
+# protege los datos son firestore.rules y storage.rules.
+.env
+*.key

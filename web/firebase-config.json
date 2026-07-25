@@ -1,0 +1,9 @@
+{
+  "_comentario": "Pega aquí la config de tu proyecto de Firebase (Configuración del proyecto -> Tus apps -> Web). NO es secreta: son identificadores públicos y por eso va en el repo. Lo que protege los datos son las reglas de firestore.rules. Mientras apiKey empiece con PEGA_, la app se queda en modo local y ni siquiera muestra el botón de iniciar sesión.",
+  "apiKey": "PEGA_AQUI_TU_API_KEY",
+  "authDomain": "TU-PROYECTO.firebaseapp.com",
+  "projectId": "TU-PROYECTO",
+  "storageBucket": "TU-PROYECTO.appspot.com",
+  "messagingSenderId": "000000000000",
+  "appId": "1:000000000000:web:0000000000000000000000"
+}

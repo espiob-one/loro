@@ -1,0 +1,890 @@
+{
+  "id": "b1",
+  "cefr": "B1",
+  "title": "Zona de los 50 puntos",
+  "intro": "Este es el nivel que decide tu EXCI. Si dominas estas ocho unidades, los 50 puntos de FIME dejan de ser un problema. Las tres primeras (perfecto vs. pasado, condicionales, pasiva) son las que más reactivos generan; las dos últimas (phrasal verbs y conectores) son las que más puntos regalan si no las trabajas.",
+  "units": [
+    {
+      "id": "b1u1",
+      "title": "Finished or not?",
+      "titleEs": "Presente perfecto vs. pasado simple · for / since",
+      "goal": "elegir entre los dos tiempos que más se confunden, y usar for/since sin dudar.",
+      "grammar": {
+        "title": "Present perfect vs. past simple",
+        "explanation": "La pregunta no es «¿pasó hace mucho?», sino «¿el periodo ya cerró?».\n\nPASADO SIMPLE: el periodo está cerrado. Hay una fecha, explícita o implícita. «I worked there in 2022.» «I saw him yesterday.»\n\nPRESENTE PERFECTO: el periodo sigue abierto o la fecha no importa. «I've worked here for three years» (sigo aquí). «I've seen that film» (alguna vez, no importa cuándo).\n\nFOR + duración: for three years, for a long time, for ten minutes.\nSINCE + punto de inicio: since 2019, since Monday, since I graduated.\n\nTruco: si puedes contestar «¿cuánto tiempo?» es FOR; si contestas «¿desde cuándo?» es SINCE.",
+        "table": [
+          ["Situación", "Tiempo", "Ejemplo"],
+          ["Fecha concreta", "past simple", "I finished it on Monday."],
+          ["Periodo abierto", "present perfect", "I've finished three so far."],
+          ["Duración", "perfect + for", "I've lived here for five years."],
+          ["Inicio", "perfect + since", "I've lived here since 2021."],
+          ["Pregunta de duración", "How long + perfect", "How long have you studied English?"]
+        ],
+        "examples": [
+          { "en": "I've worked on this project since January.", "es": "Trabajo en este proyecto desde enero." },
+          { "en": "I worked on that project last year.", "es": "Trabajé en ese proyecto el año pasado." },
+          { "en": "She's been my tutor for two semesters.", "es": "Ha sido mi tutora dos semestres." },
+          { "en": "Have you ever failed a subject?", "es": "¿Alguna vez has reprobado una materia?" }
+        ],
+        "warning": "«I have finished it yesterday» y «I am here since 2020» son los dos errores estrella. Con fecha → pasado simple. Con since → presente perfecto, nunca presente simple."
+      },
+      "vocab": [
+        { "en": "so far", "es": "hasta ahora", "ipa": "/səʊ fɑː/", "example": "So far we've tested three units." },
+        { "en": "lately", "es": "últimamente", "ipa": "/ˈleɪtli/", "example": "I haven't slept well lately." },
+        { "en": "for ages", "es": "desde hace muchísimo", "ipa": "/fɔːr ˈeɪdʒɪz/", "example": "I haven't seen him for ages." },
+        { "en": "ever since", "es": "desde entonces", "ipa": "/ˈevə sɪns/", "example": "Ever since then, it's worked fine." },
+        { "en": "graduate", "es": "graduarse", "ipa": "/ˈɡrædʒueɪt/", "example": "I graduate in December." },
+        { "en": "achievement", "es": "logro", "ipa": "/əˈtʃiːvmənt/", "example": "It was a real achievement." },
+        { "en": "experience", "es": "experiencia", "ipa": "/ɪkˈspɪəriəns/", "example": "She has a lot of experience." },
+        { "en": "progress", "es": "avance", "ipa": "/ˈprəʊɡres/", "example": "We've made good progress." },
+        { "en": "so far so good", "es": "hasta ahora todo bien", "ipa": "/səʊ fɑː səʊ ɡʊd/", "example": "So far so good with the tests." },
+        { "en": "take part in", "es": "participar en", "ipa": "/teɪk pɑːt ɪn/", "example": "I've taken part in two contests." },
+        { "en": "come across", "es": "toparse con", "ipa": "/kʌm əˈkrɒs/", "example": "I've come across this bug before." },
+        { "en": "get used to", "es": "acostumbrarse a", "ipa": "/ɡet juːst tuː/", "example": "I've got used to the schedule." }
+      ],
+      "reading": {
+        "title": "Six months in",
+        "text": "I joined the automation team in February, so I've been here for about six months now. It's been a strange period.\n\nWhen I started, I didn't know anything about industrial protocols. I spent the first month reading manuals and I made a lot of mistakes. Since March, though, things have improved a lot. I've commissioned two lines on my own and I haven't caused a single stoppage since May.\n\nThe hardest part hasn't been the technology. It's been the language. Most of our documentation is in English, and last week I had to explain a fault to a supplier in Germany by phone. I understood maybe half of what he said.\n\nI've decided to take a certification exam in September. I haven't booked it yet, but I registered for the preparation course on Monday.",
+        "questions": [
+          {
+            "id": "b1u1r1",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "Why does the writer use 'I joined' rather than 'I have joined'?",
+            "options": [
+              "Because he mentions a specific month",
+              "Because he no longer works there",
+              "Because it was a bad experience",
+              "Because it happened recently"
+            ],
+            "answer": 0,
+            "explain": "«in February» es una fecha cerrada. La regla es exactamente esa: fecha → pasado simple."
+          },
+          {
+            "id": "b1u1r2",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What has NOT happened since May?",
+            "options": ["A production stoppage", "A commissioning", "A phone call", "A mistake"],
+            "answer": 0,
+            "explain": "«I haven't caused a single stoppage since May»."
+          },
+          {
+            "id": "b1u1r3",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What is the situation with the certification exam?",
+            "options": [
+              "Decided but not booked",
+              "Already booked",
+              "Already taken",
+              "Cancelled"
+            ],
+            "answer": 0,
+            "explain": "«I've decided… I haven't booked it yet». El «yet» marca lo pendiente."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b1u1e1", "type": "choice", "level": "B1", "q": "I ___ him since we graduated.", "options": ["haven't seen", "didn't see", "don't see", "am not seeing"], "answer": 0, "explain": "«since» abre un periodo que llega hasta hoy → presente perfecto." },
+        { "id": "b1u1e2", "type": "choice", "level": "B1", "q": "We ___ the contract last Thursday.", "options": ["signed", "have signed", "have sign", "were signing"], "answer": 0, "explain": "«last Thursday» es fecha cerrada → pasado simple." },
+        { "id": "b1u1e3", "type": "gap", "level": "B1", "q": "She's worked here ___ 2019.", "answer": ["since"], "explain": "2019 es un punto de inicio → since." },
+        { "id": "b1u1e4", "type": "gap", "level": "B1", "q": "I've been waiting ___ twenty minutes.", "answer": ["for"], "explain": "«twenty minutes» es duración → for." },
+        { "id": "b1u1e5", "type": "choice", "level": "B1", "q": "How long ___ you known her?", "options": ["have", "did", "do", "are"], "answer": 0, "explain": "«How long» sobre algo que continúa → presente perfecto." },
+        { "id": "b1u1e6", "type": "translate", "level": "B1", "q": "Traduce: «Llevo tres años estudiando aquí.»", "answer": ["I have studied here for three years", "I've studied here for three years", "I have been studying here for three years", "I've been studying here for three years"], "explain": "«Llevo + tiempo» = presente perfecto + for. Nunca presente simple: «I study here for three years» no existe." },
+        { "id": "b1u1e7", "type": "order", "level": "B1", "q": "Ordena la oración.", "words": ["never", "have", "abroad", "I", "worked"], "answer": "I have never worked abroad", "explain": "never va entre el auxiliar y el participio." },
+        { "id": "b1u1e8", "type": "listen", "level": "B1", "audio": "I've applied twice, but I only got an interview last year.", "q": "¿Qué se entiende?", "options": [
+          "Ha aplicado dos veces; la entrevista fue en un momento concreto del pasado",
+          "Aplicó una sola vez",
+          "Nunca lo han entrevistado",
+          "La entrevista es la próxima semana"
+        ], "answer": 0, "explain": "Fíjate en el cambio de tiempo dentro de la misma frase: «I've applied» (periodo abierto) y «I got» (fecha: last year)." },
+        { "id": "b1u1e9", "type": "choice", "level": "B1", "q": "___ you finished the report yet?", "options": ["Have", "Did", "Are", "Do"], "answer": 0, "explain": "«yet» pide presente perfecto en inglés británico estándar." },
+        { "id": "b1u1e10", "type": "translate", "level": "B1", "q": "Traduce: «Terminé el reporte ayer.»", "answer": ["I finished the report yesterday"], "explain": "«ayer» es fecha → pasado simple. «I have finished it yesterday» es el error clásico. Y ojo: «last night» es «anoche», no «ayer»." }
+      ],
+      "writing": {
+        "q": "Escribe sobre tu experiencia con el inglés: desde cuándo lo estudias, qué has logrado hasta ahora, qué hiciste en un momento concreto del pasado y qué te falta.",
+        "minWords": 90,
+        "mustUse": ["since", "for", "haven't"],
+        "rubric": [
+          "Usé pasado simple cada vez que mencioné una fecha concreta",
+          "Usé presente perfecto para periodos que siguen abiertos",
+          "Usé «for» con duraciones y «since» con puntos de inicio",
+          "No escribí «I have + fecha pasada» en ninguna frase",
+          "Se entiende qué ya logré y qué me falta",
+          "Llegué a 90 palabras"
+        ],
+        "model": "I have studied English on and off since secondary school, so that's more than ten years, although not continuously. I took a course at the CAADI for two semesters and I finished the last level in 2024.\n\nSince then I have learned much more on my own than in class. I read datasheets and documentation in English every week, and I have watched hundreds of hours of technical videos without subtitles.\n\nMy weakest area is still speaking. I haven't had many chances to talk to native speakers, and I haven't taken an official exam yet. I registered for the EXCI preparation last month, so that should change soon."
+      }
+    },
+
+    {
+      "id": "b1u2",
+      "title": "If and when",
+      "titleEs": "Condicionales 0, 1 y 2",
+      "goal": "distinguir lo que siempre pasa, lo que puede pasar y lo que es hipotético.",
+      "grammar": {
+        "title": "Zero, first and second conditionals",
+        "explanation": "CERO — verdad general o ley física. If + presente, presente. «If you heat water to 100 °C, it boils.»\n\nPRIMERO — posibilidad real en el futuro. If + presente, will + verbo. «If it rains, we'll cancel.»\n\nSEGUNDO — hipotético o improbable. If + pasado simple, would + verbo. «If I had more time, I would learn Japanese.»\n\nLa regla de oro: NUNCA va «will» ni «would» dentro del if. «If I will have time» está mal.\n\nEn el segundo condicional, con el verbo to be se usa «were» para todas las personas en registro formal: «If I were you…». No es error, es subjuntivo.",
+        "table": [
+          ["Tipo", "if...", "resultado", "Sentido"],
+          ["0", "presente", "presente", "siempre pasa"],
+          ["1", "presente", "will + base", "puede pasar"],
+          ["2", "pasado simple", "would + base", "hipotético"],
+          ["Consejo", "If I were you,", "I would...", "fórmula fija"]
+        ],
+        "examples": [
+          { "en": "If you press this button, the motor stops.", "es": "Si aprietas este botón, el motor se detiene." },
+          { "en": "If we finish early, we'll go home.", "es": "Si terminamos temprano, nos vamos a casa." },
+          { "en": "If I were the manager, I would change the process.", "es": "Si yo fuera el gerente, cambiaría el proceso." },
+          { "en": "I wouldn't do that if I were you.", "es": "Yo que tú no haría eso." }
+        ],
+        "warning": "«Unless» significa «si no / a menos que» y ya es negativo: «Unless you hurry, you'll miss it». No se le añade otro negativo."
+      },
+      "vocab": [
+        { "en": "unless", "es": "a menos que", "ipa": "/ənˈles/", "example": "Unless it rains, we'll go." },
+        { "en": "as long as", "es": "siempre y cuando", "ipa": "/əz lɒŋ əz/", "example": "As long as you're careful." },
+        { "en": "in case", "es": "por si acaso", "ipa": "/ɪn keɪs/", "example": "Take a coat in case it's cold." },
+        { "en": "otherwise", "es": "si no", "ipa": "/ˈʌðəwaɪz/", "example": "Hurry, otherwise we'll be late." },
+        { "en": "provided that", "es": "siempre que", "ipa": "/prəˈvaɪdɪd ðæt/", "example": "Provided that it's tested." },
+        { "en": "would rather", "es": "preferiría", "ipa": "/wʊd ˈrɑːðə/", "example": "I'd rather stay home." },
+        { "en": "consequence", "es": "consecuencia", "ipa": "/ˈkɒnsɪkwəns/", "example": "The consequence was serious." },
+        { "en": "risk", "es": "riesgo", "ipa": "/rɪsk/", "example": "There's a risk of overheating." },
+        { "en": "avoid", "es": "evitar", "ipa": "/əˈvɔɪd/", "example": "This avoids the problem." },
+        { "en": "assume", "es": "suponer", "ipa": "/əˈsjuːm/", "example": "Don't assume it works." },
+        { "en": "turn out", "es": "resultar", "ipa": "/tɜːn aʊt/", "example": "It turned out to be simple." },
+        { "en": "worth", "es": "que vale la pena", "ipa": "/wɜːθ/", "example": "It's worth trying." }
+      ],
+      "reading": {
+        "title": "A note in the manual",
+        "text": "IMPORTANT — READ BEFORE OPERATING\n\nIf the temperature rises above 60 °C, the controller shuts down automatically. This is normal behaviour and not a fault.\n\nIf you need to run the unit continuously for more than four hours, you will have to install the optional fan kit. Unless the kit is fitted, the warranty does not cover thermal damage.\n\nSome users ask whether they can bypass the thermal cut-out. If we allowed that, the unit would fail within weeks and the repair would cost more than the fan kit. We strongly advise against it.\n\nAs long as you keep the vents clear and check the filter monthly, the unit should last around ten years.",
+        "questions": [
+          {
+            "id": "b1u2r1",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What happens above 60 °C?",
+            "options": ["The controller shuts down", "The fan starts", "The warranty ends", "Nothing"],
+            "answer": 0,
+            "explain": "Condicional cero: comportamiento automático, siempre igual."
+          },
+          {
+            "id": "b1u2r2",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "When is the fan kit necessary?",
+            "options": [
+              "For continuous runs over four hours",
+              "Always",
+              "Only above 60 °C",
+              "Only in warm climates"
+            ],
+            "answer": 0,
+            "explain": "«If you need to run the unit continuously for more than four hours, you will have to install…». Primer condicional: posibilidad real."
+          },
+          {
+            "id": "b1u2r3",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "Why is the bypass described with 'would'?",
+            "options": [
+              "Because it is hypothetical — they don't allow it",
+              "Because it happens often",
+              "Because it is a rule",
+              "Because it is in the past"
+            ],
+            "answer": 0,
+            "explain": "«If we allowed that, the unit would fail» — segundo condicional: no lo permiten, es una hipótesis."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b1u2e1", "type": "choice", "level": "B1", "q": "If you ___ ice, it melts.", "options": ["heat", "will heat", "heated", "would heat"], "answer": 0, "explain": "Verdad general → condicional cero: presente + presente." },
+        { "id": "b1u2e2", "type": "choice", "level": "B1", "q": "If she ___ early, she'll catch the train.", "options": ["leaves", "will leave", "left", "would leave"], "answer": 0, "explain": "Primer condicional: dentro del if va presente, aunque el sentido sea futuro." },
+        { "id": "b1u2e3", "type": "choice", "level": "B1", "q": "If I ___ rich, I would travel more.", "options": ["were", "am", "will be", "would be"], "answer": 0, "explain": "Segundo condicional. «Were» para todas las personas en este uso." },
+        { "id": "b1u2e4", "type": "gap", "level": "B1", "q": "If you don't hurry, you ___ (miss) the bus.", "answer": ["will miss", "'ll miss"], "explain": "Primer condicional: la consecuencia lleva will." },
+        { "id": "b1u2e5", "type": "gap", "level": "B1", "q": "___ you study, you won't pass.", "answer": ["unless"], "explain": "«Unless» = si no. Ya lleva el negativo dentro." },
+        { "id": "b1u2e6", "type": "translate", "level": "B1", "q": "Traduce: «Si tuviera más tiempo, aprendería a tocar guitarra.»", "answer": ["If I had more time, I would learn to play the guitar", "If I had more time, I'd learn to play the guitar", "If I had more time, I would learn guitar"], "explain": "Hipotético → If + pasado simple, would + base." },
+        { "id": "b1u2e7", "type": "order", "level": "B1", "q": "Ordena la oración.", "words": ["you", "I", "were", "wouldn't", "If", "I", "worry"], "answer": "If I were you I wouldn't worry", "explain": "Fórmula fija de consejo: If I were you, I wouldn't…" },
+        { "id": "b1u2e8", "type": "listen", "level": "B1", "audio": "If we had ordered the parts last month, we would be testing right now.", "q": "¿Qué está pasando en realidad?", "options": [
+          "No pidieron las piezas y no están probando",
+          "Pidieron las piezas y están probando",
+          "Van a pedir las piezas",
+          "Están probando sin las piezas"
+        ], "answer": 0, "explain": "Condicional mixto: causa en el pasado que no ocurrió, consecuencia en el presente que tampoco." },
+        { "id": "b1u2e9", "type": "choice", "level": "B1", "q": "I'll help you ___ you ask me.", "options": ["if", "unless", "otherwise", "in case"], "answer": 0, "explain": "La ayuda depende de que pida → if. Con «unless» diría lo contrario." },
+        { "id": "b1u2e10", "type": "choice", "level": "B1", "q": "Take a power bank ___ the battery dies.", "options": ["in case", "if", "unless", "as long as"], "answer": 0, "explain": "«in case» = por si acaso, prevención. No es lo mismo que «if»: llevas la batería antes de que pase nada." }
+      ],
+      "writing": {
+        "q": "Escribe cuatro consejos para alguien que va a presentar el EXCI, usando condicionales distintos: uno con verdad general, dos con posibilidad real y uno hipotético («si yo fuera tú…»).",
+        "minWords": 90,
+        "mustUse": ["if", "unless", "would"],
+        "rubric": [
+          "No puse «will» ni «would» dentro de la cláusula con «if»",
+          "Usé el condicional cero para algo que siempre pasa",
+          "Usé el primero para posibilidades reales",
+          "Usé el segundo (pasado + would) para lo hipotético",
+          "Usé «unless» sin añadirle otro negativo",
+          "Llegué a 90 palabras"
+        ],
+        "model": "If you prepare properly, the EXCI is not a difficult exam, but a few things are worth knowing.\n\nFirst, if you leave a question blank, you get nothing, so always guess. The scoring does not punish wrong answers, so a blank is simply a wasted point.\n\nSecond, if you practise listening every day for a month, your score will improve more than if you spend that time on grammar. Unless you already understand fast speech, that is where you lose most marks.\n\nFinally, if I were you, I would take a full timed mock exam a week before. You would find out how tired you get after forty minutes, which is something no grammar book tells you."
+      }
+    },
+
+    {
+      "id": "b1u3",
+      "title": "It was done",
+      "titleEs": "Voz pasiva",
+      "goal": "usar la pasiva, que es el registro normal de todo texto técnico en inglés.",
+      "grammar": {
+        "title": "The passive voice",
+        "explanation": "La pasiva se forma con be + participio, y el tiempo lo marca «be».\n\nSe usa cuando quien hace la acción no importa, no se sabe, o es obvio. Los manuales, informes y papers están llenos de pasivas: «The sample was heated to 200 °C» — a nadie le importa quién la calentó.\n\nSi quieres decir quién, usas «by»: «The circuit was designed by a student.»\n\nOjo: sólo los verbos transitivos (que llevan objeto) tienen pasiva. «Happen», «arrive» y «occur» no la tienen: «The accident was happened» está mal.",
+        "table": [
+          ["Tiempo", "Activa", "Pasiva"],
+          ["Presente", "They make it here.", "It is made here."],
+          ["Pasado", "They built it in 1987.", "It was built in 1987."],
+          ["Futuro", "They will send it.", "It will be sent."],
+          ["Perfecto", "They have tested it.", "It has been tested."],
+          ["Modal", "They must check it.", "It must be checked."]
+        ],
+        "examples": [
+          { "en": "The results are published every quarter.", "es": "Los resultados se publican cada trimestre." },
+          { "en": "The prototype was damaged during transport.", "es": "El prototipo se dañó durante el transporte." },
+          { "en": "The report has been sent to the client.", "es": "El reporte ya se envió al cliente." },
+          { "en": "This valve must be replaced every two years.", "es": "Esta válvula debe reemplazarse cada dos años." }
+        ],
+        "warning": "En español el «se» impersonal («se fabrica en México») casi siempre se traduce con pasiva en inglés: «It is manufactured in Mexico», no «It manufactures in Mexico»."
+      },
+      "vocab": [
+        { "en": "be carried out", "es": "llevarse a cabo", "ipa": "/kærid aʊt/", "example": "Tests were carried out weekly." },
+        { "en": "be replaced", "es": "ser reemplazado", "ipa": "/rɪˈpleɪst/", "example": "The filter must be replaced." },
+        { "en": "be designed", "es": "ser diseñado", "ipa": "/dɪˈzaɪnd/", "example": "It was designed in-house." },
+        { "en": "be supplied", "es": "ser suministrado", "ipa": "/səˈplaɪd/", "example": "Parts are supplied by a vendor." },
+        { "en": "manufacture", "es": "fabricar", "ipa": "/ˌmænjuˈfæktʃə/", "example": "It's manufactured in Asia." },
+        { "en": "assemble", "es": "ensamblar", "ipa": "/əˈsembl/", "example": "The unit is assembled locally." },
+        { "en": "install", "es": "instalar", "ipa": "/ɪnˈstɔːl/", "example": "The software was installed." },
+        { "en": "maintain", "es": "dar mantenimiento", "ipa": "/meɪnˈteɪn/", "example": "Equipment is maintained monthly." },
+        { "en": "damage", "es": "dañar / daño", "ipa": "/ˈdæmɪdʒ/", "example": "The board was damaged." },
+        { "en": "measurement", "es": "medición", "ipa": "/ˈmeʒəmənt/", "example": "Measurements were taken twice." },
+        { "en": "approve", "es": "aprobar", "ipa": "/əˈpruːv/", "example": "The budget was approved." },
+        { "en": "reject", "es": "rechazar", "ipa": "/rɪˈdʒekt/", "example": "Two units were rejected." }
+      ],
+      "reading": {
+        "title": "Incident report",
+        "text": "INCIDENT REPORT — LINE 3\n\nAt 14:20 the conveyor was stopped automatically by the safety system. The line had been running normally since the morning shift.\n\nAn inspection was carried out immediately. It was found that a proximity sensor had been damaged, probably when a pallet was loaded incorrectly earlier in the day. The sensor was replaced within forty minutes and production was resumed at 15:05.\n\nNo injuries were reported. The damaged sensor will be sent to the supplier for analysis.\n\nIt has been recommended that operators are given a short refresher on pallet alignment. This recommendation must be approved by the plant manager before it is implemented.",
+        "questions": [
+          {
+            "id": "b1u3r1",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What stopped the conveyor?",
+            "options": ["The safety system", "An operator", "The plant manager", "A power cut"],
+            "answer": 0,
+            "explain": "«was stopped automatically by the safety system». El «by» dice quién."
+          },
+          {
+            "id": "b1u3r2",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What probably damaged the sensor?",
+            "options": ["A badly loaded pallet", "The safety system", "A power surge", "The replacement"],
+            "answer": 0,
+            "explain": "«probably when a pallet was loaded incorrectly»."
+          },
+          {
+            "id": "b1u3r3",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What still needs to happen?",
+            "options": [
+              "The manager must approve the recommendation",
+              "The sensor must be replaced",
+              "Production must be resumed",
+              "The injuries must be reported"
+            ],
+            "answer": 0,
+            "explain": "«must be approved by the plant manager before it is implemented». Lo demás ya se hizo."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b1u3e1", "type": "choice", "level": "B1", "q": "The bridge ___ in 1987.", "options": ["was built", "built", "has built", "is building"], "answer": 0, "explain": "Pasiva en pasado: was + participio." },
+        { "id": "b1u3e2", "type": "choice", "level": "B1", "q": "These boards ___ in Guadalajara.", "options": ["are assembled", "assemble", "are assembling", "assembled"], "answer": 0, "explain": "El «se ensamblan» del español es pasiva en inglés." },
+        { "id": "b1u3e3", "type": "gap", "level": "B1", "q": "The report ___ (send) yesterday.", "answer": ["was sent"], "explain": "Pasado + pasiva → was sent." },
+        { "id": "b1u3e4", "type": "gap", "level": "B1", "q": "The filter must ___ (change) every six months.", "answer": ["be changed"], "explain": "Después de un modal, la pasiva es «be + participio»." },
+        { "id": "b1u3e5", "type": "choice", "level": "B1", "q": "The results ___ already ___ published.", "options": ["have / been", "has / been", "have / being", "are / been"], "answer": 0, "explain": "Perfecto pasivo: have been + participio." },
+        { "id": "b1u3e6", "type": "translate", "level": "B1", "q": "Traduce: «El prototipo fue diseñado por dos estudiantes.»", "answer": ["The prototype was designed by two students"], "explain": "Pasiva en pasado + «by» para el agente." },
+        { "id": "b1u3e7", "type": "order", "level": "B1", "q": "Ordena la oración.", "words": ["been", "has", "approved", "budget", "The"], "answer": "The budget has been approved", "explain": "has + been + participio." },
+        { "id": "b1u3e8", "type": "listen", "level": "B1", "audio": "The samples are being analysed at the moment, so results will be sent tomorrow.", "q": "¿En qué estado están las muestras?", "options": ["Se están analizando ahora", "Ya se analizaron", "No se han recibido", "Se van a analizar mañana"], "answer": 0, "explain": "«are being analysed» = pasiva en presente continuo: está ocurriendo justo ahora." },
+        { "id": "b1u3e9", "type": "choice", "level": "B1", "q": "The accident ___ at six in the morning.", "options": ["happened", "was happened", "has been happened", "is happened"], "answer": 0, "explain": "«happen» es intransitivo: no tiene pasiva. Nunca «was happened»." },
+        { "id": "b1u3e10", "type": "translate", "level": "B1", "q": "Traduce: «Aquí se habla inglés.»", "answer": ["English is spoken here"], "explain": "El «se» impersonal del español → pasiva en inglés." }
+      ],
+      "writing": {
+        "q": "Escribe un reporte breve de un incidente (real o inventado): qué pasó, qué se hizo, quién lo revisó y qué falta por hacer. Usa pasiva como lo haría un reporte técnico.",
+        "minWords": 90,
+        "mustUse": ["was", "been", "by"],
+        "rubric": [
+          "Usé be + participio, con el tiempo marcado en «be»",
+          "Usé «by» sólo cuando el agente aportaba información",
+          "No puse en pasiva ningún verbo intransitivo (happen, occur, arrive)",
+          "El tono es de reporte, no de conversación",
+          "Llegué a 90 palabras"
+        ],
+        "model": "INCIDENT REPORT — TEST BENCH 2\n\nAt 10:40 the power supply was switched off automatically during a thermal test. The bench had been used normally since Monday.\n\nAn inspection was carried out by the technician on duty. It was found that a fan connector had been left loose after the previous maintenance, so the internal temperature rose faster than expected. The connector was refitted and the test was repeated the same afternoon.\n\nNo equipment was damaged and no measurements were lost, because the data is saved every ten seconds.\n\nIt has been recommended that connectors are checked before every thermal test. The change must be approved by the lab coordinator before the procedure is updated."
+      }
+    },
+
+    {
+      "id": "b1u4",
+      "title": "The one that works",
+      "titleEs": "Oraciones de relativo",
+      "goal": "unir dos ideas en una frase con who, which, that, whose y where.",
+      "grammar": {
+        "title": "Relative clauses",
+        "explanation": "Sirven para dar información sobre un sustantivo sin empezar otra frase.\n\nWHO — personas. WHICH — cosas. THAT — las dos, en estilo informal. WHOSE — posesión. WHERE — lugares. WHEN — momentos.\n\nEspecificativas (sin comas): la información es necesaria para saber de quién hablas. «The engineer who designed it has left.» Aquí sí puedes usar «that».\n\nExplicativas (con comas): información extra, se podría borrar. «My tutor, who works in Madrid, replied yesterday.» Aquí NO se puede usar «that» y las comas son obligatorias.\n\nSi el relativo es el OBJETO, se puede omitir: «The book (that) I bought» — las dos son correctas.",
+        "table": [
+          ["Relativo", "Se refiere a", "Ejemplo"],
+          ["who", "personas", "the woman who called"],
+          ["which", "cosas", "the tool which broke"],
+          ["that", "personas y cosas (informal)", "the tool that broke"],
+          ["whose", "posesión", "the student whose project won"],
+          ["where", "lugares", "the lab where we work"]
+        ],
+        "examples": [
+          { "en": "The technician who fixed it is on holiday.", "es": "El técnico que lo arregló está de vacaciones." },
+          { "en": "This is the sensor which failed last week.", "es": "Este es el sensor que falló la semana pasada." },
+          { "en": "She's the colleague whose thesis won the prize.", "es": "Es la colega cuya tesis ganó el premio." },
+          { "en": "That's the building where I did my internship.", "es": "Ese es el edificio donde hice mis prácticas." }
+        ],
+        "warning": "No se repite el sujeto: «The man who he called me» está mal. El relativo YA es el sujeto — se dice «The man who called me»."
+      },
+      "vocab": [
+        { "en": "whose", "es": "cuyo/a", "ipa": "/huːz/", "example": "The student whose laptop broke." },
+        { "en": "colleague", "es": "colega, compañero", "ipa": "/ˈkɒliːɡ/", "example": "A colleague who helped me." },
+        { "en": "supplier", "es": "proveedor", "ipa": "/səˈplaɪə/", "example": "The supplier that delivered late." },
+        { "en": "device", "es": "dispositivo", "ipa": "/dɪˈvaɪs/", "example": "A device which measures current." },
+        { "en": "feature", "es": "característica", "ipa": "/ˈfiːtʃə/", "example": "The feature that nobody uses." },
+        { "en": "issue", "es": "problema, asunto", "ipa": "/ˈɪʃuː/", "example": "The issue which delayed us." },
+        { "en": "purpose", "es": "propósito", "ipa": "/ˈpɜːpəs/", "example": "The purpose for which it was built." },
+        { "en": "in charge", "es": "a cargo", "ipa": "/ɪn tʃɑːdʒ/", "example": "The person in charge." },
+        { "en": "reliable", "es": "confiable", "ipa": "/rɪˈlaɪəbl/", "example": "A supplier who is reliable." },
+        { "en": "replace", "es": "reemplazar", "ipa": "/rɪˈpleɪs/", "example": "The part which we replaced." },
+        { "en": "belong to", "es": "pertenecer a", "ipa": "/bɪˈlɒŋ tuː/", "example": "The tools that belong to the lab." },
+        { "en": "in which", "es": "en el/la cual", "ipa": "/ɪn wɪtʃ/", "example": "The way in which it works." }
+      ],
+      "reading": {
+        "title": "The team",
+        "text": "The person who runs our department is an engineer whose career started on the factory floor. She spent eight years as a technician before she studied, which is unusual here and probably explains why she listens to the operators.\n\nThe project that gave us the most trouble last year was a retrofit of a line which was installed in 1994. The documentation, which had been written by a company that no longer exists, described a control system nobody recognised.\n\nWe eventually found an operator whose father had worked on the original installation. He remembered where the junction boxes were hidden — information that saved us at least three weeks.",
+        "questions": [
+          {
+            "id": "b1u4r1",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What is unusual about the department head?",
+            "options": [
+              "She was a technician before studying",
+              "She has no engineering degree",
+              "She never listens to operators",
+              "She started in 1994"
+            ],
+            "answer": 0,
+            "explain": "«She spent eight years as a technician before she studied, which is unusual here»."
+          },
+          {
+            "id": "b1u4r2",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "Why was the documentation a problem?",
+            "options": [
+              "The company that wrote it no longer exists",
+              "It was in another language",
+              "It had been lost",
+              "It was too long"
+            ],
+            "answer": 0,
+            "explain": "«which had been written by a company that no longer exists»."
+          },
+          {
+            "id": "b1u4r3",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "Who solved the problem?",
+            "options": [
+              "An operator with a family connection to the installation",
+              "The department head",
+              "The original company",
+              "A new supplier"
+            ],
+            "answer": 0,
+            "explain": "«an operator whose father had worked on the original installation». «Whose» marca la relación."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b1u4e1", "type": "choice", "level": "B1", "q": "That's the engineer ___ designed the controller.", "options": ["who", "which", "whose", "where"], "answer": 0, "explain": "Persona y sujeto → who (o that en informal)." },
+        { "id": "b1u4e2", "type": "choice", "level": "B1", "q": "This is the tool ___ broke yesterday.", "options": ["which", "who", "whose", "when"], "answer": 0, "explain": "Cosa → which o that. Nunca who." },
+        { "id": "b1u4e3", "type": "gap", "level": "B1", "q": "She's the student ___ project won the prize.", "answer": ["whose"], "explain": "Posesión (el proyecto es de ella) → whose." },
+        { "id": "b1u4e4", "type": "gap", "level": "B1", "q": "That's the lab ___ I did my internship.", "answer": ["where"], "explain": "Lugar → where." },
+        { "id": "b1u4e5", "type": "choice", "level": "B1", "q": "My tutor, ___ works in Madrid, replied today.", "options": ["who", "that", "which", "whose"], "answer": 0, "explain": "Con comas (explicativa) NO se puede usar «that»." },
+        { "id": "b1u4e6", "type": "choice", "level": "B1", "q": "The man ___ called me was from the supplier.", "options": ["who", "who he", "which he", "whose"], "answer": 0, "explain": "No se repite el sujeto: «who called», no «who he called»." },
+        { "id": "b1u4e7", "type": "translate", "level": "B1", "q": "Traduce: «El sensor que compramos no funciona.»", "answer": ["The sensor that we bought doesn't work", "The sensor which we bought doesn't work", "The sensor we bought doesn't work"], "explain": "Aquí el relativo es objeto, así que se puede omitir: las tres son correctas." },
+        { "id": "b1u4e8", "type": "order", "level": "B1", "q": "Ordena la oración.", "words": ["whose", "the", "He's", "won", "colleague", "thesis"], "answer": "He's the colleague whose thesis won", "explain": "whose va justo antes del sustantivo poseído." },
+        { "id": "b1u4e9", "type": "listen", "level": "B1", "audio": "The supplier who delivered late is the one we're replacing.", "q": "¿Qué van a hacer?", "options": ["Cambiar al proveedor que entregó tarde", "Contratar al proveedor que entregó tarde", "Esperar la entrega", "Reemplazar la entrega"], "answer": 0, "explain": "«the one we're replacing» — el relativo omitido: the one (that) we are replacing." },
+        { "id": "b1u4e10", "type": "choice", "level": "B1", "q": "He arrived two hours late, ___ annoyed everyone.", "options": ["which", "that", "who", "what"], "answer": 0, "explain": "Cuando el relativo se refiere a TODA la frase anterior, se usa «which» con coma. Nunca «that» ni «what»." }
+      ],
+      "writing": {
+        "q": "Describe a tres personas de tu entorno (universidad o trabajo) usando oraciones de relativo: quién es cada una, qué hace y algo que las distinga. Usa who, whose y where al menos una vez cada uno.",
+        "minWords": 90,
+        "mustUse": ["who", "whose", "which"],
+        "rubric": [
+          "Usé «who» para personas y «which» para cosas",
+          "No repetí el sujeto después del relativo",
+          "Usé «whose» correctamente para una posesión",
+          "Si puse comas, no usé «that» en esa frase",
+          "Llegué a 90 palabras"
+        ],
+        "model": "There are three people who have really influenced how I work.\n\nThe first is a professor whose classes were the hardest of the whole degree. He never gave us the answer, which was frustrating at the time but taught me to read a datasheet properly.\n\nThe second is a technician who worked in the workshop where I did my first practical course. He could repair almost anything with tools that most people would consider useless.\n\nThe third is a classmate whose project was similar to mine. We shared everything we found, which saved both of us a lot of time. She is now the person I ask whenever I am stuck."
+      }
+    },
+
+    {
+      "id": "b1u5",
+      "title": "He said that...",
+      "titleEs": "Estilo indirecto",
+      "goal": "reportar lo que alguien dijo sin repetirlo palabra por palabra.",
+      "grammar": {
+        "title": "Reported speech",
+        "explanation": "Al reportar, los tiempos «retroceden» un paso y cambian los pronombres y las referencias de tiempo y lugar.\n\npresente → pasado · pasado → pasado perfecto · will → would · can → could · must → had to\n\n«I'm tired» → He said he was tired.\n«I finished it» → She said she had finished it.\n«I'll call you» → He said he would call me.\n\nEn PREGUNTAS indirectas el orden deja de ser de pregunta y desaparece el auxiliar: «Where do you live?» → He asked where I lived. Nunca «where did I live».\n\nSay vs tell: say something / tell SOMEONE something. «He told me», no «He said me».",
+        "table": [
+          ["Directo", "Indirecto"],
+          ["\"I work here\"", "He said he worked there."],
+          ["\"I saw it\"", "She said she had seen it."],
+          ["\"I'll help\"", "He said he would help."],
+          ["\"Can you come?\"", "She asked if I could come."],
+          ["\"Where is it?\"", "He asked where it was."]
+        ],
+        "examples": [
+          { "en": "She said she was working on the report.", "es": "Dijo que estaba trabajando en el reporte." },
+          { "en": "He told me he had already sent it.", "es": "Me dijo que ya lo había enviado." },
+          { "en": "They asked whether the test had failed.", "es": "Preguntaron si la prueba había fallado." },
+          { "en": "The manager asked me to check the readings.", "es": "El gerente me pidió revisar las lecturas." }
+        ],
+        "warning": "Si lo reportado sigue siendo verdad ahora, puedes no retroceder el tiempo: «He said the lab opens at eight» está bien si sigue abriendo a las ocho."
+      },
+      "vocab": [
+        { "en": "mention", "es": "mencionar", "ipa": "/ˈmenʃn/", "example": "He mentioned the delay." },
+        { "en": "admit", "es": "admitir", "ipa": "/ədˈmɪt/", "example": "She admitted making a mistake." },
+        { "en": "deny", "es": "negar", "ipa": "/dɪˈnaɪ/", "example": "He denied sending it." },
+        { "en": "explain", "es": "explicar", "ipa": "/ɪkˈspleɪn/", "example": "She explained the procedure." },
+        { "en": "warn", "es": "advertir", "ipa": "/wɔːn/", "example": "They warned us about it." },
+        { "en": "suggest", "es": "sugerir", "ipa": "/səˈdʒest/", "example": "He suggested waiting." },
+        { "en": "promise", "es": "prometer", "ipa": "/ˈprɒmɪs/", "example": "She promised to call." },
+        { "en": "refuse", "es": "negarse a", "ipa": "/rɪˈfjuːz/", "example": "He refused to sign." },
+        { "en": "complain", "es": "quejarse", "ipa": "/kəmˈpleɪn/", "example": "They complained about noise." },
+        { "en": "point out", "es": "señalar", "ipa": "/pɔɪnt aʊt/", "example": "She pointed out the error." },
+        { "en": "whether", "es": "si (alternativa)", "ipa": "/ˈweðə/", "example": "I asked whether it worked." },
+        { "en": "according to", "es": "según", "ipa": "/əˈkɔːdɪŋ tuː/", "example": "According to the manual..." }
+      ],
+      "reading": {
+        "title": "After the meeting",
+        "text": "I couldn't go to the meeting, so Laura told me what happened.\n\nShe said the client had rejected the first proposal because it was too expensive. The account manager explained that the price included two years of support, but the client replied that he didn't need it.\n\nLaura told me that our director had asked whether we could deliver a reduced version by November. Nobody answered immediately. Then the lead engineer pointed out that the testing alone would take six weeks, so November was unrealistic.\n\nIn the end they agreed that they would send a revised quotation on Friday. Laura warned me that I might have to redo the timeline.",
+        "questions": [
+          {
+            "id": "b1u5r1",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "Why did the client reject the proposal?",
+            "options": ["It was too expensive", "It was late", "It had no support", "It was too simple"],
+            "answer": 0,
+            "explain": "«the client had rejected the first proposal because it was too expensive»."
+          },
+          {
+            "id": "b1u5r2",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What did the lead engineer say?",
+            "options": [
+              "That November was not realistic",
+              "That the price was fair",
+              "That testing was unnecessary",
+              "That the client was wrong"
+            ],
+            "answer": 0,
+            "explain": "«testing alone would take six weeks, so November was unrealistic»."
+          },
+          {
+            "id": "b1u5r3",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What might the writer have to do?",
+            "options": ["Redo the timeline", "Attend the next meeting", "Call the client", "Write the quotation"],
+            "answer": 0,
+            "explain": "«Laura warned me that I might have to redo the timeline»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b1u5e1", "type": "choice", "level": "B1", "q": "\"I'm busy.\" → He said he ___ busy.", "options": ["was", "is", "has been", "would be"], "answer": 0, "explain": "Presente → pasado al reportar." },
+        { "id": "b1u5e2", "type": "choice", "level": "B1", "q": "\"I'll send it.\" → She said she ___ send it.", "options": ["would", "will", "should", "had"], "answer": 0, "explain": "will → would." },
+        { "id": "b1u5e3", "type": "choice", "level": "B1", "q": "He ___ me that the test had failed.", "options": ["told", "said", "commented", "spoke"], "answer": 0, "explain": "tell + persona directamente. «Said me» no existe (sería «said to me», con preposición), y ni «commented» ni «spoke» aceptan un objeto de persona así." },
+        { "id": "b1u5e4", "type": "gap", "level": "B1", "q": "\"Where do you live?\" → She asked where I ___.", "answer": ["lived"], "explain": "Sin auxiliar y en orden de afirmación: «where I lived»." },
+        { "id": "b1u5e5", "type": "choice", "level": "B1", "q": "She asked ___ I had finished the report.", "options": ["if", "that", "what", "did"], "answer": 0, "explain": "Pregunta de sí/no reportada → if o whether. Aquí «what» no cabe porque el verbo ya tiene objeto («the report»)." },
+        { "id": "b1u5e6", "type": "translate", "level": "B1", "q": "Traduce: «Me dijo que ya había enviado el correo.»", "answer": ["He told me he had already sent the email", "She told me she had already sent the email", "He told me that he had already sent the email", "She told me that she had already sent the email"], "explain": "tell + me, y el pasado retrocede a pasado perfecto." },
+        { "id": "b1u5e7", "type": "order", "level": "B1", "q": "Ordena la oración.", "words": ["asked", "could", "if", "help", "He", "I"], "answer": "He asked if I could help", "explain": "can → could, y el orden ya no es de pregunta." },
+        { "id": "b1u5e8", "type": "listen", "level": "B1", "audio": "She told me she would call back, but she never did.", "q": "¿Qué pasó?", "options": ["Prometió llamar y no llamó", "Llamó de vuelta", "No prometió nada", "Va a llamar mañana"], "answer": 0, "explain": "«would call back» reporta la promesa; «she never did» dice que no se cumplió." },
+        { "id": "b1u5e9", "type": "choice", "level": "B1", "q": "The manager asked me ___ the readings.", "options": ["to check", "check", "checking", "that I check"], "answer": 0, "explain": "Petición reportada: ask someone TO do something." },
+        { "id": "b1u5e10", "type": "choice", "level": "B1", "q": "He ___ sending the file.", "options": ["denied", "refused", "promised", "warned"], "answer": 0, "explain": "deny + gerundio = negar haberlo hecho. «Refuse» llevaría infinitivo y significaría que se negó a hacerlo." }
+      ],
+      "writing": {
+        "q": "Reporta una conversación que tuviste esta semana (con un profesor, un compañero o en el trabajo). Di quién dijo qué, qué preguntó alguien y qué se acordó al final.",
+        "minWords": 90,
+        "mustUse": ["said", "told", "asked"],
+        "rubric": [
+          "Retrocedí los tiempos verbales al reportar",
+          "Usé «told» con persona y «said» sin ella",
+          "En las preguntas indirectas quité el auxiliar y usé orden de afirmación",
+          "Cambié los pronombres correctamente (I → he/she, my → his/her)",
+          "Llegué a 90 palabras"
+        ],
+        "model": "On Tuesday I talked to my project advisor about the deadline.\n\nI told him that I had finished the mechanical design but that the control software was still incomplete. He asked how many weeks I needed and whether I had tested the servos under load. I admitted that I hadn't, because two of them had arrived damaged.\n\nHe said that this was a common problem and suggested ordering spares immediately. He also warned me that the review committee would ask about repeatability, so I would need at least three full runs.\n\nIn the end we agreed that I would send him a new timeline on Friday and that the review would be moved to the following month."
+      }
+    },
+
+    {
+      "id": "b1u6",
+      "title": "To do or doing?",
+      "titleEs": "Gerundios e infinitivos",
+      "goal": "saber cuándo un verbo pide -ing y cuándo pide to, que es puro reactivo de examen.",
+      "grammar": {
+        "title": "Gerunds & infinitives",
+        "explanation": "No hay una regla lógica: se aprende por grupos.\n\nGERUNDIO (-ing) después de: enjoy, avoid, finish, mind, suggest, deny, practise, keep, consider, imagine, risk, miss.\nTambién SIEMPRE después de preposición: good at solving, interested in learning, instead of waiting.\n\nINFINITIVO (to) después de: want, need, decide, hope, plan, promise, refuse, agree, learn, offer, manage, seem.\n\nCambian de significado con los dos:\n• stop doing (dejar de hacerlo) / stop to do (parar para hacerlo)\n• remember doing (recordar que lo hiciste) / remember to do (acordarte de hacerlo)\n• try doing (probar a ver) / try to do (esforzarte)",
+        "table": [
+          ["Estructura", "Ejemplo", "Español"],
+          ["enjoy + -ing", "I enjoy programming.", "disfruto programar"],
+          ["want + to", "I want to learn.", "quiero aprender"],
+          ["preposición + -ing", "good at solving", "bueno resolviendo"],
+          ["stop + -ing", "He stopped smoking.", "dejó de fumar"],
+          ["stop + to", "He stopped to smoke.", "paró para fumar"]
+        ],
+        "examples": [
+          { "en": "I'm interested in learning more about control systems.", "es": "Me interesa aprender más sobre control." },
+          { "en": "She decided to change the approach.", "es": "Decidió cambiar el enfoque." },
+          { "en": "Remember to save your work.", "es": "Acuérdate de guardar tu trabajo." },
+          { "en": "I remember saving it, but the file is gone.", "es": "Recuerdo haberlo guardado, pero el archivo no está." }
+        ],
+        "warning": "«Look forward to», «be used to» y «get used to» llevan -ing porque ese «to» es preposición: «I look forward to hearing from you», no «to hear»."
+      },
+      "vocab": [
+        { "en": "avoid", "es": "evitar", "ipa": "/əˈvɔɪd/", "example": "Avoid using cheap cables." },
+        { "en": "suggest", "es": "sugerir", "ipa": "/səˈdʒest/", "example": "I suggest checking it first." },
+        { "en": "manage to", "es": "lograr", "ipa": "/ˈmænɪdʒ tuː/", "example": "We managed to fix it." },
+        { "en": "consider", "es": "considerar", "ipa": "/kənˈsɪdə/", "example": "We considered changing supplier." },
+        { "en": "be worth", "es": "valer la pena", "ipa": "/bi wɜːθ/", "example": "It's worth trying." },
+        { "en": "keep", "es": "seguir (haciendo)", "ipa": "/kiːp/", "example": "It keeps failing." },
+        { "en": "refuse to", "es": "negarse a", "ipa": "/rɪˈfjuːz tuː/", "example": "He refused to sign." },
+        { "en": "be good at", "es": "ser bueno para", "ipa": "/bi ɡʊd æt/", "example": "She's good at debugging." },
+        { "en": "instead of", "es": "en lugar de", "ipa": "/ɪnˈsted ɒv/", "example": "Instead of guessing, measure." },
+        { "en": "give up", "es": "rendirse", "ipa": "/ɡɪv ʌp/", "example": "Don't give up trying." },
+        { "en": "afford to", "es": "poder permitirse", "ipa": "/əˈfɔːd tuː/", "example": "We can't afford to fail." },
+        { "en": "look forward to", "es": "tener ganas de", "ipa": "/lʊk ˈfɔːwəd tuː/", "example": "I look forward to hearing from you." }
+      ],
+      "reading": {
+        "title": "How I learned to debug",
+        "text": "When I started, I used to spend hours staring at code without understanding anything. I kept changing lines at random and hoping something would work. I remember feeling stupid every single afternoon.\n\nA senior engineer suggested doing something different: instead of guessing, measure. He told me to stop reading the code and start printing values. It sounds obvious now, but at the time I was afraid of looking slow.\n\nI learned to accept that debugging is not about being clever. It's about avoiding assumptions. Now, when something fails, I try to find the smallest case that reproduces it before I try to fix anything.\n\nI still enjoy solving hard problems, but I no longer expect to solve them by staring.",
+        "questions": [
+          {
+            "id": "b1u6r1",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What did the writer do at the beginning?",
+            "options": [
+              "Changed code randomly hoping it would work",
+              "Measured values carefully",
+              "Asked for help immediately",
+              "Read the documentation"
+            ],
+            "answer": 0,
+            "explain": "«I kept changing lines at random and hoping something would work»."
+          },
+          {
+            "id": "b1u6r2",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What was the senior engineer's advice?",
+            "options": [
+              "Measure instead of guessing",
+              "Read more documentation",
+              "Work faster",
+              "Change the language"
+            ],
+            "answer": 0,
+            "explain": "«instead of guessing, measure»."
+          },
+          {
+            "id": "b1u6r3",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What does the writer do now when something fails?",
+            "options": [
+              "Looks for the smallest case that reproduces it",
+              "Rewrites the whole program",
+              "Asks a senior engineer",
+              "Stares at the code longer"
+            ],
+            "answer": 0,
+            "explain": "«I try to find the smallest case that reproduces it before I try to fix anything»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b1u6e1", "type": "choice", "level": "B1", "q": "I enjoy ___ new things.", "options": ["learning", "to learn", "learn", "learnt"], "answer": 0, "explain": "enjoy + gerundio, siempre." },
+        { "id": "b1u6e2", "type": "choice", "level": "B1", "q": "She decided ___ the approach.", "options": ["to change", "changing", "change", "changed"], "answer": 0, "explain": "decide + infinitivo." },
+        { "id": "b1u6e3", "type": "choice", "level": "B1", "q": "He's very good at ___ problems.", "options": ["solving", "to solve", "solve", "solved"], "answer": 0, "explain": "«at» es preposición → gerundio." },
+        { "id": "b1u6e4", "type": "gap", "level": "B1", "q": "I look forward to ___ (hear) from you.", "answer": ["hearing"], "explain": "Ese «to» es preposición, no infinitivo → hearing." },
+        { "id": "b1u6e5", "type": "choice", "level": "B1", "q": "Remember ___ the door when you leave.", "options": ["to lock", "locking", "lock", "locked"], "answer": 0, "explain": "remember TO do = acuérdate de hacerlo (todavía no pasa)." },
+        { "id": "b1u6e6", "type": "choice", "level": "B1", "q": "I remember ___ it, but I can't find it now.", "options": ["saving", "to save", "save", "saved"], "answer": 0, "explain": "remember DOING = recuerdo haberlo hecho (ya pasó)." },
+        { "id": "b1u6e7", "type": "translate", "level": "B1", "q": "Traduce: «Dejó de fumar el año pasado.»", "answer": ["He stopped smoking last year", "She stopped smoking last year"], "explain": "stop + gerundio = dejar de. Con infinitivo sería «paró PARA fumar»." },
+        { "id": "b1u6e8", "type": "order", "level": "B1", "q": "Ordena la oración.", "words": ["worth", "It's", "the", "checking", "connections"], "answer": "It's worth checking the connections", "explain": "be worth + gerundio. Nunca «worth to check»." },
+        { "id": "b1u6e9", "type": "listen", "level": "B1", "audio": "We managed to finish, but we avoided testing it under load.", "q": "¿Qué hicieron?", "options": ["Terminaron pero no lo probaron bajo carga", "Terminaron y lo probaron todo", "No terminaron", "Sólo lo probaron bajo carga"], "answer": 0, "explain": "manage TO finish (lo lograron) + avoid TESTING (lo evitaron)." },
+        { "id": "b1u6e10", "type": "choice", "level": "B1", "q": "I'm used to ___ late.", "options": ["working", "work", "to work", "worked"], "answer": 0, "explain": "«be used to» + gerundio. No confundir con «used to work» = solía trabajar." }
+      ],
+      "writing": {
+        "q": "Escribe sobre cómo aprendiste una habilidad técnica: qué evitabas hacer, qué decidiste cambiar, qué lograste y qué disfrutas ahora.",
+        "minWords": 90,
+        "mustUse": ["enjoy", "decided to", "avoid"],
+        "rubric": [
+          "Usé gerundio después de enjoy, avoid, keep y suggest",
+          "Usé infinitivo después de decide, manage, learn y want",
+          "Usé gerundio después de toda preposición (at, of, in, to como preposición)",
+          "Si usé stop/remember/try, elegí la forma con el significado correcto",
+          "Llegué a 90 palabras"
+        ],
+        "model": "I learned to solder properly much later than I should have. At the beginning I avoided practising, because I was afraid of ruining a board, so I kept asking other people to do it for me.\n\nEventually I decided to change that. I bought a cheap kit and spent a weekend soldering the same joints again and again. I remember burning the first three pads, which was frustrating, but I didn't give up.\n\nAfter about a month I managed to solder a fine-pitch chip without a microscope. I still remember feeling genuinely proud.\n\nNow I actually enjoy soldering. It's worth learning properly, because it stops being a barrier and becomes something relaxing."
+      }
+    },
+
+    {
+      "id": "b1u7",
+      "title": "Get it, put it, take it",
+      "titleEs": "Phrasal verbs de alta frecuencia",
+      "goal": "reconocer los 30 phrasal verbs que más aparecen, que son puntos casi regalados si los trabajas.",
+      "grammar": {
+        "title": "Phrasal verbs",
+        "explanation": "Un phrasal verb es verbo + partícula, y el significado normalmente NO se deduce de las partes: «put off» no tiene nada que ver con poner.\n\nMuchos son SEPARABLES: si el objeto es un sustantivo puede ir en medio o al final («turn the light off» / «turn off the light»), pero si es pronombre va OBLIGATORIAMENTE en medio: «turn it off», nunca «turn off it».\n\nOtros son INSEPARABLES: «look after the children», nunca «look the children after».\n\nEn el examen casi siempre te dan la frase y cuatro partículas. Se aprenden por familias.",
+        "table": [
+          ["Phrasal verb", "Significado", "Ejemplo"],
+          ["put off", "posponer", "They put off the meeting."],
+          ["turn down", "rechazar / bajar volumen", "He turned down the offer."],
+          ["carry out", "llevar a cabo", "We carried out the tests."],
+          ["look into", "investigar", "I'll look into it."],
+          ["come up with", "idear", "She came up with a solution."],
+          ["run out of", "quedarse sin", "We ran out of time."]
+        ],
+        "examples": [
+          { "en": "The launch was put off until March.", "es": "El lanzamiento se pospuso hasta marzo." },
+          { "en": "Can you turn it down? It's too loud.", "es": "¿Puedes bajarle? Está muy fuerte." },
+          { "en": "We're running out of storage.", "es": "Nos estamos quedando sin almacenamiento." },
+          { "en": "I need to look into this error.", "es": "Necesito investigar este error." }
+        ],
+        "warning": "Con pronombre, los separables SIEMPRE se parten: «switch it off», «pick them up», «throw it away». «Switch off it» suena mal de inmediato."
+      },
+      "vocab": [
+        { "en": "put off", "es": "posponer", "ipa": "/pʊt ɒf/", "example": "Don't put it off again." },
+        { "en": "call off", "es": "cancelar", "ipa": "/kɔːl ɒf/", "example": "They called off the trip." },
+        { "en": "carry out", "es": "llevar a cabo", "ipa": "/ˈkæri aʊt/", "example": "We carried out the survey." },
+        { "en": "come up with", "es": "idear, se le ocurre", "ipa": "/kʌm ʌp wɪð/", "example": "He came up with a fix." },
+        { "en": "look into", "es": "investigar", "ipa": "/lʊk ˈɪntuː/", "example": "I'll look into the issue." },
+        { "en": "run out of", "es": "quedarse sin", "ipa": "/rʌn aʊt ɒv/", "example": "We ran out of paper." },
+        { "en": "turn down", "es": "rechazar / bajar", "ipa": "/tɜːn daʊn/", "example": "She turned down the job." },
+        { "en": "set up", "es": "montar, configurar", "ipa": "/set ʌp/", "example": "I set up the server." },
+        { "en": "figure out", "es": "descifrar", "ipa": "/ˈfɪɡər aʊt/", "example": "I can't figure it out." },
+        { "en": "deal with", "es": "lidiar con", "ipa": "/diːl wɪð/", "example": "Who deals with returns?" },
+        { "en": "point out", "es": "señalar", "ipa": "/pɔɪnt aʊt/", "example": "She pointed out the risk." },
+        { "en": "back up", "es": "respaldar", "ipa": "/bæk ʌp/", "example": "Back up your files." }
+      ],
+      "reading": {
+        "title": "A week of small disasters",
+        "text": "On Monday we found out that the supplier had called off the delivery. Nobody had pointed out that the purchase order was still unsigned, so we ran out of connectors by Wednesday.\n\nI looked into it and figured out that the approval email had gone to a colleague who left in June. We had to set up a new workflow, which took most of Thursday.\n\nMeanwhile, the client turned down our proposal to put off the demo. They said they had already invited two directors and couldn't cancel.\n\nIn the end, my manager came up with a compromise: we would carry out the demo with a partial system and deal with the missing module afterwards. It worked, but I backed up everything three times before I slept.",
+        "questions": [
+          {
+            "id": "b1u7r1",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "Why did they run out of connectors?",
+            "options": [
+              "The purchase order was never signed",
+              "The supplier went bankrupt",
+              "They ordered too few",
+              "A colleague took them"
+            ],
+            "answer": 0,
+            "explain": "«nobody had pointed out that the purchase order was still unsigned»."
+          },
+          {
+            "id": "b1u7r2",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What did the client refuse?",
+            "options": ["To postpone the demo", "To pay the invoice", "To sign the order", "To attend the demo"],
+            "answer": 0,
+            "explain": "«turned down our proposal to put off the demo». Dos phrasal verbs en la misma frase: turn down (rechazar) y put off (posponer)."
+          },
+          {
+            "id": "b1u7r3",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What was the final solution?",
+            "options": [
+              "Demo a partial system and fix the rest later",
+              "Cancel the demo",
+              "Buy connectors elsewhere",
+              "Move the demo to Thursday"
+            ],
+            "answer": 0,
+            "explain": "«carry out the demo with a partial system and deal with the missing module afterwards»."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b1u7e1", "type": "choice", "level": "B1", "q": "They had to ___ the meeting because of the storm.", "options": ["call off", "call on", "call up", "call for"], "answer": 0, "explain": "call off = cancelar." },
+        { "id": "b1u7e2", "type": "choice", "level": "B1", "q": "We ___ fuel halfway through the trip.", "options": ["ran out of", "ran into", "ran over", "ran up"], "answer": 0, "explain": "run out of = quedarse sin." },
+        { "id": "b1u7e3", "type": "choice", "level": "B1", "q": "Can you turn ___? It's too loud.", "options": ["it down", "down it", "off it", "it of"], "answer": 0, "explain": "Con pronombre, el separable se parte obligatoriamente: turn it down." },
+        { "id": "b1u7e4", "type": "gap", "level": "B1", "q": "I'll look ___ the problem and let you know.", "answer": ["into"], "explain": "look into = investigar." },
+        { "id": "b1u7e5", "type": "gap", "level": "B1", "q": "She came ___ ___ a brilliant solution.", "answer": ["up with"], "explain": "come up with = se le ocurrió." },
+        { "id": "b1u7e6", "type": "choice", "level": "B1", "q": "He ___ the job offer because of the salary.", "options": ["turned down", "turned up", "turned on", "turned into"], "answer": 0, "explain": "turn down = rechazar. turn up = aparecer." },
+        { "id": "b1u7e7", "type": "translate", "level": "B1", "q": "Traduce: «Vamos a posponer la reunión hasta el lunes.»", "answer": ["We're going to put off the meeting until Monday", "We are going to put off the meeting until Monday", "We're going to put the meeting off until Monday"], "explain": "put off es separable: las dos posiciones valen con sustantivo." },
+        { "id": "b1u7e8", "type": "order", "level": "B1", "q": "Ordena la oración.", "words": ["out", "the", "carried", "We", "tests"], "answer": "We carried out the tests", "explain": "carry out = llevar a cabo. Muy frecuente en textos técnicos." },
+        { "id": "b1u7e9", "type": "listen", "level": "B1", "audio": "I couldn't figure out why it kept restarting, so I backed up the data first.", "q": "¿Qué hizo?", "options": ["No entendió la causa e hizo respaldo", "Entendió la causa y la arregló", "Reinició la máquina a propósito", "Perdió los datos"], "answer": 0, "explain": "figure out = descifrar; back up = respaldar." },
+        { "id": "b1u7e10", "type": "choice", "level": "B1", "q": "Who ___ customer complaints here?", "options": ["deals with", "deals in", "deals to", "deals of"], "answer": 0, "explain": "deal with = lidiar con, encargarse de. La preposición es fija." }
+      ],
+      "writing": {
+        "q": "Cuenta una semana complicada en el trabajo o en la escuela usando al menos seis phrasal verbs de la unidad. Di qué salió mal, qué investigaste y cómo lo resolvieron.",
+        "minWords": 90,
+        "mustUse": ["put off", "figure out", "deal with"],
+        "rubric": [
+          "Usé al menos seis phrasal verbs distintos",
+          "Con pronombres, partí los separables (turn it off, no turn off it)",
+          "No inventé preposiciones: cada phrasal verb lleva la suya",
+          "Los usé con su significado real, no traducidos literalmente",
+          "Llegué a 90 palabras"
+        ],
+        "model": "Last week almost everything went wrong. On Monday we found out that the lab had run out of the sensors we needed, so we had to put off the first round of tests.\n\nI looked into the order and figured out that nobody had signed it, because the person who used to deal with purchasing left in June. We set up a temporary process so it wouldn't happen again.\n\nMy advisor turned down my request to move the review, which I understood: the committee had already been invited. In the end he came up with a compromise. We carried out the tests with borrowed sensors and I backed up all the data twice."
+      }
+    },
+
+    {
+      "id": "b1u8",
+      "title": "Joining ideas",
+      "titleEs": "Conectores y marcadores del discurso",
+      "goal": "escribir párrafos que se sostengan — es lo que más sube la nota en writing y lo que más ayuda en reading.",
+      "grammar": {
+        "title": "Connectors & discourse markers",
+        "explanation": "La diferencia clave es GRAMATICAL, no de significado: qué va después de cada conector.\n\n+ ORACIÓN COMPLETA: although, though, even though, whereas, while, because, since, so.\n«Although the price was high, we bought it.»\n\n+ SUSTANTIVO: despite, in spite of, because of, due to, owing to.\n«Despite the high price, we bought it.»\n\n+ FRASE APARTE (con punto o punto y coma): however, therefore, nevertheless, moreover, furthermore.\n«The price was high. However, we bought it.»\n\nEl error número uno es «Despite the price was high» — despite NO admite oración. Sería «despite the fact that the price was high».",
+        "table": [
+          ["Conector", "Va con", "Ejemplo"],
+          ["although", "oración", "Although it rained, we went."],
+          ["despite / in spite of", "sustantivo o -ing", "Despite the rain, we went."],
+          ["however", "frase nueva", "It rained. However, we went."],
+          ["because", "oración", "We stopped because it rained."],
+          ["because of / due to", "sustantivo", "We stopped because of the rain."],
+          ["therefore", "frase nueva", "It rained. Therefore, we stopped."]
+        ],
+        "examples": [
+          { "en": "Although the design was correct, the prototype failed.", "es": "Aunque el diseño era correcto, el prototipo falló." },
+          { "en": "Despite the delay, we met the deadline.", "es": "A pesar del retraso, cumplimos la fecha." },
+          { "en": "The budget was cut. Therefore, we postponed phase two.", "es": "Se recortó el presupuesto. Por lo tanto, pospusimos la fase dos." },
+          { "en": "He works in hardware, whereas she works in software.", "es": "Él trabaja en hardware, mientras que ella en software." }
+        ],
+        "warning": "«However» no une dos oraciones con coma. «It was late, however we finished» está mal: va «It was late. However, we finished» o «…; however, we finished»."
+      },
+      "vocab": [
+        { "en": "although", "es": "aunque", "ipa": "/ɔːlˈðəʊ/", "example": "Although it failed, we learned." },
+        { "en": "despite", "es": "a pesar de", "ipa": "/dɪˈspaɪt/", "example": "Despite the cost, it's worth it." },
+        { "en": "however", "es": "sin embargo", "ipa": "/haʊˈevə/", "example": "However, the results differ." },
+        { "en": "therefore", "es": "por lo tanto", "ipa": "/ˈðeəfɔː/", "example": "Therefore, we changed it." },
+        { "en": "whereas", "es": "mientras que", "ipa": "/weərˈæz/", "example": "He's fast, whereas she's careful." },
+        { "en": "moreover", "es": "además", "ipa": "/mɔːrˈəʊvə/", "example": "Moreover, it's cheaper." },
+        { "en": "nevertheless", "es": "no obstante", "ipa": "/ˌnevəðəˈles/", "example": "Nevertheless, we agreed." },
+        { "en": "due to", "es": "debido a", "ipa": "/djuː tuː/", "example": "Due to the delay, we waited." },
+        { "en": "in addition", "es": "además", "ipa": "/ɪn əˈdɪʃn/", "example": "In addition, tests are needed." },
+        { "en": "on the other hand", "es": "por otro lado", "ipa": "/ɒn ði ˈʌðə hænd/", "example": "On the other hand, it's slower." },
+        { "en": "as a result", "es": "como resultado", "ipa": "/əz ə rɪˈzʌlt/", "example": "As a result, sales fell." },
+        { "en": "in fact", "es": "de hecho", "ipa": "/ɪn fækt/", "example": "In fact, it improved." }
+      ],
+      "reading": {
+        "title": "Two ways to power a robot",
+        "text": "Battery choice sounds like a small decision, although it usually determines the whole architecture of a small robot.\n\nLithium polymer packs are light and deliver high current, which is why almost every competition robot uses them. However, they are unforgiving: a damaged cell can catch fire, and they require a balance charger. Despite these risks, most teams accept them because the weight saving is decisive.\n\nNickel-metal hydride packs, on the other hand, are heavier and slower to charge. Nevertheless, they tolerate abuse much better and can be stored charged for months without damage. Therefore, they remain a reasonable choice for a first prototype, where the robot spends more time on a bench than in a competition.\n\nIn fact, many experienced builders recommend starting with NiMH precisely because the first prototype is the one most likely to be wired backwards.",
+        "questions": [
+          {
+            "id": "b1u8r1",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "Why do competition teams accept LiPo risks?",
+            "options": [
+              "The weight saving matters more",
+              "They are cheaper",
+              "They charge faster",
+              "They are safer"
+            ],
+            "answer": 0,
+            "explain": "«Despite these risks, most teams accept them because the weight saving is decisive»."
+          },
+          {
+            "id": "b1u8r2",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "What is the main advantage of NiMH according to the text?",
+            "options": [
+              "They tolerate mistakes better",
+              "They are lighter",
+              "They deliver more current",
+              "They charge faster"
+            ],
+            "answer": 0,
+            "explain": "«they tolerate abuse much better and can be stored charged for months»."
+          },
+          {
+            "id": "b1u8r3",
+            "type": "readingQ",
+            "level": "B1",
+            "q": "Why recommend NiMH for a first prototype?",
+            "options": [
+              "Because early prototypes get wired wrong",
+              "Because they are lighter",
+              "Because competitions require them",
+              "Because they are more powerful"
+            ],
+            "answer": 0,
+            "explain": "«the first prototype is the one most likely to be wired backwards». Es una inferencia con humor: perdona errores."
+          }
+        ]
+      },
+      "exercises": [
+        { "id": "b1u8e1", "type": "choice", "level": "B1", "q": "___ the traffic, we arrived on time.", "options": ["Despite", "Although", "However", "Because"], "answer": 0, "explain": "«the traffic» es sustantivo → despite. Con «although» haría falta una oración completa." },
+        { "id": "b1u8e2", "type": "choice", "level": "B1", "q": "___ it was expensive, we bought it.", "options": ["Although", "Despite", "In spite of", "Due to"], "answer": 0, "explain": "«it was expensive» es oración completa → although." },
+        { "id": "b1u8e3", "type": "choice", "level": "B1", "q": "The test failed. ___, we learned a lot.", "options": ["However", "Although", "Despite", "Whereas"], "answer": 0, "explain": "Va después de punto, iniciando frase → however." },
+        { "id": "b1u8e4", "type": "gap", "level": "B1", "q": "We cancelled the trip ___ ___ the storm.", "answer": ["because of", "due to", "owing to"], "explain": "Antes de un sustantivo va because of / due to, no «because» solo." },
+        { "id": "b1u8e5", "type": "choice", "level": "B1", "q": "He prefers hardware, ___ she prefers software.", "options": ["whereas", "however", "despite", "therefore"], "answer": 0, "explain": "Contraste entre dos sujetos dentro de una misma frase → whereas." },
+        { "id": "b1u8e6", "type": "choice", "level": "B1", "q": "The budget was cut. ___, phase two was postponed.", "options": ["Therefore", "Whereas", "Despite", "Although"], "answer": 0, "explain": "Consecuencia al inicio de frase nueva → therefore." },
+        { "id": "b1u8e7", "type": "translate", "level": "B1", "q": "Traduce: «A pesar del retraso, entregamos a tiempo.»", "answer": ["Despite the delay, we delivered on time", "In spite of the delay, we delivered on time"], "explain": "«A pesar de» + sustantivo → despite / in spite of." },
+        { "id": "b1u8e8", "type": "order", "level": "B1", "q": "Ordena la oración.", "words": ["was", "Although", "it", "we", "late", "finished"], "answer": "Although it was late we finished", "explain": "although + oración completa, luego la principal." },
+        { "id": "b1u8e9", "type": "listen", "level": "B1", "audio": "The design is elegant. Nevertheless, it would be very expensive to manufacture.", "q": "¿Qué opina del diseño?", "options": ["Le gusta pero ve un problema de costo", "Le parece feo y caro", "Le parece barato", "No tiene opinión"], "answer": 0, "explain": "«Nevertheless» introduce una objeción sin negar el elogio anterior." },
+        { "id": "b1u8e10", "type": "choice", "level": "B1", "q": "___ working overtime, they missed the deadline.", "options": ["Despite", "Although", "However", "Because"], "answer": 0, "explain": "Antes de un gerundio va despite / in spite of, igual que con sustantivo." }
+      ],
+      "writing": {
+        "q": "Escribe dos párrafos comparando dos formas de hacer algo en tu área (dos lenguajes, dos herramientas, dos métodos). Da ventajas, desventajas y una conclusión, usando conectores de contraste, causa y consecuencia.",
+        "minWords": 110,
+        "mustUse": ["although", "however", "therefore"],
+        "rubric": [
+          "Puse oración completa después de although/whereas y sustantivo después de despite/due to",
+          "Usé «however» iniciando frase, no uniendo dos con coma",
+          "Incluí al menos un conector de causa y uno de consecuencia",
+          "Los párrafos tienen una idea principal cada uno",
+          "La conclusión se sigue de lo que escribí antes",
+          "Llegué a 110 palabras"
+        ],
+        "model": "When you need to control a small robot, you can use a general-purpose microcontroller or a single-board computer. Although the microcontroller is far more limited, it starts in milliseconds and its timing is predictable, which matters when you are driving servos. However, anything involving vision or networking quickly becomes painful.\n\nA single-board computer solves those problems, but it introduces others. Due to the operating system, timing is no longer guaranteed, and boot time goes from milliseconds to almost a minute. In spite of this, the development experience is much more comfortable.\n\nTherefore, the usual answer is not to choose. Most serious projects use both: the microcontroller handles motion and safety, whereas the computer handles perception and communication."
+      }
+    }
+  ]
+}

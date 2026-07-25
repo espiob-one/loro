@@ -1,0 +1,90 @@
+name: Publicar en GitHub Pages
+
+# Se publica solo el contenido de web/, que es la app estática.
+# El resto del repo (tools/, docs/, Dockerfile) es para desarrollo y no se sirve.
+#
+# Se usa GitHub Actions en vez de "deploy from a branch" porque Pages sólo sabe
+# servir desde la raíz o desde /docs, y aquí la app vive en web/. Mover todo a
+# la raíz habría ensuciado el repo para ahorrarse este archivo.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Si se empujan dos commits seguidos, que gane el último y no se encimen.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar el banco de reactivos antes de publicar
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, sys
+          raiz = pathlib.Path('web/data')
+          errores, ids = [], set()
+          total = 0
+
+          def revisar(it, origen):
+              global total
+              total += 1
+              i = it.get('id', '(sin id)')
+              if i in ids:
+                  errores.append(f'{origen}: id duplicado {i}')
+              ids.add(i)
+              if isinstance(it.get('options'), list):
+                  a = it.get('answer')
+                  if not isinstance(a, int) or not 0 <= a < len(it['options']):
+                      errores.append(f'{i}: answer fuera de rango')
+                  if len(set(it['options'])) != len(it['options']):
+                      errores.append(f'{i}: opciones duplicadas')
+              elif it.get('type') == 'order':
+                  if sorted(it.get('words', [])) != sorted(str(it.get('answer', '')).split()):
+                      errores.append(f'{i}: ejercicio de ordenar irresoluble')
+              elif it.get('type') != 'writing' and not it.get('answer'):
+                  errores.append(f'{i}: sin answer')
+
+          for f in sorted(raiz.rglob('*.json')):
+              if f.name == 'manifest.json':
+                  continue
+              datos = json.loads(f.read_text(encoding='utf-8'))
+              for u in datos.get('units', []):
+                  for it in (u.get('reading') or {}).get('questions', []):
+                      revisar(it, f.name)
+                  for it in u.get('exercises', []):
+                      revisar(it, f.name)
+              for it in datos.get('items', []):
+                  revisar(it, f.name)
+              for s in datos.get('sections', []):
+                  for it in s.get('items', []):
+                      revisar(it, f.name)
+
+          print(f'{total} reactivos validados')
+          if errores:
+              print('\n'.join(errores))
+              sys.exit(1)
+          print('sin errores')
+          PY
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
