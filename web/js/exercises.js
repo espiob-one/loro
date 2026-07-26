@@ -148,10 +148,14 @@ export function renderExercise(item, { index = null, onGraded = () => {}, passag
    * se guardan para más tarde en vez de ejecutarse.
    */
   const finish = (ok, solution, paint, silent = false) => {
-    if (ctl.answered) return;
+    // En modo examen se puede cambiar de respuesta hasta entregar, igual que en
+    // un examen de papel. Gana la última. El contador de "contestados" sólo
+    // suma la primera vez, para que no se infle al corregir.
+    if (ctl.answered && !defer) return;
+    const primeraVez = !ctl.answered;
     ctl.answered = true;
     ctl.ok = ok;
-    onGraded(item, ok);
+    if (primeraVez) onGraded(item, ok);
 
     const show = () => {
       paint();
@@ -174,11 +178,11 @@ export function renderExercise(item, { index = null, onGraded = () => {}, passag
 
   switch (item.type) {
     case 'listen':   renderListen(box, item, finish, defer); break;
-    case 'gap':      renderText(box, item, finish); break;
-    case 'translate':renderText(box, item, finish); break;
-    case 'order':    renderOrder(box, item, finish); break;
+    case 'gap':      renderText(box, item, finish, defer); break;
+    case 'translate':renderText(box, item, finish, defer); break;
+    case 'order':    renderOrder(box, item, finish, defer); break;
     case 'writing':  renderWriting(box, item, finish, defer); break;
-    default:         renderChoice(box, item, finish); break; // choice, readingQ
+    default:         renderChoice(box, item, finish, defer); break; // choice, readingQ
   }
 
   return box;
@@ -193,7 +197,7 @@ function solutionOf(item) {
 
 /* ---------- opción múltiple (choice / readingQ) ---------- */
 
-function renderChoice(box, item, finish) {
+function renderChoice(box, item, finish, defer = false) {
   box.append(elQuestion(item));
 
   const opts = el('div', 'opts');
@@ -206,12 +210,17 @@ function renderChoice(box, item, finish) {
     b.append(el('span', null, text));
     b.onclick = () => {
       const ok = i === item.answer;
-      buttons.forEach((btn) => { btn.disabled = true; });
-      // En modo examen sólo marcamos lo elegido, sin decir si estuvo bien.
-      b.style.borderColor = 'var(--accent)';
+      if (defer) {
+        // Modo examen: se marca la elegida y se puede cambiar hasta entregar.
+        buttons.forEach((btn) => btn.classList.remove('is-sel'));
+        b.classList.add('is-sel');
+      } else {
+        buttons.forEach((btn) => { btn.disabled = true; });
+      }
       finish(ok, item.options[item.answer], () => {
-        b.style.borderColor = '';
         buttons.forEach((btn, j) => {
+          btn.disabled = true;
+          btn.classList.remove('is-sel');
           if (j === item.answer) btn.classList.add('is-ok');
           else if (j === i) btn.classList.add('is-bad');
         });
@@ -252,7 +261,7 @@ function renderListen(box, item, finish, defer) {
 
 /* ---------- texto libre (gap / translate / dictado) ---------- */
 
-function renderText(box, item, finish) {
+function renderText(box, item, finish, defer = false) {
   box.append(elQuestion(item));
 
   const input = el('input', 'input');
@@ -264,21 +273,47 @@ function renderText(box, item, finish) {
 
   const row = el('div', 'row');
   row.style.marginTop = '.6rem';
-  const btn = el('button', 'btn btn-primary', 'Revisar');
+  const btn = el('button', 'btn btn-primary', defer ? 'Guardar respuesta' : 'Revisar');
   btn.type = 'button';
+  const estado = el('span', 'faint');
 
   const check = () => {
+    if (!input.value.trim()) { estado.textContent = 'Escribe algo primero.'; return; }
     const ok = matches(input.value, item.answer);
-    input.disabled = true;
-    btn.disabled = true;
     const accepted = Array.isArray(item.answer) ? item.answer[0] : item.answer;
-    finish(ok, accepted, () => input.classList.add(ok ? 'is-ok' : 'is-bad'));
+
+    if (defer) {
+      // Se guarda pero NO se revela nada, y sigue editable hasta entregar.
+      // Sin este aviso la pantalla parecía congelada: bloqueaba todo y no
+      // mostraba nada, que era justo lo que hacía antes.
+      estado.textContent = '✓ Guardada — puedes cambiarla';
+      estado.style.color = 'var(--ok)';
+      input.classList.add('is-saved');
+    } else {
+      input.disabled = true;
+      btn.disabled = true;
+    }
+
+    finish(ok, accepted, () => {
+      input.disabled = true;
+      btn.disabled = true;
+      input.classList.remove('is-saved');
+      input.classList.add(ok ? 'is-ok' : 'is-bad');
+      estado.textContent = '';
+    });
   };
 
   btn.onclick = check;
   input.onkeydown = (e) => { if (e.key === 'Enter') check(); };
+  // Si vuelve a escribir, el "guardada" deja de aplicar hasta que guarde otra vez.
+  input.oninput = () => {
+    if (!defer) return;
+    estado.textContent = 'Sin guardar — dale a «Guardar respuesta»';
+    estado.style.color = '';
+    input.classList.remove('is-saved');
+  };
 
-  row.append(btn);
+  row.append(btn, estado);
   box.append(input, row);
 
   // Práctica de pronunciación: sólo si el navegador la soporta (T9).
@@ -289,7 +324,7 @@ function renderText(box, item, finish) {
 
 /* ---------- ordenar palabras ---------- */
 
-function renderOrder(box, item, finish) {
+function renderOrder(box, item, finish, defer = false) {
   box.append(elQuestion(item));
 
   const slot = el('div', 'order-slot');
@@ -321,24 +356,44 @@ function renderOrder(box, item, finish) {
       tray.append(b);
     });
     btn.disabled = chosen.length !== words.length;
+    // Si reordena después de guardar, el aviso deja de aplicar.
+    if (estado && estado.textContent.startsWith('✓')) {
+      estado.textContent = 'Sin guardar — dale a «Guardar respuesta»';
+      estado.style.color = '';
+    }
   };
 
-  const btn = el('button', 'btn btn-primary', 'Revisar');
+  const btn = el('button', 'btn btn-primary', defer ? 'Guardar respuesta' : 'Revisar');
   btn.type = 'button';
   btn.disabled = true;
+  const estado = el('span', 'faint');
+
   btn.onclick = () => {
     const ok = matches(chosen.join(' '), item.answer);
-    slot.querySelectorAll('.word').forEach((w) => { w.disabled = true; });
-    tray.querySelectorAll('.word').forEach((w) => { w.disabled = true; });
-    btn.disabled = true;
+
+    if (defer) {
+      // Sigue reordenable hasta entregar; paint() vuelve a habilitar las fichas.
+      estado.textContent = '✓ Guardada — puedes reordenar';
+      estado.style.color = 'var(--ok)';
+      btn.disabled = true;
+    } else {
+      slot.querySelectorAll('.word').forEach((w) => { w.disabled = true; });
+      tray.querySelectorAll('.word').forEach((w) => { w.disabled = true; });
+      btn.disabled = true;
+    }
+
     finish(ok, item.answer, () => {
+      slot.querySelectorAll('.word').forEach((w) => { w.disabled = true; });
+      tray.querySelectorAll('.word').forEach((w) => { w.disabled = true; });
+      btn.disabled = true;
+      estado.textContent = '';
       slot.classList.add(ok ? 'is-ok' : 'is-bad');
     });
   };
 
   const row = el('div', 'row');
   row.style.marginTop = '.6rem';
-  row.append(btn);
+  row.append(btn, estado);
 
   box.append(slot, tray, row);
   paint();

@@ -383,8 +383,12 @@ p  { margin: 0 0 .9rem; }
   font-weight: 700;
   color: var(--text-faint);
 }
+/* Elegida en modo examen: se marca, pero no se dice si está bien. */
+.opt.is-sel { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.opt.is-sel .opt-key { background: var(--accent); color: #fff; border-color: transparent; }
 .opt.is-ok  { background: var(--ok-bg);  border-color: var(--ok); }
 .opt.is-bad { background: var(--bad-bg); border-color: var(--bad); }
+.input.is-saved { border-color: var(--accent); }
 .opt.is-ok .opt-key  { background: var(--ok);  color: #04231a; border-color: transparent; }
 .opt.is-bad .opt-key { background: var(--bad); color: #2a0606; border-color: transparent; }
 
