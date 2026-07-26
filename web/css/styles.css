@@ -188,6 +188,49 @@ p  { margin: 0 0 .9rem; }
 .acct-btn.out { padding-left: .6rem; }
 .acct-btn.syncing { border-color: var(--accent); color: var(--accent); }
 
+/* Fila de ajuste: etiqueta y explicación a la izquierda, control a la derecha. */
+.set-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+  padding: .85rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.set-row:last-child { border-bottom: none; }
+.set-row > div:first-child { min-width: 0; }
+.set-title { font-weight: 600; margin-bottom: .12rem; }
+.set-row input[type="checkbox"] {
+  flex: 0 0 auto;
+  width: 20px; height: 20px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+/* Selector segmentado (tema, acento) */
+.seg {
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--card-2);
+  border: 1px solid var(--border);
+}
+.seg-btn {
+  padding: .4rem .9rem;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-dim);
+  font: inherit;
+  font-size: .84rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.seg-btn:hover { color: var(--text); }
+.seg-btn.on { background: var(--accent); color: #fff; }
+
 .acct-card { display: flex; align-items: center; gap: .8rem; }
 .acct-card img, .acct-card .avatar {
   width: 44px; height: 44px;

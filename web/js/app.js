@@ -166,17 +166,27 @@ function refreshAccountBtn() {
   if (u) {
     btn.append(avatarNode(u));
     btn.append(el('span', null, (u.nombre || u.correo || '').split(' ')[0]));
-    btn.title = `${u.correo} · progreso sincronizado. Clic para ver detalles.`;
-    btn.onclick = () => { location.hash = '#/stats'; };
+    btn.title = `${u.correo} · progreso sincronizado. Clic para ver tu cuenta.`;
+    btn.onclick = () => { location.hash = '#/config'; };
   } else {
     btn.classList.add('out');
-    btn.append(el('span', null, '↻ Sincronizar'));
-    btn.title = 'Inicia sesión con Google para guardar tu progreso y usarlo en otro dispositivo';
+    btn.append(el('span', null, 'Entrar'));
+    btn.title = 'Inicia sesión con Google para guardar tu progreso y seguirlo en otro dispositivo';
     btn.onclick = async () => {
       const ok = await sync.entrar();
       if (!ok && sync.getError()) toast(sync.getError(), 5000);
     };
   }
+}
+
+/** Fila de un ajuste: etiqueta a la izquierda, control a la derecha. */
+function settingRow(titulo, descripcion, control) {
+  const row = el('div', 'set-row');
+  const left = el('div');
+  left.append(el('div', 'set-title', titulo));
+  if (descripcion) left.append(el('div', 'faint', descripcion));
+  row.append(left, control);
+  return row;
 }
 
 /* ---------- router ---------- */
@@ -186,6 +196,7 @@ const routes = [
   [/^\/test$/,                   () => viewDiagnostic()],
   [/^\/cards$/,                  () => viewCards()],
   [/^\/stats$/,                  () => viewStats()],
+  [/^\/config$/,                 () => viewConfig()],
   [/^\/level\/([\w-]+)$/,        (m) => viewLevel(m[1])],
   [/^\/unit\/([\w-]+)\/([\w-]+)$/, (m) => viewUnit(m[1], m[2])],
   [/^\/exam\/([\w-]+)$/,         (m) => viewExam(m[1])]
@@ -1073,151 +1084,206 @@ async function viewStats() {
     app.append(c);
   }
 
-  // --- Ajustes ---
-  app.append(el('h2', 'section-head', 'Ajustes'));
-  const set = el('div', 'card');
-
-  const voiceRow = el('div', 'row-between');
-  voiceRow.append(el('div', null, 'Acento del audio'));
-  const voiceSel = el('select', 'input');
-  voiceSel.style.width = 'auto';
-  for (const [v, label] of [['uk', 'Británico (UK)'], ['us', 'Americano (US)']]) {
-    const o = el('option', null, label);
-    o.value = v;
-    if (s.settings.voice === v) o.selected = true;
-    voiceSel.append(o);
+  // Estado vacío: sin esto, quien entra por primera vez ve seis ceros y una
+  // pantalla que parece rota en vez de una que aún no tiene nada que contar.
+  if (!s.diagnostic && !Object.keys(s.units).length && !st.total) {
+    const vacio = el('div', 'card center');
+    vacio.append(el('h3', null, 'Todavía no hay nada que medir'));
+    vacio.append(el('p', 'muted', 'En cuanto hagas el diagnóstico o termines una unidad, aquí aparece tu avance por nivel, tu vocabulario por caja y las palabras que más se te resisten.'));
+    const irTest = el('a', 'btn btn-primary', 'Hacer el diagnóstico');
+    irTest.href = '#/test';
+    vacio.append(irTest);
+    app.append(vacio);
   }
-  voiceSel.onchange = () => {
-    store.setSetting('voice', voiceSel.value);
-    audio.play('This is how it sounds now.');
-  };
-  voiceRow.append(voiceSel);
-  set.append(voiceRow);
-  set.append(el('p', 'faint', 'El EXCI lo desarrollaron la UANL y el British Council, así que el listening probablemente sea británico. Por eso viene en UK por defecto.'));
 
-  const autoRow = el('div', 'row-between');
-  autoRow.append(el('div', null, 'Pronunciar solo al mostrar una flashcard'));
+  // Los ajustes, la cuenta y el respaldo viven en #/config: esta pantalla es
+  // sólo progreso, y mezclarlo todo era justo lo que la hacía difícil de leer.
+  const irConfig = el('a', 'btn btn-ghost', 'Ajustes, cuenta y respaldo');
+  irConfig.href = '#/config';
+  irConfig.style.marginTop = '1.2rem';
+  app.append(irConfig);
+}
+
+/* ==========================================================================
+   Vista: Configuración
+   ========================================================================== */
+
+async function viewConfig() {
+  setActiveNav('config');
+  const s = store.get();
+  app.textContent = '';
+
+  const head = el('div', 'page-head');
+  head.append(el('h1', null, 'Configuración'));
+  head.append(el('p', null, 'Tu cuenta, cómo se ve, cómo suena, y el respaldo de tu avance.'));
+  app.append(head);
+
+  /* ---------- Cuenta ---------- */
+  app.append(el('h2', 'section-head', 'Cuenta'));
+  const acc = el('div', 'card');
+
+  if (!sync.disponible()) {
+    acc.append(el('p', 'muted',
+      'Esta copia de Loro no tiene la sincronizacion configurada, así que tu progreso vive sólo en este navegador. Usa el respaldo de más abajo para no perderlo.'));
+  } else if (sync.getUser()) {
+    const u = sync.getUser();
+    const perfil = el('div', 'acct-card');
+    perfil.append(avatarNode(u));
+    const info = el('div');
+    info.append(el('div', 'set-title', u.nombre || u.correo));
+    info.append(el('div', 'faint', u.correo));
+    perfil.append(info);
+    acc.append(perfil);
+
+    acc.append(el('p', 'faint', s.updatedAt
+      ? 'Última sincronización: ' + new Date(s.updatedAt).toLocaleString('es-MX')
+      : 'Aún sin sincronizar.'));
+
+    const fila = el('div', 'row');
+    const ahora = el('button', 'btn btn-primary', 'Sincronizar ahora');
+    ahora.onclick = async () => {
+      ahora.disabled = true; ahora.textContent = 'Sincronizando…';
+      const r = await sync.sincronizar();
+      ahora.disabled = false; ahora.textContent = 'Sincronizar ahora';
+      toast(r && (r.unidades || r.tarjetas || r.examenes)
+        ? `Traído de la nube: ${r.unidades} unidades, ${r.tarjetas} tarjetas, ${r.examenes} exámenes.`
+        : 'Todo al día.');
+      refreshChips(); route();
+    };
+    const salir = el('button', 'btn', 'Cerrar sesión');
+    salir.onclick = async () => {
+      await sync.salir();
+      toast('Sesión cerrada. Tu progreso sigue en este navegador.');
+      route();
+    };
+    fila.append(ahora, salir);
+    acc.append(fila);
+    acc.append(el('p', 'faint',
+      'Al sincronizar se FUSIONA, nunca se sobrescribe: si practicaste en otro dispositivo, se queda lo más avanzado de cada lado.'));
+  } else {
+    acc.append(el('h3', null, 'Guarda tu progreso en la nube'));
+    acc.append(el('p', 'muted',
+      'Con tu cuenta de Google puedes seguir donde te quedaste desde el teléfono, la laptop o la compu de la escuela. Es opcional: sin cuenta, todo se guarda en este navegador.'));
+    const entrar = el('button', 'btn btn-primary', 'Entrar con Google');
+    entrar.onclick = async () => {
+      const ok = await sync.entrar();
+      if (!ok && sync.getError()) toast(sync.getError(), 5000); else route();
+    };
+    acc.append(entrar);
+    acc.append(el('p', 'faint',
+      'No hay registro aparte: la primera vez que entras, tu cuenta se crea sola. Loro sólo guarda tu correo y tu avance.'));
+    if (sync.getError()) {
+      const e = el('div', 'note note-warn');
+      e.textContent = sync.getError();
+      acc.append(e);
+    }
+  }
+  app.append(acc);
+
+  /* ---------- Apariencia ---------- */
+  app.append(el('h2', 'section-head', 'Apariencia'));
+  const ap = el('div', 'card');
+  const temaSel = el('div', 'seg');
+  for (const [val, etiqueta] of [['dark', 'Oscuro'], ['light', 'Claro']]) {
+    const b = el('button', 'seg-btn' + (s.settings.theme === val ? ' on' : ''), etiqueta);
+    b.type = 'button';
+    b.onclick = () => { store.setSetting('theme', val); route(); };
+    temaSel.append(b);
+  }
+  ap.append(settingRow('Tema', 'El oscuro cansa menos de noche; el claro se lee mejor con luz.', temaSel));
+  app.append(ap);
+
+  /* ---------- Audio ---------- */
+  app.append(el('h2', 'section-head', 'Audio'));
+  const au = el('div', 'card');
+
+  const acentoSel = el('div', 'seg');
+  for (const [val, etiqueta] of [['uk', 'Británico'], ['us', 'Americano']]) {
+    const b = el('button', 'seg-btn' + (s.settings.voice === val ? ' on' : ''), etiqueta);
+    b.type = 'button';
+    b.onclick = () => {
+      store.setSetting('voice', val);
+      audio.play('This is how it sounds now.');
+      route();
+    };
+    acentoSel.append(b);
+  }
+  au.append(settingRow('Acento', 'El EXCI lo desarrollaron la UANL y el British Council, así que el listening probablemente sea británico.', acentoSel));
+
   const autoCb = el('input');
   autoCb.type = 'checkbox';
   autoCb.checked = s.settings.autoplay;
   autoCb.onchange = () => store.setSetting('autoplay', autoCb.checked);
-  autoRow.append(autoCb);
-  set.append(autoRow);
+  au.append(settingRow('Pronunciar solo', 'Al mostrar una flashcard, reproducir la palabra sin que le piques.', autoCb));
 
-  const audioNote = el('p', 'faint');
   const n = audio.indexSize();
-  audioNote.textContent = n
-    ? `Hay ${n} audios pregenerados con ElevenLabs. El resto usa la voz del navegador.`
-    : 'No hay audios pregenerados todavía: todo suena con la voz del navegador. Para generarlos, corre tools/gen_audio.py.';
-  set.append(audioNote);
-  app.append(set);
+  au.append(el('p', 'faint', n
+    ? `Hay ${n} audios grabados con voz real. Lo que no esté grabado suena con la voz del navegador.`
+    : 'No hay audios grabados: todo suena con la voz del navegador.'));
+  app.append(au);
 
-  // --- Cuenta ---
-  if (sync.disponible()) {
-    app.append(el('h2', 'section-head', 'Cuenta'));
-    const acc = el('div', 'card');
-    const u = sync.getUser();
-
-    if (u) {
-      const row = el('div', 'acct-card');
-      row.append(avatarNode(u));
-      const info = el('div');
-      info.append(el('div', null, u.nombre || u.correo));
-      info.append(el('div', 'faint', u.correo));
-      row.append(info);
-      acc.append(row);
-
-      const ts = store.get().updatedAt;
-      acc.append(el('p', 'faint', ts
-        ? `Última sincronización: ${new Date(ts).toLocaleString('es-MX')}`
-        : 'Aún sin sincronizar.'));
-
-      const row2 = el('div', 'row');
-      const now = el('button', 'btn btn-primary', '↻ Sincronizar ahora');
-      now.onclick = async () => {
-        now.disabled = true;
-        now.textContent = 'Sincronizando…';
-        const r = await sync.sincronizar();
-        now.disabled = false;
-        now.textContent = '↻ Sincronizar ahora';
-        toast(r && (r.unidades || r.tarjetas || r.examenes)
-          ? `Traído de la nube: ${r.unidades} unidades, ${r.tarjetas} tarjetas, ${r.examenes} exámenes.`
-          : 'Todo al día.');
-        refreshChips();
-        route();
-      };
-      const out = el('button', 'btn btn-ghost', 'Cerrar sesión');
-      out.onclick = async () => {
-        await sync.salir();
-        toast('Sesión cerrada. Tu progreso sigue en este navegador.');
-        route();
-      };
-      row2.append(now, out);
-      acc.append(row2);
-      acc.append(el('p', 'faint', 'Al sincronizar se FUSIONA, nunca se sobreescribe: si practicaste en otro dispositivo, se queda lo más avanzado de cada lado.'));
-    } else {
-      acc.append(el('h3', null, 'Guarda tu progreso en la nube'));
-      acc.append(el('p', 'muted', 'Con una cuenta de Google puedes seguir donde te quedaste desde el teléfono, la laptop o la compu de la escuela. Es opcional: sin cuenta, todo se guarda en este navegador.'));
-      const b = el('button', 'btn btn-primary', 'Entrar con Google');
-      b.onclick = async () => {
-        const ok = await sync.entrar();
-        if (!ok && sync.getError()) toast(sync.getError(), 5000);
-        else route();
-      };
-      acc.append(b);
-      if (sync.getError()) {
-        const e = el('div', 'note note-warn');
-        e.textContent = sync.getError();
-        acc.append(e);
-      }
-    }
-    app.append(acc);
-  }
-
-  // --- Respaldo ---
+  /* ---------- Respaldo ---------- */
   app.append(el('h2', 'section-head', 'Respaldo'));
-  const backup = el('div', 'card');
-  const warn = el('div', 'note note-warn');
-  warn.innerHTML = sync.getUser()
-    ? '<strong>Tu progreso está sincronizado</strong>, pero el archivo exportado sigue siendo la copia que no depende de nadie. No está de más bajarlo de vez en cuando.'
-    : '<strong>Tu progreso vive en este navegador.</strong> Un "limpiar datos de navegación" lo borra sin preguntar y no hay forma de recuperarlo. Exporta de vez en cuando.';
-  backup.append(warn);
+  const bk = el('div', 'card');
+  const aviso = el('div', 'note note-warn');
+  aviso.innerHTML = sync.getUser()
+    ? '<strong>Tu progreso esta sincronizado</strong>, pero el archivo exportado sigue siendo la copia que no depende de nadie.'
+    : '<strong>Tu progreso vive en este navegador.</strong> Un "limpiar datos de navegación" lo borra sin preguntar y no hay forma de recuperarlo.';
+  bk.append(aviso);
 
-  const row = el('div', 'row');
-  const exp = el('button', 'btn btn-primary', '⬇ Exportar progreso');
+  const filaB = el('div', 'row');
+  const exp = el('button', 'btn btn-primary', 'Exportar');
   exp.onclick = () => { store.exportProgress(); toast('Progreso descargado.'); };
 
   const impLabel = el('label', 'btn');
-  impLabel.textContent = '⬆ Importar';
+  impLabel.textContent = 'Importar';
   const imp = el('input');
   imp.type = 'file';
   imp.accept = 'application/json,.json';
   imp.style.display = 'none';
   imp.onchange = async () => {
-    if (!imp.files?.[0]) return;
+    if (!imp.files || !imp.files[0]) return;
     try {
       await store.importProgress(imp.files[0]);
       toast('Progreso restaurado.');
-      refreshChips();
-      route();
-    } catch (e) {
-      toast(e.message || 'No se pudo importar.', 4000);
-    }
+      refreshChips(); route();
+    } catch (e) { toast(e.message || 'No se pudo importar.', 4000); }
   };
   impLabel.append(imp);
+  filaB.append(exp, impLabel);
+  bk.append(filaB);
+  app.append(bk);
 
-  const reset = el('button', 'btn btn-ghost', 'Borrar todo');
-  reset.onclick = () => {
+  /* ---------- Zona de riesgo ---------- */
+  app.append(el('h2', 'section-head', 'Zona de riesgo'));
+  const zr = el('div', 'card');
+  zr.style.borderColor = 'var(--bad)';
+  zr.append(el('p', 'muted', 'Borra XP, racha, unidades completadas, flashcards y el resultado del diagnóstico. No se puede deshacer.'));
+  const borrar = el('button', 'btn', 'Borrar todo mi progreso');
+  borrar.style.color = 'var(--bad)';
+  borrar.style.borderColor = 'var(--bad)';
+  borrar.onclick = () => {
     if (!confirm('Esto borra XP, racha, unidades y flashcards. No se puede deshacer.\n\n¿Exportaste primero?')) return;
     store.resetAll();
     toast('Todo borrado.');
-    refreshChips();
-    route();
+    refreshChips(); route();
   };
+  zr.append(borrar);
+  app.append(zr);
 
-  row.append(exp, impLabel, reset);
-  backup.append(row);
-  app.append(backup);
+  /* ---------- Acerca de ---------- */
+  app.append(el('h2', 'section-head', 'Acerca de'));
+  const ab = el('div', 'card');
+  ab.append(el('p', 'faint',
+    'Loro es un curso de inglés A1-B2 con formato EXCI. Funciona sin cuenta y sin internet. Código abierto.'));
+  const enlaces = el('div', 'row');
+  const gh = el('a', 'btn btn-sm btn-ghost', 'Código en GitHub');
+  gh.href = 'https://github.com/espiob-one/loro';
+  gh.target = '_blank';
+  gh.rel = 'noopener';
+  enlaces.append(gh);
+  ab.append(enlaces);
+  app.append(ab);
 }
 
 /* ==========================================================================
@@ -1238,10 +1304,8 @@ async function boot() {
   data.manifest.levels ||= [];
   data.manifest.exams ||= [];
 
-  document.getElementById('themeBtn').onclick = () => {
-    const t = store.toggleTheme();
-    toast(t === 'light' ? 'Tema claro' : 'Tema oscuro', 1200);
-  };
+  // El botón de tema se fue a #/config junto con el resto de los ajustes.
+  // El engrane de la barra es un <a href>, así que no necesita JS.
 
   // La cuenta es opcional y se carga aparte: si Firebase no está configurado,
   // no hay red, o el CDN está bloqueado, esto no debe frenar el arranque.
