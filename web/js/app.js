@@ -207,6 +207,9 @@ async function route() {
   stopExamTimer();
   const path = location.hash.replace(/^#/, '') || '/';
   app.textContent = '';
+  // Las vistas de índice piden caja ancha; las de lectura, angosta. Se decide
+  // por ruta y se limpia aquí para que no se herede de la vista anterior.
+  app.classList.toggle('wide', path === '/' || /^\/level\//.test(path));
   app.append(el('div', 'loading', 'Cargando…'));
 
   for (const [re, handler] of routes) {
@@ -534,30 +537,33 @@ async function viewLevel(levelId) {
     app.append(n);
   }
 
+  // Lista de filas numeradas, no tarjetas apiladas: es como se recorre un
+  // índice. Cada unidad baja de ~154px a ~80px y las 8 de B1 caben de un vistazo.
+  const lista = el('div', 'unit-list');
+
   for (const [i, unit] of (level.units || []).entries()) {
     const p = store.unitProgress(unit.id);
-    const c = el('a', 'card card-link');
-    c.href = `#/unit/${levelId}/${unit.id}`;
+    const row = el('a', 'unit-row');
+    row.href = `#/unit/${levelId}/${unit.id}`;
 
-    const r = el('div', 'row-between');
-    const l = el('div');
-    l.append(el('div', 'faint', `Unidad ${i + 1}`));
-    l.append(el('h3', null, unit.title));
-    l.append(el('div', 'muted', unit.titleEs));
-    r.append(l);
-    r.append(el('span', p?.done ? 'pill pill-ok' : 'pill',
-      p?.done ? `✓ ${pct(p.best)}` : p ? `${pct(p.best)}` : 'sin hacer'));
-    c.append(r);
+    row.append(el('span', 'unit-num', String(i + 1).padStart(2, '0')));
 
-    const tags = el('div', 'row');
-    tags.style.marginTop = '.6rem';
-    tags.append(el('span', 'faint', `${(unit.vocab || []).length} palabras`));
-    tags.append(el('span', 'faint', `${(unit.exercises || []).length} ejercicios`));
-    if (unit.grammar) tags.append(el('span', 'faint', unit.grammar.title));
-    c.append(tags);
+    const mid = el('div');
+    mid.append(el('div', 'unit-title', unit.title));
+    mid.append(el('div', 'unit-meta', [
+      unit.titleEs,
+      `${(unit.vocab || []).length} palabras`,
+      `${(unit.exercises || []).length} ejercicios`
+    ].filter(Boolean).join(' · ')));
+    row.append(mid);
 
-    app.append(c);
+    row.append(el('span', 'unit-score' + (p?.done ? ' done' : ''),
+      p ? pct(p.best) : ''));
+
+    lista.append(row);
   }
+
+  app.append(lista);
 }
 
 /* ==========================================================================
