@@ -1,9 +1,10 @@
 {
-  "_comentario": "Pega aquí la config de tu proyecto de Firebase (Configuración del proyecto -> Tus apps -> Web). NO es secreta: son identificadores públicos y por eso va en el repo. Lo que protege los datos son las reglas de firestore.rules. Mientras apiKey empiece con PEGA_, la app se queda en modo local y ni siquiera muestra el botón de iniciar sesión.",
-  "apiKey": "PEGA_AQUI_TU_API_KEY",
-  "authDomain": "TU-PROYECTO.firebaseapp.com",
-  "projectId": "TU-PROYECTO",
-  "storageBucket": "TU-PROYECTO.appspot.com",
-  "messagingSenderId": "000000000000",
-  "appId": "1:000000000000:web:0000000000000000000000"
+  "_comentario": "Config del proyecto Firebase 'loro-60f32'. NO es secreta: son identificadores públicos que viajan dentro del JavaScript que descarga cualquier visitante, y por eso va versionada. Lo que protege los datos son firestore.rules (cada quien sólo su documento) y los dominios autorizados de Authentication (el login sólo funciona desde localhost y espiob-one.github.io).",
+  "apiKey": "AIzaSyCiCjcpRTVYtFu5BgQsKN3UdoacQEfOTds",
+  "authDomain": "loro-60f32.firebaseapp.com",
+  "projectId": "loro-60f32",
+  "storageBucket": "loro-60f32.firebasestorage.app",
+  "messagingSenderId": "613134971686",
+  "appId": "1:613134971686:web:0d86373db96739fad987e7",
+  "measurementId": "G-J3BQW30Y2L"
 }
