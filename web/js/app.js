@@ -1304,8 +1304,13 @@ async function boot() {
   data.manifest.levels ||= [];
   data.manifest.exams ||= [];
 
-  // El botón de tema se fue a #/config junto con el resto de los ajustes.
-  // El engrane de la barra es un <a href>, así que no necesita JS.
+  // El toggle rápido de tema vive en la barra Y en #/config. Tener las dos no
+  // sobra: en la barra es un clic, en Configuración es donde uno lo busca.
+  document.getElementById('themeBtn').onclick = () => {
+    const t = store.toggleTheme();
+    toast(t === 'light' ? 'Tema claro' : 'Tema oscuro', 1200);
+    if (location.hash.startsWith('#/config')) route();  // refresca el segmentado
+  };
 
   // La cuenta es opcional y se carga aparte: si Firebase no está configurado,
   // no hay red, o el CDN está bloqueado, esto no debe frenar el arranque.
