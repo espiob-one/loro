@@ -1,5 +1,6 @@
 {
- "base": "",
+ "base": "https://github.com/espiob-one/loro/releases/download/audio-v1/",
+ "suffix": "",
  "files": {
   "My phone number is four one two, seven six nine.": "7cdc5d4e382d28e0.mp3",
   "The meeting has been moved to half past three on Friday.": "5034611c32edaff6.mp3",

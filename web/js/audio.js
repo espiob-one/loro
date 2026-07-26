@@ -40,6 +40,24 @@ export async function init() {
       }
     }
   } catch { /* sin índice: todo va por TTS */ }
+
+  // Si el índice apunta a un CDN pero además hay copia local (tu Docker, donde
+  // web/audio/ sí tiene los mp3), gana la local: es más rápida y sobre todo
+  // funciona sin internet. En el sitio publicado no existe, así que se usa el
+  // CDN. Una sola sonda al arrancar, no una por clip.
+  if (base !== 'audio/') {
+    const alguno = Object.values(index)[0];
+    if (alguno) {
+      try {
+        const r = await fetch('audio/' + alguno, { method: 'HEAD', cache: 'no-cache' });
+        if (r.ok && (r.headers.get('content-type') || '').includes('audio')) {
+          base = 'audio/';
+          suffix = '';
+        }
+      } catch { /* sin copia local: nos quedamos con el CDN */ }
+    }
+  }
+
   indexLoaded = true;
 
   if ('speechSynthesis' in window) {

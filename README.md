@@ -119,22 +119,31 @@ Si tienes varias cuentas, fuerza una con `--key-note trabajo`.
 ### Dónde viven los mp3
 
 **No están en el repo.** Son 32 MB y meterlos en git los dejaría en el historial para siempre.
-Se sirven desde **Firebase Storage**, el mismo proyecto que usa el login.
+Se sirven desde el **[release `audio-v1`](https://github.com/espiob-one/loro/releases/tag/audio-v1)**.
+
+Se eligió GitHub Releases sobre Firebase Storage por una razón concreta: desde el 3 de febrero
+de 2026 **Storage exige plan Blaze, o sea tarjeta vinculada**, y Blaze **no tiene tope duro de
+gasto** (las alertas de presupuesto sólo notifican). Con Releases el peor caso es que GitHub
+limite el ancho de banda; nunca un cargo. Para audio estático que no cambia, no vale la pena
+asumir riesgo ilimitado por una comodidad que no se necesita.
 
 ```bash
-# 1. Consola de Firebase -> Storage -> subir la carpeta web/audio/
-# 2. Storage -> Reglas -> pegar storage.rules -> Publicar (lectura pública)
-# 3. Reapuntar el índice al bucket:
-python tools/gen_audio.py \
-  --base-url "https://firebasestorage.googleapis.com/v0/b/TU-BUCKET.appspot.com/o/audio%2F" \
-  --base-suffix "?alt=media"
+# Subir (por lotes: 720 rutas juntas exceden el límite de línea de comandos de Windows)
+gh release create audio-v1 --title "Audio v1"
+#   ...luego gh release upload audio-v1 <lote> --clobber
+
+# Reapuntar el índice
+python tools/gen_audio.py --base-url "https://github.com/espiob-one/loro/releases/download/audio-v1/"
 ```
 
-La URL final que arma la app es `base + archivo + suffix`. Para volver a servirlos en local,
-`--base-url=` (vacío) y listo.
+**La app prefiere la copia local si existe.** Al arrancar hace una sola sonda: si `web/audio/`
+tiene los mp3 (tu Docker), usa esos — más rápido y funciona sin internet. Si no (el sitio
+publicado), usa el release. Y si el release tampoco responde, cae a la voz del navegador.
 
-**Si el bucket no responde, o no lo has configurado, no pasa nada**: el reproductor cae solo a
-la voz del navegador. Por eso la app se puede publicar antes de tener el audio arriba.
+Limitación conocida: Releases no manda cabeceras CORS, así que `fetch()` sobre los mp3 falla.
+No importa porque `<audio>` no lo necesita, pero descarta usar Web Audio API sobre esos clips.
+Si algún día hiciera falta, ahí sí tocaría mover el audio a un bucket (`--base-url` +
+`--base-suffix "?alt=media"`, ver `storage.rules`).
 
 ### Estado actual del audio
 
