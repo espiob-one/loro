@@ -3,51 +3,64 @@
    Tema oscuro por defecto, claro con [data-theme="light"] en <html>.
    ========================================================================== */
 
+/* Paleta portada del rediseño «Loro v2» (Claude Design).
+   Se conserva la polaridad de la app —oscuro en :root, claro en
+   [data-theme="light"]— para no tocar store.js ni el toggle. El prototipo es
+   claro por defecto; sólo cambia cuál se sirve primero, no los valores. */
 :root {
-  --bg:        #0b1020;
-  --bg-soft:   #121a33;
-  --card:      #161f3d;
-  --card-2:    #1c2749;
-  --border:    #263258;
-  --text:      #e8ecf8;
-  --text-dim:  #9aa6c8;
-  --text-faint:#6b769a;
+  --bg:        #08080a;
+  --bg-soft:   #111114;
+  --card:      #141418;
+  --card-2:    #1b1b21;
+  --border:    #26262e;
+  --text:      #f6f6f8;
+  --text-dim:  #9b9ba6;
+  /* El prototipo pone #6a6a75, que sobre #08080a da 3.75:1 y no llega al
+     mínimo de 4.5:1 para texto normal. Aclarado lo justo para cumplir. */
+  --text-faint:#82828f;
 
-  --accent:    #6ea8fe;
-  --accent-2:  #a78bfa;
-  --ok:        #34d399;
-  --ok-bg:     rgba(52, 211, 153, .13);
-  --bad:       #f87171;
-  --bad-bg:    rgba(248, 113, 113, .13);
-  --warn:      #fbbf24;
-  --warn-bg:   rgba(251, 191, 36, .12);
+  --accent:    #4c8dff;
+  /* El rediseño es plano, de un solo acento: igualar accent-2 apaga los
+     gradientes sin tener que reescribir las reglas que los usan. */
+  --accent-2:  #4c8dff;
+  --ok:        #22c98d;
+  --ok-bg:     rgba(34, 201, 141, .14);
+  /* El prototipo NO define color de error. Inventados aquí en el tono de la
+     paleta: sin rojo, «incorrecto» se vería igual que «correcto». */
+  --bad:       #ff6369;
+  --bad-bg:    rgba(255, 99, 105, .14);
+  --warn:      #ffb224;
+  --warn-bg:   rgba(255, 178, 36, .13);
 
-  --radius:    14px;
-  --radius-sm: 9px;
-  --shadow:    0 10px 30px rgba(0, 0, 0, .35);
+  --radius:    24px;
+  --radius-sm: 14px;
+  --shadow:    0 10px 30px rgba(0, 0, 0, .5);
   --maxw:      880px;
-  --font:      system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font:      "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-head: "Bricolage Grotesque", "Plus Jakarta Sans", system-ui, sans-serif;
   --mono:      ui-monospace, "Cascadia Code", Consolas, monospace;
 }
 
 html[data-theme="light"] {
-  --bg:        #f4f6fc;
-  --bg-soft:   #ffffff;
+  --bg:        #ffffff;
+  --bg-soft:   #f5f5f7;
   --card:      #ffffff;
-  --card-2:    #f0f3fb;
-  --border:    #d9e0f0;
-  --text:      #131a2e;
-  --text-dim:  #55618a;
-  --text-faint:#8d97b5;
-  --accent:    #2563eb;
-  --accent-2:  #7c3aed;
-  --ok:        #059669;
-  --ok-bg:     rgba(5, 150, 105, .10);
-  --bad:       #dc2626;
-  --bad-bg:    rgba(220, 38, 38, .09);
-  --warn:      #b45309;
-  --warn-bg:   rgba(180, 83, 9, .10);
-  --shadow:    0 8px 24px rgba(19, 26, 46, .09);
+  --card-2:    #f5f5f7;
+  --border:    #e7e7ec;
+  --text:      #0d0d0f;
+  --text-dim:  #6b6b76;
+  /* El prototipo pone #a1a1ab, que sobre blanco da 2.6:1 y se usa para prosa.
+     Oscurecido para que se pueda leer: esta app se lee durante horas. */
+  --text-faint:#70707a;
+  --accent:    #0a5cff;
+  --accent-2:  #0a5cff;
+  --ok:        #00a96e;
+  --ok-bg:     rgba(0, 169, 110, .10);
+  --bad:       #e5484d;
+  --bad-bg:    rgba(229, 72, 77, .09);
+  --warn:      #b26a00;
+  --warn-bg:   rgba(178, 106, 0, .10);
+  --shadow:    0 6px 24px rgba(13, 13, 15, .08);
 }
 
 * { box-sizing: border-box; }
@@ -72,10 +85,16 @@ body {
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-h1, h2, h3 { line-height: 1.25; margin: 0 0 .5rem; }
-h1 { font-size: 1.7rem; letter-spacing: -.02em; }
-h2 { font-size: 1.28rem; letter-spacing: -.01em; }
-h3 { font-size: 1.05rem; }
+/* Titulares del rediseño: Bricolage 800 con tracking muy negativo.
+   Con clamp() y no px fijos — el prototipo usa 78px y no trae una sola
+   media query; en un celular de 360px eso desborda la pantalla. */
+h1, h2, h3 {
+  font-family: var(--font-head);
+  margin: 0 0 .5rem;
+}
+h1 { font-size: clamp(2.1rem, 5.5vw, 3.1rem); font-weight: 800; letter-spacing: -.045em; line-height: 1.02; }
+h2 { font-size: clamp(1.45rem, 3.4vw, 2rem);  font-weight: 700; letter-spacing: -.035em; line-height: 1.08; }
+h3 { font-size: clamp(1.1rem, 2.2vw, 1.32rem); font-weight: 700; letter-spacing: -.025em; line-height: 1.2; }
 p  { margin: 0 0 .9rem; }
 
 /* ---------- Barra superior ---------- */
@@ -108,8 +127,8 @@ p  { margin: 0 0 .9rem; }
   letter-spacing: .02em;
 }
 
-.brand-text { display: flex; flex-direction: column; font-weight: 700; font-size: .95rem; }
-.brand-text small { font-weight: 500; font-size: .68rem; color: var(--text-faint); letter-spacing: .06em; }
+.brand-text { display: flex; flex-direction: column; font-family: var(--font-head); font-weight: 800; font-size: 1.15rem; letter-spacing: -.045em; }
+.brand-text small { font-family: var(--font); font-weight: 600; font-size: .62rem; color: var(--text-faint); letter-spacing: .08em; }
 
 .topnav { display: flex; gap: .2rem; margin-left: .5rem; flex: 1; flex-wrap: wrap; }
 
@@ -245,32 +264,37 @@ p  { margin: 0 0 .9rem; }
 
 /* ---------- Botones ---------- */
 
+/* Botones píldora, como el rediseño. El primario es sólido, sin gradiente. */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: .45rem;
-  padding: .62rem 1.15rem;
-  border-radius: var(--radius-sm);
+  padding: .72rem 1.35rem;
+  border-radius: 999px;
   border: 1px solid var(--border);
-  background: var(--card-2);
+  background: transparent;
   color: var(--text);
   font: inherit;
   font-size: .92rem;
   font-weight: 600;
+  letter-spacing: -.01em;
   cursor: pointer;
-  transition: filter .15s, border-color .15s;
+  transition: background .15s, border-color .15s, opacity .15s;
 }
-.btn:hover:not(:disabled) { filter: brightness(1.18); border-color: var(--accent); text-decoration: none; }
+.btn:hover:not(:disabled) { background: var(--card-2); border-color: var(--text-faint); text-decoration: none; }
 .btn:disabled { opacity: .45; cursor: not-allowed; }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  background: var(--accent);
   border-color: transparent;
   color: #fff;
+  font-weight: 700;
 }
-.btn-ghost { background: transparent; }
-.btn-sm { padding: .35rem .7rem; font-size: .82rem; }
+.btn-primary:hover:not(:disabled) { background: var(--accent); border-color: transparent; filter: brightness(1.1); }
+.btn-ghost { background: transparent; border-color: transparent; color: var(--accent); }
+.btn-ghost:hover:not(:disabled) { background: var(--card-2); border-color: transparent; }
+.btn-sm { padding: .4rem .9rem; font-size: .82rem; }
 .btn-block { width: 100%; }
 
 /* ---------- Barras de progreso ---------- */
@@ -557,7 +581,7 @@ textarea.input { min-height: 130px; resize: vertical; font-family: var(--font); 
 
 /* ---------- Resultados ---------- */
 
-.score-big { font-size: 3.2rem; font-weight: 800; line-height: 1; letter-spacing: -.03em; }
+.score-big { font-family: var(--font-head); font-size: clamp(3.2rem, 9vw, 4.6rem); font-weight: 800; line-height: .85; letter-spacing: -.055em; }
 .score-sub { color: var(--text-dim); font-size: .9rem; }
 
 .stat {
@@ -567,7 +591,7 @@ textarea.input { min-height: 130px; resize: vertical; font-family: var(--font); 
   border: 1px solid var(--border);
   text-align: center;
 }
-.stat b { display: block; font-size: 1.5rem; letter-spacing: -.02em; }
+.stat b { display: block; font-family: var(--font-head); font-weight: 800; font-size: 1.7rem; letter-spacing: -.04em; }
 .stat span { font-size: .76rem; color: var(--text-dim); }
 
 /* ---------- Rúbrica de writing ---------- */
@@ -612,9 +636,9 @@ textarea.input { min-height: 130px; resize: vertical; font-family: var(--font); 
   .topnav a { flex: 1; text-align: center; padding: .38rem .3rem; font-size: .82rem; }
   .brand-text small { display: none; }
   .app { padding: 1.1rem .8rem 2.5rem; }
-  h1 { font-size: 1.4rem; }
+  /* h1 y .score-big ya no se fijan aquí: usan clamp() y escalan solos.
+     Fijarlos otra vez anulaba el clamp y los dejaba chiquitos en móvil. */
   .exam-bar { top: 100px; flex-wrap: wrap; }
-  .score-big { font-size: 2.6rem; }
 }
 
 @media print {
